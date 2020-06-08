@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <title>News for Jeni Tennison</title>
+  <updated>2017-03-04T13:08:50+00:00</updated>
+  <id>http://oldsite.theodi.org/team/jeni-tennison.atom</id>
+  <link href="http://oldsite.theodi.org/team/jeni-tennison.atom" rel="self"/>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/open-data-day-how-to-build-a-strong-data-economy"/>
+    <title type="html">Open Data Day: How to build a strong data economy </title>
+    <content type="html"/>
+    <summary type="html">This [Open Day Day](http://opendataday.org/), ODI CEO [Jeni Tennison](https://theodi.org/team/jeni-tennison) shares what it means to build a strong data economy and why governments and businesses need to consider the roles of equity, ethics and engagement in creating one</summary>
+    <updated>2017-03-01T16:56:27+00:00</updated>
+    <id>http://oldsite.theodi.org/news/open-data-day-how-to-build-a-strong-data-economy</id>
+    <author>
+      <name>Jeni Tennison</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/hunger-malnutrition-and-the-value-of-openness"/>
+    <title type="html">Hunger, malnutrition and the value of openness</title>
+    <content type="html"/>
+    <summary type="html">How can open data help to end global hunger? Our CEO Jeni Tennison reflects on her time at the [Global Open Data in Agriculture and Nutrition (GODAN) Summit](http://summit.godan.info/) in New York, and explores openness as a catalyst for innovation in agriculture and nutrition</summary>
+    <updated>2016-09-27T13:35:42+00:00</updated>
+    <id>http://oldsite.theodi.org/news/hunger-malnutrition-and-the-value-of-openness</id>
+    <author>
+      <name>Jeni Tennison</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/when-data-is-free-but-not-open"/>
+    <title type="html">When data is free but not open</title>
+    <content type="html"/>
+    <summary type="html">The ODI’s Jeni Tennison shares her frustration in trying to access ‘free’ Land Registry property data, and explains that even when data is publicly available and free to access, restrictive licensing makes users' lives harder than it would if it was open</summary>
+    <updated>2016-04-05T09:15:09+00:00</updated>
+    <id>http://oldsite.theodi.org/news/when-data-is-free-but-not-open</id>
+    <author>
+      <name>Jeni Tennison</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/open-data-knots"/>
+    <title type="html">Open data knots and how to escape them</title>
+    <content type="html"/>
+    <summary type="html">Drawing on poems by R. D. Laing, ODI Technical Director Jeni Tennison explores ‘knots’ that open data owners and users can get trapped in when they don’t take time to develop a common language, build trust and identify shared goals</summary>
+    <updated>2016-02-16T17:00:14+00:00</updated>
+    <id>http://oldsite.theodi.org/news/open-data-knots</id>
+    <author>
+      <name>Jeni Tennison</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/how-can-blockchains-evolve"/>
+    <title type="html">How can blockchains evolve?</title>
+    <content type="html"/>
+    <summary type="html">Blockchains are a distributed append-only way of storing data. They are reliant on a large network for their maintenance, and can only grow in size. Jeni Tennison, the ODI’s Technical Director, looks at scenarios for how blockchains might evolve over time</summary>
+    <updated>2015-12-16T14:49:01+00:00</updated>
+    <id>http://oldsite.theodi.org/news/how-can-blockchains-evolve</id>
+    <author>
+      <name>Jeni Tennison</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/impact-of-blockchains-on-privacy"/>
+    <title type="html">What is the impact of blockchains on privacy?</title>
+    <content type="html"/>
+    <summary type="html">Data stored in blockchains cannot be changed, which means that personal data they contain cannot be removed. Jeni Tennison, the ODI’s Technical Director, explains why it’s really important that we design blockchains to protect people’s privacy</summary>
+    <updated>2015-11-12T14:29:29+00:00</updated>
+    <id>http://oldsite.theodi.org/news/impact-of-blockchains-on-privacy</id>
+    <author>
+      <name>Jeni Tennison</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/shades-of-grey-in-open-data"/>
+    <title type="html">Shades of grey in opening address data</title>
+    <content type="html"/>
+    <summary type="html">&lt;img src="http://bd7a65e2cb448908f934-86a50c88e47af9e1fb58ce0672b5a500.r32.cf3.rackcdn.com/uploads/assets/af/69/55af6917f362be7c88000001/Openaddressesheader.png" alt="null" class="img" id="55af6917d0d4625201000002"&gt;</summary>
+    <updated>2015-07-21T12:33:50+00:00</updated>
+    <id>http://oldsite.theodi.org/news/shades-of-grey-in-open-data</id>
+    <author>
+      <name>Jeni Tennison</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/a-truly-open-general-election-not-quite"/>
+    <title type="html">A truly open general election? Not quite</title>
+    <content type="html"/>
+    <summary type="html">The UK is in the top spot on the [Web Foundation’s Open Data Barometer](http://barometer.opendataresearch.org/), but how transparent are our elections? It turns out, not very.</summary>
+    <updated>2015-05-05T15:59:42+00:00</updated>
+    <id>http://oldsite.theodi.org/news/a-truly-open-general-election-not-quite</id>
+    <author>
+      <name>Jeni Tennison</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/why-is-open-data-a-public-good"/>
+    <title type="html">Why is open data a public good?</title>
+    <content type="html"/>
+    <summary type="html">We often refer to open data as a public good, but what does this mean? And what does it imply about how our national information infrastructure should be managed?</summary>
+    <updated>2015-02-25T09:58:50+00:00</updated>
+    <id>http://oldsite.theodi.org/news/why-is-open-data-a-public-good</id>
+    <author>
+      <name>Jeni Tennison</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/open-addresses-discovery-phase"/>
+    <title type="html">Open Addresses: Discovery Phase</title>
+    <content type="html"/>
+    <summary type="html">Geospatial data underpins practically everything, because everything happens somewhere. A lot of things happen somewhere with an address: our schools, hospitals, museums, supermarkets, places of work, homes. So address data — data about what addresses exist and where they are — is an essential underpinning for our national information infrastructure.</summary>
+    <updated>2014-06-28T20:31:33+00:00</updated>
+    <id>http://oldsite.theodi.org/news/open-addresses-discovery-phase</id>
+    <author>
+      <name>Jeni Tennison</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/the-data-reformation"/>
+    <title type="html">The Data Reformation</title>
+    <content type="html"/>
+    <summary type="html">This is a rough transcript (more or less my notes) of the beginning of my talk at [Thinking Digital 2014](http://www.thinkingdigital.co.uk/), where I compared the changes that are currently being brought about through open data with the changes that happened 500 years ago, during the Protestant Reformation.</summary>
+    <updated>2014-06-13T12:45:03+00:00</updated>
+    <id>http://oldsite.theodi.org/news/the-data-reformation</id>
+    <author>
+      <name>Jeni Tennison</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/data-sharing-is-not-open-data"/>
+    <title type="html">Data Sharing is Not Open Data</title>
+    <content type="html"/>
+    <summary type="html">One of the disturbing trends that we've noticed over the past year is the government justifying data sharing as if it is part of satisfying wider open data policy.</summary>
+    <updated>2014-03-17T18:56:55+00:00</updated>
+    <id>http://oldsite.theodi.org/news/data-sharing-is-not-open-data</id>
+    <author>
+      <name>Jeni Tennison</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/2014-the-year-of-csv"/>
+    <title type="html">2014: The Year of CSV</title>
+    <content type="html"/>
+    <summary type="html">2014 is the year of CSV.</summary>
+    <updated>2014-01-11T15:19:39+00:00</updated>
+    <id>http://oldsite.theodi.org/news/2014-the-year-of-csv</id>
+    <author>
+      <name>Jeni Tennison</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/letter-to-santa-2013"/>
+    <title type="html">An open letter to Santa and a vision of open data for 2014</title>
+    <content type="html"/>
+    <summary type="html">This was my contribution to the Open Data Christmas Friday Lunchtime Lecture. </summary>
+    <updated>2013-12-20T20:44:03+00:00</updated>
+    <id>http://oldsite.theodi.org/news/letter-to-santa-2013</id>
+    <author>
+      <name>Jeni Tennison</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/five-stages-of-data-grief"/>
+    <title type="html">Five Stages of Data Grief</title>
+    <content type="html"/>
+    <summary type="html">As organisations come to recognise how important and useful data could be, they start to think about using the data that they have been collecting in new ways. Often data has been collected over many years as a matter of routine, to drive specific processes or sometimes just for the sake of it. Suddenly that data is repurposed. It is probed, analysed and visualised in ways that haven't been tried before.</summary>
+    <updated>2013-12-03T09:46:35+00:00</updated>
+    <id>http://oldsite.theodi.org/news/five-stages-of-data-grief</id>
+    <author>
+      <name>Jeni Tennison</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/open-data-bonanza"/>
+    <title type="html">Open Data Bonanza</title>
+    <content type="html"/>
+    <summary type="html">The Open Government Partnership events capped an astonishing week for open data, with so many announcements that I suspect it will take weeks to digest them all. I wanted to highlight a few that are particularly important within the UK.</summary>
+    <updated>2013-11-06T21:57:12+00:00</updated>
+    <id>http://oldsite.theodi.org/news/open-data-bonanza</id>
+    <author>
+      <name>Jeni Tennison</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/reliable-open-data"/>
+    <title type="html">Reliable Open Data</title>
+    <content type="html"/>
+    <summary type="html">The past couple of months have seen two outages in the open data space. Early in September, in the UK, [data.gov.uk](http://data.gov.uk) [suffered a DNS issue](https://twitter.com/DataGovUK/status/376434949840056320) that rendered it unavailable at its usual location over the weekend. More recently, in the US, [data.gov has been temporarily taken offline](http://techpresident.com/news/24394/shutdown-sets-data-and-api-scramble) as part of the [US government shutdown](http://en.wikipedia.org/wiki/UnitedStatesfederalgovernmentshutdownof2013).</summary>
+    <updated>2013-10-17T12:52:08+00:00</updated>
+    <id>http://oldsite.theodi.org/news/reliable-open-data</id>
+    <author>
+      <name>Jeni Tennison</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/lobbyist-register-should-be-open-data"/>
+    <title type="html">Lobbyist Register should be Open Data</title>
+    <content type="html"/>
+    <summary type="html">The media has paid a lot of attention recently to various objections to the UK's [Transparency of Lobbying, Non-party Campaigning and Trade Union Administration Bill](http://services.parliament.uk/bills/2013-14/transparencyoflobbyingnonpartycampaigningandtradeunionadministration.html). The register of consultant lobbyists outlined in [Clauses 3-7](http://www.publications.parliament.uk/pa/bills/cbill/2013-2014/0108/cbill2013-20140108en2.htmpt1-pb2-l1g3) has received relatively little coverage. We recently joined a number of organisations in writing [a letter calling for the register to be published as open data](http://www.independent.co.uk/voices/letters/letters-nhs-simply-needs-the-right-people-8803815.html). This post provides some background on our position.</summary>
+    <updated>2013-09-19T22:19:50+00:00</updated>
+    <id>http://oldsite.theodi.org/news/lobbyist-register-should-be-open-data</id>
+    <author>
+      <name>Jeni Tennison</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/what-national-information-infrastructure"/>
+    <title type="html">What Is National Information Infrastructure?</title>
+    <content type="html"/>
+    <summary type="html">You’ve probably heard people calling data “the new oil”. The analogy is appropriate in some ways: like oil, data is something you can process to create many different kinds of value. But what this analogy misses is the fact that you have to choose to collect data in the first place. Data deposits don’t just happen. They aren’t things we discover and extract. They are things we create. And the data we choose to collect determines the value that we eventually get.</summary>
+    <updated>2013-07-28T20:45:57+00:00</updated>
+    <id>http://oldsite.theodi.org/news/what-national-information-infrastructure</id>
+    <author>
+      <name>Jeni Tennison</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/open-data-certificates-beta"/>
+    <title type="html">Open Data Certificates Beta</title>
+    <content type="html"/>
+    <summary type="html">For a few months now we have been working on a new tool that we hope will help improve the way in which people publish their open data. Today we're proud to announce the [Open Data Certificates website](http://certificate.theodi.org/) beta.</summary>
+    <updated>2013-06-14T12:13:34+00:00</updated>
+    <id>http://oldsite.theodi.org/news/open-data-certificates-beta</id>
+    <author>
+      <name>Jeni Tennison</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/three-months-open-development"/>
+    <title type="html">Three Months of Open Development</title>
+    <content type="html"/>
+    <summary type="html">When the tech team started in January, we had some immediate demands from the rest of the ODI team, to support the business:</summary>
+    <updated>2013-05-04T19:41:44+00:00</updated>
+    <id>http://oldsite.theodi.org/news/three-months-open-development</id>
+    <author>
+      <name>Jeni Tennison</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/draft-guide-open-data-engagement"/>
+    <title type="html">Draft Guide to Open Data Engagement</title>
+    <content type="html"/>
+    <summary type="html">If you are�publishing open data (or you are thinking about it), you are usually doing so�because you want people to reuse it. But how do you get them to do that�?</summary>
+    <updated>2013-05-01T21:53:44+00:00</updated>
+    <id>http://oldsite.theodi.org/news/draft-guide-open-data-engagement</id>
+    <author>
+      <name>Jeni Tennison</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/published-guides-licensing"/>
+    <title type="html">Published Guides to Licensing</title>
+    <content type="html"/>
+    <summary type="html">We have now published two guides to open data licensing to help you guide you through the process of opening up and reusing dataWe whilst avoiding any potential legal pitfalls.</summary>
+    <updated>2013-05-01T12:51:48+00:00</updated>
+    <id>http://oldsite.theodi.org/news/published-guides-licensing</id>
+    <author>
+      <name>Jeni Tennison</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/open-data-five-years-time-ukgovcamp-debate"/>
+    <title type="html">Open data in five years' time, a UKGovCamp debate</title>
+    <content type="html"/>
+    <summary type="html">[UKGovCamp 2013](http://www.ukgovcamp.com/) was held in the IBM offices on the South Bank a few weekends ago. UKGovCamps are an amazing opportunity for those working in the general 'digital'�arena, both within and around government to meet up and discuss their work.</summary>
+    <updated>2013-04-09T13:35:24+00:00</updated>
+    <id>http://oldsite.theodi.org/news/open-data-five-years-time-ukgovcamp-debate</id>
+    <author>
+      <name>Jeni Tennison</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/tech-team-week-notes-25"/>
+    <title type="html">Tech Team Week Notes #25</title>
+    <content type="html"/>
+    <summary type="html">[I](/people/jeni) spent the first three days of the week at the [Face-to-Face meeting of the Technical Architecture Group of the W3C](http://www.w3.org/2001/tag/2013/03/18-agenda). In that group we discussed topics ranging from the implications of ECMAScript 6 to (Javascript) API design to the need for care in referencing URLs from within data formats. Other than that, I've been concentrating on developing the [Open Data Certificates](http://theodi.github.com/open-data-certificate/), both in terms of their content and fleshing out what's needed for a back-end implementation.</summary>
+    <updated>2013-03-25T16:52:20+00:00</updated>
+    <id>http://oldsite.theodi.org/news/tech-team-week-notes-25</id>
+    <author>
+      <name>Jeni Tennison</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/draft-guides-licensing"/>
+    <title type="html">Draft guides to licensing</title>
+    <content type="html"/>
+    <summary type="html">At its simplest, open data requires just two things: data and openness. The key to openness is how the data is licensed. Data that doesn't explicitly have an open licence is not open data.</summary>
+    <updated>2013-03-07T14:42:59+00:00</updated>
+    <id>http://oldsite.theodi.org/news/draft-guides-licensing</id>
+    <author>
+      <name>Jeni Tennison</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/tech-team-week-notes-22"/>
+    <title type="html">Tech Team Week Notes #22</title>
+    <content type="html"/>
+    <summary type="html">This week was the second week of [Sprint 2](https://github.com/theodi/open-orgn-services/issues?labels=story&amp;milestone=2&amp;sort=created), during which we have been concentrating on enabling people and organisations to sign up as members of ODI.</summary>
+    <updated>2013-03-04T20:56:25+00:00</updated>
+    <id>http://oldsite.theodi.org/news/tech-team-week-notes-22</id>
+    <author>
+      <name>Jeni Tennison</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/revised-guide-open-data-business-cases"/>
+    <title type="html">Revised Guide on Open Data Business Cases</title>
+    <content type="html"/>
+    <summary type="html">A few weeks ago, we invited comment on the [draft of our guide "How to make a business case for open data"](http://personal.crocodoc.com/4t2sJhn). We had around thirty comments, both within [crocodoc](http://personal.crocodoc.com/) and via email, most of which have been incorporated into the published version of the guide.</summary>
+    <updated>2013-02-21T09:41:01+00:00</updated>
+    <id>http://oldsite.theodi.org/news/revised-guide-open-data-business-cases</id>
+    <author>
+      <name>Jeni Tennison</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/keep-paf-public"/>
+    <title type="html">Keep PAF Public</title>
+    <content type="html"/>
+    <summary type="html">One of the key things you quickly realise when working with data is that some data is dramatically more useful than other data.</summary>
+    <updated>2013-02-01T15:32:17+00:00</updated>
+    <id>http://oldsite.theodi.org/news/keep-paf-public</id>
+    <author>
+      <name>Jeni Tennison</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/tech-team-week-notes-17"/>
+    <title type="html">Tech Team Week Notes #17</title>
+    <content type="html"/>
+    <summary type="html">The office is suddenly a lot noisier, with the arrival of (the majority of) our new [tech team](/team/technical). One of our first decisions together was that we should write weekly updates, and I get to go first. (For clarity, this one's numbered 17 because it's ODI Week 17, even though it's the first proper week for the tech team.)</summary>
+    <updated>2013-01-26T21:43:31+00:00</updated>
+    <id>http://oldsite.theodi.org/news/tech-team-week-notes-17</id>
+    <author>
+      <name>Jeni Tennison</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/drafting-guide-open-data-business-cases"/>
+    <title type="html">Drafting a Guide for Open Data Business Cases</title>
+    <content type="html"/>
+    <summary type="html">"How do we subsidise open data?" has been a recurring question in the discussions that we at the Open Data Institute have been having with organisations in both the private sector and the public sector.</summary>
+    <updated>2013-01-26T15:45:10+00:00</updated>
+    <id>http://oldsite.theodi.org/news/drafting-guide-open-data-business-cases</id>
+    <author>
+      <name>Jeni Tennison</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/open-data-and-national-pupil-database"/>
+    <title type="html">Open Data and the National Pupil Database</title>
+    <content type="html"/>
+    <summary type="html">The defining characteristic of open data is that everyone can use it.</summary>
+    <updated>2012-12-14T10:36:02+00:00</updated>
+    <id>http://oldsite.theodi.org/news/open-data-and-national-pupil-database</id>
+    <author>
+      <name>Jeni Tennison</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/four-challenges-open-data"/>
+    <title type="html">Four Challenges for Open Data</title>
+    <content type="html"/>
+    <summary type="html">We've seen an amazing growth of interest in open data within the UK and worldwide over the past half-dozen years, but in my opinion there are still some challenges ahead if we want to get to a situation in which open data is being used to its full potential, by government and businesses and individuals. No doubt there are others that you can come up with now, and that will emerge as we move forward, but these are the four that are top of my list.</summary>
+    <updated>2012-09-18T11:09:37+00:00</updated>
+    <id>http://oldsite.theodi.org/news/four-challenges-open-data</id>
+    <author>
+      <name>Jeni Tennison</name>
+    </author>
+  </entry>
+</feed>

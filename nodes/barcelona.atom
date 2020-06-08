@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <title>ODI Node News for Barcelona</title>
+  <updated>2017-02-09T14:05:52+00:00</updated>
+  <id>http://oldsite.theodi.org/nodes/barcelona.atom</id>
+  <link href="http://oldsite.theodi.org/nodes/barcelona.atom" rel="self"/>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/how-can-gathering-data-help-curb-social-exclusion"/>
+    <title type="html">Guest post: How can gathering data help curb social exclusion?</title>
+    <content type="html"/>
+    <summary type="html">ODI Associates Mar Santamaria Varas and Pablo Martinez Diez from [300.000 Km/s](http://www.300000kms.net/), discuss how analogue-to-digital tools can improve large-scale data collection processes in cities, helping to combat homelessness and social exclusion</summary>
+    <updated>2017-02-07T16:23:18+00:00</updated>
+    <id>http://oldsite.theodi.org/news/how-can-gathering-data-help-curb-social-exclusion</id>
+    <author>
+      <name>The ODI</name>
+    </author>
+  </entry>
+</feed>

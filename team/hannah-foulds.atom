@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <title>News for Hannah Foulds</title>
+  <updated>2016-10-27T11:12:15+00:00</updated>
+  <id>http://oldsite.theodi.org/team/hannah-foulds.atom</id>
+  <link href="http://oldsite.theodi.org/team/hannah-foulds.atom" rel="self"/>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/nikos-manouselis-in-10-years-time-i-really-hope-that-food-and-agriculture-information-can-be-discoverable-machinereadable-and-interconnected"/>
+    <title type="html">Nikos Manouselis: 'In 10 years I want all food information to be interconnected'</title>
+    <content type="html"/>
+    <summary type="html">With the [ODI Summit](http://theodi.org/summit/2016) less than a week away, we catch up with summit speaker and CEO of [Agroknow](http://www.agroknow.com/agroknow/), Nikos Manouselis, on what excites him about the future of open data and agriculture</summary>
+    <updated>2016-10-26T09:56:45+00:00</updated>
+    <id>http://oldsite.theodi.org/news/nikos-manouselis-in-10-years-time-i-really-hope-that-food-and-agriculture-information-can-be-discoverable-machinereadable-and-interconnected</id>
+    <author>
+      <name>Hannah Foulds</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/where-does-your-food-come-from-provenance-tells-product-stories"/>
+    <title type="html">Where does your food come from? Provenance tells product stories</title>
+    <content type="html"/>
+    <summary type="html">Consumers increasingly want to know where the products they buy have come from – whether designer clothes or food shopping. Being transparent has never been easier for brands, thanks to new software and platforms like Provenance.</summary>
+    <updated>2016-10-13T15:26:03+00:00</updated>
+    <id>http://oldsite.theodi.org/news/where-does-your-food-come-from-provenance-tells-product-stories</id>
+    <author>
+      <name>Hannah Foulds</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/the-softer-side-of-data-infrastructure"/>
+    <title type="html">Forging stronger data infrastructure in Canada </title>
+    <content type="html"/>
+    <summary type="html">The need for a strong data infrastructure increasingly influences how governments work, think and act. ODI Toronto's [Andi Argast](http://toronto.theodi.org/our-team/) is a technology strategist and facilitator, and here shares how Ontario is approaching policy around data infrastructure</summary>
+    <updated>2016-07-14T09:45:17+00:00</updated>
+    <id>http://oldsite.theodi.org/news/the-softer-side-of-data-infrastructure</id>
+    <author>
+      <name>Hannah Foulds</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/my-week-with-the-worlds-open-data-leaders"/>
+    <title type="html">My week with the world’s open data leaders</title>
+    <content type="html"/>
+    <summary type="html">With our current [open call](http://theodi.org/blog/open-data-leaders-network-open-call-2016) for government leaders to join the Open Data Leaders Network, former participant Aleksej Vyskub reflects on his week at the ODI and his new plans to change Ukrainian law and innovate with open data</summary>
+    <updated>2016-07-08T11:02:31+00:00</updated>
+    <id>http://oldsite.theodi.org/news/my-week-with-the-worlds-open-data-leaders</id>
+    <author>
+      <name>Hannah Foulds</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/seven-weird-ways-that-data-is-used"/>
+    <title type="html">Seven weird ways that data is used </title>
+    <content type="html"/>
+    <summary type="html">Data doesn’t have to mean dry numbers, statistics and spreadsheets. When it’s opened or shared, it can be mashed up, presented and interpreted in a huge range of weird and wonderful ways</summary>
+    <updated>2016-05-09T14:48:27+00:00</updated>
+    <id>http://oldsite.theodi.org/news/seven-weird-ways-that-data-is-used</id>
+    <author>
+      <name>Hannah Foulds</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/open-data-leaders-odi-grants-announced-to-support-governmentled-open-data-projects"/>
+    <title type="html">Open Data Leaders: ODI grants to support government-led open data projects</title>
+    <content type="html"/>
+    <summary type="html">Providing four grants of up to £6,500 for government-led open data projects in developing countries that solve problems and create positive real-world impact</summary>
+    <updated>2016-04-27T10:06:59+00:00</updated>
+    <id>http://oldsite.theodi.org/news/open-data-leaders-odi-grants-announced-to-support-governmentled-open-data-projects</id>
+    <author>
+      <name>Hannah Foulds</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/how-to-create-a-successful-startup"/>
+    <title type="html">Top tips: how to create a successful startup</title>
+    <content type="html"/>
+    <summary type="html">Would you love to start a business, but have no idea where to begin? Yodit Stanton set up [OpenSensors](https://www.opensensors.io/ "OpenSensors") to find solutions for her daughter's asthma, and offers her tips for budding entrepreneurs</summary>
+    <updated>2016-03-10T12:13:19+00:00</updated>
+    <id>http://oldsite.theodi.org/news/how-to-create-a-successful-startup</id>
+    <author>
+      <name>Hannah Foulds</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/sao-paulo-open-data-leader-transparency-means-more-than-considering-citizens-you-need-to-bring-them-inside-to-help-to-build-policies"/>
+    <title type="html">São Paulo open data leader: ‘Transparency should mean letting citizens shape policy’</title>
+    <content type="html"/>
+    <summary type="html">As part of a series on open data leaders, we speak with Fernanda Capagnucci, Head of Integrity at São Paulo City Hall and [Open Data Leaders’ Network](http://theodi.org/open-data-leaders-network) member about her role, what drives her and the challenges of promoting transparency in Brazil</summary>
+    <updated>2016-03-09T14:15:59+00:00</updated>
+    <id>http://oldsite.theodi.org/news/sao-paulo-open-data-leader-transparency-means-more-than-considering-citizens-you-need-to-bring-them-inside-to-help-to-build-policies</id>
+    <author>
+      <name>Hannah Foulds</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/win-open-data-course"/>
+    <title type="html">Win two places on an open data course at the ODI</title>
+    <content type="html"/>
+    <summary type="html">We’ve all heard of data, and most of us understand what it is and why it’s important. But what about ‘open’ data? Open data is data that anyone can access, use and share. It helps us to share information and knowledge more easily, and it’s changing the way we do business, progress medical research, understand our environment and much, much more.  </summary>
+    <updated>2016-02-25T10:52:52+00:00</updated>
+    <id>http://oldsite.theodi.org/news/win-open-data-course</id>
+    <author>
+      <name>Hannah Foulds</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/odi-welcomes-new-role-with-cabinet-office"/>
+    <title type="html">ODI to forge stronger connections between UK data innovators and government </title>
+    <content type="html"/>
+    <summary type="html">Minister Matt Hancock calls on the ODI to bring the voice of data businesses and innovators to the Cabinet Office and promote data innovation across government </summary>
+    <updated>2015-11-03T12:04:11+00:00</updated>
+    <id>http://oldsite.theodi.org/news/odi-welcomes-new-role-with-cabinet-office</id>
+    <author>
+      <name>Hannah Foulds</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/were-celebrating-generation-open"/>
+    <title type="html">We're celebrating Generation Open</title>
+    <content type="html"/>
+    <summary type="html">On 3 November, at the BFI in London, over 700 people joined us from around the world to celebrate [Generation Open](http://theodi.org/generation-o?edition=2&amp;cache=1446482535 "Generation Open").</summary>
+    <updated>2015-11-02T16:39:34+00:00</updated>
+    <id>http://oldsite.theodi.org/news/were-celebrating-generation-open</id>
+    <author>
+      <name>Hannah Foulds</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/bbc-open-data"/>
+    <title type="html">BBC’s Richard Leeming: Audiences should know how we’re spending their money</title>
+    <content type="html"/>
+    <summary type="html">The BBC depends on the trust of its audiences. Releasing open data could help audiences understand more about how it’s performing and spending their money</summary>
+    <updated>2015-10-15T12:38:08+00:00</updated>
+    <id>http://oldsite.theodi.org/news/bbc-open-data</id>
+    <author>
+      <name>Hannah Foulds</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/becky-hogge-open-data-stop-playing-nice"/>
+    <title type="html">Becky Hogge: 'It's time for the open data community to stop playing nice'</title>
+    <content type="html"/>
+    <summary type="html">Open data advocates need to start making demands for the release of core reference datasets in the language of rights, not economic policy</summary>
+    <updated>2015-10-14T10:06:04+00:00</updated>
+    <id>http://oldsite.theodi.org/news/becky-hogge-open-data-stop-playing-nice</id>
+    <author>
+      <name>Hannah Foulds</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/natural-history-museum"/>
+    <title type="html">Natural History Museum: 'We hope people will discover new species with our open data'</title>
+    <content type="html"/>
+    <summary type="html">By digitising and releasing its collection of 80 million specimens for anyone to access, NHM engages people around the world to discover, analyse and even 3D print them</summary>
+    <updated>2015-10-13T10:04:19+00:00</updated>
+    <id>http://oldsite.theodi.org/news/natural-history-museum</id>
+    <author>
+      <name>Hannah Foulds</name>
+    </author>
+  </entry>
+</feed>

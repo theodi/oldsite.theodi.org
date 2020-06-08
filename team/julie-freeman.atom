@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <title>News for Julie Freeman</title>
+  <updated>2015-09-11T09:53:37+00:00</updated>
+  <id>http://oldsite.theodi.org/team/julie-freeman.atom</id>
+  <link href="http://oldsite.theodi.org/team/julie-freeman.atom" rel="self"/>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/announcing-the-new-curator-for-data-as-culture-2014"/>
+    <title type="html">Announcing the new curator for Data as Culture 2014</title>
+    <content type="html"/>
+    <summary type="html">&lt;img src="http://bd7a65e2cb448908f934-86a50c88e47af9e1fb58ce0672b5a500.r32.cf3.rackcdn.com/uploads/assets/cc/18/52cc1899d0d4624a8c000018/image1.jpg" alt="null" class="img pull-right" id="52cc1899f362be28b1000013"&gt;</summary>
+    <updated>2014-01-07T14:38:46+00:00</updated>
+    <id>http://oldsite.theodi.org/news/announcing-the-new-curator-for-data-as-culture-2014</id>
+    <author>
+      <name>Julie Freeman</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/call-for-data-art-curators"/>
+    <title type="html">Open call for curators</title>
+    <content type="html"/>
+    <summary type="html">Data as Culture</summary>
+    <updated>2013-09-20T16:01:32+00:00</updated>
+    <id>http://oldsite.theodi.org/news/call-for-data-art-curators</id>
+    <author>
+      <name>Julie Freeman</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/data-culture-recession-crisps-fuel-odi-staff"/>
+    <title type="html">Data as Culture: Recession Crisps Fuel ODI Staff</title>
+    <content type="html"/>
+    <summary type="html">Sliding over to the other-side is not something to be taken lightly. Even when the fence is low, there are many considerations to ponder before an artist switches hats and becomes a curator. For me, managing and curating the Data as Culture programme at the ODI was an easy hop over that fence. I played a large part in developing the initial idea - I am fascinated by data and how it is used by artists as a material in, or as the medium of, their work. The commission programme not only enabled me to meet other artists that feel the same, but gave us all a platform to share our passion with an audience.  </summary>
+    <updated>2013-01-14T16:11:31+00:00</updated>
+    <id>http://oldsite.theodi.org/news/data-culture-recession-crisps-fuel-odi-staff</id>
+    <author>
+      <name>Julie Freeman</name>
+    </author>
+  </entry>
+</feed>

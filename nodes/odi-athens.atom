@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <title>ODI Node News for Athens </title>
+  <updated>2015-09-11T09:59:51+00:00</updated>
+  <id>http://oldsite.theodi.org/nodes/odi-athens.atom</id>
+  <link href="http://oldsite.theodi.org/nodes/odi-athens.atom" rel="self"/>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/open-data-day-in-greece-2015"/>
+    <title type="html">Open Data Day 2015 in Greece</title>
+    <content type="html"/>
+    <summary type="html">![](http://bd7a65e2cb448908f934-86a50c88e47af9e1fb58ce0672b5a500.r32.cf3.rackcdn.com/uploads/assets/15/45/551545faf362be08e6000051/1sm.png)</summary>
+    <updated>2015-03-26T12:47:53+00:00</updated>
+    <id>http://oldsite.theodi.org/news/open-data-day-in-greece-2015</id>
+    <author>
+      <name>Georgia Mouriadou</name>
+    </author>
+  </entry>
+</feed>

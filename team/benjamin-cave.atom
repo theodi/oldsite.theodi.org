@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <title>News for Benjamin Cave</title>
+  <updated>2017-02-21T11:47:24+00:00</updated>
+  <id>http://oldsite.theodi.org/team/benjamin-cave.atom</id>
+  <link href="http://oldsite.theodi.org/team/benjamin-cave.atom" rel="self"/>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/the-cultural-chasm-why-your-strategy-will-fail-without-a-dataliterate-organisation"/>
+    <title type="html">The cultural chasm: why your strategy will fail without a data-literate organisation</title>
+    <content type="html"/>
+    <summary type="html">Your organisation generates vast and growing reserves of data. But how do you ensure you capture its value? ODI Senior Learning Consultant Benjamin Cave sheds light on the importance of fostering data-literacy and culture change within organisations</summary>
+    <updated>2016-10-17T13:22:52+00:00</updated>
+    <id>http://oldsite.theodi.org/news/the-cultural-chasm-why-your-strategy-will-fail-without-a-dataliterate-organisation</id>
+    <author>
+      <name>Benjamin Cave</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/no-more-crossed-wires-how-open-innovation-is-born-from-company-collaboration"/>
+    <title type="html">‘No more crossed wires’: how open innovation is born from company collaboration</title>
+    <content type="html"/>
+    <summary type="html">Open Data Institute trainer Ben Cave shares the wide benefits of the open approach taken with eLearning developer Sponge UK in collaborating on the newly launched European Data Portal</summary>
+    <updated>2015-11-19T11:57:38+00:00</updated>
+    <id>http://oldsite.theodi.org/news/no-more-crossed-wires-how-open-innovation-is-born-from-company-collaboration</id>
+    <author>
+      <name>Benjamin Cave</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/there-go-the-people-why-only-open-data-can-save-smart-cities"/>
+    <title type="html">Comment: Why only open data can save smart cities</title>
+    <content type="html"/>
+    <summary type="html">With the launch of ODI's [Open Data for Smart Cities](http://theodi.org/courses/open-data-for-smart-cities "Open Data for Smart Cities") course fast approaching, ODI Trainer Ben Cave shares his thoughts on why 'smart cities' fail, how to fix them and where open data fits in</summary>
+    <updated>2015-08-24T11:51:05+00:00</updated>
+    <id>http://oldsite.theodi.org/news/there-go-the-people-why-only-open-data-can-save-smart-cities</id>
+    <author>
+      <name>Benjamin Cave</name>
+    </author>
+  </entry>
+</feed>

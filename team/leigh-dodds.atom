@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <title>News for Leigh Dodds</title>
+  <updated>2016-11-24T17:02:25+00:00</updated>
+  <id>http://oldsite.theodi.org/team/leigh-dodds.atom</id>
+  <link href="http://oldsite.theodi.org/team/leigh-dodds.atom" rel="self"/>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/exploring-open-data-quality"/>
+    <title type="html">Exploring open data quality</title>
+    <content type="html"/>
+    <summary type="html">To contribute to discussions around open data quality, the ODI has been working with [Experian](https://directory.theodi.org/members/AQ1298ST) to investigate quality in several UK Government open datasets. Here, ODI Associate Leigh Dodds introduces the project and its initial findings</summary>
+    <updated>2016-10-26T12:59:05+00:00</updated>
+    <id>http://oldsite.theodi.org/news/exploring-open-data-quality</id>
+    <author>
+      <name>Leigh Dodds</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/four-things-you-should-know-about-open-data-quality"/>
+    <title type="html">Four things you should know about open data quality</title>
+    <content type="html"/>
+    <summary type="html">Better data can lead to better outcomes. But what do we mean by 'data quality'? ODI Associate Leigh Dodds, who is working with ODI Partner [Experian](https://directory.theodi.org/members/AQ1298ST) to explore data quality in UK open datasets, explains</summary>
+    <updated>2016-10-26T12:50:31+00:00</updated>
+    <id>http://oldsite.theodi.org/news/four-things-you-should-know-about-open-data-quality</id>
+    <author>
+      <name>Leigh Dodds</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/building-best-practices-for-sharing-public-sector-data"/>
+    <title type="html">Building best practices for sharing public sector data</title>
+    <content type="html"/>
+    <summary type="html">ODI Associate Leigh Dodds looks at how the Share-PSI 2.0 project is collecting and sharing best practices around the publication of public sector information, a useful resource for anyone leading or contributing to an open data initiative</summary>
+    <updated>2016-08-25T10:35:42+00:00</updated>
+    <id>http://oldsite.theodi.org/news/building-best-practices-for-sharing-public-sector-data</id>
+    <author>
+      <name>Leigh Dodds</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/how-to-open-your-data-in-six-easy-steps"/>
+    <title type="html">How to open your data in six easy steps</title>
+    <content type="html"/>
+    <summary type="html">Do you have a raft of useful data you’re ready to open up for others to make use of, but don’t know where to start? Organisations like [Arup](http://theodi.org/open-enterprise-big-business-case-study-arup) and [Thomson Reuters](http://theodi.org/open-enterprise-big-business-case-study-thomson-reuters) have discovered huge benefits in opening their data, but it can be a daunting task. ODI Associate Leigh Dodds has broken down the process into six easy steps.</summary>
+    <updated>2016-08-05T10:44:13+00:00</updated>
+    <id>http://oldsite.theodi.org/news/how-to-open-your-data-in-six-easy-steps</id>
+    <author>
+      <name>Leigh Dodds</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/caution-data-use-responsibly"/>
+    <title type="html">Caution: data, use responsibly</title>
+    <content type="html"/>
+    <summary type="html">Should open data be published with guidelines on its use and limits? Senior Consultant Leigh Dodds thinks so, and draws on Open Prescribing to explain why</summary>
+    <updated>2016-01-13T09:57:32+00:00</updated>
+    <id>http://oldsite.theodi.org/news/caution-data-use-responsibly</id>
+    <author>
+      <name>Leigh Dodds</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/take-your-first-steps-with-open-data-pathway"/>
+    <title type="html">Take your first steps with Open Data Pathway</title>
+    <content type="html"/>
+    <summary type="html">We're launching a new tool today called [Open Data Pathway](http://pathway.theodi.org). It's a self-assessment tool that will help you assess how well your organisation publishes and consumes open data, and identify actions for improvement. </summary>
+    <updated>2015-04-02T08:06:14+00:00</updated>
+    <id>http://oldsite.theodi.org/news/take-your-first-steps-with-open-data-pathway</id>
+    <author>
+      <name>Leigh Dodds</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/5-ways-better-open-data-reuse"/>
+    <title type="html">5 ways to be a better open data reuser</title>
+    <content type="html"/>
+    <summary type="html">Open data is still in its infancy. The focus so far has been on encouraging and supporting owners of data to publish it openly. A lot has been written about why opening up data is valuable, [how to build business cases](http://theodi.org/guides/how-make-business-case-open-data) for open data sharing, and [how to publish data](http://theodi.org/guides/engaging-reusers) in order to make it easy for people to reuse.</summary>
+    <updated>2015-03-03T15:24:40+00:00</updated>
+    <id>http://oldsite.theodi.org/news/5-ways-better-open-data-reuse</id>
+    <author>
+      <name>Leigh Dodds</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/5-star-open-data-certificates-tim-berners-lee"/>
+    <title type="html">Comparing the 5-star scheme with Open Data Certificates</title>
+    <content type="html"/>
+    <summary type="html">I’ve been asked several times recently about the differences between [the 5-star scheme](http://5stardata.info/) for open data and the [Open Data Certificates](http://certificates.theodi.org/). How do the two ratings relate to one another, if at all? In this blog post I aim to answer that question.</summary>
+    <updated>2015-02-20T17:03:04+00:00</updated>
+    <id>http://oldsite.theodi.org/news/5-star-open-data-certificates-tim-berners-lee</id>
+    <author>
+      <name>Leigh Dodds</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/simplifying-the-uk-open-data-licensing-landscape"/>
+    <title type="html">Simplifying the UK open data licensing landscape</title>
+    <content type="html"/>
+    <summary type="html">&lt;img src="http://bd7a65e2cb448908f934-86a50c88e47af9e1fb58ce0672b5a500.r32.cf3.rackcdn.com/uploads/assets/ed/94/54ed943c1f986a085a000019/ordnancesurvey.jpg" alt="null" class="img" id="54ed943cd0d4620863000072"&gt; </summary>
+    <updated>2015-02-20T16:08:08+00:00</updated>
+    <id>http://oldsite.theodi.org/news/simplifying-the-uk-open-data-licensing-landscape</id>
+    <author>
+      <name>Leigh Dodds</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/public-draft-of-the-open-data-maturity-model"/>
+    <title type="html">Public draft of the open data maturity model</title>
+    <content type="html"/>
+    <summary type="html">In partnership with the [Department for Environment, Food &amp;amp; Rural Affairs (Defra)](https://www.gov.uk/government/organisations/department-for-environment-food-rural-affairs "Department for Environment, Food &amp;amp; Rural Affairs (Defra)"), the ODI has been developing a maturity model to help assess how effective organisations are at publishing and consuming open data. </summary>
+    <updated>2015-02-04T12:05:22+00:00</updated>
+    <id>http://oldsite.theodi.org/news/public-draft-of-the-open-data-maturity-model</id>
+    <author>
+      <name>Leigh Dodds</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/draft-guidance-on-data-licensing-issues"/>
+    <title type="html">Why we can't use your "open" data</title>
+    <content type="html"/>
+    <summary type="html">The decision about which licence to use is one of the most important steps in publishing an open dataset.</summary>
+    <updated>2015-01-12T13:17:49+00:00</updated>
+    <id>http://oldsite.theodi.org/news/draft-guidance-on-data-licensing-issues</id>
+    <author>
+      <name>Leigh Dodds</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/developing-an-open-data-maturity-model"/>
+    <title type="html">Developing an open data maturity model</title>
+    <content type="html"/>
+    <summary type="html">Organisational change is an important aspect of becoming an open data publisher. Often the technical process of getting data published is actually the easiest step. But if users are to have reliable, ongoing access to data then organisations need to consider the strategic, financial and operational impacts of making their open data publishing efforts sustainable.</summary>
+    <updated>2014-11-03T12:08:26+00:00</updated>
+    <id>http://oldsite.theodi.org/news/developing-an-open-data-maturity-model</id>
+    <author>
+      <name>Leigh Dodds</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/election-data-tables"/>
+    <title type="html">Research: investigation into publishing open election data</title>
+    <content type="html"/>
+    <summary type="html">A number of people at the ODI have recently been looking at the topic of open election data, asking how election results could be collected, reported and analysed in order to increase transparency and drive democratic engagement.</summary>
+    <updated>2014-08-08T06:57:58+00:00</updated>
+    <id>http://oldsite.theodi.org/news/election-data-tables</id>
+    <author>
+      <name>Leigh Dodds</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/publishing-open-statistical-data"/>
+    <title type="html">Publishing Open Statistical Data</title>
+    <content type="html"/>
+    <summary type="html">&lt;img src="http://bd7a65e2cb448908f934-86a50c88e47af9e1fb58ce0672b5a500.r32.cf3.rackcdn.com/uploads/assets/5f/b8/535fb821f362be26d8000001/observation.png" alt="null" class="img" id="535fb820d0d4620816000007"&gt;</summary>
+    <updated>2014-04-24T09:55:18+00:00</updated>
+    <id>http://oldsite.theodi.org/news/publishing-open-statistical-data</id>
+    <author>
+      <name>Leigh Dodds</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/introducing-csvlint"/>
+    <title type="html">Introducing CSVLint</title>
+    <content type="html"/>
+    <summary type="html">The ODI tech team has recently been building a tool to validate CSV files. While CSV is a very simple format, it is surprisingly easy to create files that are hard for others to use. </summary>
+    <updated>2014-04-15T08:15:02+00:00</updated>
+    <id>http://oldsite.theodi.org/news/introducing-csvlint</id>
+    <author>
+      <name>Leigh Dodds</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/tools-for-working-with-csv-files"/>
+    <title type="html">Tools For Working with CSV Files</title>
+    <content type="html"/>
+    <summary type="html">Anyone working with open data for any length of time will have inevitably spent a long time wrangling CSV files to tidy, extract and reformat data.</summary>
+    <updated>2014-01-13T08:21:03+00:00</updated>
+    <id>http://oldsite.theodi.org/news/tools-for-working-with-csv-files</id>
+    <author>
+      <name>Leigh Dodds</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/cc-40-and-open-data"/>
+    <title type="html">CC 4.0 and Open Data</title>
+    <content type="html"/>
+    <summary type="html">After a lengthy two year development process the Creative Commons recently [announced the publication of their Version 4.0 licences](https://creativecommons.org/weblog/entry/40768). The new licences include a raft of changes based on lessons learned through application of the Creative Commons licences around the world.</summary>
+    <updated>2013-12-06T12:16:30+00:00</updated>
+    <id>http://oldsite.theodi.org/news/cc-40-and-open-data</id>
+    <author>
+      <name>Leigh Dodds</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/the-proliferation-of-open-government-licences"/>
+    <title type="html">The Proliferation of Open Government Licences</title>
+    <content type="html"/>
+    <summary type="html">As part of my work exploring [compatibility between open data licences](http://theodi.org/blog/exploring-compatibility-between-data-licences), I recently began looking at licences for government and public sector data. I was a little surprised to discover quite how many different licences and licence variants have been created.</summary>
+    <updated>2013-11-18T10:24:03+00:00</updated>
+    <id>http://oldsite.theodi.org/news/the-proliferation-of-open-government-licences</id>
+    <author>
+      <name>Leigh Dodds</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/exploring-compatibility-between-data-licences"/>
+    <title type="html">Exploring compatibility between data licences</title>
+    <content type="html"/>
+    <summary type="html">I [recently wrote](http://theodi.org/blog/machine-readable-rights-statements) about work underway at the ODI to help improve the machine readability of data licensing information. We've already received some welcome feedback �which has resulted in updates to the guides and the [Open Data Rights Statement](http://schema.theodi.org/odrs/) schema. If you've not looked at the material �yet then please let us know if you have comments.</summary>
+    <updated>2013-08-12T15:21:43+00:00</updated>
+    <id>http://oldsite.theodi.org/news/exploring-compatibility-between-data-licences</id>
+    <author>
+      <name>Leigh Dodds</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/machine-readable-rights-statements"/>
+    <title type="html">Machine Readable Rights Statements</title>
+    <content type="html"/>
+    <summary type="html">As the open data movement continues to mature, discussion is focusing on how the publishing and use of open data can be become more sustainable. This includes making the process of opening up data clear and simple for any organisation.</summary>
+    <updated>2013-06-25T15:26:03+00:00</updated>
+    <id>http://oldsite.theodi.org/news/machine-readable-rights-statements</id>
+    <author>
+      <name>Leigh Dodds</name>
+    </author>
+  </entry>
+</feed>

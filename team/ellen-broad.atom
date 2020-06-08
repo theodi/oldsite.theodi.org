@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <title>News for Ellen Broad</title>
+  <updated>2016-08-18T13:01:03+00:00</updated>
+  <id>http://oldsite.theodi.org/team/ellen-broad.atom</id>
+  <link href="http://oldsite.theodi.org/team/ellen-broad.atom" rel="self"/>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/how-do-we-own-data"/>
+    <title type="html">How do we 'own' data?</title>
+    <content type="html"/>
+    <summary type="html">We live in an age of data abundance. We produce data every day – as people, businesses, charities and governments – that might be used to generate valuable insights and services. Ellen Broad explores data ownership in this age of abundance</summary>
+    <updated>2016-08-18T09:58:50+00:00</updated>
+    <id>http://oldsite.theodi.org/news/how-do-we-own-data</id>
+    <author>
+      <name>Ellen Broad</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/news/one-year-on-general-election-uk-data-landscape"/>
+    <title type="html">One year on from the general election: what does the UK data landscape look like?</title>
+    <content type="html"/>
+    <summary type="html">A year on from the UK general election, ODI Head of Policy Ellen Broad revisits last year's 'Open data roadmap for the UK' and reflects on what has been achieved, key challenges that remain and recommendations for strengthening our data infrastructure</summary>
+    <updated>2016-05-31T15:01:41+00:00</updated>
+    <id>http://oldsite.theodi.org/news/one-year-on-general-election-uk-data-landscape</id>
+    <author>
+      <name>Ellen Broad</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/news/google-deep-in-trust-issues-around-use-of-uk-patient-data"/>
+    <title type="html">Google deep in trust issues around use of UK patient data</title>
+    <content type="html"/>
+    <summary type="html">Google's DeepMind Health aims to improve patient care using data. But a leaked agreement with Royal Free NHS Trust has fuelled suspicions around how patient data is shared, exposing the need for greater transparency in data-sharing in healthcare</summary>
+    <updated>2016-05-10T11:20:58+00:00</updated>
+    <id>http://oldsite.theodi.org/news/google-deep-in-trust-issues-around-use-of-uk-patient-data</id>
+    <author>
+      <name>Ellen Broad</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/bringing-together-privacy-and-openness-the-odi-shares-draft-personal-data-principles"/>
+    <title type="html">Bringing together privacy and openness: the ODI shares draft personal data principles</title>
+    <content type="html"/>
+    <summary type="html">Since publication, these principles have evolved into one of the [guides](http://theodi.org/guides) that we use in our work. The latest version is available for anyone to use. If you want help in using the principles then contact us at [info@theodi.org](mailto:info@theodi.org)</summary>
+    <updated>2016-03-02T13:22:47+00:00</updated>
+    <id>http://oldsite.theodi.org/news/bringing-together-privacy-and-openness-the-odi-shares-draft-personal-data-principles</id>
+    <author>
+      <name>Ellen Broad</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/open-data-board-game"/>
+    <title type="html">Playing with data: our ODI open data board game</title>
+    <content type="html"/>
+    <summary type="html">For the last six months, on and off, a few of us here at the Open Data Institute have been working on an open data board game. Ellen Broad and Jeni Tennision discuss its development</summary>
+    <updated>2015-11-27T16:24:45+00:00</updated>
+    <id>http://oldsite.theodi.org/news/open-data-board-game</id>
+    <author>
+      <name>Ellen Broad</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/closed-shared-open-data-whats-in-a-name"/>
+    <title type="html">Closed, shared, open data: what’s in a name?</title>
+    <content type="html"/>
+    <summary type="html">Introducing the 'data lexicon': Ellen Broad explores the challenge of using language around data that is accurate and useful, but simple enough for everyone to understand</summary>
+    <updated>2015-09-17T11:12:42+00:00</updated>
+    <id>http://oldsite.theodi.org/news/closed-shared-open-data-whats-in-a-name</id>
+    <author>
+      <name>Ellen Broad</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/appeal-to-the-foi-commission-dont-confuse-open-data-with-foi"/>
+    <title type="html">Appeal to the FOI Commission: don’t confuse open data with FOI</title>
+    <content type="html"/>
+    <summary type="html">ODI Policy Lead Ellen Broad explains that open data is an important transparency mechanism but open data will never make FOI laws redundant</summary>
+    <updated>2015-08-05T12:13:21+00:00</updated>
+    <id>http://oldsite.theodi.org/news/appeal-to-the-foi-commission-dont-confuse-open-data-with-foi</id>
+    <author>
+      <name>Ellen Broad</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/updates-to-uk-government-information-laws-has-anything-changed"/>
+    <title type="html">Updates to UK government information laws: has anything changed?</title>
+    <content type="html"/>
+    <summary type="html">Last week the UK updated its laws that shape how government data can be accessed and used. </summary>
+    <updated>2015-07-22T11:51:15+00:00</updated>
+    <id>http://oldsite.theodi.org/news/updates-to-uk-government-information-laws-has-anything-changed</id>
+    <author>
+      <name>Ellen Broad</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/uk-environment-secretary-opens-the-data-floodgates"/>
+    <title type="html">UK Environment Secretary opens the data floodgates</title>
+    <content type="html"/>
+    <summary type="html">&lt;img src="http://bd7a65e2cb448908f934-86a50c88e47af9e1fb58ce0672b5a500.r32.cf3.rackcdn.com/uploads/assets/95/25/55952509f362be652e000014/chicken.jpg" alt="null" class="img" id="559525091f986a2adc000058"&gt;</summary>
+    <updated>2015-07-01T10:20:56+00:00</updated>
+    <id>http://oldsite.theodi.org/news/uk-environment-secretary-opens-the-data-floodgates</id>
+    <author>
+      <name>Ellen Broad</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/where-next-for-data-infrastructure-work"/>
+    <title type="html">Where next for our data infrastructure work?</title>
+    <content type="html"/>
+    <summary type="html">&lt;img src="http://bd7a65e2cb448908f934-86a50c88e47af9e1fb58ce0672b5a500.r32.cf3.rackcdn.com/uploads/assets/66/f7/5566f7dcf362be095800004b/whoownsthedatainfrastructure.png" alt="null" class="img" id="5566f7dc1f986a0869000145"&gt;</summary>
+    <updated>2015-06-29T09:53:57+00:00</updated>
+    <id>http://oldsite.theodi.org/news/where-next-for-data-infrastructure-work</id>
+    <author>
+      <name>Ellen Broad</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/how-will-the-uks-new-government-use-open-data"/>
+    <title type="html">How will the UK’s new government use open data?</title>
+    <content type="html"/>
+    <summary type="html">In the past week, each of the major UK political parties has released their party manifestos, setting out their vision, if elected, for the next UK Government. </summary>
+    <updated>2015-04-22T16:15:50+00:00</updated>
+    <id>http://oldsite.theodi.org/news/how-will-the-uks-new-government-use-open-data</id>
+    <author>
+      <name>Ellen Broad</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/what-should-a-chief-data-officer-for-the-uk-public-sector-look-like"/>
+    <title type="html">What should a Chief Data Officer for the UK public sector look like?</title>
+    <content type="html"/>
+    <summary type="html">On Monday 23 February 2015, the Open Data Institute coordinated its first workshop expanding on recommendations from the [Open Data Roadmap for the UK](http://theodi.org/roadmap-uk-2015 "roadmap"). The workshop brought together senior representatives from government, industry and the open data community, to share views on the potential vision and responsibilities for a Chief Data Officer for the UK.</summary>
+    <updated>2015-03-10T15:25:35+00:00</updated>
+    <id>http://oldsite.theodi.org/news/what-should-a-chief-data-officer-for-the-uk-public-sector-look-like</id>
+    <author>
+      <name>Ellen Broad</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/the-highways-agency-is-becoming-a-governmentowned-company-what-are-their-data-arrangements"/>
+    <title type="html">The Highways Agency is becoming a government-owned company: what are their data arrangements?</title>
+    <content type="html"/>
+    <summary type="html">To help us understand how [Ordnance Survey](http://theodi.org/blog/ordnance-survey-govco-open-data "Ordnance Survey GovCo") will make the transition to become a government-owned company (GovCo), we looked into the governance model for the Highways Agency, which is currently going through the same process.</summary>
+    <updated>2015-02-27T16:12:13+00:00</updated>
+    <id>http://oldsite.theodi.org/news/the-highways-agency-is-becoming-a-governmentowned-company-what-are-their-data-arrangements</id>
+    <author>
+      <name>Ellen Broad</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/uk-general-election-special-what-do-other-manifestos-say-about-open-data"/>
+    <title type="html">UK General Election: what do other manifestos say about open data?</title>
+    <content type="html"/>
+    <summary type="html">As the UK General Election draws closer, all parties are busy putting the finishing touches to their manifestos. </summary>
+    <updated>2015-02-22T12:21:03+00:00</updated>
+    <id>http://oldsite.theodi.org/news/uk-general-election-special-what-do-other-manifestos-say-about-open-data</id>
+    <author>
+      <name>Ellen Broad</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/ordnance-survey-govco-open-data"/>
+    <title type="html">Is Ordnance Survey becoming a GovCo good or bad for open data?</title>
+    <content type="html"/>
+    <summary type="html">On 22 January, 2015, the UK Government announced its plans to convert Ordnance Survey from a trading fund to a government-owned company (GovCo). </summary>
+    <updated>2015-02-17T13:33:05+00:00</updated>
+    <id>http://oldsite.theodi.org/news/ordnance-survey-govco-open-data</id>
+    <author>
+      <name>Ellen Broad</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/the-uk-is-ranked-no-1-in-the-world-on-open-data-and-should-not-lose-momentum"/>
+    <title type="html">The UK leads the world in open data but must not lose momentum</title>
+    <content type="html"/>
+    <summary type="html">The release of the Open Data Barometer 2nd Edition ([Web Foundation](http://barometer.opendataresearch.org/report/about/index.html)) last week confirmed the UK continues to [lead the world on open data](http://barometer.opendataresearch.org/). With a score of 100 and ranked first of 86 countries included in the Barometer, the UK is making great progress towards realising the full potential of open data. </summary>
+    <updated>2015-01-27T13:05:26+00:00</updated>
+    <id>http://oldsite.theodi.org/news/the-uk-is-ranked-no-1-in-the-world-on-open-data-and-should-not-lose-momentum</id>
+    <author>
+      <name>Ellen Broad</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/news/the-odis-open-data-roadmap-for-the-uk-is-launched"/>
+    <title type="html">Open data roadmap for the UK is launched</title>
+    <content type="html"/>
+    <summary type="html">&lt;img src="http://bd7a65e2cb448908f934-86a50c88e47af9e1fb58ce0672b5a500.r32.cf3.rackcdn.com/uploads/assets/89/70/548970a9f362be0189000003/Rectangle1242x.png" alt="null" class="img" id="548970a91f986a4196000024"&gt;</summary>
+    <updated>2014-12-11T09:18:50+00:00</updated>
+    <id>http://oldsite.theodi.org/news/the-odis-open-data-roadmap-for-the-uk-is-launched</id>
+    <author>
+      <name>Ellen Broad</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/how-open-data-can-improve-public-procurement-draft-odi-submission"/>
+    <title type="html">Send us your feedback: How open data can improve UK public procurement</title>
+    <content type="html"/>
+    <summary type="html">The UK Government is [consulting](https://www.gov.uk/government/uploads/system/uploads/attachmentdata/file/364181/ConsultationonSBEEBill.pdf "link to consultation") on how small businesses could gain better access to public sector contract opportunities, through a new power contained in the Small Business, Enterprise and Employment (SBEE) Bill. The ODI has [drafted a short submission](https://docs.google.com/a/theodi.org/document/d/1N758j2erzt8pmn-O7JW9SwVzvbKvTkzfBdJPrYGtBrQ/editheading=h.ceesugyrhp6a) to the consultation that's accessible [here](https://docs.google.com/a/theodi.org/document/d/1N758j2erzt8pmn-O7JW9SwVzvbKvTkzfBdJPrYGtBrQ/editheading=h.ceesugyrhp6a" ODI draft procurement submission"), and we're interested in your feedback on our draft. </summary>
+    <updated>2014-11-11T14:48:35+00:00</updated>
+    <id>http://oldsite.theodi.org/news/how-open-data-can-improve-public-procurement-draft-odi-submission</id>
+    <author>
+      <name>Ellen Broad</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/odi-final-submission-to-psi-consultation-now-online"/>
+    <title type="html">ODI final submission to PSI consultation now online</title>
+    <content type="html"/>
+    <summary type="html">Last week the Open Data Institute submitted its finalised response to the UK Government's consultation on [Re-use of Public Sector Information](https://www.gov.uk/government/consultations/uk-implementation-of-directive-201337eu-on-the-reuse-of-public-sector-information "Reuse of Public Sector Information").</summary>
+    <updated>2014-10-17T12:56:26+00:00</updated>
+    <id>http://oldsite.theodi.org/news/odi-final-submission-to-psi-consultation-now-online</id>
+    <author>
+      <name>Ellen Broad</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/our-draft-submission-to-the-uk-consultation-on-reuse-of-public-sector-information"/>
+    <title type="html">UK proposes changes to re-use of public information: ODI fears a backwards step</title>
+    <content type="html"/>
+    <summary type="html">[Access, read and comment on the ODI submission here](https://docs.google.com/document/d/16i1xm7CrMy46tohL1UicxOAgQzfG2XPu7Htf3tFALs/edit?usp=sharing)</summary>
+    <updated>2014-09-25T15:24:54+00:00</updated>
+    <id>http://oldsite.theodi.org/news/our-draft-submission-to-the-uk-consultation-on-reuse-of-public-sector-information</id>
+    <author>
+      <name>Ellen Broad</name>
+    </author>
+  </entry>
+</feed>

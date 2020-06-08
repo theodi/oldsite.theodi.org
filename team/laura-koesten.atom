@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <title>News for Laura Koesten</title>
+  <updated>2016-04-26T09:16:14+00:00</updated>
+  <id>http://oldsite.theodi.org/team/laura-koesten.atom</id>
+  <link href="http://oldsite.theodi.org/team/laura-koesten.atom" rel="self"/>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/exploring-human-data-interaction-challenges-in-data-discovery"/>
+    <title type="html">Exploring human-data interaction challenges in data discovery </title>
+    <content type="html"/>
+    <summary type="html">Finding and selecting data can be complicated and inconsistent. ODI PhD student Laura Koesten shares her plans to map problems within data search from a user’s perspective</summary>
+    <updated>2016-04-04T14:25:00+00:00</updated>
+    <id>http://oldsite.theodi.org/news/exploring-human-data-interaction-challenges-in-data-discovery</id>
+    <author>
+      <name>Laura Koesten</name>
+    </author>
+  </entry>
+</feed>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <title>ODI Node News for Trento</title>
+  <updated>2015-09-11T09:54:14+00:00</updated>
+  <id>http://oldsite.theodi.org/nodes/trento.atom</id>
+  <link href="http://oldsite.theodi.org/nodes/trento.atom" rel="self"/>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/trento-node-news-2014"/>
+    <title type="html">Trento node news: January 2014</title>
+    <content type="html"/>
+    <summary type="html">The Digital Commons Lab at FBK is the first official ODI Node in Italy</summary>
+    <updated>2014-01-24T12:45:10+00:00</updated>
+    <id>http://oldsite.theodi.org/news/trento-node-news-2014</id>
+    <author>
+      <name>The ODI</name>
+    </author>
+  </entry>
+</feed>

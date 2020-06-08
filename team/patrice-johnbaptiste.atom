@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <title>News for Patrice John-Baptiste</title>
+  <updated>2017-02-22T09:29:20+00:00</updated>
+  <id>http://oldsite.theodi.org/team/patrice-johnbaptiste.atom</id>
+  <link href="http://oldsite.theodi.org/team/patrice-johnbaptiste.atom" rel="self"/>
+  <entry>
+    <link href="http://oldsite.theodi.org/news/open-inheritance-art-project-reveals-36000-rarely-seen-private-heritage-artworks-you-can-visit"/>
+    <title type="html">Open Inheritance Art project reveals 36,000 rarely seen private heritage artworks you can visit</title>
+    <content type="html"/>
+    <summary type="html">Today, (16 February 2017) the [Open Inheritance Art](http://openiart.uk/) project, funded by the [Open Data Institute (ODI) Showcase](http://theodi.org/news/odi-showcase-winners-announced-for-our-summer-call), invites the public to discover and visit private collections of Britain’s most important cultural heritage artworks in a bid to increase access to art.</summary>
+    <updated>2017-02-15T13:37:19+00:00</updated>
+    <id>http://oldsite.theodi.org/news/open-inheritance-art-project-reveals-36000-rarely-seen-private-heritage-artworks-you-can-visit</id>
+    <author>
+      <name>Patrice John-Baptiste</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/news/open-data-certificate-update-012016"/>
+    <title type="html">Open Data Certificate: revamped to boost data publishing standards around the world </title>
+    <content type="html"/>
+    <summary type="html">Open Data Certificate achieves over 150,000 published certificates, introduces an auto-certification process and revamps badge levels to encourage publishing standards worldwide</summary>
+    <updated>2016-01-21T14:47:48+00:00</updated>
+    <id>http://oldsite.theodi.org/news/open-data-certificate-update-012016</id>
+    <author>
+      <name>Patrice John-Baptiste</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/open-data-app-fasteroute-could-help-commuters-avoid-over-five-hours-of-train-delays-a-year"/>
+    <title type="html">Travel smarter with open data app Fasteroute</title>
+    <content type="html"/>
+    <summary type="html">Research from open data startup [Fasteroute](http://fasteroute.com) and the [Open Data Institute](http://theodi.org) (ODI) reveals the UK cities most affected by morning delays and how commuters can avoid them</summary>
+    <updated>2015-12-16T16:11:24+00:00</updated>
+    <id>http://oldsite.theodi.org/news/open-data-app-fasteroute-could-help-commuters-avoid-over-five-hours-of-train-delays-a-year</id>
+    <author>
+      <name>Patrice John-Baptiste</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/news/odi-at-big-bang-data-exhibition"/>
+    <title type="html">ODI features in full force at Big Bang Data art exhibition</title>
+    <content type="html"/>
+    <summary type="html">The ODI affirms its commitment to data and the arts, showcasing artworks, thought-leadership and training at the heart of London’s cultural scene</summary>
+    <updated>2015-12-02T15:36:20+00:00</updated>
+    <id>http://oldsite.theodi.org/news/odi-at-big-bang-data-exhibition</id>
+    <author>
+      <name>Patrice John-Baptiste</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/news/odi-40m-value-unlocked-worldwide"/>
+    <title type="html">ODI: Over £40m* value unlocked worldwide</title>
+    <content type="html"/>
+    <summary type="html">The Open Data Institute (ODI) has announced that the total value it has helped unlock to the open data ecosystem [has exceeded £40m](http://dashboards.theodi.org/company/all) in the three years since it opened. </summary>
+    <updated>2015-11-03T00:34:08+00:00</updated>
+    <id>http://oldsite.theodi.org/news/odi-40m-value-unlocked-worldwide</id>
+    <author>
+      <name>Patrice John-Baptiste</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/news/breathe-heathrow"/>
+    <title type="html">Community sensors indicate high air pollution in Heathrow neighbourhoods</title>
+    <content type="html"/>
+    <summary type="html">Startup OpenSensors.io calls for a democratisation of air quality data as project identifies Heathrow pollution exceeds EU limits</summary>
+    <updated>2015-11-02T23:30:19+00:00</updated>
+    <id>http://oldsite.theodi.org/news/breathe-heathrow</id>
+    <author>
+      <name>Patrice John-Baptiste</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/news/sound-and-music-call-open"/>
+    <title type="html">ODI Data as Culture programme opens residency call with Sound and Music</title>
+    <content type="html"/>
+    <summary type="html">ODI Data as Culture and Sound and Music open calls for sound artist residency</summary>
+    <updated>2015-10-27T13:40:50+00:00</updated>
+    <id>http://oldsite.theodi.org/news/sound-and-music-call-open</id>
+    <author>
+      <name>Patrice John-Baptiste</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/news/natasha-caruana-joins-odi"/>
+    <title type="html">The Open Data Institute appoints new artist in residence Natasha Caruana</title>
+    <content type="html"/>
+    <summary type="html">The Open Data Institute appoints new artist in residence Natasha Caruana and hosts UK premiere of ‘At First Sight’ work</summary>
+    <updated>2015-07-17T14:00:06+00:00</updated>
+    <id>http://oldsite.theodi.org/news/natasha-caruana-joins-odi</id>
+    <author>
+      <name>Patrice John-Baptiste</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/news/odi-2015-award-winners"/>
+    <title type="html">Celebrating Generation Open – ODI awards network thinkers who are changing the world</title>
+    <content type="html"/>
+    <summary type="html">&lt;img src="http://bd7a65e2cb448908f934-86a50c88e47af9e1fb58ce0672b5a500.r32.cf3.rackcdn.com/uploads/assets/9f/87/559f87fbf362be5bad00000f/awardswinners.jpg" alt="null" class="img text-center" id="559f87fb1f986a7e7a000011"&gt;  </summary>
+    <updated>2015-07-09T12:06:25+00:00</updated>
+    <id>http://oldsite.theodi.org/news/odi-2015-award-winners</id>
+    <author>
+      <name>Patrice John-Baptiste</name>
+    </author>
+  </entry>
+</feed>

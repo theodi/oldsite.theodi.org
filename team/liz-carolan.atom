@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <title>News for Liz Carolan</title>
+  <updated>2016-10-07T09:41:15+00:00</updated>
+  <id>http://oldsite.theodi.org/team/liz-carolan.atom</id>
+  <link href="http://oldsite.theodi.org/team/liz-carolan.atom" rel="self"/>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/open-elections-lessons-for-open-data-from-burkina-faso-and-zambia"/>
+    <title type="html">Open elections: lessons for open data from Burkina Faso and Zambia</title>
+    <content type="html"/>
+    <summary type="html">We have just completed a [case study of the open elections project in Burkina Faso](http://theodi.org/case-study-burkina-fasos-open-elections), in partnership with the US-based election support organisation, IFES. As we were writing it, we were following an attempt in Zambia to release election results there openly and in real-time. Comparing the two led to some reflections on the need for an open data infrastructure for elections, which will frame our conversation at IODC this coming Thursday</summary>
+    <updated>2016-10-05T06:58:53+00:00</updated>
+    <id>http://oldsite.theodi.org/news/open-elections-lessons-for-open-data-from-burkina-faso-and-zambia</id>
+    <author>
+      <name>Liz Carolan</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/small-teams-big-ideas-open-data-ambition-runs-from-start-ups-to-governments"/>
+    <title type="html">Small teams, big ideas: open data ambition runs from startups to governments</title>
+    <content type="html"/>
+    <summary type="html">&lt;img src="http://bd7a65e2cb448908f934-86a50c88e47af9e1fb58ce0672b5a500.r32.cf3.rackcdn.com/uploads/assets/84/50/55845022f362be38a000000f/liz-carolan-speaking-resize.png" alt="null" class="img" id="558450221f986a77fc000010"&gt; </summary>
+    <updated>2015-06-19T16:45:11+00:00</updated>
+    <id>http://oldsite.theodi.org/news/small-teams-big-ideas-open-data-ambition-runs-from-start-ups-to-governments</id>
+    <author>
+      <name>Liz Carolan</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/burkina-fasos-revolution-an-extreme-case-of-open-data-and-government-transition"/>
+    <title type="html">Burkina Faso's data revolution: government transition to open data</title>
+    <content type="html"/>
+    <summary type="html">The Avenue de l’Indépendance in Ouagadougou is home to the neat 2- and 3-storey buildings that house most of Burkina Faso’s government ministries. Halfway down the street this order gives way to the charred remains of what was, until 30 October of last year, the House of Parliament. </summary>
+    <updated>2015-03-13T10:39:10+00:00</updated>
+    <id>http://oldsite.theodi.org/news/burkina-fasos-revolution-an-extreme-case-of-open-data-and-government-transition</id>
+    <author>
+      <name>Liz Carolan</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/estimating-the-cost-of-a-government-open-data-initiative"/>
+    <title type="html">Estimating the cost of a government open data initiative </title>
+    <content type="html"/>
+    <summary type="html">This week (September 17th and 18th), the [UNDP](http://www.eurasia.undp.org/content/rbec/en/home.html) and the [Partnership for Open Data](http://theodi.org/odp4d) (the World Bank, the Open Data Institute and Open Knowledge) [brought together government leaders](http://europeandcis.undp.org/blog/2014/09/16/open-data-for-development-training/) from 15 countries from across Eastern Europe and Central Asia. </summary>
+    <updated>2014-09-18T11:52:14+00:00</updated>
+    <id>http://oldsite.theodi.org/news/estimating-the-cost-of-a-government-open-data-initiative</id>
+    <author>
+      <name>Liz Carolan</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/steps-towards-positive-government-civil-society-engagement-an-okfest-update"/>
+    <title type="html">How to build relationships between government and civil society - #OKFest </title>
+    <content type="html"/>
+    <summary type="html">Through the Partnership for Open Data (POD), my colleagues at ODI and Open Knowledge and I have had the privilege to support leaders across the globe leading innovations in their cities and countries. </summary>
+    <updated>2014-07-15T15:59:19+00:00</updated>
+    <id>http://oldsite.theodi.org/news/steps-towards-positive-government-civil-society-engagement-an-okfest-update</id>
+    <author>
+      <name>Liz Carolan</name>
+    </author>
+  </entry>
+</feed>

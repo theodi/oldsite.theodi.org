@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <title>ODI Node News for Leeds</title>
+  <updated>2015-09-11T09:58:55+00:00</updated>
+  <id>http://oldsite.theodi.org/nodes/leeds.atom</id>
+  <link href="http://oldsite.theodi.org/nodes/leeds.atom" rel="self"/>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/odi-leeds-challenge-team-2015"/>
+    <title type="html">ODI Leeds challenge team </title>
+    <content type="html"/>
+    <summary type="html">ODI Leeds projects</summary>
+    <updated>2015-02-02T16:06:11+00:00</updated>
+    <id>http://oldsite.theodi.org/news/odi-leeds-challenge-team-2015</id>
+    <author>
+      <name>Paul Connell</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/odi-leeds-membershipupdate"/>
+    <title type="html">ODI Leeds membership update</title>
+    <content type="html"/>
+    <summary type="html">Founding Membership</summary>
+    <updated>2015-01-20T02:31:22+00:00</updated>
+    <id>http://oldsite.theodi.org/news/odi-leeds-membershipupdate</id>
+    <author>
+      <name>Paul Connell</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/odi-leeds-summer-update-2014"/>
+    <title type="html">ODI Leeds Summer Update</title>
+    <content type="html"/>
+    <summary type="html">We opened for business on the 6th of May and it has been a whirlwind few weeks and months, in which time we have established our membership model for ODI Leeds, our members have brought projects to deliver, we have had our first residency, held the first Open Data Training by ODI outside London, kicked off our Civic Lab with Leeds Gov Jam, hosted Leeds Data Community events such as Leeds DevOps &amp; Leeds Data Thing, and had a really great opening party, with pom poms, Prosecco, dancing and everything.</summary>
+    <updated>2014-07-17T10:30:04+00:00</updated>
+    <id>http://oldsite.theodi.org/news/odi-leeds-summer-update-2014</id>
+    <author>
+      <name>The ODI</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/leeds-node-news-we-have-a-home"/>
+    <title type="html">Leeds node news: We have a home</title>
+    <content type="html"/>
+    <summary type="html">&lt;img src="http://bd7a65e2cb448908f934-86a50c88e47af9e1fb58ce0672b5a500.r32.cf3.rackcdn.com/uploads/assets/28/5f/53285f91f362be6c870000f7/ODI-trademark-node.png" alt="null" class="img pull-right" id="53285f91d0d462518300003c"&gt;</summary>
+    <updated>2014-03-18T14:55:35+00:00</updated>
+    <id>http://oldsite.theodi.org/news/leeds-node-news-we-have-a-home</id>
+    <author>
+      <name>The ODI</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/leeds-node-news-2014"/>
+    <title type="html">Leeds node news: January 2014</title>
+    <content type="html"/>
+    <summary type="html">Since we were announced as the ODI Node for Leeds (and the City Region), we have been riding a wave of positive reaction, making new friends, building new connections and having really interesting conversations about what “The ODI Node” could be.</summary>
+    <updated>2014-01-24T11:52:45+00:00</updated>
+    <id>http://oldsite.theodi.org/news/leeds-node-news-2014</id>
+    <author>
+      <name>The ODI</name>
+    </author>
+  </entry>
+</feed>

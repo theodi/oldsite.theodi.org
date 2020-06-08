@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <title>ODI Node News for Toronto</title>
+  <updated>2015-09-11T10:02:33+00:00</updated>
+  <id>http://oldsite.theodi.org/nodes/toronto.atom</id>
+  <link href="http://oldsite.theodi.org/nodes/toronto.atom" rel="self"/>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/working-on-the-torontos-open-data-schedule-tying-civic-tech-projects-and-hackathon-outputs-to-public-consultation-processes"/>
+    <title type="html">Working on the Toronto’s open data schedule: lessons for tying civic tech outputs to public consultations</title>
+    <content type="html"/>
+    <summary type="html">The open data community is always looking for ways to show the value of open data. We talk a lot about telling open data stories and mapping case studies and so on, and as time ticks on the number of stories is growing. </summary>
+    <updated>2015-07-22T10:36:54+00:00</updated>
+    <id>http://oldsite.theodi.org/news/working-on-the-torontos-open-data-schedule-tying-civic-tech-projects-and-hackathon-outputs-to-public-consultation-processes</id>
+    <author>
+      <name>Bianca Wylie</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/project-managers-for-civic-tech-we-need-them-you"/>
+    <title type="html">Project managers for civic tech. We need them. (Is this you?)</title>
+    <content type="html"/>
+    <summary type="html">In your life and work, you probably know the kind of people that get stuff done. The closers. The owners. The people who send gentle reminders and nudges. They exist everywhere – in all sectors of work, in life, in family. They follow up on things until they get done. They schedule. They are human glue. Without their keep-it-togetherness, projects trail off into dead email threads that began with the best intentions. The civic tech community needs these people. Badly.</summary>
+    <updated>2015-07-02T14:08:02+00:00</updated>
+    <id>http://oldsite.theodi.org/news/project-managers-for-civic-tech-we-need-them-you</id>
+    <author>
+      <name>Bianca Wylie</name>
+    </author>
+  </entry>
+</feed>

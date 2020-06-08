@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <title>News for Fiona Smith</title>
+  <updated>2015-09-11T10:02:35+00:00</updated>
+  <id>http://oldsite.theodi.org/team/fiona-smith.atom</id>
+  <link href="http://oldsite.theodi.org/team/fiona-smith.atom" rel="self"/>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/how-open-data-and-international-development-need-to-learn-from-one-another"/>
+    <title type="html">How open data and international development need to learn from one another</title>
+    <content type="html"/>
+    <summary type="html">&lt;a href="https://www.flickr.com/photos/ukodi/16742069359/in/album-72157651142423319/" title="IMG2936"&gt;&lt;img src="https://farm9.staticflickr.com/8697/16742069359b45ecb8b59.jpg" width="640" height="427" alt="IMG2936"&gt;&lt;/a&gt;</summary>
+    <updated>2015-07-22T14:41:23+00:00</updated>
+    <id>http://oldsite.theodi.org/news/how-open-data-and-international-development-need-to-learn-from-one-another</id>
+    <author>
+      <name>Fiona Smith</name>
+    </author>
+  </entry>
+</feed>

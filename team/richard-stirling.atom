@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <title>News for Richard Stirling</title>
+  <updated>2016-01-11T09:10:53+00:00</updated>
+  <id>http://oldsite.theodi.org/team/richard-stirling.atom</id>
+  <link href="http://oldsite.theodi.org/team/richard-stirling.atom" rel="self"/>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/are-you-our-next-odi-associate"/>
+    <title type="html">Are you our next ODI associate?</title>
+    <content type="html"/>
+    <summary type="html">The ODI Services team launches a call for applications from world-class experts to become ODI associates</summary>
+    <updated>2016-01-06T11:36:17+00:00</updated>
+    <id>http://oldsite.theodi.org/news/are-you-our-next-odi-associate</id>
+    <author>
+      <name>Richard Stirling</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/node-update"/>
+    <title type="html">Node update: Creating our global network</title>
+    <content type="html"/>
+    <summary type="html">&lt;img src="http://bd7a65e2cb448908f934-86a50c88e47af9e1fb58ce0672b5a500.r32.cf3.rackcdn.com/uploads/assets/23/e5/5523e5591f986a08fe000053/155242432400e2c8cd591z.jpg" alt="ODI Summit 2014" class="img" id="5523e559f362be213e00001f"&gt;</summary>
+    <updated>2015-03-31T14:04:20+00:00</updated>
+    <id>http://oldsite.theodi.org/news/node-update</id>
+    <author>
+      <name>Richard Stirling</name>
+    </author>
+  </entry>
+</feed>

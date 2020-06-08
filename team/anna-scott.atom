@@ -1,0 +1,964 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <title>News for Anna Scott</title>
+  <updated>2017-03-03T14:33:57+00:00</updated>
+  <id>http://oldsite.theodi.org/team/anna-scott.atom</id>
+  <link href="http://oldsite.theodi.org/team/anna-scott.atom" rel="self"/>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/odi-podcast-open-data-stories-from-argentina-and-kenya"/>
+    <title type="html">ODI Podcast: Open data stories from Argentina and Kenya</title>
+    <content type="html"/>
+    <summary type="html">From public sector reform to building an initiative from the ground up, open data leaders from Argentina and Kenya share what's worked for their programmes, what hasn't and how we can improve equality of opportunity in data and tech</summary>
+    <updated>2017-03-02T14:13:21+00:00</updated>
+    <id>http://oldsite.theodi.org/news/odi-podcast-open-data-stories-from-argentina-and-kenya</id>
+    <author>
+      <name>Anna Scott</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/guest-post-cities-take-to-yelp-to-tell-their-residents-where-not-to-eat"/>
+    <title type="html">Guest post: Cities take to Yelp to tell their residents where not to eat</title>
+    <content type="html"/>
+    <summary type="html">You can now compare restaurant reviews with hygiene data about the state of the kitchens, reports Alex Starritt, prompting dirty eateries to clean up their act</summary>
+    <updated>2017-01-19T17:28:28+00:00</updated>
+    <id>http://oldsite.theodi.org/news/guest-post-cities-take-to-yelp-to-tell-their-residents-where-not-to-eat</id>
+    <author>
+      <name>Anna Scott</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/wasting-less-giving-more-charities-funders-unite-better-data"/>
+    <title type="html">Wasting less and giving more: charities and funders unite with better data</title>
+    <content type="html"/>
+    <summary type="html">Creator of tech-for-good venture Beehive explains how data made open by funders is helping thousands of charitable organisations to cut waste and raise funds, with tools and technologies emerging to help make the charitable sector more efficient</summary>
+    <updated>2017-01-11T10:36:43+00:00</updated>
+    <id>http://oldsite.theodi.org/news/wasting-less-giving-more-charities-funders-unite-better-data</id>
+    <author>
+      <name>Anna Scott</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/open-oil-we-look-forward-the-day-that-9tr-of-government-procurement-can-be-modelled-and-analysed"/>
+    <title type="html">Open Oil: 'We look forward the day that $9tr of government procurement can be modelled and analysed'</title>
+    <content type="html"/>
+    <summary type="html">With the 2016 Open Data Awards just around the corner, we catch up with the team at Open Oil, one of the finalists for the Social Impact award.</summary>
+    <updated>2016-11-01T11:01:54+00:00</updated>
+    <id>http://oldsite.theodi.org/news/open-oil-we-look-forward-the-day-that-9tr-of-government-procurement-can-be-modelled-and-analysed</id>
+    <author>
+      <name>Anna Scott</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/open-data-nation-we-use-open-data-to-find-wasteful-spending-on-public-services"/>
+    <title type="html">Open Data Nation: 'We use open data to find wasteful spending on public services'</title>
+    <content type="html"/>
+    <summary type="html">With the 2016 Open Data Awards just around the corner, we speak with the team at Open Data Nation, one of the finalists for the Business Award. </summary>
+    <updated>2016-10-31T13:01:55+00:00</updated>
+    <id>http://oldsite.theodi.org/news/open-data-nation-we-use-open-data-to-find-wasteful-spending-on-public-services</id>
+    <author>
+      <name>Anna Scott</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/travel-to-work-we-need-an-evidence-base-to-improve-our-transport-infrastructure"/>
+    <title type="html">Travel to Work: 'We need an evidence base to improve our transport infrastructure'</title>
+    <content type="html"/>
+    <summary type="html">With the 2016 Open Data Awards just around the corner, we catch up with Charlene Adutwim, Senior Analyst within Organisational Intelligence at Essex County Council – one of Innovation Award finalists. </summary>
+    <updated>2016-10-31T12:44:26+00:00</updated>
+    <id>http://oldsite.theodi.org/news/travel-to-work-we-need-an-evidence-base-to-improve-our-transport-infrastructure</id>
+    <author>
+      <name>Anna Scott</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/defra-environment-agency-laser-mapping-data-has-revealed-lost-roman-roads"/>
+    <title type="html">Defra: 'Environment Agency laser mapping data has revealed lost Roman roads'</title>
+    <content type="html"/>
+    <summary type="html">With the 2016 Open Data Awards just around the corner, we catch up with Tim Ashelford from Defra, finalist for the Publisher Award, about how they published over 10,000 open datasets in 12 months. </summary>
+    <updated>2016-10-27T14:57:34+00:00</updated>
+    <id>http://oldsite.theodi.org/news/defra-environment-agency-laser-mapping-data-has-revealed-lost-roman-roads</id>
+    <author>
+      <name>Anna Scott</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/humanitarian-data-exchange-we-want-to-surface-data-collected-by-mobiles-in-crises"/>
+    <title type="html">Humanitarian Data Exchange: 'We want to surface data collected by mobiles in crises'</title>
+    <content type="html"/>
+    <summary type="html">With the 2016 Open Data Awards just around the corner, we catch up with Sarah Telford from the UN’s Humanitarian Data Exchange, finalist for the Innovation Award.</summary>
+    <updated>2016-10-27T13:50:55+00:00</updated>
+    <id>http://oldsite.theodi.org/news/humanitarian-data-exchange-we-want-to-surface-data-collected-by-mobiles-in-crises</id>
+    <author>
+      <name>Anna Scott</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/louise-corti-i-convince-data-owners-to-open-it-for-the-public-good-i-love-my-job"/>
+    <title type="html">Louise Corti: 'I convince data owners to open it for the public good – I love my job'</title>
+    <content type="html"/>
+    <summary type="html">With the 2016 Open Data Awards just around the corner, we catch up with Louise Corti, a finalist in the Women in data category, on her perspectives as an 'early adopter' and what it takes to persuade and train people to produce high-quality data for others to innovate with. </summary>
+    <updated>2016-10-26T17:40:42+00:00</updated>
+    <id>http://oldsite.theodi.org/news/louise-corti-i-convince-data-owners-to-open-it-for-the-public-good-i-love-my-job</id>
+    <author>
+      <name>Anna Scott</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/godan-agriculture-data-must-be-accessible-at-the-local-level"/>
+    <title type="html">GODAN: 'Agriculture data must be accessible for farmers at the local level'</title>
+    <content type="html"/>
+    <summary type="html">With the 2016 Open Data Awards just around the corner, we catch up with the team at GODAN, one of Social Impact Award finalists, on how they encourage data on agriculture and nutrition to be more accessible and usable worldwide</summary>
+    <updated>2016-10-26T16:18:43+00:00</updated>
+    <id>http://oldsite.theodi.org/news/godan-agriculture-data-must-be-accessible-at-the-local-level</id>
+    <author>
+      <name>Anna Scott</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/open-papers-to-understand-poverty-and-homelessness-we-need-to-quantify-it"/>
+    <title type="html">Open Papers: 'To understand poverty and homelessness, we need to quantify it'</title>
+    <content type="html"/>
+    <summary type="html">With the 2016 Open Data Awards just around the corner, we speak with the team at 300.000 Km/s about their homelessness mapping project Open Papers, one of the finalists in the Innovation category.</summary>
+    <updated>2016-10-26T15:06:01+00:00</updated>
+    <id>http://oldsite.theodi.org/news/open-papers-to-understand-poverty-and-homelessness-we-need-to-quantify-it</id>
+    <author>
+      <name>Anna Scott</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/imin-were-enabling-a-new-generation-of-digital-health-and-fitness-platforms"/>
+    <title type="html">imin: 'We're enabling a new generation of digital health and fitness platforms' </title>
+    <content type="html"/>
+    <summary type="html">With the 2016 Open Data Awards just around the corner, we catch up with the team at tech-for-good company imin, a finalist in the Business category, about their work opening up physical activity data </summary>
+    <updated>2016-10-26T14:28:18+00:00</updated>
+    <id>http://oldsite.theodi.org/news/imin-were-enabling-a-new-generation-of-digital-health-and-fitness-platforms</id>
+    <author>
+      <name>Anna Scott</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/360giving-our-vision-is-for-more-informed-uk-grantmaking"/>
+    <title type="html">360Giving: 'Our vision is for more informed UK grantmaking'</title>
+    <content type="html"/>
+    <summary type="html">With the 2016 Open Data Awards just around the corner, we catch up with Katherine Duerden from 360Giving, a finalist in the Women in data category, about their work making grants from UK funders easier to search, explore and download.  </summary>
+    <updated>2016-10-26T13:37:56+00:00</updated>
+    <id>http://oldsite.theodi.org/news/360giving-our-vision-is-for-more-informed-uk-grantmaking</id>
+    <author>
+      <name>Anna Scott</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/giuseppe-sollazzo-teaching-medical-researchers-about-data-risks-and-opportunities-is-an-exciting-challenge"/>
+    <title type="html">Giuseppe Sollazzo: 'Teaching medical researchers about data risks and opportunities is an exciting challenge'</title>
+    <content type="html"/>
+    <summary type="html">With the 2016 Open Data Awards just around the corner, we catch up with Individual Champion award finalist Giuseppe Sollazzo about the many data projects he works on, from data analysis to advising ministers on standards and transparency.</summary>
+    <updated>2016-10-26T11:17:21+00:00</updated>
+    <id>http://oldsite.theodi.org/news/giuseppe-sollazzo-teaching-medical-researchers-about-data-risks-and-opportunities-is-an-exciting-challenge</id>
+    <author>
+      <name>Anna Scott</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/data-mill-north-promoting-open-data-sales"/>
+    <title type="html">Data Mill North: 'Promoting open data is a bit like a sales job'</title>
+    <content type="html"/>
+    <summary type="html">With the 2016 Open Data Awards just around the corner, we catch up Stephen Blackburn from Data Mill North, a finalist in the Publisher category, about how they promote open data and bring its benefits to communities in Leeds. </summary>
+    <updated>2016-10-26T10:41:51+00:00</updated>
+    <id>http://oldsite.theodi.org/news/data-mill-north-promoting-open-data-sales</id>
+    <author>
+      <name>Anna Scott</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/niyi-abiri-policymakers-need-geospatial-data-to-target-public-resources"/>
+    <title type="html">Niyi Abiri: 'Policymakers need geospatial data to target public resources'</title>
+    <content type="html"/>
+    <summary type="html">With the 2016 Open Data Awards just around the corner, we catch up with Abiri Oluwatosin Niyi, co-founder and lead at cMapIT.com, one of the nominees in the Open Data Business Award category. </summary>
+    <updated>2016-10-24T16:20:02+00:00</updated>
+    <id>http://oldsite.theodi.org/news/niyi-abiri-policymakers-need-geospatial-data-to-target-public-resources</id>
+    <author>
+      <name>Anna Scott</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/carey-anne-nadeau-were-bringing-about-the-next-great-innovation-in-open-data"/>
+    <title type="html">Carey Anne Nadeau: 'We're bringing about the next great innovation in open data'</title>
+    <content type="html"/>
+    <summary type="html">Carey Anne Nadeau has been nominated for an Open Data Business Award as part of the ODI's annual award ceremony. In the run-up to the awards, we talk to Carey Anne about Open Data Nation, a performance management company working with cities and counties to transform open data into actionable intelligence.</summary>
+    <updated>2016-10-24T14:35:30+00:00</updated>
+    <id>http://oldsite.theodi.org/news/carey-anne-nadeau-were-bringing-about-the-next-great-innovation-in-open-data</id>
+    <author>
+      <name>Anna Scott</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/serah-njambi-rono-on-open-data-lets-go-back-to-basics"/>
+    <title type="html">Serah Njambi Rono on open data: 'Let's go back to basics'</title>
+    <content type="html"/>
+    <summary type="html">With the 2016 Open Data Awards just around the corner, we catch up with Serah Njambi Rono, one of the award nominees for the Women in Data, in her capacity as developer advocate at Open Knowledge International. </summary>
+    <updated>2016-10-24T14:13:31+00:00</updated>
+    <id>http://oldsite.theodi.org/news/serah-njambi-rono-on-open-data-lets-go-back-to-basics</id>
+    <author>
+      <name>Anna Scott</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/odi-podcast-fighting-hunger-with-data"/>
+    <title type="html">ODI Podcast: Food banks, data and social change</title>
+    <content type="html"/>
+    <summary type="html">How can data analysis help us to understand and reduce food poverty? ODI Writer / Editor Anna Scott speaks with Andy Hamflett and Simon Raper, creators of the UK’s first dynamic visualisation tool for food poverty</summary>
+    <updated>2016-10-13T13:45:07+00:00</updated>
+    <id>http://oldsite.theodi.org/news/odi-podcast-fighting-hunger-with-data</id>
+    <author>
+      <name>Anna Scott</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/reflections-from-the-international-open-data-conference-open-data-has-grown-up"/>
+    <title type="html">Reflections from the International Open Data Conference: open data has grown up</title>
+    <content type="html"/>
+    <summary type="html">On the final day of [IODC](http://opendatacon.org/), Anna Scott reports on what was covered at the conference, and reflects on a shift from starry-eyed evangelism to reflective and forward-thinking analysis</summary>
+    <updated>2016-10-07T14:31:53+00:00</updated>
+    <id>http://oldsite.theodi.org/news/reflections-from-the-international-open-data-conference-open-data-has-grown-up</id>
+    <author>
+      <name>Anna Scott</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/international-open-data-conference-what-the-odi-has-in-store"/>
+    <title type="html">International Open Data Conference 2016: what the ODI has in store</title>
+    <content type="html"/>
+    <summary type="html">The Open Data Institute will be running diverse sessions, joining panels and reporting at the [International Open Data Conference](http://opendatacon.org/) this week in Madrid </summary>
+    <updated>2016-10-04T20:39:10+00:00</updated>
+    <id>http://oldsite.theodi.org/news/international-open-data-conference-what-the-odi-has-in-store</id>
+    <author>
+      <name>Anna Scott</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/odi-showcase-winners-qa-energy-sparks"/>
+    <title type="html">ODI Showcase – winner’s Q&amp;A: Energy Sparks</title>
+    <content type="html"/>
+    <summary type="html">We chat with Leigh Dodds about his ideas behind winning ODI Showcase project Energy Sparks, and what the team has in store</summary>
+    <updated>2016-09-07T15:10:32+00:00</updated>
+    <id>http://oldsite.theodi.org/news/odi-showcase-winners-qa-energy-sparks</id>
+    <author>
+      <name>Anna Scott</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/odi-showcase-winners-qa-great-british-toilet-map"/>
+    <title type="html">ODI Showcase – winner’s Q&amp;A: Great British Toilet Map</title>
+    <content type="html"/>
+    <summary type="html">We chat with Gail Ramster about her ideas behind winning ODI Showcase project Great British Toilet Map, and what the team has in store</summary>
+    <updated>2016-09-07T14:55:17+00:00</updated>
+    <id>http://oldsite.theodi.org/news/odi-showcase-winners-qa-great-british-toilet-map</id>
+    <author>
+      <name>Anna Scott</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/odi-showcase-winners-qa-open-inheritance-art"/>
+    <title type="html">ODI Showcase – winner’s Q&amp;A: Open Inheritance Art</title>
+    <content type="html"/>
+    <summary type="html">We chat with Jo Pugh about his ideas behind winning ODI Showcase project Open Inheritance Art, and what the team has in store</summary>
+    <updated>2016-09-07T14:38:56+00:00</updated>
+    <id>http://oldsite.theodi.org/news/odi-showcase-winners-qa-open-inheritance-art</id>
+    <author>
+      <name>Anna Scott</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/news/odi-showcase-winners-announced-for-our-summer-call"/>
+    <title type="html">ODI Showcase 2016 – winners announced for our summer call</title>
+    <content type="html"/>
+    <summary type="html">The winners for our ODI Showcase summer call 2016 have been selected. Meet some of the teams behind the projects, and find out what they have in store</summary>
+    <updated>2016-09-05T14:54:48+00:00</updated>
+    <id>http://oldsite.theodi.org/news/odi-showcase-winners-announced-for-our-summer-call</id>
+    <author>
+      <name>Anna Scott</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/retelling-the-stories-of-displaced-people-in-nigeria-with-data"/>
+    <title type="html">Retelling the stories of displaced people in Nigeria with data</title>
+    <content type="html"/>
+    <summary type="html">Years of conflict have displaced over 2.2 million people in Nigeria. Tired of hearing horrific news stories with nothing being done, Blaise Aboh used data visualisation to raise awareness and demand more open data from humanitarian groups</summary>
+    <updated>2016-08-19T12:46:34+00:00</updated>
+    <id>http://oldsite.theodi.org/news/retelling-the-stories-of-displaced-people-in-nigeria-with-data</id>
+    <author>
+      <name>Anna Scott</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/odi-responds-to-consultation-on-improving-the-consumer-landscape-and-quicker-switching"/>
+    <title type="html">ODI responds to consultation on improving the consumer landscape </title>
+    <content type="html"/>
+    <summary type="html">As part of its aim to empower consumers to make wise decisions when purchasing goods and services, the UK Government has issued a [consultation](https://www.gov.uk/government/consultations/improving-the-consumer-landscape-and-quicker-switching-call-for-evidence) on ways to improve consumer choice. In its call for evidence, the government highlighted a particular need to improve advice and representation, and make switching suppliers easier and less time-consuming across all sectors. </summary>
+    <updated>2016-07-26T11:47:21+00:00</updated>
+    <id>http://oldsite.theodi.org/news/odi-responds-to-consultation-on-improving-the-consumer-landscape-and-quicker-switching</id>
+    <author>
+      <name>Anna Scott</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/pressure-still-needed-to-put-mothers-names-on-marriage-certificates"/>
+    <title type="html">Comment: Pressure still needed to put mothers’ names on marriage certificates</title>
+    <content type="html"/>
+    <summary type="html">As weddings get more weird and wonderful, why are marriage certificates in England and Wales still so outdated? Replacing marriage ‘books’ with an electronic register would allow more flexibility and stop mothers from being ‘airbrushed out of history’</summary>
+    <updated>2016-07-06T15:38:09+00:00</updated>
+    <id>http://oldsite.theodi.org/news/pressure-still-needed-to-put-mothers-names-on-marriage-certificates</id>
+    <author>
+      <name>Anna Scott</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/odi-podcast-apps-for-workplace-wellbeing"/>
+    <title type="html">ODI Podcast: Apps for workplace wellbeing</title>
+    <content type="html"/>
+    <summary type="html">Can a bot help you manage your stress levels at work? In this ODI Podcast, Martin Vowles speaks with ODI Editor Anna Scott about the ideas behind his software company Plexus, and the digital products it creates to support workplace wellbeing</summary>
+    <updated>2016-06-19T17:21:34+00:00</updated>
+    <id>http://oldsite.theodi.org/news/odi-podcast-apps-for-workplace-wellbeing</id>
+    <author>
+      <name>Anna Scott</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/odi-podcast-editing-out-the-gender-gap-on-wikipedia"/>
+    <title type="html">ODI Podcast: Editing out the gender gap on Wikipedia </title>
+    <content type="html"/>
+    <summary type="html">ODI Writer / Editor Anna Scott speaks with Lucy Crompton-Reid, CEO of Wikimedia UK, about addressing gender bias and promoting women's participation in Wikipedia and other knowledge platforms</summary>
+    <updated>2016-05-20T13:46:05+00:00</updated>
+    <id>http://oldsite.theodi.org/news/odi-podcast-editing-out-the-gender-gap-on-wikipedia</id>
+    <author>
+      <name>Anna Scott</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/news/open-government-partnership-celebrates-open-innovation-in-africa"/>
+    <title type="html">Open Government Partnership celebrates open innovation in Africa</title>
+    <content type="html"/>
+    <summary type="html">As diverse delegates gather in Cape Town this week for the OGP regional meeting, we reflect on open innovation, ODI projects and promising initiatives in the continent</summary>
+    <updated>2016-05-06T09:40:19+00:00</updated>
+    <id>http://oldsite.theodi.org/news/open-government-partnership-celebrates-open-innovation-in-africa</id>
+    <author>
+      <name>Anna Scott</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/news/out-for-the-count-bringing-you-fast-local-election-results-on-5-may"/>
+    <title type="html">Out for the Count: bringing you fast local election results on 5 May</title>
+    <content type="html"/>
+    <summary type="html">ODI Showcase project team Out for the Count are working to bring democratic transparency to the digital age – they will deliver the first open dataset of local election results as soon as possible after the votes are counted. Here’s how they plan to do it</summary>
+    <updated>2016-05-04T11:48:50+00:00</updated>
+    <id>http://oldsite.theodi.org/news/out-for-the-count-bringing-you-fast-local-election-results-on-5-may</id>
+    <author>
+      <name>Anna Scott</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/odi-podcast-open-elections-in-burkina-faso"/>
+    <title type="html">ODI Podcast: Open elections in Burkina Faso</title>
+    <content type="html"/>
+    <summary type="html">In the first ODI Podcast, ODI Editor Anna Scott speaks with Malick Tapsoba of the Burkina Faso Open Data Initiative on transparency, how his team used open data to support democracy and lessons for other governments aspiring for open elections</summary>
+    <updated>2016-04-21T14:49:24+00:00</updated>
+    <id>http://oldsite.theodi.org/news/odi-podcast-open-elections-in-burkina-faso</id>
+    <author>
+      <name>Anna Scott</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/news/environment-agency-reaches-its-opendefra-target-with-latest-water-quality-data-release"/>
+    <title type="html">Environment Agency reaches its #opendefra target with latest water quality data release</title>
+    <content type="html"/>
+    <summary type="html">With today’s water quality data release, EA has hit its target to release 1,500 datasets. We reflect on uses and benefits of EA open data, from flood defences to creating 3D worlds in Minecraft, and affirm how ‘going open’ has benefitted the agency itself</summary>
+    <updated>2016-04-21T12:53:00+00:00</updated>
+    <id>http://oldsite.theodi.org/news/environment-agency-reaches-its-opendefra-target-with-latest-water-quality-data-release</id>
+    <author>
+      <name>Anna Scott</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/news/open-data-barometer-the-odi-publishes-key-research-as-challenger-initiatives-gather-speed"/>
+    <title type="html">Open Data Barometer: ODI releases key research as challenger countries gain pace</title>
+    <content type="html"/>
+    <summary type="html">With the 2015 Open Data Barometer released today, the ODI reflects on global achievements and critical gaps, and publishes research on emerging trends and lessons on supporting open data initiatives for widespread positive impact</summary>
+    <updated>2016-04-21T09:25:49+00:00</updated>
+    <id>http://oldsite.theodi.org/news/open-data-barometer-the-odi-publishes-key-research-as-challenger-initiatives-gather-speed</id>
+    <author>
+      <name>Anna Scott</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/news/odi-responds-uk-land-registry-privatisation-consultation"/>
+    <title type="html">ODI responds to UK Land Registry privatisation consultation</title>
+    <content type="html"/>
+    <summary type="html">In response to the UK Government consultation on privatising the Land Registry, the ODI is seeking input from data users and has released new economic research exposing the risks that come with restricting core public sector data assets</summary>
+    <updated>2016-04-20T10:35:11+00:00</updated>
+    <id>http://oldsite.theodi.org/news/odi-responds-uk-land-registry-privatisation-consultation</id>
+    <author>
+      <name>Anna Scott</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/odi-showcase-2016-out-for-the-count"/>
+    <title type="html">ODI Showcase 2016: Out for the Count</title>
+    <content type="html"/>
+    <summary type="html">We speak with ODI Showcase winners Out for the Count about the importance of accessible information for democracy, and their plans to build a results tracker for local elections data in time for the UK's local elections on 5 May</summary>
+    <updated>2016-04-06T13:25:10+00:00</updated>
+    <id>http://oldsite.theodi.org/news/odi-showcase-2016-out-for-the-count</id>
+    <author>
+      <name>Anna Scott</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/news/odi-showcase-2016-peta-jakarta"/>
+    <title type="html">ODI Showcase 2016: Peta Jakarta </title>
+    <content type="html"/>
+    <summary type="html">Tomas Holderness explains his winning ODI Showcase project Peta Jakarta – an open source flood map, updated by citizens with real-time flood information using social media – and how megacities can learn to respond to weather challenges </summary>
+    <updated>2016-04-05T10:42:11+00:00</updated>
+    <id>http://oldsite.theodi.org/news/odi-showcase-2016-peta-jakarta</id>
+    <author>
+      <name>Anna Scott</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/news/open-data-leaders-odi-publishes-method-paper-on-how-to-create-and-sustain-peer-network"/>
+    <title type="html">Open data leaders: ODI publishes method paper on how to create and sustain peer networks</title>
+    <content type="html"/>
+    <summary type="html">In the wake of the third cohort of open data leaders visiting the ODI for a week of peer-learning as part of the [Open Data Leaders' Network](http://theodi.org/open-data-leaders-network), the ODI has published a [method report](http://theodi.org/method-report-how-to-create-and-sustain-peer-networks-for-open-data-leaders) on how to use peer networks to develop open data leadership</summary>
+    <updated>2016-03-02T15:29:32+00:00</updated>
+    <id>http://oldsite.theodi.org/news/open-data-leaders-odi-publishes-method-paper-on-how-to-create-and-sustain-peer-network</id>
+    <author>
+      <name>Anna Scott</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/news/fintech-week-2016-marks-gamechanger-in-open-banking"/>
+    <title type="html"> FinTech week 2016: UK primed to be world leader in open banking </title>
+    <content type="html"/>
+    <summary type="html">UK FinTech is thriving, but to remain competitive it must build on recent progress made in setting the Open Banking Standard, investigate blockchain technology, and strengthen the data infrastructure that underpins open innovation</summary>
+    <updated>2016-03-01T08:13:12+00:00</updated>
+    <id>http://oldsite.theodi.org/news/fintech-week-2016-marks-gamechanger-in-open-banking</id>
+    <author>
+      <name>Anna Scott</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/news/european-data-portal-bringing-open-datas-economic-benefits-to-public-bodies"/>
+    <title type="html">European Data Portal: bringing open data’s economic benefits to public bodies</title>
+    <content type="html"/>
+    <summary type="html">In line with the launch of its [official site](http://www.europeandataportal.eu/), the EDP is gathering stories and economic insights to bring to public bodies who could benefit more from open data</summary>
+    <updated>2016-02-18T10:29:43+00:00</updated>
+    <id>http://oldsite.theodi.org/news/european-data-portal-bringing-open-datas-economic-benefits-to-public-bodies</id>
+    <author>
+      <name>Anna Scott</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/amanda-smith-wins-bloomberg-open-technology-award"/>
+    <title type="html">Amanda Smith wins Bloomberg Open Technology Award</title>
+    <content type="html"/>
+    <summary type="html">Last month Amanda Smith, formerly ODI Community Engagement Manager and now ODI Account Manager, won the Bloomberg Open Technology Award, a WISE Award for female role models making a difference in open source communities</summary>
+    <updated>2015-12-22T14:52:42+00:00</updated>
+    <id>http://oldsite.theodi.org/news/amanda-smith-wins-bloomberg-open-technology-award</id>
+    <author>
+      <name>Anna Scott</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/how-we-made-odi-award-winning-annual-report"/>
+    <title type="html">How we made the ODI’s award-winning annual report </title>
+    <content type="html"/>
+    <summary type="html">Having picked up the award for best annual report with her team at the CorpComms ceremony last night, ODI Writer and Editor Anna Scott reflects on the ideas, creativity, people and trust that helped make it happen</summary>
+    <updated>2015-11-25T15:04:19+00:00</updated>
+    <id>http://oldsite.theodi.org/news/how-we-made-odi-award-winning-annual-report</id>
+    <author>
+      <name>Anna Scott</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/news/open-banking-working-group-roster-report-announced"/>
+    <title type="html">Open Banking Working Group: roster and forthcoming report announced</title>
+    <content type="html"/>
+    <summary type="html">The Open Banking Working Group – a collective of banking, open data and FinTech professionals, and wider business and consumer groups – has been formed at the request of the UK Government. </summary>
+    <updated>2015-11-23T15:05:20+00:00</updated>
+    <id>http://oldsite.theodi.org/news/open-banking-working-group-roster-report-announced</id>
+    <author>
+      <name>Anna Scott</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/odi-summer-showcase-working-with-mental-health"/>
+    <title type="html">ODI summer showcase: Working with Mental Health</title>
+    <content type="html"/>
+    <summary type="html">We chat with Martin Vowles, Director of [M/A](http://www.madebyma.com), about his ideas behind winning [summer showcase](http://theodi.org/summer-showcase "ODI summer showcase") project Working with Mental Health, and what he has in store</summary>
+    <updated>2015-09-08T13:37:05+00:00</updated>
+    <id>http://oldsite.theodi.org/news/odi-summer-showcase-working-with-mental-health</id>
+    <author>
+      <name>Anna Scott</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/odi-summer-showcase-visualising-rail-disruption"/>
+    <title type="html">ODI summer showcase: Visualising Rail Disruption</title>
+    <content type="html"/>
+    <summary type="html">We chat with George Goldberg, Joe Letts and Craig Buchanan from the Fasteroute team about their ideas behind winning [summer showcase](http://theodi.org/summer-showcase "ODI summer showcase") project Visualising Rail Disruption, and what they have in store</summary>
+    <updated>2015-09-08T13:24:37+00:00</updated>
+    <id>http://oldsite.theodi.org/news/odi-summer-showcase-visualising-rail-disruption</id>
+    <author>
+      <name>Anna Scott</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/news/odi-cooks-up-new-focus-on-agriculture-and-nutrition"/>
+    <title type="html">ODI cooks up new focus on agriculture and nutrition</title>
+    <content type="html"/>
+    <summary type="html">With over 7 billion mouths to feed and a food retail industry worth $4 trillion a year, we are exploring how open data can make our global food system more efficient, from farm to fork</summary>
+    <updated>2015-08-27T08:37:43+00:00</updated>
+    <id>http://oldsite.theodi.org/news/odi-cooks-up-new-focus-on-agriculture-and-nutrition</id>
+    <author>
+      <name>Anna Scott</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/news/data-as-culture-2015-july-curators-statement"/>
+    <title type="html">Data as Culture 2015: July Curator’s statement</title>
+    <content type="html"/>
+    <summary type="html">Data as Culture 3: Data Anthropologies places people at the centre of emerging data landscapes. The Open Data Institute offers itself as the focal point of this exploration by hosting a series of artists’ residencies. </summary>
+    <updated>2015-07-31T12:28:48+00:00</updated>
+    <id>http://oldsite.theodi.org/news/data-as-culture-2015-july-curators-statement</id>
+    <author>
+      <name>Anna Scott</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/news/generation-open-data-benefit-tim-berners-lee-nigel-shadbolt"/>
+    <title type="html">Paving the way for Generation Open: what it will take and who will benefit</title>
+    <content type="html"/>
+    <summary type="html">Businesses and governments are seeing more evidence of open data building economic value and more efficient public services, ODI founders Sirs Tim Berners-Lee and Nigel Shadbolt told a press conference at the [Open Data Awards](http://theodi.org/news/odi-2015-award-winners) earlier this month, together with ODI CEO Gavin Starks.</summary>
+    <updated>2015-07-28T10:00:11+00:00</updated>
+    <id>http://oldsite.theodi.org/news/generation-open-data-benefit-tim-berners-lee-nigel-shadbolt</id>
+    <author>
+      <name>Anna Scott</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/open-data-academic-curriculum"/>
+    <title type="html">Open data belongs in the academic curriculum, says Open Data Nation</title>
+    <content type="html"/>
+    <summary type="html">With the 2015 [Open Data Awards](http://awards.theodi.org/) just around the corner, we catch up with Carey Anne Nadeau, Founder and CEO of [Open Data Nation](http://www.opendatanation.com/), a finalist for the Open Data Business Award.</summary>
+    <updated>2015-07-09T14:51:49+00:00</updated>
+    <id>http://oldsite.theodi.org/news/open-data-academic-curriculum</id>
+    <author>
+      <name>Anna Scott</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/positive-social-economic-open-data"/>
+    <title type="html">OCSI: 'Positive social and economic data is out there, we just don’t talk about it enough’</title>
+    <content type="html"/>
+    <summary type="html">With the 2015 [Open Data Awards](http://awards.theodi.org/) just around the corner, we catch up with [Oxford Consultants for Social Inclusion](http://ocsi.co.uk/), finalists for the Open Data Business Award.</summary>
+    <updated>2015-07-09T11:36:30+00:00</updated>
+    <id>http://oldsite.theodi.org/news/positive-social-economic-open-data</id>
+    <author>
+      <name>Anna Scott</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/how-open-data-boosts-citizen-engagement-uruguay"/>
+    <title type="html">How open data boosts citizen engagement in Uruguay</title>
+    <content type="html"/>
+    <summary type="html">With the 2015 [Open Data Awards](http://awards.theodi.org/) just around the corner, we catch up with Uruguay based health service startup [A Tu Servicio](http://atuservicio.uy/), a finalist for the Open Data Innovation Award.</summary>
+    <updated>2015-07-09T10:37:54+00:00</updated>
+    <id>http://oldsite.theodi.org/news/how-open-data-boosts-citizen-engagement-uruguay</id>
+    <author>
+      <name>Anna Scott</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/medicines-for-malaria-sharing-data-on-drug-discovery-key-to-disease-control"/>
+    <title type="html">Medicines for Malaria: ‘Sharing data on drug discovery is key to disease control’</title>
+    <content type="html"/>
+    <summary type="html">With the 2015 [Open Data Awards](http://awards.theodi.org/) just around the corner, we catch up with Tim Wells, Chief Scientific Officer at [Medicines for Malaria Venture](http://www.mmv.org/), finalists for the Open Data Innovation Award.</summary>
+    <updated>2015-07-08T23:05:29+00:00</updated>
+    <id>http://oldsite.theodi.org/news/medicines-for-malaria-sharing-data-on-drug-discovery-key-to-disease-control</id>
+    <author>
+      <name>Anna Scott</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/opencorporates-open-data-currency-of-democracy"/>
+    <title type="html">OpenCorporates: ‘Open data is the currency of democracy’</title>
+    <content type="html"/>
+    <summary type="html">With the 2015 [Open Data Awards](http://awards.theodi.org/) just around the corner, we catch up with [Open Corporates](https://opencorporates.com/), a finalist for the Open Data Business Award and the Open Data Publisher Award.)</summary>
+    <updated>2015-07-08T22:43:09+00:00</updated>
+    <id>http://oldsite.theodi.org/news/opencorporates-open-data-currency-of-democracy</id>
+    <author>
+      <name>Anna Scott</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/open-data-job-creation-transparency-culture-shift-kenya"/>
+    <title type="html">Open data means job creation, transparency and a culture shift in Kenya </title>
+    <content type="html"/>
+    <summary type="html">With the 2015 [Open Data Awards](http://awards.theodi.org/) just around the corner, we catch up with [Kenya Open Data Initiative](http://www.opendata.go.ke/), a finalist for the Open Data Publisher Award.</summary>
+    <updated>2015-07-08T22:30:33+00:00</updated>
+    <id>http://oldsite.theodi.org/news/open-data-job-creation-transparency-culture-shift-kenya</id>
+    <author>
+      <name>Anna Scott</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/gla-open-data-helps-break-down-artificial-administrative-boundaries-in-cities"/>
+    <title type="html">GLA: ‘Open data helps break down artificial administrative boundaries in cities’</title>
+    <content type="html"/>
+    <summary type="html">With the 2015 [Open Data Awards](http://awards.theodi.org/) just around the corner, we catch up with Andrew Collinge, Assistant Director of the [Greater London Authority Intelligence Unit](https://www.london.gov.uk/mayor-assembly/mayor/publications/gla-intelligence), a finalist for the Open Data Publisher Award.</summary>
+    <updated>2015-07-08T22:22:15+00:00</updated>
+    <id>http://oldsite.theodi.org/news/gla-open-data-helps-break-down-artificial-administrative-boundaries-in-cities</id>
+    <author>
+      <name>Anna Scott</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/linet-kwamboka-citizens-need-open-data-to-make-decisions-for-better-livelihoods"/>
+    <title type="html">Linet Kwamboka: 'Citizens need open data to make decisions for better livelihoods'</title>
+    <content type="html"/>
+    <summary type="html">With the 2015 [Open Data Awards](http://awards.theodi.org/) just around the corner, we catch up with [Kenya Open data initiative](https://opendata.go.ke/) coordinator Linet Kwamboka, a finalist for the Open Data Individual Champion Award.</summary>
+    <updated>2015-07-08T21:54:57+00:00</updated>
+    <id>http://oldsite.theodi.org/news/linet-kwamboka-citizens-need-open-data-to-make-decisions-for-better-livelihoods</id>
+    <author>
+      <name>Anna Scott</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/denis-gursky-apps-making-ukraine-better-country"/>
+    <title type="html">Denis Gursky: ‘Apps are making Ukraine a better country'</title>
+    <content type="html"/>
+    <summary type="html">With the 2015 [Open Data Awards](http://awards.theodi.org/) just around the corner, we catch up with new media and digital technology expert, Denis Gursky, a finalist for the Open Data Individual Champion Award.</summary>
+    <updated>2015-07-08T21:49:43+00:00</updated>
+    <id>http://oldsite.theodi.org/news/denis-gursky-apps-making-ukraine-better-country</id>
+    <author>
+      <name>Anna Scott</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/mo-mcroberts-open-data-anyone-can-use"/>
+    <title type="html">Mo McRoberts: ‘The best thing about open data is that anyone can use it'</title>
+    <content type="html"/>
+    <summary type="html">With the 2015 [Open Data Awards](http://awards.theodi.org/) just around the corner, we catch up with Mo McRoberts, Chief Technical Architect at [BBC Archive Development](http://www.bbc.co.uk/archive/) and finalist for the Open Data Individual Champion Award.</summary>
+    <updated>2015-07-08T21:42:43+00:00</updated>
+    <id>http://oldsite.theodi.org/news/mo-mcroberts-open-data-anyone-can-use</id>
+    <author>
+      <name>Anna Scott</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/news/aid-industry-open-by-default-data-mapping"/>
+    <title type="html">Aid industry must be open by default to improve, says life-saving mapping team </title>
+    <content type="html"/>
+    <summary type="html">We catch up with Harry Wood, volunteer for [Humanitarian OpenStreetMap](http://hotosm.org/) about how taking an open approach could improve global humanitarian responses</summary>
+    <updated>2015-07-08T10:51:35+00:00</updated>
+    <id>http://oldsite.theodi.org/news/aid-industry-open-by-default-data-mapping</id>
+    <author>
+      <name>Anna Scott</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/news/democracy-club-on-open-data-vote-elections"/>
+    <title type="html">Democracy Club on open data: ‘Telling people where they can vote shouldn’t be this hard'</title>
+    <content type="html"/>
+    <summary type="html">With the 2015 [Open Data Awards](http://awards.theodi.org/) just around the corner, we catch up with Sym Roe, Coordinator at [Democracy Club](https://democracyclub.org.uk/), a finalist for the Open Data Social Impact Award.</summary>
+    <updated>2015-07-08T10:36:39+00:00</updated>
+    <id>http://oldsite.theodi.org/news/democracy-club-on-open-data-vote-elections</id>
+    <author>
+      <name>Anna Scott</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/news/budgit-open-data-nigeria-accountability"/>
+    <title type="html">BudgIT: ‘We give Nigerians accessible data, so they can hold leaders to account’</title>
+    <content type="html"/>
+    <summary type="html">With the 2015 [Open Data Awards](http://awards.theodi.org/) just around the corner, we catch up with Oluseun Onigbinde, Co-founder of [BudgIT](http://www.yourbudgit.com/), a Nigerian civic startup with a mission to make government budgets easier to understand for citizens. BudgIT is a finalist for the Open Data Social Impact Award.</summary>
+    <updated>2015-07-08T10:14:45+00:00</updated>
+    <id>http://oldsite.theodi.org/news/budgit-open-data-nigeria-accountability</id>
+    <author>
+      <name>Anna Scott</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/news/citymapper-government-open-data-improve-cities"/>
+    <title type="html">Citymapper executive to governments: 'Open more data so we can improve your cities'</title>
+    <content type="html"/>
+    <summary type="html">The size and number of businesses built on open data is growing every year. Groups are using it to innovate, spot gaps in markets and create valuable products and services that transform the ways we live. [Citymapper](https://citymapper.com/) is one of the best-known open data success stories.</summary>
+    <updated>2015-07-08T08:00:32+00:00</updated>
+    <id>http://oldsite.theodi.org/news/citymapper-government-open-data-improve-cities</id>
+    <author>
+      <name>Anna Scott</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/kitty-von-bertele-open-data-connects-beyond-traditional-networks"/>
+    <title type="html">Kitty von Bertele: 'Open data connects us beyond our traditional networks'</title>
+    <content type="html"/>
+    <summary type="html">With the 2015 [Open Data Awards](http://awards.theodi.org/) just around the corner, we catch up with one of the judges, government transparency and open data expert Kitty von Bertele on the impacts and possibilities that releasing data openly can bring to governments, and where they have room for improvement.</summary>
+    <updated>2015-07-07T11:57:49+00:00</updated>
+    <id>http://oldsite.theodi.org/news/kitty-von-bertele-open-data-connects-beyond-traditional-networks</id>
+    <author>
+      <name>Anna Scott</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/john-gibson-open-data-improve-regulated-markets"/>
+    <title type="html">John Gibson on open data: 'Let's make regulated markets work better'</title>
+    <content type="html"/>
+    <summary type="html">With the 2015 [Open Data Awards](http://awards.theodi.org/) just around the corner, we catch up with one of the judges, Director of Government Innovation at Nesta John Gibson, on the economic case for open data and how innovation can transform city governments. </summary>
+    <updated>2015-07-06T15:19:32+00:00</updated>
+    <id>http://oldsite.theodi.org/news/john-gibson-open-data-improve-regulated-markets</id>
+    <author>
+      <name>Anna Scott</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/gideon-mann-data-science-improve-lives-open-data-awards"/>
+    <title type="html">Gideon Mann on data science: 'We can improve the lives of millions'</title>
+    <content type="html"/>
+    <summary type="html">With the 2015 [Open Data Awards](http://awards.theodi.org/) just around the corner, we catch up with one of the judges, Bloomberg Head of Data Science Gideon Mann, on how, with the right coordination between different sectors, open data can help build fairer communities and solve social problems.</summary>
+    <updated>2015-07-06T13:49:42+00:00</updated>
+    <id>http://oldsite.theodi.org/news/gideon-mann-data-science-improve-lives-open-data-awards</id>
+    <author>
+      <name>Anna Scott</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/for-me-smart-cities-are-about-openness"/>
+    <title type="html">'For me, smart cities are about openness' </title>
+    <content type="html"/>
+    <summary type="html">&lt;img src="http://bd7a65e2cb448908f934-86a50c88e47af9e1fb58ce0672b5a500.r32.cf3.rackcdn.com/uploads/assets/54/6b/55546b17d0d4620885000037/svitlana.jpg" alt="null" class="img pull-right" id="55546b17f362be08d10000c1"&gt;</summary>
+    <updated>2015-05-14T07:55:57+00:00</updated>
+    <id>http://oldsite.theodi.org/news/for-me-smart-cities-are-about-openness</id>
+    <author>
+      <name>Anna Scott</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/open-data-snapshot-democrata-digs-for-treasure-with-open-data"/>
+    <title type="html">Open data in action: Digging for treasure with data</title>
+    <content type="html"/>
+    <summary type="html">How a big data company can save infrastructure groups millions by using open data to predict where archaeological artefacts might be found during construction</summary>
+    <updated>2015-04-27T08:52:55+00:00</updated>
+    <id>http://oldsite.theodi.org/news/open-data-snapshot-democrata-digs-for-treasure-with-open-data</id>
+    <author>
+      <name>Anna Scott</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/news/scale-smart-cities-experts-say"/>
+    <title type="html">How to scale smart cities: what the experts say</title>
+    <content type="html"/>
+    <summary type="html">The ODI and Arup hosted an [open, smart cities event](http://theodi.org/workshops/odi-futures-how-to-scale-open-smart-cities-data-networks-culture "open, smart cities event") on 20 April, 2015 bringing together nine speakers and audience from across the public, private and academic sectors. </summary>
+    <updated>2015-04-22T15:44:00+00:00</updated>
+    <id>http://oldsite.theodi.org/news/scale-smart-cities-experts-say</id>
+    <author>
+      <name>Anna Scott</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/open-for-discussion-day-2-in-addis-ababa"/>
+    <title type="html">Open for discussion: Day 2 in Addis Ababa</title>
+    <content type="html"/>
+    <summary type="html">By Anna Scott and William Gerry</summary>
+    <updated>2015-03-29T14:04:19+00:00</updated>
+    <id>http://oldsite.theodi.org/news/open-for-discussion-day-2-in-addis-ababa</id>
+    <author>
+      <name>Anna Scott</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/data-revolution-addis-ababa-high-level-conference"/>
+    <title type="html">Talkin' 'bout a (data) revolution: Day 1 in Addis Ababa</title>
+    <content type="html"/>
+    <summary type="html">By Anna Scott and William Gerry</summary>
+    <updated>2015-03-26T15:25:45+00:00</updated>
+    <id>http://oldsite.theodi.org/news/data-revolution-addis-ababa-high-level-conference</id>
+    <author>
+      <name>Anna Scott</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/broadening-horizons-ordnance-survey-esri-put-open-data-on-their-maps"/>
+    <title type="html">X marks the spot: Ordnance Survey and Esri open up more geospatial data</title>
+    <content type="html"/>
+    <summary type="html">It’s been quite a week for geospatial open data, with two initiatives announced that will help broaden its impacts as a driver of economic growth and digital innovation around the world.</summary>
+    <updated>2015-02-21T11:08:18+00:00</updated>
+    <id>http://oldsite.theodi.org/news/broadening-horizons-ordnance-survey-esri-put-open-data-on-their-maps</id>
+    <author>
+      <name>Anna Scott</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/its-open-data-day-but-what-is-open-data-and-why-should-we-care"/>
+    <title type="html">What is ‘open data’ and why should we care?</title>
+    <content type="html"/>
+    <summary type="html">You can’t go 10 minutes without hearing about data these days. “Data blogs.” “Big data.” “Data protection.” “Data.” “Daahta.”</summary>
+    <updated>2015-02-20T17:10:24+00:00</updated>
+    <id>http://oldsite.theodi.org/news/its-open-data-day-but-what-is-open-data-and-why-should-we-care</id>
+    <author>
+      <name>Anna Scott</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/news/open-data-enshrined-mexico-constitution"/>
+    <title type="html">Mexico enshrines open data into its federal regulation</title>
+    <content type="html"/>
+    <summary type="html">The government of Mexico has today [mandated](http://www.dof.gob.mx/notadetalle.php?codigo=5382838&amp;fecha=20/02/2015 "mandated") that open data is the default for all public communication that it produces.</summary>
+    <updated>2015-02-20T14:08:00+00:00</updated>
+    <id>http://oldsite.theodi.org/news/open-data-enshrined-mexico-constitution</id>
+    <author>
+      <name>Anna Scott</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/open-data-past-present-and-yet-to-come-three-odi-ghosts-tell-their-tales"/>
+    <title type="html">Open data past, present and yet to come: 3 ODI ghosts tell their tales</title>
+    <content type="html"/>
+    <summary type="html">&lt;img src="http://bd7a65e2cb448908f934-86a50c88e47af9e1fb58ce0672b5a500.r32.cf3.rackcdn.com/uploads/assets/94/65/549465e1d0d4620839000001/Screen-Shot-2014-12-19-at-17.51.24.png" alt="null" class="img" id="549465e0f362be0fe3000011"&gt;</summary>
+    <updated>2014-12-19T17:07:34+00:00</updated>
+    <id>http://oldsite.theodi.org/news/open-data-past-present-and-yet-to-come-three-odi-ghosts-tell-their-tales</id>
+    <author>
+      <name>Anna Scott</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/news/odi-queensland-joins-the-open-data-community"/>
+    <title type="html">ODI Queensland joins the open data community</title>
+    <content type="html"/>
+    <summary type="html">The Open Data Institute today welcomes a new Node – ODI Queensland – to its international network.</summary>
+    <updated>2014-12-02T09:36:56+00:00</updated>
+    <id>http://oldsite.theodi.org/news/odi-queensland-joins-the-open-data-community</id>
+    <author>
+      <name>Anna Scott</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/i-dont-care-who-codes-as-long-as-we-all-have-the-opportunity"/>
+    <title type="html">‘I don’t care who codes, as long as we all have the opportunity’</title>
+    <content type="html"/>
+    <summary type="html">Amy Mather, a 15 year old geek, shares her thoughts on coding, gender and why we should all be more creative with technology.</summary>
+    <updated>2014-11-12T14:32:51+00:00</updated>
+    <id>http://oldsite.theodi.org/news/i-dont-care-who-codes-as-long-as-we-all-have-the-opportunity</id>
+    <author>
+      <name>Anna Scott</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/news/wendy-hall-on-open-data-its-a-means-to-an-end-not-an-end-in-itself"/>
+    <title type="html">Wendy Hall on open data: ‘It’s a means to an end, not an end in itself’</title>
+    <content type="html"/>
+    <summary type="html">It is the unpredictability in the evolution of the web that is both the most exciting and the most challenging thing about it.</summary>
+    <updated>2014-10-27T09:14:16+00:00</updated>
+    <id>http://oldsite.theodi.org/news/wendy-hall-on-open-data-its-a-means-to-an-end-not-an-end-in-itself</id>
+    <author>
+      <name>Anna Scott</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/news/odi-rio-joins-the-global-open-data-network"/>
+    <title type="html">ODI Rio joins the global open data network</title>
+    <content type="html"/>
+    <summary type="html">ODI Rio, the latest addition to the ODI’s global network, launches today at the Federal university of Rio de Janeiro. </summary>
+    <updated>2014-10-24T10:04:41+00:00</updated>
+    <id>http://oldsite.theodi.org/news/odi-rio-joins-the-global-open-data-network</id>
+    <author>
+      <name>Anna Scott</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/news/charlie-ewen-on-open-data-digital-isnt-done-once-you-have-a-website"/>
+    <title type="html">Charlie Ewen on open data: ‘Digital isn’t ‘done’ once you have a website’</title>
+    <content type="html"/>
+    <summary type="html">Ahead of his talk at the [ODI Summit](http://summit.theodi.org/ "ODI Summit"), we speak with weather technology expert Charlie Ewen.</summary>
+    <updated>2014-10-16T16:55:55+00:00</updated>
+    <id>http://oldsite.theodi.org/news/charlie-ewen-on-open-data-digital-isnt-done-once-you-have-a-website</id>
+    <author>
+      <name>Anna Scott</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/news/joel-gurin-on-open-data-changing-the-way-we-speak-with-governments"/>
+    <title type="html">Joel Gurin on open data: 'Changing how we speak with governments' </title>
+    <content type="html"/>
+    <summary type="html">As most consumers can't use data from government sources directly, we need others to set up ‘choice engines’ that turn it into information they can use. </summary>
+    <updated>2014-10-14T16:14:42+00:00</updated>
+    <id>http://oldsite.theodi.org/news/joel-gurin-on-open-data-changing-the-way-we-speak-with-governments</id>
+    <author>
+      <name>Anna Scott</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/news/alison-smith-on-open-data-as-a-disabled-deaf-geek-ive-embraced-technology"/>
+    <title type="html">Alison Smith on open data: 'As a disabled deaf geek, I've embraced technology'</title>
+    <content type="html"/>
+    <summary type="html">In the wave of new technologies that are transforming the arts and culture sectors, are deaf and disabled people being left behind?</summary>
+    <updated>2014-10-13T11:20:01+00:00</updated>
+    <id>http://oldsite.theodi.org/news/alison-smith-on-open-data-as-a-disabled-deaf-geek-ive-embraced-technology</id>
+    <author>
+      <name>Anna Scott</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/news/nigel-shadbolt-on-open-data-uk-leads-but-must-not-become-complacent"/>
+    <title type="html">Nigel Shadbolt on open data: 'UK leads but must not become complacent'</title>
+    <content type="html"/>
+    <summary type="html">If we are to realise the benefits that open data offers for innovation and value creation we must be bold, brave and resolute. </summary>
+    <updated>2014-10-10T13:37:55+00:00</updated>
+    <id>http://oldsite.theodi.org/news/nigel-shadbolt-on-open-data-uk-leads-but-must-not-become-complacent</id>
+    <author>
+      <name>Anna Scott</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/speaker-profile-bill-thompson"/>
+    <title type="html">Bill Thompson on open data: 'Nothing comes from nothing'</title>
+    <content type="html"/>
+    <summary type="html">All works of art, pieces of writing and songs are shaped from those that came before them. Can the same be said for data?</summary>
+    <updated>2014-10-03T10:15:20+00:00</updated>
+    <id>http://oldsite.theodi.org/news/speaker-profile-bill-thompson</id>
+    <author>
+      <name>Anna Scott</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/speaker-profile-ruth-mackenzie"/>
+    <title type="html">Ruth Mackenzie on open data: 'The digital arts movement is growing'</title>
+    <content type="html"/>
+    <summary type="html">As more artists use open data to inspire, create and share their work, have we reached a new frontier for digital arts?</summary>
+    <updated>2014-10-03T08:44:43+00:00</updated>
+    <id>http://oldsite.theodi.org/news/speaker-profile-ruth-mackenzie</id>
+    <author>
+      <name>Anna Scott</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/open-city-data-leeds-shows-us-how-its-done"/>
+    <title type="html">Open data for cities: Leeds shows us how it's done</title>
+    <content type="html"/>
+    <summary type="html">On a typical morning a city high street buzzes with activity. A school bus full of children stops at a traffic light to let suited commuters cross the street on their way to work. A Post Office opens its doors to a queue of people waiting to send parcels or pay bills. Grocery shops pile fruit on stalls outside their doors, while a barmaid pours water outside a nearby pub and offers a leftover sandwich to a homeless man.</summary>
+    <updated>2014-09-29T09:55:22+00:00</updated>
+    <id>http://oldsite.theodi.org/news/open-city-data-leeds-shows-us-how-its-done</id>
+    <author>
+      <name>Anna Scott</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/how-open-data-can-help-us-all-find-the-toilet"/>
+    <title type="html">How open data can help us all find the toilet</title>
+    <content type="html"/>
+    <summary type="html">&lt;img src="http://bd7a65e2cb448908f934-86a50c88e47af9e1fb58ce0672b5a500.r32.cf3.rackcdn.com/uploads/assets/0d/b4/540db431f362be08d700004c/toilet400.png" alt="null" class="img text-center" id="540db4301f986a0851000070"&gt;</summary>
+    <updated>2014-09-08T12:41:32+00:00</updated>
+    <id>http://oldsite.theodi.org/news/how-open-data-can-help-us-all-find-the-toilet</id>
+    <author>
+      <name>Anna Scott</name>
+    </author>
+  </entry>
+</feed>

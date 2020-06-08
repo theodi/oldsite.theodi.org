@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <title>News for Jack Hardinges</title>
+  <updated>2016-02-09T17:34:02+00:00</updated>
+  <id>http://oldsite.theodi.org/team/jack-hardinges.atom</id>
+  <link href="http://oldsite.theodi.org/team/jack-hardinges.atom" rel="self"/>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/comment-transparent-governments-and-institutions-publish-open-data-fifa-should-be-no-exception"/>
+    <title type="html">Comment: ‘Transparent governments publish open data: Fifa should be no exception’</title>
+    <content type="html"/>
+    <summary type="html">Ahead of Fifa’s [presidential election](http://www.bbc.co.uk/news/world-europe-32920191 "presidential election") ODI Commercial Writer Jack Hardinges reiterates the role open data could play in bringing about a new era of transparency</summary>
+    <updated>2016-02-09T16:39:57+00:00</updated>
+    <id>http://oldsite.theodi.org/news/comment-transparent-governments-and-institutions-publish-open-data-fifa-should-be-no-exception</id>
+    <author>
+      <name>Jack Hardinges</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/odi-futures-how-open-innovation-will-transform-agriculture"/>
+    <title type="html">ODI Futures: How open innovation will transform agriculture</title>
+    <content type="html"/>
+    <summary type="html">On 3 December we held an event focusing on the future of agriculture, in partnership with the Department for Environment, Food and Rural Affairs. Chaired by ODI Head of Research Dr Tom Heath, it gathered stakeholders in the sector to explore data-driven innovation, with a focus on open data.</summary>
+    <updated>2016-01-08T16:20:03+00:00</updated>
+    <id>http://oldsite.theodi.org/news/odi-futures-how-open-innovation-will-transform-agriculture</id>
+    <author>
+      <name>Jack Hardinges</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/a-year-in-open-data-delivering-on-the-early-promise-of-the-open-data-challenge-series"/>
+    <title type="html">A year in open data: Delivering on the early promise of the Open Data Challenge Series</title>
+    <content type="html"/>
+    <summary type="html">From a personalised careers service to an app for house hunters showing the proximity of local amenities, the Open Data Challenge Series delivered on its promise to bring new ideas to market that provide social, environmental and economic impact</summary>
+    <updated>2015-12-21T09:26:47+00:00</updated>
+    <id>http://oldsite.theodi.org/news/a-year-in-open-data-delivering-on-the-early-promise-of-the-open-data-challenge-series</id>
+    <author>
+      <name>Jack Hardinges</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/open-for-business-open-data-business"/>
+    <title type="html">Open for business: how is open data being used by companies?</title>
+    <content type="html"/>
+    <summary type="html">On Wednesday, 16 September the ODI hosted its quarterly ODI Connect event at Arup’s Fitzroy Street headquarters, with a focus on the use of open data by business.</summary>
+    <updated>2015-09-17T10:01:39+00:00</updated>
+    <id>http://oldsite.theodi.org/news/open-for-business-open-data-business</id>
+    <author>
+      <name>Jack Hardinges</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/chris-froomes-tour-de-france-heart-rate-closed-shared-or-open-data"/>
+    <title type="html">Chris Froome’s Tour de France heart rate: closed, shared or open data?</title>
+    <content type="html"/>
+    <summary type="html">British cyclist Chris Froome’s ability to navigate the perennial relentlessness of the Tour de France has come into question in recent days. His speed through some of this year’s stages has seen some, French cycling commentators Laurent Jalabert and Cedric Vasseur in particular, [dispute whether he is participating free of biological or mechanical doping](http://allsports.com.gh/othersports/doping-allegations-chris-froome-slams-laurent-jalabert-cedric-vasseur-for-doping-speculation-id3982774.html).</summary>
+    <updated>2015-07-23T13:18:18+00:00</updated>
+    <id>http://oldsite.theodi.org/news/chris-froomes-tour-de-france-heart-rate-closed-shared-or-open-data</id>
+    <author>
+      <name>Jack Hardinges</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/new-drugs-global-market-open-data-pharma"/>
+    <title type="html">Taking new drugs to a global market: what role can open data play? </title>
+    <content type="html"/>
+    <summary type="html">&lt;img src="http://bd7a65e2cb448908f934-86a50c88e47af9e1fb58ce0672b5a500.r32.cf3.rackcdn.com/uploads/assets/96/61/559661d2d0d4623df600001a/pills.jpg" alt="null" class="img" id="559661d2d0d4624547000072"&gt;</summary>
+    <updated>2015-07-03T10:05:58+00:00</updated>
+    <id>http://oldsite.theodi.org/news/new-drugs-global-market-open-data-pharma</id>
+    <author>
+      <name>Jack Hardinges</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/fifa-open-data-tackle-corruption-save-football"/>
+    <title type="html">A game of two halves: how open data can tackle corruption and save Fifa’s future</title>
+    <content type="html"/>
+    <summary type="html">In recent days Fifa, the international governing body of football, has become embroiled in a wide-reaching corruption scandal allegedly spanning three decades and multiple continents. It centres around allegations of bribery and money laundering involving [tens of millions of dollars](http://www.independent.co.uk/news/world/europe/fifa-corruption-the-161page-dossier-that-exposes-the-organisations-dark-heart-10283050.html), and bid outcomes influencing where global football tournaments are staged, including the 2010 World Cup in South Africa.</summary>
+    <updated>2015-06-01T13:17:28+00:00</updated>
+    <id>http://oldsite.theodi.org/news/fifa-open-data-tackle-corruption-save-football</id>
+    <author>
+      <name>Jack Hardinges</name>
+    </author>
+  </entry>
+</feed>

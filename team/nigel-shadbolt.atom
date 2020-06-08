@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <title>News for Sir Nigel Shadbolt</title>
+  <updated>2015-09-11T09:52:43+00:00</updated>
+  <id>http://oldsite.theodi.org/team/nigel-shadbolt.atom</id>
+  <link href="http://oldsite.theodi.org/team/nigel-shadbolt.atom" rel="self"/>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/the-power-of-open"/>
+    <title type="html">The Power of Open</title>
+    <content type="html"/>
+    <summary type="html">The phrase 'open data' is heard increasingly around Whitehall and even features on the agenda of G8 meetings. This week in London two back to back summits are being held to discuss it. [The first](summit.theodi.org) organised by the Open Data Institute (ODI) will bring together innovators, entrepreneurs and digital developers to demonstrate the results of open data innovation. The second is an [Open Government Partnership Summit](http://www.opengovpartnership.org/get-involved/london-summit-2013) representing 60 countries and involving senior leadership from governments and NGOs - they too will be waxing lyrical about the power of open data. Why is this abstract, geeky term getting so much attention? What is open data, what difference does it make and why should we care?</summary>
+    <updated>2013-10-28T13:45:13+00:00</updated>
+    <id>http://oldsite.theodi.org/news/the-power-of-open</id>
+    <author>
+      <name>Sir Nigel Shadbolt</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/cornerstone-open-data-postcode-address-file"/>
+    <title type="html">A Cornerstone for Open Data: The Postcode Address File</title>
+    <content type="html"/>
+    <summary type="html">The release of non-personal public data on spending, transport, health, crime, weather and so on are all contributing to new innovation. The Open Data Institute’s purpose is to create further growth and wider economic value from this public data. Open data is creating social, environmental and economic value.�And by fostering a new generation of data entrepreneurs and creating new businesses, the UK is turning international thought leadership into competitive advantage.</summary>
+    <updated>2013-04-18T16:57:23+00:00</updated>
+    <id>http://oldsite.theodi.org/news/cornerstone-open-data-postcode-address-file</id>
+    <author>
+      <name>Sir Nigel Shadbolt</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/long-held-ambition-realised-odi-opens-officially"/>
+    <title type="html">A long-held ambition realised as the ODI opens officially</title>
+    <content type="html"/>
+    <summary type="html">Today is the official launch of the ODI and we'll be welcoming both Francis Maude and David Willetts as our guests. Support at the very highest levels of Government has been crucial not just for the ODI but for the success of open data efforts in the UK.</summary>
+    <updated>2012-12-04T11:22:19+00:00</updated>
+    <id>http://oldsite.theodi.org/news/long-held-ambition-realised-odi-opens-officially</id>
+    <author>
+      <name>Sir Nigel Shadbolt</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/happy-birthday-ogp"/>
+    <title type="html">Happy Birthday OGP</title>
+    <content type="html"/>
+    <summary type="html">A year ago I was in New York at the launch of the Open Government Partnership – I was presenting the UK experience of data.gov.uk to a group of Open Data activists, developers and policy types while down the road President Obama was formally launching the OGP.</summary>
+    <updated>2012-10-01T16:39:21+00:00</updated>
+    <id>http://oldsite.theodi.org/news/happy-birthday-ogp</id>
+    <author>
+      <name>Sir Nigel Shadbolt</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/odi-moves-head-quarters"/>
+    <title type="html">ODI Moves in to Head-quarters</title>
+    <content type="html"/>
+    <summary type="html"></summary>
+    <updated>2012-10-01T16:17:36+00:00</updated>
+    <id>http://oldsite.theodi.org/news/odi-moves-head-quarters</id>
+    <author>
+      <name>Sir Nigel Shadbolt</name>
+    </author>
+  </entry>
+</feed>

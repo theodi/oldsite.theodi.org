@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=US-ASCII">
+<title>Open data in action: Digging for treasure with data | News | Open Data Institute</title>
+<link href="../assets/application-693091b423df059e90189392fffb0ae0.css" media="all" rel="stylesheet" type="text/css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="../assets/favicon-e0340b5bc5738e53c1b06680529c0963.ico" rel="shortcut icon" type="image/vnd.microsoft.icon">
+
+<!--[if lt IE 9]>
+      <script src="../assets/html5shiv-5d1c7196accd7174ed22f320c693b063.js" type="text/javascript"></script>
+    <![endif]-->
+
+<!--[if (IE 7)|(IE 8)]>
+      <script src="../assets/respond.min-5eec43180e3f6d282f038de07483dc4b.js" type="text/javascript"></script>
+    <![endif]-->
+
+<script src="../assets/modernizr.custom-1ecf37d7f9fbb3066a877e31ce79e79e.js" type="text/javascript"></script>
+
+<!--[if lte IE 9]><link href="../assets/ie9-875f0d42a52ff5536404da8fda8d423b.css" media="screen" rel="stylesheet" type="text/css" /><![endif]-->
+<!--[if lte IE 8]><link href="../assets/ie8-4a6b9f309032dacb3913ccc2d55bda8b.css" media="screen" rel="stylesheet" type="text/css" /><![endif]-->
+<!--[if lte IE 7]><link href="../assets/ie7-d4066942f039a08eed8b62b80cde16cb.css" media="screen" rel="stylesheet" type="text/css" /><![endif]-->
+<!--[if lt IE 7]><link href="../assets/ie6-cab152e9612eeec9bd0af579a2231dd5.css" media="screen" rel="stylesheet" type="text/css" /><![endif]-->
+
+<meta property="fb:pages" content="1755416561338416">
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+<link href="../blog/open-data-snapshot-democrata-digs-for-treasure-with-open-data.json" rel="alternate" title="json" type="application/json">
+<link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
+<meta content="The Open Data Institute (ODI) equip, connect and inspire people around the world to innovate with data. Co-founded by Sir Tim Berners-Lee and Sir Nigel Shadbolt, the ODI provides events, training, membership and consultancy around open data." name="description">
+<meta content="summary_large_image" name="twitter:card">
+<meta content="@ODIHQ" name="twitter:site">
+<meta content="article" property="og:type">
+<meta content="../uploads/assets/40/a0/5540a08f1f986a08fe00008c/CONSTRUCTION.png" property="og:image">
+<meta content="Open data in action: Digging for treasure with data | News | Open Data Institute" property="og:title">
+<meta content="&lt;p&gt;How a big data company is using open data to de-risk major infrastructure projects by predicting where archaeological artefacts might be found&lt;/p&gt;" property="og:description">
+<meta content="Open Data Institute" property="og:site_name">
+<meta content="../blog/open-data-snapshot-democrata-digs-for-treasure-with-open-data" property="og:url">
+<meta name="govuk:rendering-application" content="Www">
+<script type="text/javascript">
+
+
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-34573394-1', {});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   ga('send', 'pageview');
+
+
+</script></head>
+<body>
+<header class="site-header">
+<div class="navbar navbar-inverse navbar-static-top">
+<div class="container">
+<div class="navbar-header">
+
+<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+<a class="navbar-brand" href="../"><img alt="The ODI" id="odi-logo" src="../assets/logo-header-dc4ead7a18ea4133873c79502c174638.png"></a>
+</div>
+<div class="modal fade" id="getLogo" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<h4 class="modal-title" id="myModalLabel">Welcome to the ODI
+<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&#215;</button>
+</h4>
+</div>
+<div class="modal-body">
+<p>Knowledge for everyone</p>
+<p>The ODI helps to unlock the value of open data.</p>
+<p>If you want to use our logo, different sizes and types are here: <a href="../brand">../brand</a></p>
+<p><a rel="external" href="../uploads/assets/legacy/ODI%2Dlogo%2Dsml.png"><img src="../uploads/assets/legacy/ODI%2Dlogo%2Dsml.png" alt=""></a></p>
+<p><a rel="external" href="../uploads/assets/legacy/ODI%2Dlogo%2Dmed.png"><img src="../uploads/assets/legacy/ODI%2Dlogo%2Dmed.png" alt=""></a></p>
+<p><a rel="external" href="../uploads/assets/legacy/ODI%2Dlogo%2Dmed.png"><img src="../uploads/assets/legacy/ODI%2Dlogo%2Dlg.png" alt=""></a></p>
+<p><a rel="external" href="../uploads/assets/legacy/ODI%2Dlogo%2Dmed.png"><img src="../uploads/assets/legacy/ODI%2Dlogo%2Dxlg.png" alt=""></a></p>
+</div>
+</div>
+</div>
+</div>
+<ul class="nav navbar-nav navbar-right">
+<li><a href="../contact">Contact us</a></li>
+<li><a href="../newsletters">Newsletters</a></li>
+
+</ul>
+
+<form class="navbar-form navbar-right" method="get" action="//duckduckgo.com/">
+<div class="form-group">
+<div class="input-group">
+<input value="oldsite.theodi.org" name="sites" type="hidden">
+<input class="form-control" placeholder="Search ODI" name="q" type="text">
+<input value="Go" class="btn" type="submit">
+</div>
+</div>
+</form>
+</div>
+</div>
+<div class="collapse navbar-collapse">
+<div class="navbar navbar-static-top">
+<div class="container">
+<ul class="nav navbar-nav main-nav">
+<li class="dropdown">
+<a href="../news">
+News &amp; blog
+</a>
+</li>
+<li class="dropdown">
+<a href="../get-involved">
+Get involved
+</a>
+</li>
+<li class="dropdown">
+<a href="../our-network">
+Our global network
+</a>
+</li>
+<li class="dropdown">
+<a href="../events">
+Events
+</a>
+</li>
+<li class="dropdown">
+<a href="../our-focus">
+Our focus
+</a>
+</li>
+<li class="dropdown">
+<a href="../publications">
+Publications
+</a>
+</li>
+<li class="dropdown last">
+<a href="../about">
+About the ODI
+</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="navbar navbar-inverse navbar-static-top mobile-only">
+<div class="container">
+<ul class="nav navbar-nav navbar-right">
+<li><a href="../contact">Contact us</a></li>
+<li><a href="../newsletters">Newsletters</a></li>
+
+</ul>
+
+</div>
+</div>
+</header> 
+<div id="wrapper">
+<header class="page-title">
+<div class="container header-wrap">
+<h1> <a href="../news">News</a>
+</h1>
+</div>
+</header>
+<div class="container">
+<div class="row">
+<div class="article-main">
+<article class="article-body">
+<h2>Open data in action: Digging for treasure with data</h2>
+<div class="article-meta">
+<span class="date">2015-04-27</span> by
+<a href="../team/anna-scott" class="author">Anna Scott <img alt="Anna Scott" height="50" src="http://contentapi.theodi.org/anna-scott/image?version=square" width="50"></a>
+</div>
+<p><em>How a big data company can save infrastructure groups millions by using open data to predict where archaeological artefacts might be found during construction</em></p>
+<p><img src="../uploads/assets/40/a0/5540a08f1f986a08fe00008c/CONSTRUCTION.png" alt="null" class="img text-center" id="5540a08ff362be08dd000001">
+<small><strong><em>In the City of London, archaeological work can count for up to 3% of total construction costs. <i>Image licensed under CC BY-NC 2.0 &#8211; Flickr: <a href="https://www.flickr.com/photos/massimo_riserbo/15674024971/in/photolist-rRDGZ4-rnUWaY-s8FQUm-s8FUEh-pT4txR-5o6CnK-5XikoN-r6tZZK-s65RoK-rTorRY-rTpaK9-reaPTc-qyFfG7-rTnY5q-mJppaz-ABas7-qZqR15-r5VzM4-mSJ4ic-6xLrZs-5Q8mwR-gYeMSf-dFgswr-ozZmhh-5DeXwG-n1RjU-rLPp1t-92yvWE-9nvSwk-qNuN7n-9nyUVS-rNG2pM-mSPUhW-kw9Yg-oyA4gX-dkAdU8-dkAgUo-6frvLp-92yudb-eb8Ev4-92vnnx-mQyWi2-bxHgay-cgbPas-anP86u-5U7a38-pkExko-mQD1D7-mSNc5D-apeqYX">Roberto Trm</a></i></em></strong>
+</small></p>
+<p><em><a href="http://www.democrata.co.uk." title="Democrata">Democrata</a> uses big data analytics to reduce risk in major engineering projects. How? By automating environmental impact assessments with a supercomputer, using open data.</em></p>
+<p><em>I catch up with Founder and CEO Geoff Roberts, to hear his story and how it all works.</em></p>
+<p><strong>Hi Geoff, how are you doing?</strong></p>
+<p>I&#8217;m fine thanks, things are busy which is always a good sign.</p>
+<p><strong>What&#8217;s Democrata&#8217;s overall vision?</strong></p>
+<p>Democrata&#8217;s vision is to democratise data and provide insight and opportunities for both corporates and SMEs.</p>
+<p>The company focuses on big data, small data, open data and proprietary data, but whatever the scale it&#8217;s the insight we generate and the software we design that gives our customers a commercial advantage. We take a business problem and then find datasets that, when linked and analysed using models we create, can help us find the solution to that problem. </p>
+<p><strong>What first got you excited about open data?</strong></p>
+<p>Over the last few of years I've been looking at the open datasets out there and could see so much value. We went along to event on open data held as part of Big Data Week at Harwell Campus last year, along with lots of other organisations, including the Science &amp; Technology Facilities Council (STFC). We heard speakers from government and academia talk about the data they had under management and how they were trying to make it more open. </p>
+<p>One of the speakers was Catherine Hardman, Deputy Director of UK Archaeology Data Service, whose throwaway line at the end of her talk about the data they curated was </p>
+<blockquote>
+<p>we haven&#8217;t worked out how to make money out of it yet, so let us know if you have any ideas! </p>
+</blockquote>
+<p>There was also a competition that day being run by STFC&#8217;s Hartree Centre &#8211; we were challenged to take some of the data mentioned and put a project proposal together that solved a problem.</p>
+<p><strong>How did you start using open data to help spot archaeological artefacts?</strong></p>
+<p>According to City of London <a href="http://www.cityoflondon.gov.uk/business/economic-research-and-information/research-publications/Documents/2007-2000/The-Impact-of-Archaeology-on-Property-Development.pdf" title="research">research</a>, the average cost of archaeological work in its jurisdiction is between 1-3% of total construction costs. </p>
+<p>We put a project proposal together that used open data from the <a href="http://archaeologydataservice.ac.uk" title="Archaeology Data Service">Archaeology Data Service</a>, the <a href="http://www.bgs.ac.uk/opengeoscience/" title="British Geological Society">British Geological Society</a>, <a href="https://www.ordnancesurvey.co.uk/business-and-government/products/opendata-products" title="Ordnance Survey">Ordnance Survey</a>, and <a href="https://www.historicengland.org.uk/listing/the-list/data-downloads" title="English Heritage">English Heritage</a> to de-risk major infrastructure projects by predicting where archaeological artefacts might be found. </p>
+<p>This idea won us the Open Data Innovation competition, giving us the time and resources we needed to develop the concept using Europe&#8217;s largest supercomputer dedicated to industrial R&amp;D, developed by ODI Member <a href="https://directory.theodi.org/members/GZ3105LR" title="the STFC Hartree Centre">the STFC Hartree Centre,</a> based at STFC's Daresbury Laboratory in Cheshire.</p>
+<p><strong>How does this non-commercial supercomputer work? What kinds of data and software do you use with it?</strong></p>
+<p>The data comes in various formats, including .csv and pdf files, as well as geographic information system (GIS) formats and text. As with most projects, there is a lot of cleaning and standardising to do. But <strong>without the open data we would not be able to carry out the project</strong>. </p>
+<p>A real bonus was that included in the prize was the use of <a href="http://www-01.ibm.com/software/data/infosphere/hadoop/enterprise.html" title="IBM&#8217;s BigInsights">IBM&#8217;s BigInsights</a>, their own version of Hadoop and IBM Content Analytics. The data scientists used R for the modelling, so that helped keep other licensing costs low.</p>
+<p><strong>That sounds really interesting! Who has shown interest in the project so far? What&#8217;s next?</strong></p>
+<p>By using the supercomputer we found that we were able to predict where potential archaeological sites in the UK would be. The algorithm still needs more work but it's an exciting development which has the potential to save construction companies millions.</p>
+<p>We&#8217;ve had a lot of interest from various sectors &#8211; especially major engineering companies and others involved in large-scale infrastructure projects. We&#8217;re now looking to raise funds for the next stage of development. </p>
+<p>We also want to take up consulting roles to help businesses use predictive analytics to make better decisions. There is a huge amount of value in open data. The problem isn&#8217;t 'what to do', but which ideas to pick and run with. There is so much that could be done and so much to exploit.</p>
+<p><br> </p>
+<p><img src="../uploads/assets/40/9a/55409a371f986a08fe00008a/geoff_1.jpeg" alt="null" class="img pull-right" id="55409a371f986a0e870000e5"></p>
+<p><em>You can read more on this story in features in the <a href="http://www.newscientist.com/article/mg22530062.400-data-archaeology-helps-builders-avoid-buried-treasure.html#.VRq6MZPF-Jw" title="New Scientist">New Scientist</a>, <a href="http://www.computerweekly.com/feature/Businesses-dig-for-treasure-in-open-data" title="Computer Weekly">Computer Weekly</a>, <a href="http://eandt.theiet.org/news/2015/mar/data-construction-site.cfm" title="E&amp;T">E&amp;T</a> and <a href="http://www.stfc.ac.uk/3557.aspx" title="STFC">STFC</a>.</em></p>
+<p><em>Geoff Roberts is Founder and CEO of <a href="http://www.democrata.co.uk." title="Democrata">Democrata</a>. Follow <a href="https://twitter.com/democratauk" title="@DemocrataUK">@DemocrataUK</a> on Twitter</em></p>
+<p><em>Find out more about the <a href="www.stfc.ac.uk/hartree" title="Hartree Centre">Hartree Centre</a> and follow <a href="https://twitter.com/hartreecentre" title="@HartreeCentre">@HartreeCentre</a> on Twitter</em></p>
+<p><em><strong>Have you got an open data story you'd like to share? Send it over to <a href="../cdn-cgi/l/email-protection#563738383778253539222216223e3339323f78392431" title="anna.scott@theodi.org"><span class="__cf_email__" data-cfemail="761718181758051519020236021e1319121f58190411">[email&#160;protected]</span></a> and I'll get back to you.</strong></em></p>
+</article>
+<div class="tags">
+<h3>Tagged as:</h3>
+<span class="tag"><a href="../tags/open-data-in-action">open data in action</a></span>
+<span class="tag"><a href="../tags/interview">interview</a></span>
+<span class="tag"><a href="../tags/democrata">democrata</a></span>
+</div>
+<h3>Comments</h3>
+<div id="juvia_comments"></div>
+</div>
+<aside class="article-sidebar listing">
+<div class="tags">
+<h3>Tagged as:</h3>
+<span class="tag"><a href="../tags/open-data-in-action">open data in action</a></span>
+<span class="tag"><a href="../tags/interview">interview</a></span>
+<span class="tag"><a href="../tags/democrata">democrata</a></span>
+</div>
+<div>
+<h3>Sign up to discover data's use and impacts around the world</h3>
+
+<style type="text/css">
+	#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; width:100%;}
+	/* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+</style>
+<div id="mc_embed_signup">
+<form action="//theodi.us6.list-manage.com/subscribe/post?u=84bd941af2f1389b9b88c66bb&amp;id=3391a19d97" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate="">
+<div style="text-align:left;" id="mc_embed_signup_scroll">
+<input style="width:auto; height:40px; font-size:18px; margin-bottom:10px;" type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required="">
+
+<div style="position: absolute; left: -5000px;" aria-hidden="true"><input style="height:40px;" type="text" name="b_84bd941af2f1389b9b88c66bb_3391a19d97" tabindex="-1" value=""></div>
+<div class="clear"><input style="background:#178cff; height: 40px; width:auto; font-size:18px;" type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+</div>
+</form>
+</div>
+
+</div>
+<h3>Related items</h3>
+<div class="module module-light module-colour-8">
+<a href="../assets">
+<h1 class="module-heading">News</h1>
+</a>
+</div>
+<h3>Latest blog post</h3>
+<iframe seamless scrolling="no" src="/blog/module"></iframe>
+<h3>Latest news</h3>
+<iframe seamless scrolling="no" src="/news/module"></iframe>
+</aside>
+</div>
+</div>
+</div>
+<footer class="site-footer">
+<div class="container">
+<div class="row">
+<div class="col-md-8 footer-content">
+<h1 class="footer-logo"><a href="http://oldsite.theodi.org">Open Data Institute</a></h1>
+<p><a href="../contact">Open Data Institute, 65 Clifton Street, London EC2A 4JE</a></p>
+<p><a href="../cdn-cgi/l/email-protection#d0b9beb6bf90a4b8b5bfb4b9febfa2b7"><span class="__cf_email__" data-cfemail="076e69616847736f6268636e29687560">[email&#160;protected]</span></a> Company <a href="http://opencorporates.com/companies/gb/08030289">08030289</a>
+<span>VAT</span><span>143 7796 80</span>
+</p>
+<p class="license">
+<a href="http://creativecommons.org/licenses/by-sa/2.0/uk/deed.en_GB" rel="license">
+<img alt="Creative Commons Licence" height="15" src="../assets/cc-a23fe95f04508432c8d97c00b0a36254.png" width="80">
+</a>
+</p>
+</div>
+<div class="col-md-4 footer-nav">
+<nav><ul class="pull-right list-inline">
+<li><a href="http://www.twitter.com/ODIHQ" class=" ">
+<img alt="Follow us on Twitter" src="../assets/twitter-a658ecc9fe2aab3308a5fb36adfb9a64.png" title="Follow us on Twitter"></a></li>
+<li><a href="https://soundcloud.com/theodi" class=" ">
+<img alt="Listen on Soundcloud" src="../assets/soundcloud-3932b3db23c6fb6c45bce20c8016462c.png" title="Listen on Soundcloud"></a></li>
+<li><a href="http://www.scribd.com/OpenDataInstitute" class=" ">
+<img alt="Read on Scribd" src="../assets/scribd-8afadecb87771fd6f6814e6ea81fb23d.png" title="Read on Scribd"></a></li>
+<li><a href="https://github.com/orgs/theodi" class=" ">
+<img alt="Follow us on Github" src="../assets/github-914931d2a14f54f3c64caec5c6e68017.png" title="Follow us on Github"></a></li>
+<li><a href="http://vimeo.com/theodiuk" class=" ">
+<img alt="Watch on Vimeo" src="../assets/vimeo-a865234771edd239032629b694ddaa32.png" title="Watch on Vimeo"></a></li>
+<li><a href="http://www.youtube.com/user/OpenDataInstituteUK" class=" ">
+<img alt="Watch on Youtube" src="../assets/youtube-cccfa6f837a0acfe0d2fd9492b0d45b3.png" title="Watch on Youtube"></a></li>
+<li><a href="http://www.flickr.com/photos/ukodi/" class=" ">
+<img alt="Follow us on Flickr" src="../assets/flickr-c81d78a530d046663cfff44293f6f775.png" title="Follow us on Flickr"></a></li>
+</ul></nav>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<nav><ul class="pull-right list-inline">
+<li class=" "><a href="../terms-of-use" class=" ">Terms of use</a></li>
+<li class=" "><a href="../privacy-policy" class=" ">Privacy policy</a></li>
+<li class=" "><a href="../cookie-policy" class=" ">Cookie policy</a></li>
+</ul></nav>
+</div>
+</div>
+</div>
+</footer>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+
+  var _pt = ["E6AF1363-3E19-409A-983C-91FFE62C2CBB"];
+  (function(d,t){
+    var a=d.createElement(t),s=d.getElementsByTagName(t)[0];a.src=location.protocol+'//a1webstrategy.com/track.js';s.parentNode.insertBefore(a,s);
+  }(document,'script'));
+
+  </script>
+<script type="text/javascript">
+      (function (n) {
+          var u = window.location.href;
+          var p = u.split("/")[0];
+          var t = n.createElement("script"), i;
+          t.type = "text/javascript";
+          t.async = !0;
+          t.src = p + "//dashboard.whoisvisiting.com/who.js";
+          i = n.getElementsByTagName("script")[0];
+          i.parentNode.insertBefore(t, i)
+      })(document);
+
+          var whoparam = whoparam || [];
+          whoparam.push(["AcNo", "8d5d04b9adc94a34bc385c6f3370594e"]);
+          whoparam.push(["SendHit", ""]
+      );
+  </script>
+<script src="../assets/application-4829863ea093de33ae55c9a127d6af6b.js" type="text/javascript"></script>
+
+<!--[if gt IE 7]><!-->
+<script src="../assets/bootstrap/bootstrap-collapse-c4cb45620c1346753e2385c125ed4bdd.js" type="text/javascript"></script>
+<!--<![endif]-->
+
+
+<!--[if gt IE 7]><!-->
+<script src="../assets/masonry-c617ee0c7d6c602b548ab5e69d50f4fa.js" type="text/javascript"></script>
+<script src="../assets/infinitescroll-243a7a50c0c843f1deb394ea98f4d0a6.js" type="text/javascript"></script>
+<script src="../assets/background-check-677e6100d9ce594cd30a88f57fc49b48.js" type="text/javascript"></script>
+<!--<![endif]-->
+<script type="text/javascript" class="juvia">
+          (function() {
+              var options = {
+                  container    : '#juvia_comments',
+                  site_key     : 't2u3ylvi0t1s94ggzxpltbcf1jyapxp',
+                  topic_key    : 'open-data-snapshot-democrata-digs-for-treasure-with-open-data' || location.href,
+                  topic_url    : location.href,
+                  topic_title  : document.title || location.href,
+                  include_base : !window.Juvia,
+                  include_css  : false,
+                  comment_order: 'earliest-first'
+              };
+
+              function makeQueryString(options) {
+                  var key, params = [];
+                  for (key in options) {
+                      params.push(
+                          encodeURIComponent(key) +
+                          '=' +
+                          encodeURIComponent(options[key]));
+                  }
+                  return params.join('&');
+              }
+
+              function makeApiUrl(options) {
+                  // Makes sure that each call generates a unique URL, otherwise
+                  // the browser may not actually perform the request.
+                  if (!('_juviaRequestCounter' in window)) {
+                      window._juviaRequestCounter = 0;
+                  }
+
+                  var result =
+                      'https://juvia.theodi.org/api/show_topic.js' +
+                      '?_c=' + window._juviaRequestCounter +
+                      '&' + makeQueryString(options);
+                  window._juviaRequestCounter++;
+                  return result;
+              }
+
+              var s       = document.createElement('script');
+              s.async     = true;
+              s.type      = 'text/javascript';
+              s.className = 'juvia';
+              s.src       = makeApiUrl(options);
+              (document.getElementsByTagName('head')[0] ||
+               document.getElementsByTagName('body')[0]).appendChild(s);
+            })();
+          </script>
+</body>
+</html>

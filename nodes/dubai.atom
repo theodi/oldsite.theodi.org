@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <title>ODI Node News for Dubai</title>
+  <updated>2015-09-11T09:58:57+00:00</updated>
+  <id>http://oldsite.theodi.org/nodes/dubai.atom</id>
+  <link href="http://oldsite.theodi.org/nodes/dubai.atom" rel="self"/>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/open-data-developments-in-saudi-arabia-qatar-and-dubai"/>
+    <title type="html">Open data developments in Saudi Arabia, Qatar and Dubai</title>
+    <content type="html"/>
+    <summary type="html">During the past few weeks, three Arab countries – Saudi Arabia, Qatar and the emirate of Dubai in the United Arab Emirates – have taken further steps with various level of importance in their efforts to make a progress in embracing open data at the national or city level. </summary>
+    <updated>2015-02-01T05:04:29+00:00</updated>
+    <id>http://oldsite.theodi.org/news/open-data-developments-in-saudi-arabia-qatar-and-dubai</id>
+    <author>
+      <name>Ibrahim Elbadawi</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/a-sneak-peek-at-the-arab-regions-open-data"/>
+    <title type="html">A sneak peek at the Arab region's open data scene</title>
+    <content type="html"/>
+    <summary type="html">Countries in the Arab Region can be said to be placed on a spectrum of open data awareness and effective implementation. Several countries in the GCC including Bahrain and the United Arab Emirates (UAE) have launched dedicated portals for open data whilst several others such as Oman and Kuwait have allocated a web page or two on local governmental official websites for datasets.</summary>
+    <updated>2015-01-04T23:41:13+00:00</updated>
+    <id>http://oldsite.theodi.org/news/a-sneak-peek-at-the-arab-regions-open-data</id>
+    <author>
+      <name>Ibrahim Elbadawi</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/dubai-node-news-2014"/>
+    <title type="html">Dubai node news: January 2014</title>
+    <content type="html"/>
+    <summary type="html">At ODI Dubai throughout the coming few months, we are planning to offer in-house training programs to some of our existing clients in addition to concluding an open “Open Data in Practice” programme. All these programmes should be delivered jointly with the ODI in London and we will invest in customising the training content to fit the local context in the UAE and the Arab region. </summary>
+    <updated>2014-01-24T11:50:07+00:00</updated>
+    <id>http://oldsite.theodi.org/news/dubai-node-news-2014</id>
+    <author>
+      <name>The ODI</name>
+    </author>
+  </entry>
+</feed>

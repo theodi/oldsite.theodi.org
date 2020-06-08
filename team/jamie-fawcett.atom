@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <title>News for Jamie Fawcett</title>
+  <updated>2016-06-17T10:28:22+00:00</updated>
+  <id>http://oldsite.theodi.org/team/jamie-fawcett.atom</id>
+  <link href="http://oldsite.theodi.org/team/jamie-fawcett.atom" rel="self"/>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/7-apps-and-services-using-open-data-that-you-probably-already-use"/>
+    <title type="html">7 services using open data and innovation that you (probably) already use</title>
+    <content type="html"/>
+    <summary type="html">Open innovation and open data can seem like strange concepts, but they drive many of the apps, products and services we use daily. Here are seven of our favourites</summary>
+    <updated>2016-06-16T13:48:42+00:00</updated>
+    <id>http://oldsite.theodi.org/news/7-apps-and-services-using-open-data-that-you-probably-already-use</id>
+    <author>
+      <name>Jamie Fawcett</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/how-to-build-the-data-infrastructure-to-tackle-urban-air-pollution"/>
+    <title type="html">How to build the data infrastructure to tackle urban air pollution</title>
+    <content type="html"/>
+    <summary type="html">Addressing urban air quality is a huge challenge, and strategies to regulate pollution are failing. What's lacking is data infrastructure to help monitor air pollution and build the shared understanding we need to find sustainable solutions, says Jamie Fawcett</summary>
+    <updated>2016-04-27T15:34:12+00:00</updated>
+    <id>http://oldsite.theodi.org/news/how-to-build-the-data-infrastructure-to-tackle-urban-air-pollution</id>
+    <author>
+      <name>Jamie Fawcett</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/a-year-in-open-data-open-data-means-business-in-2015"/>
+    <title type="html">A year in open data: Open data means business in 2015</title>
+    <content type="html"/>
+    <summary type="html">Across the UK, we found 270 businesses, from tech startups to bricks-and-mortar retailers, which are unlocking value by using, publishing and investing in open data. Collectively, these companies employ half a million people and generate more than £92bn in annual revenue</summary>
+    <updated>2015-12-21T14:38:48+00:00</updated>
+    <id>http://oldsite.theodi.org/news/a-year-in-open-data-open-data-means-business-in-2015</id>
+    <author>
+      <name>Jamie Fawcett</name>
+    </author>
+  </entry>
+</feed>

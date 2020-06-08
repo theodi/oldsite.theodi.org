@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <title>ODI Node News for Gothenburg</title>
+  <updated>2015-09-11T09:59:37+00:00</updated>
+  <id>http://oldsite.theodi.org/nodes/gothenburg.atom</id>
+  <link href="http://oldsite.theodi.org/nodes/gothenburg.atom" rel="self"/>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/call-from-the-innovation-agency-and-nordic-open-data-week"/>
+    <title type="html">Swedish call for small open data innovators</title>
+    <content type="html"/>
+    <summary type="html">Sweden's central innovation agency, [Vinnova](http://www.vinnova.se/en/), announce a three part open data innovation call. </summary>
+    <updated>2015-03-09T09:52:27+00:00</updated>
+    <id>http://oldsite.theodi.org/news/call-from-the-innovation-agency-and-nordic-open-data-week</id>
+    <author>
+      <name>Karin Ahlin</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/odi-gothenburg-february-update"/>
+    <title type="html">Sweden's latest open data events, research and sources</title>
+    <content type="html"/>
+    <summary type="html">An open data update from [ODI Gothenburg](/nodes/gothenburg), Sweden.</summary>
+    <updated>2015-02-02T15:20:54+00:00</updated>
+    <id>http://oldsite.theodi.org/news/odi-gothenburg-february-update</id>
+    <author>
+      <name>Karin Ahlin</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/gothenburg-node-news-2014"/>
+    <title type="html">Gothenburg node news: January 2014</title>
+    <content type="html"/>
+    <summary type="html">Sweden should be a prime mover in the field of open data. As a country we embrace openness and human rights. There is a deeply entrenched principle called "offentlighetsprincipen" which translates handily to "the principle of public access to official documents" which is written into the constitution and oft referred to. In practice however there is a lack of official policy promoting open data practices and application varies widely between different organisations. </summary>
+    <updated>2014-01-24T12:51:13+00:00</updated>
+    <id>http://oldsite.theodi.org/news/gothenburg-node-news-2014</id>
+    <author>
+      <name>The ODI</name>
+    </author>
+  </entry>
+</feed>

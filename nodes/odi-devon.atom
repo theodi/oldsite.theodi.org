@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <title>ODI Node News for Devon</title>
+  <updated>2015-09-11T09:59:06+00:00</updated>
+  <id>http://oldsite.theodi.org/nodes/odi-devon.atom</id>
+  <link href="http://oldsite.theodi.org/nodes/odi-devon.atom" rel="self"/>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/open-data-benefits-mapping"/>
+    <title type="html">Help us map the benefits of open data</title>
+    <content type="html"/>
+    <summary type="html">As a [Communications Node](/nodes), our primary purpose here at [ODI Devon](/nodes/odi-devon) is to spread the word about open data and all the great things it can do for our economy, communities, individuals and environment. </summary>
+    <updated>2015-02-11T10:25:27+00:00</updated>
+    <id>http://oldsite.theodi.org/news/open-data-benefits-mapping</id>
+    <author>
+      <name>Martin Howitt</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/introducing"/>
+    <title type="html">Introducing ODI Devon</title>
+    <content type="html"/>
+    <summary type="html">Cities are the future, or so we’re constantly told. Cities are where the action is, where the people are, where the jobs are, where the latest fashions emerge, where new movements are born. We have future cities catapults, smart cities, civic foundries, city-based incubators.</summary>
+    <updated>2015-02-11T10:14:46+00:00</updated>
+    <id>http://oldsite.theodi.org/news/introducing</id>
+    <author>
+      <name>Martin Howitt</name>
+    </author>
+  </entry>
+</feed>

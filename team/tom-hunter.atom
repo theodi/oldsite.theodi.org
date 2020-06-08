@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <title>News for Tom Hunter</title>
+  <updated>2016-10-06T10:35:16+00:00</updated>
+  <id>http://oldsite.theodi.org/team/tom-hunter.atom</id>
+  <link href="http://oldsite.theodi.org/team/tom-hunter.atom" rel="self"/>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/odi-and-the-open-government-partnership-launch-challenge-series-in-south-africa"/>
+    <title type="html">ODI and the Open Government Partnership launch challenge series in South Africa</title>
+    <content type="html"/>
+    <summary type="html">The ODI are supporting the Open Government Partnership in launching the [Responsive Cities Challenge](http://challenge.responsivecities.org.za/), a challenge series in South Africa to help local governments tackle social issues through the innovative use of open data </summary>
+    <updated>2016-10-06T10:14:10+00:00</updated>
+    <id>http://oldsite.theodi.org/news/odi-and-the-open-government-partnership-launch-challenge-series-in-south-africa</id>
+    <author>
+      <name>Tom Hunter</name>
+    </author>
+  </entry>
+</feed>

@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=US-ASCII">
+<title>Save the Titanic: Hands-on anonymisation and risk control of publishing open data | Guides | Open Data Institute</title>
+<link href="../assets/application-693091b423df059e90189392fffb0ae0.css" media="all" rel="stylesheet" type="text/css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="../assets/favicon-e0340b5bc5738e53c1b06680529c0963.ico" rel="shortcut icon" type="image/vnd.microsoft.icon">
+
+<!--[if lt IE 9]>
+      <script src="../assets/html5shiv-5d1c7196accd7174ed22f320c693b063.js" type="text/javascript"></script>
+    <![endif]-->
+
+<!--[if (IE 7)|(IE 8)]>
+      <script src="../assets/respond.min-5eec43180e3f6d282f038de07483dc4b.js" type="text/javascript"></script>
+    <![endif]-->
+
+<script src="../assets/modernizr.custom-1ecf37d7f9fbb3066a877e31ce79e79e.js" type="text/javascript"></script>
+
+<!--[if lte IE 9]><link href="../assets/ie9-875f0d42a52ff5536404da8fda8d423b.css" media="screen" rel="stylesheet" type="text/css" /><![endif]-->
+<!--[if lte IE 8]><link href="../assets/ie8-4a6b9f309032dacb3913ccc2d55bda8b.css" media="screen" rel="stylesheet" type="text/css" /><![endif]-->
+<!--[if lte IE 7]><link href="../assets/ie7-d4066942f039a08eed8b62b80cde16cb.css" media="screen" rel="stylesheet" type="text/css" /><![endif]-->
+<!--[if lt IE 7]><link href="../assets/ie6-cab152e9612eeec9bd0af579a2231dd5.css" media="screen" rel="stylesheet" type="text/css" /><![endif]-->
+
+<meta property="fb:pages" content="1755416561338416">
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+<link href="../guides/save-the-titanic-handson-anonymisation-and-risk-control-of-publishing-open-data.json" rel="alternate" title="json" type="application/json">
+<meta content="The Open Data Institute (ODI) equip, connect and inspire people around the world to innovate with data. Co-founded by Sir Tim Berners-Lee and Sir Nigel Shadbolt, the ODI provides events, training, membership and consultancy around open data." name="description">
+<meta content="summary_large_image" name="twitter:card">
+<meta content="@ODIHQ" name="twitter:site">
+<meta content="Save the Titanic: Hands-on anonymisation and risk control of publishing open data | Guides | Open Data Institute" property="og:title">
+<meta content="article" property="og:type">
+<meta content="../guides/save-the-titanic-handson-anonymisation-and-risk-control-of-publishing-open-data" property="og:url">
+<meta content="../uploads/assets/ce/92/53ce923a1f986a08a700003a/Slide01.jpg" property="og:image">
+<meta content="Open Data Institute" property="og:site_name">
+<meta content="The Open Data Institute (ODI) equip, connect and inspire people around the world to innovate with data. Co-founded by Sir Tim Berners-Lee and Sir Nigel Shadbolt, the ODI provides events, training, membership and consultancy around open data." property="og:description">
+<meta name="govuk:rendering-application" content="Www">
+<script type="text/javascript">
+
+
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-34573394-1', {});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   ga('send', 'pageview');
+
+
+</script></head>
+<body>
+<header class="site-header">
+<div class="navbar navbar-inverse navbar-static-top">
+<div class="container">
+<div class="navbar-header">
+
+<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+<a class="navbar-brand" href="../"><img alt="The ODI" id="odi-logo" src="../assets/logo-header-dc4ead7a18ea4133873c79502c174638.png"></a>
+</div>
+<div class="modal fade" id="getLogo" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<h4 class="modal-title" id="myModalLabel">Welcome to the ODI
+<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&#215;</button>
+</h4>
+</div>
+<div class="modal-body">
+<p>Knowledge for everyone</p>
+<p>The ODI helps to unlock the value of open data.</p>
+<p>If you want to use our logo, different sizes and types are here: <a href="../brand">../brand</a></p>
+<p><a rel="external" href="../uploads/assets/legacy/ODI%2Dlogo%2Dsml.png"><img src="../uploads/assets/legacy/ODI%2Dlogo%2Dsml.png" alt=""></a></p>
+<p><a rel="external" href="../uploads/assets/legacy/ODI%2Dlogo%2Dmed.png"><img src="../uploads/assets/legacy/ODI%2Dlogo%2Dmed.png" alt=""></a></p>
+<p><a rel="external" href="../uploads/assets/legacy/ODI%2Dlogo%2Dmed.png"><img src="../uploads/assets/legacy/ODI%2Dlogo%2Dlg.png" alt=""></a></p>
+<p><a rel="external" href="../uploads/assets/legacy/ODI%2Dlogo%2Dmed.png"><img src="../uploads/assets/legacy/ODI%2Dlogo%2Dxlg.png" alt=""></a></p>
+</div>
+</div>
+</div>
+</div>
+<ul class="nav navbar-nav navbar-right">
+<li><a href="../contact">Contact us</a></li>
+<li><a href="../newsletters">Newsletters</a></li>
+
+</ul>
+
+<form class="navbar-form navbar-right" method="get" action="//duckduckgo.com/">
+<div class="form-group">
+<div class="input-group">
+<input value="oldsite.theodi.org" name="sites" type="hidden">
+<input class="form-control" placeholder="Search ODI" name="q" type="text">
+<input value="Go" class="btn" type="submit">
+</div>
+</div>
+</form>
+</div>
+</div>
+<div class="collapse navbar-collapse">
+<div class="navbar navbar-static-top">
+<div class="container">
+<ul class="nav navbar-nav main-nav">
+<li class="dropdown">
+<a href="../news">
+News &amp; blog
+</a>
+</li>
+<li class="dropdown">
+<a href="../get-involved">
+Get involved
+</a>
+</li>
+<li class="dropdown">
+<a href="../our-network">
+Our global network
+</a>
+</li>
+<li class="dropdown">
+<a href="../events">
+Events
+</a>
+</li>
+<li class="dropdown">
+<a href="../our-focus">
+Our focus
+</a>
+</li>
+<li class="dropdown">
+<a href="../publications">
+Publications
+</a>
+</li>
+<li class="dropdown last">
+<a href="../about">
+About the ODI
+</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="navbar navbar-inverse navbar-static-top mobile-only">
+<div class="container">
+<ul class="nav navbar-nav navbar-right">
+<li><a href="../contact">Contact us</a></li>
+<li><a href="../newsletters">Newsletters</a></li>
+
+</ul>
+
+</div>
+</div>
+</header> 
+<div id="wrapper">
+<header class="page-title">
+<div class="container header-wrap">
+<h1> <a href="../guides">Guides</a>
+</h1>
+</div>
+</header>
+<div class="container">
+<div class="row">
+<div class="article-main">
+<article class="article-body">
+<h2>Save the Titanic: Hands-on anonymisation and risk control of publishing open data</h2>
+<p><strong><em>This guide on anonymisation is based on a presentation at the <a href="http://2014.okfestival.org/">OK festival</a> on the 16th July 2014. It is presented as a walkthrough. In the <a href="http://okfestival2014.sched.org/event/689300221a6193b50887175ee6bae2b0">session</a> participants were asked to perform a series of tasks with the Titanic passenger data. You can download the data below and follow some of the steps. The aim of the session was to turn personal data into data that you can publish.</em></strong></p>
+<p><img src="../uploads/assets/ce/92/53ce923a1f986a08a700003a/Slide01.jpg" alt="null" class="img" id="53ce923af362be08a6000057"></p>
+<p>Anonymisation means that you cannot find ("identify") a single person in the data. Anonymisation can be difficult - we aim to give you more confidence when dealing with personal data. Instead of advanced legal and technical aspects, we consider pragmatic choices. </p>
+<h2 id="titanicpassengerdata">Titanic passenger data</h2>
+<p><img src="../uploads/assets/ce/92/53ce923ad0d462082d000029/Slide02.jpg" alt="null" class="img" id="53ce923ad0d462083b000032"></p>
+<p>The Titanic carried 1,309 passengers and the crew. Many of the passengers did not survive the disaster in 1912. Below is brief overview and here is the <a href="http://biostat.mc.vanderbilt.edu/wiki/pub/Main/DataSets/titanic3info.txt">original source</a>.</p>
+<p><img src="../uploads/assets/ce/90/53ce9093d0d462082d000027/Handout.jpg" alt="null" class="img" id="53ce9093f362be08a6000056"></p>
+<p>You can <a href="https://docs.google.com/spreadsheets/d/1-1xer12ROHeEiYv75bcOLYGxb0aRWJ_ixgf69c6LZrk/export?format=csv&amp;id=1-1xer12ROHeEiYv75bcOLYGxb0aRWJ_ixgf69c6LZrk&amp;gid=1014062641">download the data</a> or access it as a <a href="https://docs.google.com/spreadsheets/d/1-1xer12ROHeEiYv75bcOLYGxb0aRWJ_ixgf69c6LZrk/edit?usp=sharing">Google spreadsheets</a>. For the latter, please make a copy and leave the original untouched.</p>
+<p>The original is a CSV-file. CSV stands for <strong>comma-separated values</strong> and should look like this in an editor. If you open it in a spreadsheet it should have a tabular format, i.e. rows and columns. Each row is a passenger. </p>
+<p><img src="../uploads/assets/ce/92/53ce923e1f986a08a700003c/Slide03.jpg" alt="null" class="img" id="53ce923ed0d462083b000033"></p>
+<p><strong>If you want to anonymise a dataset, it is crucial that you understand the data.</strong> In fact, know it inside out. </p>
+<h2 id="twoopendatausecases">Two open data use cases</h2>
+<p>Start with the end in mind: what are people potentially doing with the data? This will guide your decisions of preserving or obscuring information on Titanic passengers. It will also help understand your audience and what happens next, once you have released the data.</p>
+<p>For the Titanic passenger data we discuss two putative use cases.
+<img src="../uploads/assets/ce/94/53ce94c4f362be08ad000021/Slide04.jpg" alt="null" class="img" id="53ce94c41f986a08aa000050"></p>
+<h2 id="thetradeoffbetweenusefulnessandprotectingprivacy">The trade-off between usefulness and protecting privacy</h2>
+<p><img src="../uploads/assets/ce/92/53ce9241d0d462082d00002b/Slide05.jpg" alt="null" class="img" id="53ce92411f986a08aa000049"></p>
+<p>In our case removing direct identifier means deleting the <code>name</code> column. You may also omit other variables that are not really useful such as the <code>ticket number</code>. However deleting <code>fare</code>, for example, may be too much, considering its potential interest to the user.</p>
+<h2 id="whatdoesitmeantobeidentified">What does it mean to be 'identified'?</h2>
+<p>An individual is <strong>identified</strong> if you have distinguished that individual from other members of a group. An unusual name may be enough.</p>
+<p><img src="../uploads/assets/ce/92/53ce92431f986a08a700003e/Slide06.jpg" alt="null" class="img" id="53ce92431f986a08aa00004a"></p>
+<p>However, there are also <strong>indirect identifiers</strong>. The <a href="http://ukanon.net/">UK Anonymisation Network</a> writes: </p>
+<blockquote>
+<p>When a dataset is anonymised, the identifiers are removed, obscured, aggregated or altered to prevent identification. The term "identifiers" is often misunderstood to simply mean formal identifiers such as the name, address or, for example, the NHS number. But, identifiers could in principle include any piece of information; what is identifying will depend on context. For instance, if a group of individuals is known to contain only one woman, then the gender will be identifying for the woman (and gender is not a typical identifier). Identifiers can also be constructed out of combinations of attributes (for example, consider a "sixteen year old widow" or a "15 year old male University Student" or a "female Bangladeshi bank manager living in Thurso"). [adapted]</p>
+</blockquote>
+<p>The most common variables that are not direct identifiers but carry a high risk:</p>
+<ul>
+<li>dates (e.g. birth, admission, discharge, ...)</li>
+<li>geolocators (e.g. post codes, spatial data)</li>
+<li>age</li>
+<li>unusual education (e.g. PhD in statistical disclosure control procedures)</li>
+<li>unusual occupation (e.g. organiser of the OK Festival).</li>
+</ul>
+<h2 id="anonymisingthetitanicpassengerdata">Anonymising the Titanic passenger data</h2>
+<p>After inspecting the data, we discussed the following steps:</p>
+<ol>
+<li>
+<strong>Grouping</strong> variables, for example <code>age</code>, creating an age grouping that goes from 0-14, 15-24, 25-34, 35-44, 45-54, 55-64, and 65 and above. Another variable that may benefit from grouping is <code>home destination</code>.</li>
+<li>
+<strong>Censoring</strong> the Number of Siblings/Spouses Aboard (<code>sibsp</code>) at 4, i.e. recode 4, 5, 8 to "4 and more". </li>
+<li>
+<strong>Perturbing</strong>, i.e. adding some random noise, to the <code>fare</code> variable (see below).</li>
+</ol>
+<p><img src="../uploads/assets/ce/92/53ce9245d0d462082d00002d/Slide07.jpg" alt="null" class="img" id="53ce92451f986a08aa00004b"></p>
+<h2 id="furtheranonymisationmethods">Further anonymisation methods</h2>
+<p><img src="../uploads/assets/ce/92/53ce92471f986a08a7000040/Slide08.jpg" alt="null" class="img" id="53ce92471f986a08aa00004c"></p>
+<p>If a combination of variables leaves only one passenger, he or she might be identified. One practical way to inspect if there are risky combinations, that is low counts, are <strong>pivot tables</strong>. In Google spreadsheets you can create one over the following menu item. Other statistical software such as <a href="http://cran.r-project.org">R</a> has more advanced methods.</p>
+<p><img src="../uploads/assets/ce/92/53ce9247d0d462082d00002f/Slide09.jpg" alt="null" class="img" id="53ce9247f362be08a6000058"> </p>
+<p>For a three-way cross-tabulation between <code>survived</code>, <code>sex</code> and passenger class <code>pclass</code> we see how there are only 5 women in the first class who did not survive the disaster. Combined with other information about family or husband this may be an identifying combination.
+<img src="../uploads/assets/ce/92/53ce9249d0d462082d000031/Slide10.jpg" alt="null" class="img" id="53ce9249d0d462083b000035"></p>
+<p>Other methods we discussed were:</p>
+<ol>
+<li>
+<strong>Sampling</strong>, which means instead of releasing 1309 rows, we only release a random sample. This is especially useful for large datasets, for example, energy consumption of millions of households. </li>
+<li>
+<strong>Local supression</strong>, some unique passengers, for example a family with three daughters, may stand out too much and we may decide to remove some data. This could mean omitting the passengers or just some information e.g. the number of siblings. </li>
+<li>
+<strong>Aggregate data</strong>, for example average fare by passenger class or a cross-table of survived, sex and a child indicator. </li>
+</ol>
+<p>More information is in the ICO code of practice on anonymisation, <a href="http://ico.org.uk/for_organisations/data_protection/topic_guides/~/media/documents/library/Data_Protection/Practical_application/anonymisation-codev2.pdf">available online</a>.</p>
+<h2 id="intrudertesting">Intruder testing</h2>
+<p><img src="../uploads/assets/ce/98/53ce9828d0d462082d000033/Slide11.jpg" alt="null" class="img" id="53ce9828f362be08a6000059"></p>
+<p>No anonymisation is complete without a test of whether it is possible to identify an individual. The ICO speaks of a <strong>motivated intruder</strong> test. There are many variations of this, but the basic question is what can a motivated intruder learn about an individual. </p>
+<p>In general, there are two main ways for re-identification:</p>
+<ol>
+<li>An intruder takes personal data it already has and searches an anonymised dataset for a match. </li>
+<li>An intruder takes a record from an anonymised dataset and seeks a match in publicly available information. </li>
+</ol>
+<h2 id="twoscenariosforthetitanicpassengerdata">Two scenarios for the Titanic passenger data</h2>
+<p>We constructed two scenarios:</p>
+<p><img src="../uploads/assets/ce/92/53ce924bf362be08ad00001d/Slide12.jpg" alt="null" class="img" id="53ce924b1f986a08aa00004e"></p>
+<p>In the first scenario, some people were able to find the ticket price. (Send me an <a href="ulrich@theodi.org">email</a> if you have a guess.) In the limited time, our methods did not take into account some unique families on the ship. </p>
+<p>In the second scenario anonymisation proved more successful because we had introduced a 'noisy fare'. However, there may still be some clever ways to get around it, at least for some passengers. </p>
+<p>Remember: anonymisation is a trade-off between useful data and protecting privacy. We have to accept that the risk is bigger than zero.</p>
+<h2 id="rulesofthumbs">Rules of thumbs</h2>
+<p>Anonymised data is exempt under the Data Protection Act 1998 (DPA). Moreover, the DPA recognises that the risk of anonymisation is never zero. Publishing anonymised data is <em>not</em> a disclosure of personal data. </p>
+<p><img src="../uploads/assets/ce/92/53ce924c1f986a08a7000044/Slide13.jpg" alt="null" class="img" id="53ce924cd0d462083b000036"></p>
+<p>You have to assess the risk of anonymisation on a case-by-case basis. A useful place to start is to consider how complicated and how sensitive your information is; that is how much could a person be harmed by re-identification. We have provided a few examples on our chart as a suggestion.</p>
+<p><img src="../uploads/assets/ce/92/53ce924ef362be08ad00001f/Slide14.jpg" alt="null" class="img" id="53ce924e1f986a08aa00004f"></p>
+<p>Aggregation, for example averages by region, is an effective method for mitigating the risk of publishing information about an individual. Data is shown as statistics or cross-tables. Crucial considerations for this anonymisation methods are around small numbers (low counts) and whether publishing multiple tables may be used for re-identification. </p>
+<p>The Open Government Licence does not cover personal data. However, it can be used for anonymised data because it is no longer personal. </p>
+<h2 id="furtherreading">Further reading</h2>
+<ul>
+<li><a href="../blog/data-sharing-is-not-open-data">Shared data is not open data</a></li>
+<li>ICO (2012). Anonymisation: managing data protection risk, code of practice, <a href="http://ico.org.uk/for_organisations/data_protection/topic_guides/~/media/documents/library/Data_Protection/Practical_application/anonymisation-codev2.pdf">available online</a>.</li>
+<li><a href="https://github.com/theodi/data-definitions">A Colloquial Definition of Big, Open, and Personal Data</a></li>
+</ul>
+<p><img src="../uploads/assets/ce/92/53ce924e1f986a08a7000046/Slide15.jpg" alt="null" class="img" id="53ce924ed0d462083b000037"></p>
+</article>
+</div>
+<aside class="article-sidebar listing">
+<h3>Related items</h3>
+<div class="module module-light module-highlight-1 module-colour-9 module-event ">
+<a href="../lunchtime-lectures/friday-lunchtime-lecture-why-anonymity-fails" target="_top">
+<div class="text">
+<h1 class="module-heading">Friday lunchtime lecture: Why anonymity fails<br><span class="date">Friday 04 April 2014<br>at 12:00PM</span>
+</h1>
+<p class="category">lunchtime lecture</p>
+<p class="location">Thomson Reuters, Mark Square House, 1 Mark Square, London, EC2A 4EG</p>
+</div>
+</a>
+<a href="https://www.eventbrite.co.uk/e/friday-lunchtime-lecture-why-anonymity-fails-tickets-11021540725" class="booking_url">Register</a>
+</div>
+</aside>
+</div>
+</div>
+</div>
+<footer class="site-footer">
+<div class="container">
+<div class="row">
+<div class="col-md-8 footer-content">
+<h1 class="footer-logo"><a href="http://oldsite.theodi.org">Open Data Institute</a></h1>
+<p><a href="../contact">Open Data Institute, 65 Clifton Street, London EC2A 4JE</a></p>
+<p><a href="../cdn-cgi/l/email-protection#a1c8cfc7cee1d5c9c4cec5c88fced3c6"><span class="__cf_email__" data-cfemail="85ecebe3eac5f1ede0eae1ecabeaf7e2">[email&#160;protected]</span></a> Company <a href="http://opencorporates.com/companies/gb/08030289">08030289</a>
+<span>VAT</span><span>143 7796 80</span>
+</p>
+<p class="license">
+<a href="http://creativecommons.org/licenses/by-sa/2.0/uk/deed.en_GB" rel="license">
+<img alt="Creative Commons Licence" height="15" src="../assets/cc-a23fe95f04508432c8d97c00b0a36254.png" width="80">
+</a>
+</p>
+</div>
+<div class="col-md-4 footer-nav">
+<nav><ul class="pull-right list-inline">
+<li><a href="http://www.twitter.com/ODIHQ" class=" ">
+<img alt="Follow us on Twitter" src="../assets/twitter-a658ecc9fe2aab3308a5fb36adfb9a64.png" title="Follow us on Twitter"></a></li>
+<li><a href="https://soundcloud.com/theodi" class=" ">
+<img alt="Listen on Soundcloud" src="../assets/soundcloud-3932b3db23c6fb6c45bce20c8016462c.png" title="Listen on Soundcloud"></a></li>
+<li><a href="http://www.scribd.com/OpenDataInstitute" class=" ">
+<img alt="Read on Scribd" src="../assets/scribd-8afadecb87771fd6f6814e6ea81fb23d.png" title="Read on Scribd"></a></li>
+<li><a href="https://github.com/orgs/theodi" class=" ">
+<img alt="Follow us on Github" src="../assets/github-914931d2a14f54f3c64caec5c6e68017.png" title="Follow us on Github"></a></li>
+<li><a href="http://vimeo.com/theodiuk" class=" ">
+<img alt="Watch on Vimeo" src="../assets/vimeo-a865234771edd239032629b694ddaa32.png" title="Watch on Vimeo"></a></li>
+<li><a href="http://www.youtube.com/user/OpenDataInstituteUK" class=" ">
+<img alt="Watch on Youtube" src="../assets/youtube-cccfa6f837a0acfe0d2fd9492b0d45b3.png" title="Watch on Youtube"></a></li>
+<li><a href="http://www.flickr.com/photos/ukodi/" class=" ">
+<img alt="Follow us on Flickr" src="../assets/flickr-c81d78a530d046663cfff44293f6f775.png" title="Follow us on Flickr"></a></li>
+</ul></nav>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<nav><ul class="pull-right list-inline">
+<li class=" "><a href="../terms-of-use" class=" ">Terms of use</a></li>
+<li class=" "><a href="../privacy-policy" class=" ">Privacy policy</a></li>
+<li class=" "><a href="../cookie-policy" class=" ">Cookie policy</a></li>
+</ul></nav>
+</div>
+</div>
+</div>
+</footer>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+
+  var _pt = ["E6AF1363-3E19-409A-983C-91FFE62C2CBB"];
+  (function(d,t){
+    var a=d.createElement(t),s=d.getElementsByTagName(t)[0];a.src=location.protocol+'//a1webstrategy.com/track.js';s.parentNode.insertBefore(a,s);
+  }(document,'script'));
+
+  </script>
+<script type="text/javascript">
+      (function (n) {
+          var u = window.location.href;
+          var p = u.split("/")[0];
+          var t = n.createElement("script"), i;
+          t.type = "text/javascript";
+          t.async = !0;
+          t.src = p + "//dashboard.whoisvisiting.com/who.js";
+          i = n.getElementsByTagName("script")[0];
+          i.parentNode.insertBefore(t, i)
+      })(document);
+
+          var whoparam = whoparam || [];
+          whoparam.push(["AcNo", "8d5d04b9adc94a34bc385c6f3370594e"]);
+          whoparam.push(["SendHit", ""]
+      );
+  </script>
+<script src="../assets/application-4829863ea093de33ae55c9a127d6af6b.js" type="text/javascript"></script>
+
+<!--[if gt IE 7]><!-->
+<script src="../assets/bootstrap/bootstrap-collapse-c4cb45620c1346753e2385c125ed4bdd.js" type="text/javascript"></script>
+<!--<![endif]-->
+
+
+<!--[if gt IE 7]><!-->
+<script src="../assets/masonry-c617ee0c7d6c602b548ab5e69d50f4fa.js" type="text/javascript"></script>
+<script src="../assets/infinitescroll-243a7a50c0c843f1deb394ea98f4d0a6.js" type="text/javascript"></script>
+<script src="../assets/background-check-677e6100d9ce594cd30a88f57fc49b48.js" type="text/javascript"></script>
+<!--<![endif]-->
+</body>
+</html>

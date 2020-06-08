@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <title>News for Emilia Kacprzak</title>
+  <updated>2016-06-02T10:06:18+00:00</updated>
+  <id>http://oldsite.theodi.org/team/emilia-kacprzak-team.atom</id>
+  <link href="http://oldsite.theodi.org/team/emilia-kacprzak-team.atom" rel="self"/>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/bringing-order-to-data-search"/>
+    <title type="html">Bringing order to data search</title>
+    <content type="html"/>
+    <summary type="html">Have you ever tried to find a particular piece of data about your neighbourhood? ODI PhD student Emilia Kacprzak sets out the aims of WDAqua: a project she is working on to help people find data more easily by improving how datasets can be searched</summary>
+    <updated>2016-04-01T15:33:34+00:00</updated>
+    <id>http://oldsite.theodi.org/news/bringing-order-to-data-search</id>
+    <author>
+      <name>Emilia Kacprzak</name>
+    </author>
+  </entry>
+</feed>

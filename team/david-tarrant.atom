@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <title>News for David Tarrant</title>
+  <updated>2015-09-11T10:00:17+00:00</updated>
+  <id>http://oldsite.theodi.org/team/david-tarrant.atom</id>
+  <link href="http://oldsite.theodi.org/team/david-tarrant.atom" rel="self"/>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/supporting-culture-change-through-elearning"/>
+    <title type="html">Supporting culture change through eLearning?</title>
+    <content type="html"/>
+    <summary type="html">&lt;img src="http://bd7a65e2cb448908f934-86a50c88e47af9e1fb58ce0672b5a500.r32.cf3.rackcdn.com/uploads/assets/2f/ce/552fceb31f986a08fe00005d/101663656469d9a2ea50c.jpg" alt="Oculus Rift" class="img" id="552fceb3f362be7492000014"&gt;</summary>
+    <updated>2015-03-02T14:58:06+00:00</updated>
+    <id>http://oldsite.theodi.org/news/supporting-culture-change-through-elearning</id>
+    <author>
+      <name>David Tarrant</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/rufus-pollock-calls-for-tact-as-open-world-grows"/>
+    <title type="html">#Tactivism - A new direction for the open movement</title>
+    <content type="html"/>
+    <summary type="html">Open Knowledge held one of their biggest and most inclusive festivals ever this July (2014) in Berlin, Germany. With the city already buzzing from the success of the world cup win, the first since the reunification of Germany, the stage was set for the unification of the world around the agenda of openness.</summary>
+    <updated>2014-08-01T15:50:49+00:00</updated>
+    <id>http://oldsite.theodi.org/news/rufus-pollock-calls-for-tact-as-open-world-grows</id>
+    <author>
+      <name>David Tarrant</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/six-steps-for-open-data-publication-mexico"/>
+    <title type="html">100 datasets in 42 days for Mexico</title>
+    <content type="html"/>
+    <summary type="html">&lt;img src="http://bd7a65e2cb448908f934-86a50c88e47af9e1fb58ce0672b5a500.r32.cf3.rackcdn.com/uploads/assets/db/b6/53dbb614f362be08ad00003b/42days.png" alt="null" class="img" id="53dbb6141f986a08aa0000df"&gt;</summary>
+    <updated>2014-08-01T13:28:14+00:00</updated>
+    <id>http://oldsite.theodi.org/news/six-steps-for-open-data-publication-mexico</id>
+    <author>
+      <name>David Tarrant</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/odi-labs-open-data-from-google-spreadsheets"/>
+    <title type="html">How to publish open data from Google spreadsheets</title>
+    <content type="html"/>
+    <summary type="html">Many organisations, including the ODI, use web based document management services to create, share and publish content such as spreadsheets. While saving these spreadsheets as CSV and making them available as open data seems straight forward there are a number of common problems people face:</summary>
+    <updated>2014-08-01T11:28:36+00:00</updated>
+    <id>http://oldsite.theodi.org/news/odi-labs-open-data-from-google-spreadsheets</id>
+    <author>
+      <name>David Tarrant</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/one-year-of-odi-training"/>
+    <title type="html">One year of ODI Training</title>
+    <content type="html"/>
+    <summary type="html">As senior trainer at the ODI, would it be wrong for me to say it feels like more than a year?  This is in part down the incredible team and rapid growth of our training programme.  I still remember how shattered my nerves were prior to the first [Open Data in Practice](http://theodi.org/courses/open-data-practice) course in April 2012. The first day certainly wasn’t my best performance, but the feedback at the end of the week was amazing and set the pace for our training moving forward.</summary>
+    <updated>2014-04-11T08:22:00+00:00</updated>
+    <id>http://oldsite.theodi.org/news/one-year-of-odi-training</id>
+    <author>
+      <name>David Tarrant</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/odi-experience-data-moment-you-walk"/>
+    <title type="html">The ODI Experience: Data from the moment you walk in</title>
+    <content type="html"/>
+    <summary type="html">![](http://bd7a65e2cb448908f934-86a50c88e47af9e1fb58ce0672b5a500.r32.cf3.rackcdn.com/uploads/assets/legacy/odisigninlogo.png)</summary>
+    <updated>2013-05-29T10:47:15+00:00</updated>
+    <id>http://oldsite.theodi.org/news/odi-experience-data-moment-you-walk</id>
+    <author>
+      <name>David Tarrant</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/training-odi-it-s-date"/>
+    <title type="html">Training at the ODI - It’s a Date</title>
+    <content type="html"/>
+    <summary type="html">With Open Data saving our planet for the next generation and bringing forth the next evolution of the web, it was surprising to find that explaining how computers understand dates was one of the most critical parts of the recent Open Data in Practice training course.</summary>
+    <updated>2013-05-10T15:27:31+00:00</updated>
+    <id>http://oldsite.theodi.org/news/training-odi-it-s-date</id>
+    <author>
+      <name>David Tarrant</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/news/healthy-start-hackathons-odi"/>
+    <title type="html">A healthy start for Hackathons at the ODI</title>
+    <content type="html"/>
+    <summary type="html">New fitness apps and projects that find savings in NHS prescription data were amongst the winners at the Hack4Health event this weekend.</summary>
+    <updated>2012-11-05T18:16:24+00:00</updated>
+    <id>http://oldsite.theodi.org/news/healthy-start-hackathons-odi</id>
+    <author>
+      <name>David Tarrant</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/news/open-data-institute-appoints-stuart-coleman-commercial-director"/>
+    <title type="html">Open Data Institute appoints Stuart Coleman as Commercial Director</title>
+    <content type="html"/>
+    <summary type="html">The Open Data Institute has announced that Stuart Coleman will be its Commercial Director, taking up the post on on 1st October. Stuart is the latest addition to the senior team and will work alongside CEO, Gavin Starks and CTO, Jeni Tennison.</summary>
+    <updated>2012-09-25T09:05:25+00:00</updated>
+    <id>http://oldsite.theodi.org/news/open-data-institute-appoints-stuart-coleman-commercial-director</id>
+    <author>
+      <name>David Tarrant</name>
+    </author>
+  </entry>
+</feed>

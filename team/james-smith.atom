@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <title>News for James Smith</title>
+  <updated>2016-03-14T10:45:04+00:00</updated>
+  <id>http://oldsite.theodi.org/team/james-smith.atom</id>
+  <link href="http://oldsite.theodi.org/team/james-smith.atom" rel="self"/>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/sydney-blockchain-workshops-are-blockchains-the-right-choice-for-global-data-infrastructure"/>
+    <title type="html">Are blockchains the right choice for global data infrastructure?</title>
+    <content type="html"/>
+    <summary type="html"></summary>
+    <updated>2015-12-15T12:27:39+00:00</updated>
+    <id>http://oldsite.theodi.org/news/sydney-blockchain-workshops-are-blockchains-the-right-choice-for-global-data-infrastructure</id>
+    <author>
+      <name>James Smith</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/data-infrastructure-technology-blockchains"/>
+    <title type="html">Data infrastructure technology: are blockchains the answer?</title>
+    <content type="html"/>
+    <summary type="html">How do we make sure data infrastructure is always available, and always trustworthy? Are blockchains the answer?</summary>
+    <updated>2015-10-21T23:48:22+00:00</updated>
+    <id>http://oldsite.theodi.org/news/data-infrastructure-technology-blockchains</id>
+    <author>
+      <name>James Smith</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/the-ghost-of-open-data-future"/>
+    <title type="html">The Ghost of Open Data Future</title>
+    <content type="html"/>
+    <summary type="html">This is a transcript of my part of the ODI Friday Lunchtime Lecture on 19th December, titled ["A Christmas Carol - The ghosts of open data’s past, present and future"](http://theodi.org/lunchtime-lectures/friday-lunchtime-lecture-a-christmas-carol-the-ghosts-of-open-datas-past-present-and-future)</summary>
+    <updated>2014-12-23T09:19:59+00:00</updated>
+    <id>http://oldsite.theodi.org/news/the-ghost-of-open-data-future</id>
+    <author>
+      <name>James Smith</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/thinking-without-portals-searchable-data"/>
+    <title type="html">Thinking without data portals: searchable data</title>
+    <content type="html"/>
+    <summary type="html">Ah, the mid-nineties; good times. Personally, I spent them drinking in student bars, listening to [BritPop](https://www.youtube.com/watch?v=XV8CxSO5imQ), and exploring the early web as it grew from just a few sites into something that would change the world. </summary>
+    <updated>2014-11-28T16:26:44+00:00</updated>
+    <id>http://oldsite.theodi.org/news/thinking-without-portals-searchable-data</id>
+    <author>
+      <name>James Smith</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/okfestival-2014"/>
+    <title type="html">OKFestival 2014: Ich bin eine Currywurst</title>
+    <content type="html"/>
+    <summary type="html">I spent last week in Berlin at the 2014 [Open Knowledge Festival](http://2014.okfestival.org/), along with a good number of other ODI staff.</summary>
+    <updated>2014-07-22T07:35:00+00:00</updated>
+    <id>http://oldsite.theodi.org/news/okfestival-2014</id>
+    <author>
+      <name>James Smith</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/discussing-digital-democracy"/>
+    <title type="html">Discussing Digital Democracy</title>
+    <content type="html"/>
+    <summary type="html">Today I was lucky enough to visit the Houses of Parliament and take part in a roundtable discussion as part of the [Speaker's Commission on Digital Democracy](http://www.parliament.uk/business/commons/the-speaker/speakers-commission-on-digital-democracy/). The commission is looking at all aspects of how democracy can be enhanced in the digital age, and will be reporting early next year.</summary>
+    <updated>2014-06-17T14:39:13+00:00</updated>
+    <id>http://oldsite.theodi.org/news/discussing-digital-democracy</id>
+    <author>
+      <name>James Smith</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/csvhub-github-diffs-for-csv-files"/>
+    <title type="html">CSVHub - GitHub diffs for CSV files</title>
+    <content type="html"/>
+    <summary type="html">&lt;img src="http://bd7a65e2cb448908f934-86a50c88e47af9e1fb58ce0672b5a500.r32.cf3.rackcdn.com/uploads/assets/7f/3c/537f3c4b1f986a085f000010/ScreenShot2014-05-22at21.24.46.png" alt="null" class="img" id="537f3c4bf362be0d4200006d"&gt;</summary>
+    <updated>2014-05-23T12:01:39+00:00</updated>
+    <id>http://oldsite.theodi.org/news/csvhub-github-diffs-for-csv-files</id>
+    <author>
+      <name>James Smith</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/introducing-philbot"/>
+    <title type="html">Introducing Philbot - a DIY storage appliance</title>
+    <content type="html"/>
+    <summary type="html">Here at the ODI, we love creating content. [Phil](http://theodi.org/team/phil-lang), our Digital Production Editor, handles loads of video, audio, photography, and so on, and because a lot of it is rather large, his laptop threatens to bust its seams on a regular basis. So, he walked over and asked if there was anything the [tech team](https://twitter.com/ukoditech) knew of that would give him more space to work with.</summary>
+    <updated>2014-05-06T08:39:27+00:00</updated>
+    <id>http://oldsite.theodi.org/news/introducing-philbot</id>
+    <author>
+      <name>James Smith</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/tech-team-week-notes-44"/>
+    <title type="html">Tech Team Week Notes #44</title>
+    <content type="html"/>
+    <summary type="html">For the ODI tech team, last week was "20% week". This is when we have time to ourselves to spend on innovation projects, learning, and so on. When we started, we tried to do a Google-style one-day-a-week rhythm for this time, but found rapidly that it was getting squeezed. Having one week in every five blocked out is a much more successful way of allocating the time, for us.</summary>
+    <updated>2013-08-20T09:14:29+00:00</updated>
+    <id>http://oldsite.theodi.org/news/tech-team-week-notes-44</id>
+    <author>
+      <name>James Smith</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/adapting-git-simple-data"/>
+    <title type="html">Adapting Git for simple data</title>
+    <content type="html"/>
+    <summary type="html">A while ago I wrote about using [Git for data publishing](http://theodi.org/blog/git-data-publishing), and talked about how the tools and particularly the workflow� used by many open source projects could revolutionise how we create, publish, and collaborate on open data. I'm not the only one thinking this, of course; amongst many others, �Rufus Pollock from the OKFN has [written on the same subject](http://blog.okfn.org/2013/07/02/git-and-github-for-data/)� [many times](http://blog.okfn.org/2010/07/12/we-need-distributed-revisionversion-control-for-data/), and they've been hosting [datasets on Github](https://github.com/datasets)�for a good while now, as have other organisations.</summary>
+    <updated>2013-08-19T14:10:22+00:00</updated>
+    <id>http://oldsite.theodi.org/news/adapting-git-simple-data</id>
+    <author>
+      <name>James Smith</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/tech-team-week-notes-39"/>
+    <title type="html">Tech Team Week Notes #39</title>
+    <content type="html"/>
+    <summary type="html">![Penguin James](http://bd7a65e2cb448908f934-86a50c88e47af9e1fb58ce0672b5a500.r32.cf3.rackcdn.com/uploads/assets/legacy/penguin.jpg)Last week started with a change of scenery, as the ODI decamped to [Great Brampton House](https://twitter.com/GreatBrampton) in Herefordshire, for two days of intensive strategic planning. During the quieter periods, [Tom](http://www.theodi.org/people/tom-heath) and [Ulrich](http://www.theodi.org/people/ulrich-atz) mastered the finer points of�croquet, while the rest of us practised our Gin &amp; Tonic technique.�Having then laid out our plans for our next three months, we then returned to London to catch up on all the work we missed while we were away.</summary>
+    <updated>2013-07-08T15:05:51+00:00</updated>
+    <id>http://oldsite.theodi.org/news/tech-team-week-notes-39</id>
+    <author>
+      <name>James Smith</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/data-cats"/>
+    <title type="html">Data for Cats</title>
+    <content type="html"/>
+    <summary type="html">![Data Kitten](http://bd7a65e2cb448908f934-86a50c88e47af9e1fb58ce0672b5a500.r32.cf3.rackcdn.com/uploads/assets/legacy/tumblrmmy9g7rA8M1s4aj1ho1500.jpg)</summary>
+    <updated>2013-06-20T14:37:30+00:00</updated>
+    <id>http://oldsite.theodi.org/news/data-cats</id>
+    <author>
+      <name>James Smith</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/tech-team-week-notes-34"/>
+    <title type="html">Tech Team Week Notes #34</title>
+    <content type="html"/>
+    <summary type="html">Last week was fairly quiet, with [Stuart](http://theodi.org/people/stuart-harrison) off on holiday, no doubt swanning around full of the joys of spring.</summary>
+    <updated>2013-05-30T08:16:16+00:00</updated>
+    <id>http://oldsite.theodi.org/news/tech-team-week-notes-34</id>
+    <author>
+      <name>James Smith</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/git-data-publishing"/>
+    <title type="html">Git for Data Publishing</title>
+    <content type="html"/>
+    <summary type="html">Over the last few years, open source software development�has been revolutionised by the adoption of distributed version control systems. Using tools like [git](http://git-scm.com) and particularly sites like [GitHub](http://github.com), it's now incredibly easy to contribute to a project. This has lowered the bar for�participation, and has had an incredible impact on the quality and range of open source output, and enabled fantastic service ecosystems and business models to build up.</summary>
+    <updated>2013-05-20T09:35:06+00:00</updated>
+    <id>http://oldsite.theodi.org/news/git-data-publishing</id>
+    <author>
+      <name>James Smith</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/tech-team-week-notes-23"/>
+    <title type="html">Tech Team Week Notes #23</title>
+    <content type="html"/>
+    <summary type="html">It's ODI week 23, and in tech land it's the first week of Sprint 3. Time is going very fast!</summary>
+    <updated>2013-03-12T11:36:50+00:00</updated>
+    <id>http://oldsite.theodi.org/news/tech-team-week-notes-23</id>
+    <author>
+      <name>James Smith</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/open-workflows-open-teams"/>
+    <title type="html">Open Workflows for Open Teams (and closed ones too)</title>
+    <content type="html"/>
+    <summary type="html">It's been six weeks since I joined the ODI, and so far, the most interesting thing about working here�has been the approach we take to software development. [As others have mentioned](http://theodi.org/blog/better-living-through-openness), we are trying to be radically open in how we work, but I thought I'd go into a little more detail on our actual workflow. We're only two sprints in, so we're still iterating this�but it's working nicely so far.</summary>
+    <updated>2013-03-04T08:24:11+00:00</updated>
+    <id>http://oldsite.theodi.org/news/open-workflows-open-teams</id>
+    <author>
+      <name>James Smith</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/tech-team-week-notes-18"/>
+    <title type="html">Tech Team Week Notes #18</title>
+    <content type="html"/>
+    <summary type="html">In ODI time, last week was week 18, and the tech team were settled in and starting to put tools and systems in place.</summary>
+    <updated>2013-02-04T10:44:58+00:00</updated>
+    <id>http://oldsite.theodi.org/news/tech-team-week-notes-18</id>
+    <author>
+      <name>James Smith</name>
+    </author>
+  </entry>
+</feed>

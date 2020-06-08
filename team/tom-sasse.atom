@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <title>News for Tom Sasse</title>
+  <updated>2017-02-16T10:37:18+00:00</updated>
+  <id>http://oldsite.theodi.org/team/tom-sasse.atom</id>
+  <link href="http://oldsite.theodi.org/team/tom-sasse.atom" rel="self"/>
+  <entry>
+    <link href="http://oldsite.theodi.org/news/how-can-open-data-portals-become-sustainable-new-report-makes-recommendations-from-design-to-evaluation"/>
+    <title type="html">How can open data portals become sustainable? </title>
+    <content type="html"/>
+    <summary type="html">In a new [report](https://www.europeandataportal.eu/sites/default/files/edps3wp4sustainabilityrecommendations.pdf), commissioned by the [European Data Portal](https://www.europeandataportal.eu/), we highlight examples of best practice and set out recommendations for how open data portals can design processes that make them sustainable</summary>
+    <updated>2017-02-16T09:58:07+00:00</updated>
+    <id>http://oldsite.theodi.org/news/how-can-open-data-portals-become-sustainable-new-report-makes-recommendations-from-design-to-evaluation</id>
+    <author>
+      <name>Tom Sasse</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/peer-learning-helps-tanzania-reach-new-ground-with-open-data"/>
+    <title type="html">Peer learning helps Tanzania reach new ground with open data</title>
+    <content type="html"/>
+    <summary type="html">When we introduced Tanzanian open data officials to their UK counterparts they shared home truths about problems, gaining new perspective and inspiration to engage users, communicate more and seek support from those who can help</summary>
+    <updated>2016-07-21T12:21:35+00:00</updated>
+    <id>http://oldsite.theodi.org/news/peer-learning-helps-tanzania-reach-new-ground-with-open-data</id>
+    <author>
+      <name>Tom Sasse</name>
+    </author>
+  </entry>
+</feed>

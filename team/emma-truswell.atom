@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <title>News for Emma Truswell</title>
+  <updated>2017-03-15T17:51:54+00:00</updated>
+  <id>http://oldsite.theodi.org/team/emma-truswell.atom</id>
+  <link href="http://oldsite.theodi.org/team/emma-truswell.atom" rel="self"/>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/the-odis-international-startup-network-comes-to-southeast-asia"/>
+    <title type="html">The ODI’s international startup network comes to South-East Asia</title>
+    <content type="html"/>
+    <summary type="html">&lt;img src="http://bd7a65e2cb448908f934-86a50c88e47af9e1fb58ce0672b5a500.r32.cf3.rackcdn.com/uploads/assets/c9/7e/58c97e9cf362be088a00000d/startups.jpg" alt="null" class="img text-center" id="58c97e9c1f986a07a1000033"&gt; </summary>
+    <updated>2017-03-15T17:26:52+00:00</updated>
+    <id>http://oldsite.theodi.org/news/the-odis-international-startup-network-comes-to-southeast-asia</id>
+    <author>
+      <name>Emma Truswell</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/international-partnership-open-data-startups-mexico-labora"/>
+    <title type="html">When an international partnership works: growing open data startups in Mexico</title>
+    <content type="html"/>
+    <summary type="html">Emma Truswell reports from Mexico City on how a partnership between the ODI, the Mexican government and an NGO has strengthened an international relationship, a government policy programme and a talented group of startups</summary>
+    <updated>2017-03-03T11:52:48+00:00</updated>
+    <id>http://oldsite.theodi.org/news/international-partnership-open-data-startups-mexico-labora</id>
+    <author>
+      <name>Emma Truswell</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/creative-bureaucrats-outlet-open-data"/>
+    <title type="html">Creative bureaucrats around the world find an outlet in open data</title>
+    <content type="html"/>
+    <summary type="html">ODI Services Business Manager Emma Truswell reflects on the first day of the ODI's second Open Data Leaders Network: where open data leaders from around the world gather for a week to share perspectives, challenges and best-practices.</summary>
+    <updated>2015-07-27T16:57:40+00:00</updated>
+    <id>http://oldsite.theodi.org/news/creative-bureaucrats-outlet-open-data</id>
+    <author>
+      <name>Emma Truswell</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/open-datas-benefits-policy-change"/>
+    <title type="html">Putting open data into policy: lessons from leaders around the world</title>
+    <content type="html"/>
+    <summary type="html">On the first day of the Open Data Institute’s [week of workshops](https://theodi.org/news/national-leaders-create-global-network-open-data-impact "week of workshops") with open data leaders from around the world, one participant said: </summary>
+    <updated>2015-04-07T15:40:29+00:00</updated>
+    <id>http://oldsite.theodi.org/news/open-datas-benefits-policy-change</id>
+    <author>
+      <name>Emma Truswell</name>
+    </author>
+  </entry>
+</feed>

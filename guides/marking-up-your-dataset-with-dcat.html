@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=US-ASCII">
+<title>Marking up your dataset with DCAT  | Guides | Open Data Institute</title>
+<link href="../assets/application-693091b423df059e90189392fffb0ae0.css" media="all" rel="stylesheet" type="text/css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="../assets/favicon-e0340b5bc5738e53c1b06680529c0963.ico" rel="shortcut icon" type="image/vnd.microsoft.icon">
+
+<!--[if lt IE 9]>
+      <script src="../assets/html5shiv-5d1c7196accd7174ed22f320c693b063.js" type="text/javascript"></script>
+    <![endif]-->
+
+<!--[if (IE 7)|(IE 8)]>
+      <script src="../assets/respond.min-5eec43180e3f6d282f038de07483dc4b.js" type="text/javascript"></script>
+    <![endif]-->
+
+<script src="../assets/modernizr.custom-1ecf37d7f9fbb3066a877e31ce79e79e.js" type="text/javascript"></script>
+
+<!--[if lte IE 9]><link href="../assets/ie9-875f0d42a52ff5536404da8fda8d423b.css" media="screen" rel="stylesheet" type="text/css" /><![endif]-->
+<!--[if lte IE 8]><link href="../assets/ie8-4a6b9f309032dacb3913ccc2d55bda8b.css" media="screen" rel="stylesheet" type="text/css" /><![endif]-->
+<!--[if lte IE 7]><link href="../assets/ie7-d4066942f039a08eed8b62b80cde16cb.css" media="screen" rel="stylesheet" type="text/css" /><![endif]-->
+<!--[if lt IE 7]><link href="../assets/ie6-cab152e9612eeec9bd0af579a2231dd5.css" media="screen" rel="stylesheet" type="text/css" /><![endif]-->
+
+<meta property="fb:pages" content="1755416561338416">
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+<link href="../guides/marking-up-your-dataset-with-dcat.json" rel="alternate" title="json" type="application/json">
+<meta content="The Open Data Institute (ODI) equip, connect and inspire people around the world to innovate with data. Co-founded by Sir Tim Berners-Lee and Sir Nigel Shadbolt, the ODI provides events, training, membership and consultancy around open data." name="description">
+<meta content="summary_large_image" name="twitter:card">
+<meta content="@ODIHQ" name="twitter:site">
+<meta content="../guides/marking-up-your-dataset-with-dcat" property="og:url">
+<meta content="Marking up your dataset with DCAT  | Guides | Open Data Institute" property="og:title">
+<meta content="The Open Data Institute (ODI) equip, connect and inspire people around the world to innovate with data. Co-founded by Sir Tim Berners-Lee and Sir Nigel Shadbolt, the ODI provides events, training, membership and consultancy around open data." property="og:description">
+<meta content="article" property="og:type">
+<meta content="Open Data Institute" property="og:site_name">
+<meta content="../assets/about_hero.jpg" property="og:image">
+<meta name="govuk:rendering-application" content="Www">
+<script type="text/javascript">
+
+
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-34573394-1', {});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   ga('send', 'pageview');
+
+
+</script></head>
+<body>
+<header class="site-header">
+<div class="navbar navbar-inverse navbar-static-top">
+<div class="container">
+<div class="navbar-header">
+
+<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+<a class="navbar-brand" href="../"><img alt="The ODI" id="odi-logo" src="../assets/logo-header-dc4ead7a18ea4133873c79502c174638.png"></a>
+</div>
+<div class="modal fade" id="getLogo" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<h4 class="modal-title" id="myModalLabel">Welcome to the ODI
+<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&#215;</button>
+</h4>
+</div>
+<div class="modal-body">
+<p>Knowledge for everyone</p>
+<p>The ODI helps to unlock the value of open data.</p>
+<p>If you want to use our logo, different sizes and types are here: <a href="../brand">../brand</a></p>
+<p><a rel="external" href="../uploads/assets/legacy/ODI%2Dlogo%2Dsml.png"><img src="../uploads/assets/legacy/ODI%2Dlogo%2Dsml.png" alt=""></a></p>
+<p><a rel="external" href="../uploads/assets/legacy/ODI%2Dlogo%2Dmed.png"><img src="../uploads/assets/legacy/ODI%2Dlogo%2Dmed.png" alt=""></a></p>
+<p><a rel="external" href="../uploads/assets/legacy/ODI%2Dlogo%2Dmed.png"><img src="../uploads/assets/legacy/ODI%2Dlogo%2Dlg.png" alt=""></a></p>
+<p><a rel="external" href="../uploads/assets/legacy/ODI%2Dlogo%2Dmed.png"><img src="../uploads/assets/legacy/ODI%2Dlogo%2Dxlg.png" alt=""></a></p>
+</div>
+</div>
+</div>
+</div>
+<ul class="nav navbar-nav navbar-right">
+<li><a href="../contact">Contact us</a></li>
+<li><a href="../newsletters">Newsletters</a></li>
+
+</ul>
+
+<form class="navbar-form navbar-right" method="get" action="//duckduckgo.com/">
+<div class="form-group">
+<div class="input-group">
+<input value="oldsite.theodi.org" name="sites" type="hidden">
+<input class="form-control" placeholder="Search ODI" name="q" type="text">
+<input value="Go" class="btn" type="submit">
+</div>
+</div>
+</form>
+</div>
+</div>
+<div class="collapse navbar-collapse">
+<div class="navbar navbar-static-top">
+<div class="container">
+<ul class="nav navbar-nav main-nav">
+<li class="dropdown">
+<a href="../news">
+News &amp; blog
+</a>
+</li>
+<li class="dropdown">
+<a href="../get-involved">
+Get involved
+</a>
+</li>
+<li class="dropdown">
+<a href="../our-network">
+Our global network
+</a>
+</li>
+<li class="dropdown">
+<a href="../events">
+Events
+</a>
+</li>
+<li class="dropdown">
+<a href="../our-focus">
+Our focus
+</a>
+</li>
+<li class="dropdown">
+<a href="../publications">
+Publications
+</a>
+</li>
+<li class="dropdown last">
+<a href="../about">
+About the ODI
+</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="navbar navbar-inverse navbar-static-top mobile-only">
+<div class="container">
+<ul class="nav navbar-nav navbar-right">
+<li><a href="../contact">Contact us</a></li>
+<li><a href="../newsletters">Newsletters</a></li>
+
+</ul>
+
+</div>
+</div>
+</header> 
+<div id="wrapper">
+<header class="page-title">
+<div class="container header-wrap">
+<h1> <a href="../guides">Guides</a>
+</h1>
+</div>
+</header>
+<div class="container">
+<div class="row">
+<div class="article-full">
+<article class="article-body">
+<h2>Marking up your dataset with DCAT </h2>
+<p>The <a href="http://www.w3.org/TR/vocab-dcat/">Data Catalog Vocabulary (DCAT)</a> defines a standard way to publish machine-readable metadata about a dataset.</p>
+<p>The simplest way to publish a description of your dataset is to publish DCAT metadata using RDFa. RDFa allows machine-readable metadata to be embedded in a webpage. This means that publishing your dataset metadata can be easily achieved by updating the HTML for your dataset homepage.</p>
+<p>This guide provides a short introduction to publishing DCAT metadata using RDFa. For more advanced use cases, including publishing data in other formats, take a look at the <a href="http://www.w3.org/TR/vocab-dcat/">official W3C documentation for DCAT</a>. The <a href="http://www.w3.org/TR/xhtml-rdfa-primer/">RDFa primer</a> may also be useful background reading.</p>
+<p>The <a href="http://certificates.theodi.org">Open Data Certificates</a> application supports reading DCAT published as RDFa. So as well as providing machine-readable metadata for data consumers, using DCAT will simplify the process of certifying your dataset as the application will be able to automatically populate some of the answers for you.</p>
+<h2 id="gettingstarted">Getting started</h2>
+<p>The first thing to do is to let applications know that your web page is describing a dataset. To do this we need to declare the metadata schemas we will be using to describe the dataset and then indicate the type of thing being described.</p>
+<p>Here is a fragment of HTML that provides a starting point. Replace <code>{url}</code> with the URL of your dataset page.</p>
+<pre><code>&lt;html prefix="dct: http://purl.org/dc/terms/
+              rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
+              dcat: http://www.w3.org/ns/dcat#
+              foaf: http://xmlns.com/foaf/0.1/"&gt;
+    &lt;body&gt;    
+        &lt;div typeof="dcat:Dataset" resource="{url}"&gt;
+        ...
+        &lt;/div&gt;
+    &lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+<p>The <code>html</code> element has a <code>prefix</code> attribute that declares the schemes. The <code>div</code> element declares which resource it is describing and the type of resource using the <code>resource</code> and <code>typeof</code> attributes.</p>
+<p>The rest of the metadata about the dataset will then be added to HTML elements nested inside this container <code>&lt;div&gt;</code>. You don't have to use a <code>div</code> element, it could be any HTML element, so adapt this to the structure of your dataset's page.</p>
+<p>The following sections each illustrate how to add extra metadata elements that flesh out the description of your dataset. Try and provide as full a description of your dataset as possible.</p>
+<p>Again, the HTML elements used in the examples are just a suggestion, they can be anything you want, so adapt the examples to your existing page. You may need to add some extra elements, e.g. to wrap dates, titles, etc .that are already in the page as plain-text.</p>
+<p>The important part of the examples are the RDFa attributes: <code>about</code>, <code>property</code>, <code>content</code>, <code>datatype</code>, etc. These attributes define what property of the dataset is being described and provide the machine-readable metadata.</p>
+<h3 id="title">Title</h3>
+<p>Specify the title for your dataset using the <code>dct:title</code> property:</p>
+<pre><code>&lt;h1 property="dct:title"&gt;Example Dataset&lt;/h1&gt;
+</code></pre>
+<h3 id="datecreated">Date created</h3>
+<p>Specify the date your dataset was created using the <code>dct:created</code> property:</p>
+<pre><code>&lt;p property="dct:created" content='2010-10-25T09:00:00+00:00' datatype='xsd:dateTime'&gt;25th October 2010&lt;/p&gt;
+</code></pre>
+<p>In this case the human-readable text for the property is contained within the paragraph tag. It's value can be anything, but the machine readable date (specified in the <code>content</code> attribute), must use a defined data type so it can be easily parsed. </p>
+<p>It's recommended that you use the <a href="http://www.w3.org/TR/xmlschema-2/#date">XML Schema date</a> or <a href="http://www.w3.org/TR/xmlschema-2/#dateTime">XML schema dateTime format</a> format.</p>
+<h3 id="datemodified">Date modified</h3>
+<p>Specify the date your dataset was last updated using the <code>dct:modified</code> property:</p>
+<pre><code>&lt;p property="dct:modified" content='2010-10-25T09:00:00+00:00' datatype='xsd:dateTime'&gt;25th October 2010&lt;/p&gt;
+</code></pre>
+<p>See above for notes on the date formats.</p>
+<h3 id="description">Description</h3>
+<p>Markup the description of your dataset using the <code>dct:description</code> property:</p>
+<pre><code>&lt;p property="dct:description"&gt;This is the description.&lt;p&gt;
+</code></pre>
+<h3 id="license">License</h3>
+<p>The markup for declaring your dataset license is slightly more complex. You need to declare the license property (<code>dct:license</code>) as well as the name and URL for the license:</p>
+<p>Substitute the <code>{license URL}</code> and <code>{license name}</code> placeholders for the values that apply to your dataset.</p>
+<pre><code>&lt;div property="dct:license" 
+     resource="{license URL}"&gt;
+  &lt;a href="{license URL}"&gt;
+    &lt;span property="dct:title"&gt;{license name}&lt;/span&gt;
+  &lt;/a&gt;
+&lt;/div&gt;
+</code></pre>
+<p>For a more detailed guide on publishing a comprehensive rights statement for your dataset, including license, copyright statements and preferred form of attribution read the <a href="../guides/publishers-guide-to-the-open-data-rights-statement-vocabulary">Publishers Guide to the Open Data Rights Statement Vocabulary</a>.</p>
+<h3 id="publisher">Publisher</h3>
+<p>Declare the publisher of your dataset using the <code>dct:publisher</code> property. Again, there are several elements to declare here including the name and homepage URL for the publisher.</p>
+<p>Replace the <code>publisher URL</code> and <code>publisher name</code> properties with the appropriate values.</p>
+<pre><code>&lt;div property="dct:publisher" 
+     resource="{publisher URL}"&gt;
+    &lt;a href="{publisher URL}" about="{publisher URL}" property="foaf:homepage"&gt;
+        &lt;span property="foaf:name"&gt;{publisher name}&lt;/span&gt;
+    &lt;/a&gt;
+&lt;/div&gt;
+</code></pre>
+<h3 id="keywords">Keywords</h3>
+<p>Keywords can be attached to a dataset using the <code>dcat:keyword</code> property. The property values are simple labels or tags. You can have as many or as few (or none!) of these as you want.</p>
+<pre><code>&lt;span property="dcat:keyword"&gt;Examples&lt;/span&gt;, &lt;span property="dcat:keyword"&gt;DCAT&lt;/span&gt;
+</code></pre>
+<h3 id="updatefrequency">Update frequency</h3>
+<p>The <code>dcat:accrualPeriodicity</code> property is used to define how often a dataset is updated. The values for the property are URIs which are taken a simple controlled vocabulary.</p>
+<pre><code>&lt;a href="{frequency}" property="dcat:accrualPeriodicity"&gt;{frequency (human readable)}&lt;/a&gt;
+</code></pre>
+<p>Substitute the <code>{frequency}</code> placeholder with one of the following URIs:</p>
+<ul>
+<li>
+<code>http://purl.org/linked-data/sdmx/2009/code#freq-A</code> - Annual</li>
+<li>
+<code>http://purl.org/linked-data/sdmx/2009/code#freq-B</code> - Every working day (Mon - Fri)</li>
+<li>
+<code>http://purl.org/linked-data/sdmx/2009/code#freq-D</code> - Daily (7 days a week)</li>
+<li>
+<code>http://purl.org/linked-data/sdmx/2009/code#freq-M</code> - Monthly</li>
+<li>
+<code>http://purl.org/linked-data/sdmx/2009/code#freq-N</code> - Every minute</li>
+<li>
+<code>http://purl.org/linked-data/sdmx/2009/code#freq-Q</code> - Every quarter</li>
+<li>
+<code>http://purl.org/linked-data/sdmx/2009/code#freq-S</code> - Half yearly</li>
+<li>
+<code>http://purl.org/linked-data/sdmx/2009/code#freq-W</code> - Weekly</li>
+</ul>
+<h3 id="distributions">Distributions</h3>
+<p>A dataset can have a number of distributions. <a href="http://www.w3.org/TR/vocab-dcat/#class-distribution">Distributions</a> describe how a dataset is packaged and released. Your dataset may have several distributions, e.g. if you publish a series of data over a period of time as separate packages, or if it is available in different formats.</p>
+<p>The markup here is a little more complex. It defines a new resource (a <code>dcat:Distribution</code>) and associates that with your dataset. The nested markup then provides metadata about the new resource, e.g. its format, size, publication date, etc.</p>
+<pre><code>&lt;div property='dcat:distribution' typeof='dcat:Distribution'&gt;
+    &lt;span property="dct:title"&gt;{Distribution title}&lt;/span&gt;
+    &lt;ul&gt;
+        &lt;li&gt;&lt;strong&gt;Format&lt;/strong&gt; &lt;span content='{format}' property='dcat:mediaType'&gt;{format (human readable)&lt;/span&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;strong&gt;Size&lt;/strong&gt; &lt;span content='{size in bytes}' datatype='xsd:decimal' property='dcat:byteSize'&gt;{size (human readable)}&lt;/span&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;strong&gt;Issued&lt;/strong&gt; &lt;span property='dct:issued' content='{date issued}' datatype='xsd:date'&gt;{date issued (human readable)}&lt;/span&gt;&lt;/li&gt;
+    &lt;/ul&gt;        
+    &lt;p&gt;&lt;a href='{link to data}' property='dcat:accessURL'&gt;Download the full dataset&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;  
+</code></pre>
+<p>The <code>{format}</code> placeholder should be a <a href="http://www.iana.org/assignments/media-types/media-types.xhtml">recognised MIME type</a>, (for example <code>text/csv</code> or <code>application/json</code>)</p>
+<p>The <code>dct:issued</code> property specifies the date that the distribution was published. The property should follow the same guidelines as for the <code>dct:created</code> property outlined above. </p>
+<h2 id="puttingitalltogether">Putting it all together</h2>
+<p>Here is a complete example of an HTML page marked up using DCAT. It provides all of the core metadata for the dataset, including a description of a single distribution.:</p>
+<pre><code>&lt;!DOCTYPE html&gt;
+&lt;html prefix="dct: http://purl.org/dc/terms/
+              rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
+              dcat: http://www.w3.org/ns/dcat#
+              foaf: http://xmlns.com/foaf/0.1/"&gt;
+    &lt;head&gt;
+        &lt;title&gt;DCAT in RDFa&lt;/title&gt;
+    &lt;/head&gt;
+ &lt;body&gt;
+ &lt;div typeof="dcat:Dataset" resource="http://gov.example.org/dataset/finances"&gt;
+            &lt;h1 property="dct:title"&gt;Example DCAT Dataset&lt;/h1&gt; 
+
+              &lt;p property="dct:created" content='2010-10-25T09:00:00+00:00' datatype='xsd:dateTime'&gt;25th October 2010&lt;/p&gt;
+              &lt;p property="dct:modified" content='2013-05-10T13:39:36+00:00' datatype='xsd:dateTime'&gt;10th March 2013&lt;/p&gt;
+
+              &lt;p property="dct:description"&gt;This is the description.&lt;p&gt;
+
+            &lt;div property="dct:license" 
+                 resource="http://reference.data.gov.uk/id/open-government-licence"&gt;
+    &lt;a href="http://reference.data.gov.uk/id/open-government-licence"&gt;
+                &lt;span property="dct:title"&gt;UK Open Government Licence (OGL)&lt;/span&gt;
+                &lt;/a&gt;
+            &lt;/div&gt;
+
+            &lt;div property="dct:publisher" 
+                 resource="http://example.org/publisher"&gt;
+                &lt;a href="http://example.org/publisher" about="http://example.org/publisher" property="foaf:homepage"&gt;
+                    &lt;span property="foaf:name"&gt;Example Publisher&lt;/span&gt;
+                &lt;/a&gt;
+            &lt;/div&gt;
+
+            &lt;div&gt;
+                &lt;span property="dcat:keyword"&gt;Examples&lt;/span&gt;, &lt;span property="dcat:keyword"&gt;DCAT&lt;/span&gt;
+            &lt;/div&gt;
+
+            &lt;div&gt;
+                &lt;a href="http://purl.org/linked-data/sdmx/2009/code#freq-W" property="dcat:accrualPeriodicity"&gt;Weekly&lt;/a&gt;
+            &lt;/div&gt;
+
+      &lt;div property='dcat:distribution' typeof='dcat:Distribution'&gt;
+          &lt;span property="dct:title"&gt;CSV download&lt;/span&gt;
+          &lt;ul&gt;
+              &lt;li&gt;&lt;strong&gt;Format&lt;/strong&gt; &lt;span content='text/csv' property='dcat:mediaType'&gt;CSV&lt;/span&gt;&lt;/li&gt;
+              &lt;li&gt;&lt;strong&gt;Size&lt;/strong&gt; &lt;span content='240585277' datatype='xsd:decimal' property='dcat:byteSize'&gt;1024MB&lt;/span&gt;&lt;/li&gt;
+              &lt;li&gt;&lt;strong&gt;Issues&lt;/strong&gt; &lt;span property='dct:issued'&gt;2012-01-01&lt;/span&gt;&lt;/li&gt;
+          &lt;/ul&gt;        
+          &lt;p&gt;&lt;a class='btn btn-primary' href='http://example.org/distribution.csv.zip' property='dcat:accessURL'&gt;Download the full dataset&lt;/a&gt;&lt;/p&gt;
+      &lt;/div&gt;            
+
+    &lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+<p>You can also see an example 'in the wild' at <a href="http://smtm.labs.theodi.org/download/">http://smtm.labs.theodi.org/download/</a></p>
+</article>
+</div>
+<aside class="article-sidebar listing">
+</aside>
+</div>
+</div>
+</div>
+<footer class="site-footer">
+<div class="container">
+<div class="row">
+<div class="col-md-8 footer-content">
+<h1 class="footer-logo"><a href="http://oldsite.theodi.org">Open Data Institute</a></h1>
+<p><a href="../contact">Open Data Institute, 65 Clifton Street, London EC2A 4JE</a></p>
+<p><a href="../cdn-cgi/l/email-protection#a1c8cfc7cee1d5c9c4cec5c88fced3c6"><span class="__cf_email__" data-cfemail="2f464149406f5b474a404b4601405d48">[email&#160;protected]</span></a> Company <a href="http://opencorporates.com/companies/gb/08030289">08030289</a>
+<span>VAT</span><span>143 7796 80</span>
+</p>
+<p class="license">
+<a href="http://creativecommons.org/licenses/by-sa/2.0/uk/deed.en_GB" rel="license">
+<img alt="Creative Commons Licence" height="15" src="../assets/cc-a23fe95f04508432c8d97c00b0a36254.png" width="80">
+</a>
+</p>
+</div>
+<div class="col-md-4 footer-nav">
+<nav><ul class="pull-right list-inline">
+<li><a href="http://www.twitter.com/ODIHQ" class=" ">
+<img alt="Follow us on Twitter" src="../assets/twitter-a658ecc9fe2aab3308a5fb36adfb9a64.png" title="Follow us on Twitter"></a></li>
+<li><a href="https://soundcloud.com/theodi" class=" ">
+<img alt="Listen on Soundcloud" src="../assets/soundcloud-3932b3db23c6fb6c45bce20c8016462c.png" title="Listen on Soundcloud"></a></li>
+<li><a href="http://www.scribd.com/OpenDataInstitute" class=" ">
+<img alt="Read on Scribd" src="../assets/scribd-8afadecb87771fd6f6814e6ea81fb23d.png" title="Read on Scribd"></a></li>
+<li><a href="https://github.com/orgs/theodi" class=" ">
+<img alt="Follow us on Github" src="../assets/github-914931d2a14f54f3c64caec5c6e68017.png" title="Follow us on Github"></a></li>
+<li><a href="http://vimeo.com/theodiuk" class=" ">
+<img alt="Watch on Vimeo" src="../assets/vimeo-a865234771edd239032629b694ddaa32.png" title="Watch on Vimeo"></a></li>
+<li><a href="http://www.youtube.com/user/OpenDataInstituteUK" class=" ">
+<img alt="Watch on Youtube" src="../assets/youtube-cccfa6f837a0acfe0d2fd9492b0d45b3.png" title="Watch on Youtube"></a></li>
+<li><a href="http://www.flickr.com/photos/ukodi/" class=" ">
+<img alt="Follow us on Flickr" src="../assets/flickr-c81d78a530d046663cfff44293f6f775.png" title="Follow us on Flickr"></a></li>
+</ul></nav>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<nav><ul class="pull-right list-inline">
+<li class=" "><a href="../terms-of-use" class=" ">Terms of use</a></li>
+<li class=" "><a href="../privacy-policy" class=" ">Privacy policy</a></li>
+<li class=" "><a href="../cookie-policy" class=" ">Cookie policy</a></li>
+</ul></nav>
+</div>
+</div>
+</div>
+</footer>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+
+  var _pt = ["E6AF1363-3E19-409A-983C-91FFE62C2CBB"];
+  (function(d,t){
+    var a=d.createElement(t),s=d.getElementsByTagName(t)[0];a.src=location.protocol+'//a1webstrategy.com/track.js';s.parentNode.insertBefore(a,s);
+  }(document,'script'));
+
+  </script>
+<script type="text/javascript">
+      (function (n) {
+          var u = window.location.href;
+          var p = u.split("/")[0];
+          var t = n.createElement("script"), i;
+          t.type = "text/javascript";
+          t.async = !0;
+          t.src = p + "//dashboard.whoisvisiting.com/who.js";
+          i = n.getElementsByTagName("script")[0];
+          i.parentNode.insertBefore(t, i)
+      })(document);
+
+          var whoparam = whoparam || [];
+          whoparam.push(["AcNo", "8d5d04b9adc94a34bc385c6f3370594e"]);
+          whoparam.push(["SendHit", ""]
+      );
+  </script>
+<script src="../assets/application-4829863ea093de33ae55c9a127d6af6b.js" type="text/javascript"></script>
+
+<!--[if gt IE 7]><!-->
+<script src="../assets/bootstrap/bootstrap-collapse-c4cb45620c1346753e2385c125ed4bdd.js" type="text/javascript"></script>
+<!--<![endif]-->
+
+
+<!--[if gt IE 7]><!-->
+<script src="../assets/masonry-c617ee0c7d6c602b548ab5e69d50f4fa.js" type="text/javascript"></script>
+<script src="../assets/infinitescroll-243a7a50c0c843f1deb394ea98f4d0a6.js" type="text/javascript"></script>
+<script src="../assets/background-check-677e6100d9ce594cd30a88f57fc49b48.js" type="text/javascript"></script>
+<!--<![endif]-->
+</body>
+</html>

@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <title>News for Emma Thwaites</title>
+  <updated>2015-12-17T13:11:27+00:00</updated>
+  <id>http://oldsite.theodi.org/team/emma-thwaites.atom</id>
+  <link href="http://oldsite.theodi.org/team/emma-thwaites.atom" rel="self"/>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/a-year-in-open-data-how-odi-paved-the-way-for-a-stronger-data-infrastructure-in-2015"/>
+    <title type="html">A year in open data: How ODI paved the way for a stronger data infrastructure in 2015</title>
+    <content type="html"/>
+    <summary type="html">At the ODI, we work with external partners to shape, create and promote the social, environmental and economic benefits that open data can bring to different communities and sectors around the world.</summary>
+    <updated>2015-12-16T16:26:21+00:00</updated>
+    <id>http://oldsite.theodi.org/news/a-year-in-open-data-how-odi-paved-the-way-for-a-stronger-data-infrastructure-in-2015</id>
+    <author>
+      <name>Emma Thwaites</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/news/open-banking-working-group-panel-to-discuss-improving-banking-services-at-odi-lecture"/>
+    <title type="html">Open Banking Working Group panel to discuss improving banking services </title>
+    <content type="html"/>
+    <summary type="html">Today in ['A better deal: boosting competition to bring down bills for families and firms'](http://www.example.com "'A better deal: boosting competition to bring down bills for families and firms'"), the UK Government confirmed that it is committed to providing an open API standard in UK banking. </summary>
+    <updated>2015-11-30T18:00:04+00:00</updated>
+    <id>http://oldsite.theodi.org/news/open-banking-working-group-panel-to-discuss-improving-banking-services-at-odi-lecture</id>
+    <author>
+      <name>Emma Thwaites</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/news/new-data-analysis-by-odi-startup-shows-uk-businesses-starved-of-22bn-in-cash-flow"/>
+    <title type="html">ODI startup reveals UK businesses starved of £22bn in cash flow by government inefficiencies</title>
+    <content type="html"/>
+    <summary type="html">ODI start-up, [Spend Network](https://spendnetwork.com) has revealed that up to £22bn of government cash, intended for the UK economy, is being delayed by an inefficient tendering system. The company’s analysis of over £1tr of EU procurement data shows that UK’s tendering process is 45% slower than the EU average, and that up to £734m of the stalled funds could be delayed to UK SMEs each year.</summary>
+    <updated>2014-03-09T21:59:50+00:00</updated>
+    <id>http://oldsite.theodi.org/news/new-data-analysis-by-odi-startup-shows-uk-businesses-starved-of-22bn-in-cash-flow</id>
+    <author>
+      <name>Emma Thwaites</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/news/odi-celebrates-new-year-obe-for-technical-director-jeni-tennison"/>
+    <title type="html">ODI celebrates New Year OBE for Technical Director, Jeni Tennison </title>
+    <content type="html"/>
+    <summary type="html">ODI founders, Sir Nigel Shadbolt and Sir Tim Berners-Lee have welcomed the news that Technical Director, Jeni Tennison has received an OBE in the New Year’s Honours.</summary>
+    <updated>2013-12-30T20:34:01+00:00</updated>
+    <id>http://oldsite.theodi.org/news/odi-celebrates-new-year-obe-for-technical-director-jeni-tennison</id>
+    <author>
+      <name>Emma Thwaites</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/news/bbc-signs-open-data-agreement-with-odi-deloitte-and-arup-join-membership-programme"/>
+    <title type="html">BBC signs open data agreement with ODI, plus Deloitte and Arup join membership programme</title>
+    <content type="html"/>
+    <summary type="html">Major global corporates support open data collaboration as ODI membership hits 50.</summary>
+    <updated>2013-11-25T12:21:03+00:00</updated>
+    <id>http://oldsite.theodi.org/news/bbc-signs-open-data-agreement-with-odi-deloitte-and-arup-join-membership-programme</id>
+    <author>
+      <name>Emma Thwaites</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/odi-global-network-announced"/>
+    <title type="html">ODI global network announced</title>
+    <content type="html"/>
+    <summary type="html">Agreements with USA, Canada, Dubai, Moscow, Paris, and Manchester amongst 13 to be signed during first annual Summit</summary>
+    <updated>2013-10-28T19:20:44+00:00</updated>
+    <id>http://oldsite.theodi.org/news/odi-global-network-announced</id>
+    <author>
+      <name>Emma Thwaites</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/news/odi-reveals-impact-of-london-fire-station-closures-using-open-data"/>
+    <title type="html">ODI reveals impact of London fire station closures using open data </title>
+    <content type="html"/>
+    <summary type="html">The Open Data Institute, working with partner [Telefónica Dynamic Insights](http://dynamicinsights.telefonica.com/), has developed [new tools](http://london-fire.labs.theodi.org/) to assess the potential impact of planned fire station closures in London. The tools allow citizens and policymakers to personally investigate the effects of the plans using open data for the first time.</summary>
+    <updated>2013-10-28T14:25:45+00:00</updated>
+    <id>http://oldsite.theodi.org/news/odi-reveals-impact-of-london-fire-station-closures-using-open-data</id>
+    <author>
+      <name>Emma Thwaites</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/news/a-bigger-and-better-introducing-our-newest-members"/>
+    <title type="html">A bigger and better us - introducing our two newest members</title>
+    <content type="html"/>
+    <summary type="html">Ahead of [our Summit](http://summit.theodi.org/) in London on 29 October, we're delighted to be announcing two new members; London-based [RateSetter](http://www.ratesetter.com), and Seattle's [Socrata](http://www.socrata.com). They take our membership to 45, and are testimony to the international appeal and multi-sector influence that we are forging.</summary>
+    <updated>2013-10-24T17:56:15+00:00</updated>
+    <id>http://oldsite.theodi.org/news/a-bigger-and-better-introducing-our-newest-members</id>
+    <author>
+      <name>Emma Thwaites</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/news/new-initiatives-combat-crime-open-data"/>
+    <title type="html">New initiatives combat crime with open data</title>
+    <content type="html"/>
+    <summary type="html">The finalists of a new programme to develop innovative ideas to� tackle crime and encourage social justice using open data have been �announced by the [Open Data Institute (ODI)](http://www.theodi.org/) and [Nesta](http://www.nesta.org.uk/), the UK’s� innovation foundation.</summary>
+    <updated>2013-10-18T08:22:38+00:00</updated>
+    <id>http://oldsite.theodi.org/news/new-initiatives-combat-crime-open-data</id>
+    <author>
+      <name>Emma Thwaites</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/news/odi-celebrates-first-birthday-announcing-university-southampton-honorary-partner"/>
+    <title type="html">ODI celebrates first birthday by announcing University of Southampton as Honorary Partner </title>
+    <content type="html"/>
+    <summary type="html">The� [University of Southampton](http://www.southampton.ac.uk/) has been awarded Honorary Founding Partner status in recognition of its exceptional contribution to the setup and development of the ODI. It comes exactly 12 months after the ODI’s unofficial opening and move into their London HQ.</summary>
+    <updated>2013-10-01T07:12:05+00:00</updated>
+    <id>http://oldsite.theodi.org/news/odi-celebrates-first-birthday-announcing-university-southampton-honorary-partner</id>
+    <author>
+      <name>Emma Thwaites</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/news/open-data-season-underway-odi-attends-us-conferences"/>
+    <title type="html">Open data season underway as ODI attends US conferences</title>
+    <content type="html"/>
+    <summary type="html">The ODI joins world-leading experts at two US conferences this week - with open data and government transparency at their heart.</summary>
+    <updated>2013-09-09T13:02:47+00:00</updated>
+    <id>http://oldsite.theodi.org/news/open-data-season-underway-odi-attends-us-conferences</id>
+    <author>
+      <name>Emma Thwaites</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/news/new-startups-announced-reducing-government-energy-costs-and-shining-light-public-sector"/>
+    <title type="html">New startups announced - reducing Government energy costs and shining light on public sector spending </title>
+    <content type="html"/>
+    <summary type="html">�Five new open data businesses have joined the ODI [Startup Programme](http://www.theodi.org/start-up):</summary>
+    <updated>2013-08-28T06:29:18+00:00</updated>
+    <id>http://oldsite.theodi.org/news/new-startups-announced-reducing-government-energy-costs-and-shining-light-public-sector</id>
+    <author>
+      <name>Emma Thwaites</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/news/odi-welcomes-new-members"/>
+    <title type="html">ODI Welcomes New Members</title>
+    <content type="html"/>
+    <summary type="html">![](http://bd7a65e2cb448908f934-86a50c88e47af9e1fb58ce0672b5a500.r32.cf3.rackcdn.com/uploads/assets/legacy/20130723odimembersevent05.jpg)</summary>
+    <updated>2013-07-22T16:29:42+00:00</updated>
+    <id>http://oldsite.theodi.org/news/odi-welcomes-new-members</id>
+    <author>
+      <name>Emma Thwaites</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/news/odi-welcomes-information-economy-strategy-launched-g8-innovation-conference"/>
+    <title type="html">ODI welcomes Information Economy Strategy – launched at G8 Innovation Conference</title>
+    <content type="html"/>
+    <summary type="html">The ODI has welcomed the publication of the UK Government’s [Information Economy Strategy.](https://www.gov.uk/government/publications/information-economy-strategy) It is being officially launched by the Prime Minister at the G8 Innovation Conference in London. The event is being attended by a group of international business leaders, including the ODI’s CEO, Gavin Starks.</summary>
+    <updated>2013-06-14T11:50:45+00:00</updated>
+    <id>http://oldsite.theodi.org/news/odi-welcomes-information-economy-strategy-launched-g8-innovation-conference</id>
+    <author>
+      <name>Emma Thwaites</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/news/open-data-institute-opens-g8-eyes-power-open-data"/>
+    <title type="html">Open Data Institute Opens G8 Eyes to Power of Open Data</title>
+    <content type="html"/>
+    <summary type="html">Global delegates will visit the ODI�today to see first hand the progress being made by the organisation to drive innovation in the UK through greater transparency.</summary>
+    <updated>2013-06-14T09:20:21+00:00</updated>
+    <id>http://oldsite.theodi.org/news/open-data-institute-opens-g8-eyes-power-open-data</id>
+    <author>
+      <name>Emma Thwaites</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/news/odi-calls-government-act-fast-response-shakespeare-review"/>
+    <title type="html">ODI calls for government to act fast in response to Shakespeare Review</title>
+    <content type="html"/>
+    <summary type="html">The Open Data Institute (ODI) today welcomes the findings delivered by Stephan Shakespeare in his[ Independent Review of Public Sector Information](https://www.gov.uk/government/publications/shakespeare-review-of-public-sector-information), and calls for the Government to forge ahead, turning recommendations into real progress.</summary>
+    <updated>2013-05-14T20:05:50+00:00</updated>
+    <id>http://oldsite.theodi.org/news/odi-calls-government-act-fast-response-shakespeare-review</id>
+    <author>
+      <name>Emma Thwaites</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/news/berners-lee-and-shadbolt-join-open-data-champions-odi-event"/>
+    <title type="html">Berners Lee and Shadbolt join open data champions at ODI event</title>
+    <content type="html"/>
+    <summary type="html">&gt; The ODI isn’t just an incubator or accelerator, it has a mission, a purpose, everybody works together on how we can get the most out of open data. Those things combined are a powerful force. - Gavin Starks - ODI CEO</summary>
+    <updated>2013-04-30T14:56:00+00:00</updated>
+    <id>http://oldsite.theodi.org/news/berners-lee-and-shadbolt-join-open-data-champions-odi-event</id>
+    <author>
+      <name>Emma Thwaites</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/news/paf-decision-flies-face-government-commitments-odi"/>
+    <title type="html">PAF decision "flies in the face" of government commitments - ODI</title>
+    <content type="html"/>
+    <summary type="html">Reports that the Government will�leave the Postcode Address FIle (PAF)�in the ownership of the Royal Mail�has been criticised by the ODI. Ministers plan to sell off the Royal Mail later this year and it's feared that the PAF will remain closed or prohibiitively expensive to�businesses and individuals wanting to create products and services from open data.</summary>
+    <updated>2013-04-18T22:18:31+00:00</updated>
+    <id>http://oldsite.theodi.org/news/paf-decision-flies-face-government-commitments-odi</id>
+    <author>
+      <name>Emma Thwaites</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/news/odi-partners-manchester-future-everything-summit"/>
+    <title type="html">ODI partners with Manchester Future Everything Summit </title>
+    <content type="html"/>
+    <summary type="html">The [FutureEverything Summit of Ideas and Digital Invention](http://futureeverything.org/) gets underway in Manchester today (Thursday) with the support of the ODI. The ODI is a partner in�the delivery of a special two-day workshop targeted at small to medium sized businesses in the city. �Participants will learn how different business models can be driven by open data, and explore how all kinds of companies can use open data to improve performance, sales and customer satisfaction.</summary>
+    <updated>2013-03-20T18:29:26+00:00</updated>
+    <id>http://oldsite.theodi.org/news/odi-partners-manchester-future-everything-summit</id>
+    <author>
+      <name>Emma Thwaites</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/news/virgin-media-and-which-join-open-data-institute-unlock-open-data-innovation"/>
+    <title type="html">Virgin Media and Which? Join Open Data Institute to Unlock Open Data Innovation</title>
+    <content type="html"/>
+    <summary type="html">Communications and entertainment company [Virgin Media](http://www.virginmedia.com/) and consumer watchdog [Which?](http://www.which.co.uk/) have today become the first major private-sector collaborators of the Open Data Institute (ODI). They will collaborate with ODI experts to unlock the potential of open data, to develop new services from existing assets, and to improve their customer experience.</summary>
+    <updated>2013-03-12T12:31:00+00:00</updated>
+    <id>http://oldsite.theodi.org/news/virgin-media-and-which-join-open-data-institute-unlock-open-data-innovation</id>
+    <author>
+      <name>Emma Thwaites</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/news/code-europe-odi"/>
+    <title type="html">Code for Europe at the ODI</title>
+    <content type="html"/>
+    <summary type="html">The ODI is hosting [Code for Europe ](http://codeforeurope.net)Fellows who are�in London�meeting open data entrepreneurs�and sharing advice and ideas with one another.�Code for Europe is working with city authorities across Europe to engage data technologists in�exploring�solutions to city challenges.�</summary>
+    <updated>2013-03-05T12:11:40+00:00</updated>
+    <id>http://oldsite.theodi.org/news/code-europe-odi</id>
+    <author>
+      <name>Emma Thwaites</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/news/odi-ceo-joins-mayor-s-smart-london-board"/>
+    <title type="html">ODI CEO joins Mayor’s "Smart London" board</title>
+    <content type="html"/>
+    <summary type="html">Gavin Starks has joined a line-up of experts including leading academics, businesses and entrepreneurs to develop a ‘Smart London’ vision that puts technological innovation at the heart of making the capital a better place to live, work and invest. �  </summary>
+    <updated>2013-03-04T13:48:48+00:00</updated>
+    <id>http://oldsite.theodi.org/news/odi-ceo-joins-mayor-s-smart-london-board</id>
+    <author>
+      <name>Emma Thwaites</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/news/odi-welcomes-fifth-start-honest-buildings-takes-residence"/>
+    <title type="html">ODI Welcomes Fifth Start-up as Honest Buildings Takes up Residence</title>
+    <content type="html"/>
+    <summary type="html">The US-based commercial real estate network, [Honest Buildings](http://www.honestbuildings.com/) (HB) has moved in to the ODI’s HQ. �HB, which has officially announced its expansion in to the UK this week, joins [Locatable](http://www.theodi.org/case-study/locatable), [Mastadon C](http://www.theodi.org/case-study/mastodon-c), [Open Corporates](http://www.theodi.org/case-study/opencorporates) and [Placr](http://www.theodi.org/case-study/placr) - start-up companies already based in the ODI's London office.  </summary>
+    <updated>2013-02-28T09:43:18+00:00</updated>
+    <id>http://oldsite.theodi.org/news/odi-welcomes-fifth-start-honest-buildings-takes-residence</id>
+    <author>
+      <name>Emma Thwaites</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/news/odi-based-company-helps-londoners-understand-mayor-s-policing-plans"/>
+    <title type="html">ODI-based Company Helps Londoners Understand Mayor’s Policing Plans</title>
+    <content type="html"/>
+    <summary type="html">A start-up company based at the Open Data Institute has developed [interactive mapping tools](http://www.frontcounters.org.uk) to help people see how the planned closure of police stations in the Capital will affect them.</summary>
+    <updated>2013-02-28T08:48:47+00:00</updated>
+    <id>http://oldsite.theodi.org/news/odi-based-company-helps-londoners-understand-mayor-s-policing-plans</id>
+    <author>
+      <name>Emma Thwaites</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/news/odi-launches-850k-scheme-create-businesses-open-data"/>
+    <title type="html">ODI launches £850k scheme to create businesses from open data</title>
+    <content type="html"/>
+    <summary type="html">The Open Data Institute (ODI) has unveiled a new initiative that will accelerate innovative open data ideas and develop market-ready businesses.</summary>
+    <updated>2013-02-21T23:03:15+00:00</updated>
+    <id>http://oldsite.theodi.org/news/odi-launches-850k-scheme-create-businesses-open-data</id>
+    <author>
+      <name>Emma Thwaites</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/news/survey-shows-majority-uk-public-servants-recognise-importance-open-data"/>
+    <title type="html">Survey shows majority of UK public servants recognise importance of open data</title>
+    <content type="html"/>
+    <summary type="html">The first survey on the use of open data by government has found that the majority of public servants agree that understanding how to access, share and use data will be increasingly important over the next three years. �Even though most of those surveyed by Listpoint didn’t fully grasp government policies or the benefits of open data, more than half agreed that ready access to data and data standards will generate new enterprises, jobs and services.</summary>
+    <updated>2013-02-18T15:10:14+00:00</updated>
+    <id>http://oldsite.theodi.org/news/survey-shows-majority-uk-public-servants-recognise-importance-open-data</id>
+    <author>
+      <name>Emma Thwaites</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/news/glasgow-wins-24m-boost-after-recognising-revolutionary-impact-open-data"/>
+    <title type="html">Glasgow wins £24m boost after recognising the “revolutionary impact” of open data.</title>
+    <content type="html"/>
+    <summary type="html">Glasgow has beaten off competition from 30 other cities to win a £24m government investment in science and technology. It will use the funding to demonstrate how a city of the future will work by hosting the [Technology Strategy Board’s](http://www.innovateuk.org/) “Future City Demonstrator”.</summary>
+    <updated>2013-01-26T18:23:08+00:00</updated>
+    <id>http://oldsite.theodi.org/news/glasgow-wins-24m-boost-after-recognising-revolutionary-impact-open-data</id>
+    <author>
+      <name>Emma Thwaites</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/news/gains-opening-supermarket-pricing-information-should-not-be-under-estimated-says-odi"/>
+    <title type="html">Gains from opening up supermarket pricing information “should not be under estimated” says ODI</title>
+    <content type="html"/>
+    <summary type="html">A bill to allow shoppers instant, online access to supermarket prices, product by product and store by store will be introduced to Parliament this week. According to the ODI, the supermarkets themselves have a lot to gain from the bill as transparency can also give a competitive advantage.</summary>
+    <updated>2013-01-13T11:49:27+00:00</updated>
+    <id>http://oldsite.theodi.org/news/gains-opening-supermarket-pricing-information-should-not-be-under-estimated-says-odi</id>
+    <author>
+      <name>Emma Thwaites</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/news/11m-boost-open-data-innovation"/>
+    <title type="html">£1.1m Boost for Open Data Innovation</title>
+    <content type="html"/>
+    <summary type="html">Start-ups and small businesses hoping to build products and services from open data are getting the chance to apply for a new wave of Innovation Vouchers. The £5k vouchers are going on release through the Technology Strategy Board (TSB).</summary>
+    <updated>2012-12-14T10:13:21+00:00</updated>
+    <id>http://oldsite.theodi.org/news/11m-boost-open-data-innovation</id>
+    <author>
+      <name>Emma Thwaites</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/news/pupil-data-should-not-be-open-data-says-odi"/>
+    <title type="html">Pupil Data Should not be Open Data says ODI</title>
+    <content type="html"/>
+    <summary type="html">The ODI has submitted its response to the government’s consultation on making the National Pupil Database (NPD) available for wider purposes. Ministers are considering letting businesses apply to have access to this data, which could include personal data if a case were made by an applicant.</summary>
+    <updated>2012-12-14T09:58:05+00:00</updated>
+    <id>http://oldsite.theodi.org/news/pupil-data-should-not-be-open-data-says-odi</id>
+    <author>
+      <name>Emma Thwaites</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/news/prescription-savings-worth-millions-identified-odi-incubated-company"/>
+    <title type="html">Prescription Savings Worth Millions Identified by ODI incubated company</title>
+    <content type="html"/>
+    <summary type="html">Innovative startups working with NHS doctors and academics have found a simple way to save millions of pounds  </summary>
+    <updated>2012-12-06T22:13:13+00:00</updated>
+    <id>http://oldsite.theodi.org/news/prescription-savings-worth-millions-identified-odi-incubated-company</id>
+    <author>
+      <name>Emma Thwaites</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/news/odi-signs-agreement-world-bank-ministers-herald-official-opening"/>
+    <title type="html">ODI signs agreement with the World Bank as Ministers herald official opening</title>
+    <content type="html"/>
+    <summary type="html">The Open Data Institute was opened by UK Government Ministers, Francis Maude and David Willets today as news emerged of the Institute’s second formal affiliation. The ODI has signed a Memorandum of Understanding (MOU) with the World Bank, following news on Monday that the Omidyar Network will be the Institute’s first investor, bringing with it $750k over two years.</summary>
+    <updated>2012-12-04T16:59:07+00:00</updated>
+    <id>http://oldsite.theodi.org/news/odi-signs-agreement-world-bank-ministers-herald-official-opening</id>
+    <author>
+      <name>Emma Thwaites</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/news/uk-leads-demand-open-data-odi-opens-business"/>
+    <title type="html">UK Leads Demand for Open Data as ODI Opens for Business</title>
+    <content type="html"/>
+    <summary type="html">As The Open Data Institute opens officially, [research reveals ](http://www.deloitte.com/view/enGB/uk/market-insights/deloitte-analytics/open-data/bfb570a79416b310VgnVCM1000003256f70aRCRD.htm)key features of an evolving open data market. As part of its start-up activities, the ODI has been working with business experts, Deloitte to assess the landscape.  </summary>
+    <updated>2012-12-02T18:46:08+00:00</updated>
+    <id>http://oldsite.theodi.org/news/uk-leads-demand-open-data-odi-opens-business</id>
+    <author>
+      <name>Emma Thwaites</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/news/inspiration-personal-data-odi-s-midata-hackathon"/>
+    <title type="html">Inspiration From Personal Data at The ODI’s MiData Hackathon</title>
+    <content type="html"/>
+    <summary type="html">In a packed house at The ODI, participants in the first-ever MiData Hackathon explored the opportunities presented by personal data and came up with some amazing insights.</summary>
+    <updated>2012-11-20T18:27:34+00:00</updated>
+    <id>http://oldsite.theodi.org/news/inspiration-personal-data-odi-s-midata-hackathon</id>
+    <author>
+      <name>Emma Thwaites</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/news/odi-takes-inspiration-lambeth-students-city-mash"/>
+    <title type="html">The ODI takes inspiration from Lambeth students at city mash-up</title>
+    <content type="html"/>
+    <summary type="html">Lambeth secondary school students became community advisors for a day, learning to analyse publically available data about their borough with The ODI and Deloitte, the business advisory firm.</summary>
+    <updated>2012-11-09T11:57:33+00:00</updated>
+    <id>http://oldsite.theodi.org/news/odi-takes-inspiration-lambeth-students-city-mash</id>
+    <author>
+      <name>Emma Thwaites</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/news/odi-responds-postcode-data-consultation"/>
+    <title type="html">ODI Responds to Postcode Data Consultation</title>
+    <content type="html"/>
+    <summary type="html">The ODI has responded to a [consultation on the licensing terms for Postcode Data (PAF)](http://www.pafboard.org.uk/documents/PAF%2812%2929%20LICENCE%20CONSULTATION%20SEPTEMBER%202012.pdf) with a strong message that Royal Mail �should not spend further money on developing restrictive licensing and pricing options for the reuse of PAF® data.   </summary>
+    <updated>2012-10-26T15:59:38+00:00</updated>
+    <id>http://oldsite.theodi.org/news/odi-responds-postcode-data-consultation</id>
+    <author>
+      <name>Emma Thwaites</name>
+    </author>
+  </entry>
+</feed>

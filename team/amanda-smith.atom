@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <title>News for Amanda Smith</title>
+  <updated>2017-01-13T15:14:47+00:00</updated>
+  <id>http://oldsite.theodi.org/team/amanda-smith.atom</id>
+  <link href="http://oldsite.theodi.org/team/amanda-smith.atom" rel="self"/>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/strengthening-our-legal-data-infrastructure"/>
+    <title type="html">Strengthening our legal data infrastructure</title>
+    <content type="html"/>
+    <summary type="html">With the legal sector generating more and more data, the ODI and Thomson Reuters are exploring which datasets should be open, and how to improve data sharing in the sector. Following a discovery workshop, Amanda Smith invites the community to pitch in ahead of a white paper on strengthening our legal data infrastructure</summary>
+    <updated>2017-01-13T12:49:54+00:00</updated>
+    <id>http://oldsite.theodi.org/news/strengthening-our-legal-data-infrastructure</id>
+    <author>
+      <name>Amanda Smith</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/data-infrastructure-for-investment-banking"/>
+    <title type="html">Data infrastructure for investment banking </title>
+    <content type="html"/>
+    <summary type="html">Investment banks provide financial products and services to clients such as corporations, high-net-worth individuals and governments. Typical services include raising capital, financial advice for mergers and acquisitions and risk management.</summary>
+    <updated>2016-12-06T14:43:00+00:00</updated>
+    <id>http://oldsite.theodi.org/news/data-infrastructure-for-investment-banking</id>
+    <author>
+      <name>Amanda Smith</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/open-data-monitor-open-data-resources"/>
+    <title type="html">OpenDataMonitor gathers over 500 open data resources </title>
+    <content type="html"/>
+    <summary type="html">From the beginning of the open data movement, proponents of the cause have been gathering evidence to demonstrate the economic, social and environmental value of open data. The [OpenDataMonitor project](http://project.opendatamonitor.eu) has gathered a comprehensive, baseline collection of key resources, but we need your help to make it better. </summary>
+    <updated>2015-05-07T11:29:07+00:00</updated>
+    <id>http://oldsite.theodi.org/news/open-data-monitor-open-data-resources</id>
+    <author>
+      <name>Amanda Smith</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/news/new-support-for-european-entrepreneurs-to-access-quality-open-data"/>
+    <title type="html">New support for European entrepreneurs to access quality open data</title>
+    <content type="html"/>
+    <summary type="html">&lt;img src="http://bd7a65e2cb448908f934-86a50c88e47af9e1fb58ce0672b5a500.r32.cf3.rackcdn.com/uploads/assets/e7/38/54e738dc1f986a085a000009/ScreenShot2015-02-20at13.37.49.png" alt="null" class="img" id="54e738dcd0d4620863000027"&gt;</summary>
+    <updated>2015-02-20T12:31:14+00:00</updated>
+    <id>http://oldsite.theodi.org/news/new-support-for-european-entrepreneurs-to-access-quality-open-data</id>
+    <author>
+      <name>Amanda Smith</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/opendatamonitor-one-year-on"/>
+    <title type="html">Open Data Monitor: one year on</title>
+    <content type="html"/>
+    <summary type="html">&lt;img src="http://bd7a65e2cb448908f934-86a50c88e47af9e1fb58ce0672b5a500.r32.cf3.rackcdn.com/uploads/assets/87/20/5487200cd0d46207f0000018/platform-map.png" alt="null" class="img" id="5487200cf362be08d6000022"&gt; </summary>
+    <updated>2014-12-02T10:12:19+00:00</updated>
+    <id>http://oldsite.theodi.org/news/opendatamonitor-one-year-on</id>
+    <author>
+      <name>Amanda Smith</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/the-sharepsi-project-samos-summit-hosts-our-first-workshop"/>
+    <title type="html">The Share-PSI project: Samos Summit hosts our first workshop</title>
+    <content type="html"/>
+    <summary type="html">Earlier this month I attended the [5th Samos Summit](http://samos-summit.blogspot.co.uk/), which was co-organised by the [University of Aegean](http://www.aegean.gr/aegean/en/introen.htm), the [Share-PSI 2.0 project](http://www.w3.org/2013/share-psi/) and two policy-focused projects; [NOMAD](http://www.nomad-project.eu) and [EU-Community](http://project.eucommunity.eu/).</summary>
+    <updated>2014-07-17T09:42:57+00:00</updated>
+    <id>http://oldsite.theodi.org/news/the-sharepsi-project-samos-summit-hosts-our-first-workshop</id>
+    <author>
+      <name>Amanda Smith</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/news/odi-researchers-nominated-for-best-paper-award-at-cedem14"/>
+    <title type="html">ODI researchers nominated for Best Paper Award at CeDEM14</title>
+    <content type="html"/>
+    <summary type="html">ODI Researchers working on the [OpenDataMonitor (ODM)](http://project.opendatamonitor.eu) project were nominated for the Best Paper Award at this years [International Conference for e-Democracy and Open Government (CeDEM)](http://www.donau-uni.ac.at/en/department/gpa/telematik/edemocracy-conference/edem/vid/19486/index.php), held on the 21st - 23rd May. </summary>
+    <updated>2014-05-28T15:40:06+00:00</updated>
+    <id>http://oldsite.theodi.org/news/odi-researchers-nominated-for-best-paper-award-at-cedem14</id>
+    <author>
+      <name>Amanda Smith</name>
+    </author>
+  </entry>
+  <entry>
+    <link href="http://oldsite.theodi.org/news/press-release-research-at-the-odi-announcing-dapaas-and-opendatamonitor"/>
+    <title type="html">Press release: Research at the ODI - announcing DaPaaS and OpenDataMonitor</title>
+    <content type="html"/>
+    <summary type="html">ODI awarded European Commission funds to support open data publishers and consumers - new online platforms will help developers and entrepreneurs build applications and businesses.</summary>
+    <updated>2013-12-17T11:21:34+00:00</updated>
+    <id>http://oldsite.theodi.org/news/press-release-research-at-the-odi-announcing-dapaas-and-opendatamonitor</id>
+    <author>
+      <name>Amanda Smith</name>
+    </author>
+  </entry>
+</feed>

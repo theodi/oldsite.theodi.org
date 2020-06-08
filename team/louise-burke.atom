@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <title>News for Louise Burke</title>
+  <updated>2017-04-27T12:53:15+00:00</updated>
+  <id>http://oldsite.theodi.org/team/louise-burke.atom</id>
+  <link href="http://oldsite.theodi.org/team/louise-burke.atom" rel="self"/>
+  <entry>
+    <link href="http://oldsite.theodi.org/blog/uk-government-must-support-data-sharing-and-open-data-in-transport-or-risk-being-left-behind"/>
+    <title type="html">Briefing paper: UK government must support data sharing and open data in transport</title>
+    <content type="html"/>
+    <summary type="html">To mark the launch of a [briefing paper](https://s3-eu-west-1.amazonaws.com/media.ts.catapult/wp-content/uploads/2017/04/12092544/15460-TSC-Q1-Report-Document-Suite-single-pages.pdf) on data sharing and open data in transport, commissioned by Transport Systems Catapult, ODI COO Louise Burke outlines how government can support integrated, efficient and sustainable transport systems</summary>
+    <updated>2017-04-12T14:07:07+00:00</updated>
+    <id>http://oldsite.theodi.org/news/uk-government-must-support-data-sharing-and-open-data-in-transport-or-risk-being-left-behind</id>
+    <author>
+      <name>Louise Burke</name>
+    </author>
+  </entry>
+</feed>
