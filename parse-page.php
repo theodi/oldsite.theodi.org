@@ -75,6 +75,7 @@
     $output = str_replace("https://oldsite.theodi.org/", $replace, $output);
     $output = str_replace("//oldsite.theodi.org/", $replace, $output);
     $output = preg_replace('/(href=")(\/)([^\/])/i', '${1}' . $replace . '${3}', $output);
+    $output = preg_replace('/(src=")(\/)([^\/])/i', '${1}' . $replace . '${3}', $output);
 
     return $output;
   }

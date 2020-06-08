@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=US-ASCII">
+<title>How to use R to access data on the web | Open Data Institute</title>
+<link href="../assets/application-693091b423df059e90189392fffb0ae0.css" media="all" rel="stylesheet" type="text/css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="../assets/favicon-e0340b5bc5738e53c1b06680529c0963.ico" rel="shortcut icon" type="image/vnd.microsoft.icon">
+
+<!--[if lt IE 9]>
+      <script src="../assets/html5shiv-5d1c7196accd7174ed22f320c693b063.js" type="text/javascript"></script>
+    <![endif]-->
+
+<!--[if (IE 7)|(IE 8)]>
+      <script src="../assets/respond.min-5eec43180e3f6d282f038de07483dc4b.js" type="text/javascript"></script>
+    <![endif]-->
+
+<script src="../assets/modernizr.custom-1ecf37d7f9fbb3066a877e31ce79e79e.js" type="text/javascript"></script>
+
+<!--[if lte IE 9]><link href="../assets/ie9-875f0d42a52ff5536404da8fda8d423b.css" media="screen" rel="stylesheet" type="text/css" /><![endif]-->
+<!--[if lte IE 8]><link href="../assets/ie8-4a6b9f309032dacb3913ccc2d55bda8b.css" media="screen" rel="stylesheet" type="text/css" /><![endif]-->
+<!--[if lte IE 7]><link href="../assets/ie7-d4066942f039a08eed8b62b80cde16cb.css" media="screen" rel="stylesheet" type="text/css" /><![endif]-->
+<!--[if lt IE 7]><link href="../assets/ie6-cab152e9612eeec9bd0af579a2231dd5.css" media="screen" rel="stylesheet" type="text/css" /><![endif]-->
+
+<meta property="fb:pages" content="1755416561338416">
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+<link href="../how-to-use-r-to-access-data-on-the-web.json" rel="alternate" title="json" type="application/json">
+<meta content="The Open Data Institute (ODI) equip, connect and inspire people around the world to innovate with data. Co-founded by Sir Tim Berners-Lee and Sir Nigel Shadbolt, the ODI provides events, training, membership and consultancy around open data." name="description">
+<meta content="summary_large_image" name="twitter:card">
+<meta content="@ODIHQ" name="twitter:site">
+<meta content="How to use R to access data on the web | Open Data Institute" property="og:title">
+<meta content="article" property="og:type">
+<meta content="../how-to-use-r-to-access-data-on-the-web" property="og:url">
+<meta content="https://raw.githubusercontent.com/theodi/R-playground/master/line-chart-graph.png" property="og:image">
+<meta content="Open Data Institute" property="og:site_name">
+<meta content="The Open Data Institute (ODI) equip, connect and inspire people around the world to innovate with data. Co-founded by Sir Tim Berners-Lee and Sir Nigel Shadbolt, the ODI provides events, training, membership and consultancy around open data." property="og:description">
+<meta name="govuk:rendering-application" content="Www">
+<script type="text/javascript">
+
+
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-34573394-1', {});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   ga('send', 'pageview');
+
+
+</script></head>
+<body>
+<header class="site-header">
+<div class="navbar navbar-inverse navbar-static-top">
+<div class="container">
+<div class="navbar-header">
+
+<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+<a class="navbar-brand" href="../"><img alt="The ODI" id="odi-logo" src="../assets/logo-header-dc4ead7a18ea4133873c79502c174638.png"></a>
+</div>
+<div class="modal fade" id="getLogo" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<h4 class="modal-title" id="myModalLabel">Welcome to the ODI
+<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&#215;</button>
+</h4>
+</div>
+<div class="modal-body">
+<p>Knowledge for everyone</p>
+<p>The ODI helps to unlock the value of open data.</p>
+<p>If you want to use our logo, different sizes and types are here: <a href="../brand">../brand</a></p>
+<p><a rel="external" href="../uploads/assets/legacy/ODI%2Dlogo%2Dsml.png"><img src="../uploads/assets/legacy/ODI%2Dlogo%2Dsml.png" alt=""></a></p>
+<p><a rel="external" href="../uploads/assets/legacy/ODI%2Dlogo%2Dmed.png"><img src="../uploads/assets/legacy/ODI%2Dlogo%2Dmed.png" alt=""></a></p>
+<p><a rel="external" href="../uploads/assets/legacy/ODI%2Dlogo%2Dmed.png"><img src="../uploads/assets/legacy/ODI%2Dlogo%2Dlg.png" alt=""></a></p>
+<p><a rel="external" href="../uploads/assets/legacy/ODI%2Dlogo%2Dmed.png"><img src="../uploads/assets/legacy/ODI%2Dlogo%2Dxlg.png" alt=""></a></p>
+</div>
+</div>
+</div>
+</div>
+<ul class="nav navbar-nav navbar-right">
+<li><a href="../contact">Contact us</a></li>
+<li><a href="../newsletters">Newsletters</a></li>
+
+</ul>
+
+<form class="navbar-form navbar-right" method="get" action="//duckduckgo.com/">
+<div class="form-group">
+<div class="input-group">
+<input value="oldsite.theodi.org" name="sites" type="hidden">
+<input class="form-control" placeholder="Search ODI" name="q" type="text">
+<input value="Go" class="btn" type="submit">
+</div>
+</div>
+</form>
+</div>
+</div>
+<div class="collapse navbar-collapse">
+<div class="navbar navbar-static-top">
+<div class="container">
+<ul class="nav navbar-nav main-nav">
+<li class="dropdown">
+<a href="../news">
+News &amp; blog
+</a>
+</li>
+<li class="dropdown">
+<a href="../get-involved">
+Get involved
+</a>
+</li>
+<li class="dropdown">
+<a href="../our-network">
+Our global network
+</a>
+</li>
+<li class="dropdown">
+<a href="../events">
+Events
+</a>
+</li>
+<li class="dropdown">
+<a href="../our-focus">
+Our focus
+</a>
+</li>
+<li class="dropdown">
+<a href="../publications">
+Publications
+</a>
+</li>
+<li class="dropdown last">
+<a href="../about">
+About the ODI
+</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="navbar navbar-inverse navbar-static-top mobile-only">
+<div class="container">
+<ul class="nav navbar-nav navbar-right">
+<li><a href="../contact">Contact us</a></li>
+<li><a href="../newsletters">Newsletters</a></li>
+
+</ul>
+
+</div>
+</div>
+</header> 
+<div id="wrapper">
+<header class="page-title">
+<div class="container header-wrap">
+<h1>How to use R to access data on the web</h1>
+</div>
+</header>
+<div class="container">
+<div class="row">
+<div class="article-main">
+<article class="article-body">
+<p>Data on the web comes in several modes, for example:</p>
+<ul>
+<li>files that you can download</li>
+<li>APIs</li>
+<li>content such as HTML tables</li>
+<li>custom data browsers</li>
+<li>and more.</li>
+</ul>
+<p>Analysing or using data without software is incredibly cumbersome if not impossible. <strong>Here we show you how you can import data from the web into a tool called R.</strong> Reasons why R has become so popular, and continues to grow, are that it's free, open source, with state-of-the-art practices and a fantastic community. </p>
+<p><a href="http://www.r-project.org/">R</a>, and its IDE <a href="http://www.rstudio.com/">RStudio</a>, is a statistical software and data analysis environment. You can find a quick interactive tutorial on <a href="https://www.codeschool.com/courses/try-r">Code School</a> or well-designed courses on <a href="https://www.datacamp.com">DataCamp</a>. If you haven't installed R, you can paste and try the code at <a href="http://www.r-fiddle.org">R-fiddle</a>.</p>
+<h3 id="commaseparatedvaluescsv">Comma separated values (CSV)</h3>
+<p>Reading a CSV-file from an URL could not be simpler. Here are the number of police officers in Scotland over time. </p>
+<pre><code>read.csv("http://www.quandl.com/api/v1/datasets/EUROSTAT/CRIM_PLCE_42.csv")
+</code></pre>
+<p>And yet it is not guaranteed that this works. Why? Many CSVs don't follow a minimal standard. For example, the first row of a CSV file should be a header row, but some data has a header row in a later line. We use the <code>skip</code> option. </p>
+<pre><code>read.csv("http://www.royalwolverhamptonhospitals.nhs.uk/files/mth%206%20september%202013%20(3).csv", skip = 2)
+</code></pre>
+<p>Unfortunately, <code>read.csv()</code> does not cope well with SSL, that is https connections. An alternative employs <code>download.file</code>, see below. </p>
+<pre><code># Fail
+read.csv("https://raw.github.com/sciruela/Happiness-Salaries/master/data.csv")
+
+# Win
+read.url &lt;- function(url, ...){
+  tmpFile &lt;- tempfile()
+  download.file(url, destfile = tmpFile, method = "curl")
+  url.data &lt;- read.csv(tmpFile, ...)
+  return(url.data)
+}
+read.url("https://raw.github.com/sciruela/Happiness-Salaries/master/data.csv")
+</code></pre>
+<h4 id="whatgiftsdiddavidcameronreceiveinmayjune2013">What gifts did David Cameron receive in May-June 2013?</h4>
+<p>The UK government publishes data about gifts David Cameron receives and what happens with them. We will use it as another example.</p>
+<p>The data is behind a secure connection, so we use our <code>read.url</code> function. Yet it still produces an error. The reason is a &#163; symbol in the header row. </p>
+<pre><code>read.url("https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/246663/pmgiftsreceivedaprjun13.csv")
+</code></pre>
+<p>A faster and more flexible tool is <code>fread</code> from the <a href="http://datatable.r-forge.r-project.org/">data.table</a> package (see the documentation).</p>
+<pre><code>install.packages("data.table")
+library(data.table)
+
+read.url &lt;- function(url, ...){
+  tmpFile &lt;- tempfile()
+  download.file(url, destfile = tmpFile, method = "curl")
+  url.data &lt;- fread(tmpFile, ...)
+  return(url.data)
+}
+
+read.url("https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/246663/pmgiftsreceivedaprjun13.csv")
+</code></pre>
+<p>And the results are:</p>
+<table class="table offers table-horizontally-condensed">
+<tr>
+<th>Date received</th>
+<th>From</th>
+<th>Gift</th>
+<th>Value</th>
+<th>Outcome</th>
+</tr>
+<tr>
+<td>May-13</td>
+<td>President of UAE</td>
+<td>Model boat</td>
+<td>Over limit</td>
+<td>Held by Department</td>
+</tr>
+<tr>
+<td>Jun-13</td>
+<td>Tony Pontone, Albemarle</td>
+<td>Gallery Art work</td>
+<td>Over limit</td>
+<td>Held by Department</td>
+</tr>
+<tr>
+<td>Jun-13</td>
+<td>President of the United States</td>
+<td>Jewellery</td>
+<td>Over limit</td>
+<td>Held by Department</td>
+</tr>
+<tr>
+<td>Jun-13</td>
+<td>President of Pakistan</td>
+<td>Rug</td>
+<td>Over limit</td>
+<td>Held by Department</td>
+</tr>
+<tr>
+<td>Jun-13</td>
+<td>President of Kazakhstan</td>
+<td>Medals &amp; stamp album</td>
+<td>Over limit</td>
+<td>Held by Department</td>
+</tr>
+</table>
+<hr>
+<p>A useful trick is to only read a few lines. This makes especially sense when you have a large dataset like the Land Registry's Price Paid Data (several GB in its complete form). </p>
+<pre><code>read.csv("http://publicdata.landregistry.gov.uk/market-trend-data/price-paid-data/a/pp-complete.csv", nrow = 10)
+</code></pre>
+<h3 id="apis">APIs</h3>
+<p>R's community has built wrapper packages for many APIs. For example, the <a href="https://github.com/vincentarelbundock/WDI">World Bank Development indicators</a> are available in R. A quick example with Google's Ngram Viewer is below.</p>
+<p><strong>What is more popular: line charts or line graphs?</strong>
+<img src="https://raw.githubusercontent.com/theodi/R-playground/master/line-chart-graph.png" alt="line"></p>
+<pre><code># Install the package
+install.packages(c("ngramr", "ggplot2"))
+
+# Load it into R
+library(ngramr)
+library(ggplot2)
+
+# Case-insensitive search
+lines &lt;- ngrami(c("line chart", "line graph"), year_start = 1913)
+ggplot(lines, aes(Year, Frequency, colour = Phrase)) + theme_minimal() + geom_line(lwd = 1)
+</code></pre>
+<p><a href="http://ropensci.org/related/index.html">ROpenSci</a> collected an extensive list of R packages that deal with APIs. It includes Twitter, the Guardian, Amazon Mechanical Turk and many more.</p>
+<h2 id="scraping">Scraping</h2>
+<p>Scraping is an art in itself and is perhaps best left in the hands of experts such as our friends at <a href="https://scraperwiki.com/">ScraperWiki</a>. However, R has support (packages, no surprise here) for popular tools. Worth mentioning is <a href="http://cran.r-project.org/web/packages/RCurl/index.html">RCurl</a> and <a href="http://cran.r-project.org/web/packages/XML/index.html">XML</a>.</p>
+<p><a href="http://cos.name/wp-content/uploads/2013/05/Web-Scraping-with-R-XiaoNan.pdf">Xiao Nan</a> made a useful table of the R scraping toolkit.</p>
+<p><img src="https://raw.github.com/theodi/R-playground/master/available-R-packages.png" alt="packages">
+<em>Source: Xiao Nan, <a href="https://twitter.com/road2stat">@road2stat</a></em></p>
+<p>Lastly, I wished that I'd have known about parallelisation options earlier...
+For example, <a href="http://www.inside-r.org/packages/cran/RCurl/docs/getURIAsynchronous"><code>getURIAsynchronous</code></a> from RCurl. </p>
+<p>I also wrote a <a href="http://rpubs.com/statshero/opinion-polls">tutorial on how to import a HTML table into R</a>. </p>
+<h2 id="whattodonext">What to do next</h2>
+<p>Using a tool like R has another great advantage: unlike manually downloading a file, you can easily re-use and share your work. Having some R code instead of an Excel file means your analysis is reproducible and you may be able to adapt it for future projects or if an updated dataset was released.</p>
+<p>If you need help you can find support via <a href="http://stackoverflow.com/questions/tagged/r">stackoverflow</a> and the <a href="http://www.r-project.org/mail.html">R-help mailing list</a>. If you're looking for data, browse a catalogue (e.g. <a href="http://data.gov.uk/data/search">data.gov.uk</a>), use a web search engine or ask me on <a href="https://twitter.com/statshero">Twitter</a>.</p>
+</article>
+</div>
+<aside class="article-sidebar listing">
+<div class="module module-light module-colour-1">
+<a href="../blog/fig-data-11-tips-how-handle-big-data-r-and-1-bad-pun">
+<h1 class="module-heading">Fig Data: 11 Tips on How to Handle Big Data in R (and 1 Bad Pun)</h1>
+</a>
+</div>
+</aside>
+</div>
+</div>
+</div>
+<footer class="site-footer">
+<div class="container">
+<div class="row">
+<div class="col-md-8 footer-content">
+<h1 class="footer-logo"><a href="http://oldsite.theodi.org">Open Data Institute</a></h1>
+<p><a href="../contact">Open Data Institute, 65 Clifton Street, London EC2A 4JE</a></p>
+<p><a href="../cdn-cgi/l/email-protection#c9a0a7afa689bda1aca6ada0e7a6bbae"><span class="__cf_email__" data-cfemail="e0898e868fa09488858f8489ce8f9287">[email&#160;protected]</span></a> Company <a href="http://opencorporates.com/companies/gb/08030289">08030289</a>
+<span>VAT</span><span>143 7796 80</span>
+</p>
+<p class="license">
+<a href="http://creativecommons.org/licenses/by-sa/2.0/uk/deed.en_GB" rel="license">
+<img alt="Creative Commons Licence" height="15" src="../assets/cc-a23fe95f04508432c8d97c00b0a36254.png" width="80">
+</a>
+</p>
+</div>
+<div class="col-md-4 footer-nav">
+<nav><ul class="pull-right list-inline">
+<li><a href="http://www.twitter.com/ODIHQ" class=" ">
+<img alt="Follow us on Twitter" src="../assets/twitter-a658ecc9fe2aab3308a5fb36adfb9a64.png" title="Follow us on Twitter"></a></li>
+<li><a href="https://soundcloud.com/theodi" class=" ">
+<img alt="Listen on Soundcloud" src="../assets/soundcloud-3932b3db23c6fb6c45bce20c8016462c.png" title="Listen on Soundcloud"></a></li>
+<li><a href="http://www.scribd.com/OpenDataInstitute" class=" ">
+<img alt="Read on Scribd" src="../assets/scribd-8afadecb87771fd6f6814e6ea81fb23d.png" title="Read on Scribd"></a></li>
+<li><a href="https://github.com/orgs/theodi" class=" ">
+<img alt="Follow us on Github" src="../assets/github-914931d2a14f54f3c64caec5c6e68017.png" title="Follow us on Github"></a></li>
+<li><a href="http://vimeo.com/theodiuk" class=" ">
+<img alt="Watch on Vimeo" src="../assets/vimeo-a865234771edd239032629b694ddaa32.png" title="Watch on Vimeo"></a></li>
+<li><a href="http://www.youtube.com/user/OpenDataInstituteUK" class=" ">
+<img alt="Watch on Youtube" src="../assets/youtube-cccfa6f837a0acfe0d2fd9492b0d45b3.png" title="Watch on Youtube"></a></li>
+<li><a href="http://www.flickr.com/photos/ukodi/" class=" ">
+<img alt="Follow us on Flickr" src="../assets/flickr-c81d78a530d046663cfff44293f6f775.png" title="Follow us on Flickr"></a></li>
+</ul></nav>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<nav><ul class="pull-right list-inline">
+<li class=" "><a href="../terms-of-use" class=" ">Terms of use</a></li>
+<li class=" "><a href="../privacy-policy" class=" ">Privacy policy</a></li>
+<li class=" "><a href="../cookie-policy" class=" ">Cookie policy</a></li>
+</ul></nav>
+</div>
+</div>
+</div>
+</footer>
+<script data-cfasync="false" src="../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+
+  var _pt = ["E6AF1363-3E19-409A-983C-91FFE62C2CBB"];
+  (function(d,t){
+    var a=d.createElement(t),s=d.getElementsByTagName(t)[0];a.src=location.protocol+'//a1webstrategy.com/track.js';s.parentNode.insertBefore(a,s);
+  }(document,'script'));
+
+  </script>
+<script type="text/javascript">
+      (function (n) {
+          var u = window.location.href;
+          var p = u.split("/")[0];
+          var t = n.createElement("script"), i;
+          t.type = "text/javascript";
+          t.async = !0;
+          t.src = p + "//dashboard.whoisvisiting.com/who.js";
+          i = n.getElementsByTagName("script")[0];
+          i.parentNode.insertBefore(t, i)
+      })(document);
+
+          var whoparam = whoparam || [];
+          whoparam.push(["AcNo", "8d5d04b9adc94a34bc385c6f3370594e"]);
+          whoparam.push(["SendHit", ""]
+      );
+  </script>
+<script src="../assets/application-4829863ea093de33ae55c9a127d6af6b.js" type="text/javascript"></script>
+
+<!--[if gt IE 7]><!-->
+<script src="../assets/bootstrap/bootstrap-collapse-c4cb45620c1346753e2385c125ed4bdd.js" type="text/javascript"></script>
+<!--<![endif]-->
+
+
+<!--[if gt IE 7]><!-->
+<script src="../assets/masonry-c617ee0c7d6c602b548ab5e69d50f4fa.js" type="text/javascript"></script>
+<script src="../assets/infinitescroll-243a7a50c0c843f1deb394ea98f4d0a6.js" type="text/javascript"></script>
+<script src="../assets/background-check-677e6100d9ce594cd30a88f57fc49b48.js" type="text/javascript"></script>
+<!--<![endif]-->
+</body>
+</html>

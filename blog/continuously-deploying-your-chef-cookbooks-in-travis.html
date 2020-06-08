@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=US-ASCII">
+<title>Continuously deploying your Chef cookbooks in Travis | Open Data Institute</title>
+<link href="../assets/application-693091b423df059e90189392fffb0ae0.css" media="all" rel="stylesheet" type="text/css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="../assets/favicon-e0340b5bc5738e53c1b06680529c0963.ico" rel="shortcut icon" type="image/vnd.microsoft.icon">
+
+<!--[if lt IE 9]>
+      <script src="../assets/html5shiv-5d1c7196accd7174ed22f320c693b063.js" type="text/javascript"></script>
+    <![endif]-->
+
+<!--[if (IE 7)|(IE 8)]>
+      <script src="../assets/respond.min-5eec43180e3f6d282f038de07483dc4b.js" type="text/javascript"></script>
+    <![endif]-->
+
+<script src="../assets/modernizr.custom-1ecf37d7f9fbb3066a877e31ce79e79e.js" type="text/javascript"></script>
+
+<!--[if lte IE 9]><link href="../assets/ie9-875f0d42a52ff5536404da8fda8d423b.css" media="screen" rel="stylesheet" type="text/css" /><![endif]-->
+<!--[if lte IE 8]><link href="../assets/ie8-4a6b9f309032dacb3913ccc2d55bda8b.css" media="screen" rel="stylesheet" type="text/css" /><![endif]-->
+<!--[if lte IE 7]><link href="../assets/ie7-d4066942f039a08eed8b62b80cde16cb.css" media="screen" rel="stylesheet" type="text/css" /><![endif]-->
+<!--[if lt IE 7]><link href="../assets/ie6-cab152e9612eeec9bd0af579a2231dd5.css" media="screen" rel="stylesheet" type="text/css" /><![endif]-->
+
+<meta property="fb:pages" content="1755416561338416">
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+<link href="../continuously-deploying-your-chef-cookbooks-in-travis.json" rel="alternate" title="json" type="application/json">
+<meta content="The Open Data Institute (ODI) equip, connect and inspire people around the world to innovate with data. Co-founded by Sir Tim Berners-Lee and Sir Nigel Shadbolt, the ODI provides events, training, membership and consultancy around open data." name="description">
+<meta content="summary_large_image" name="twitter:card">
+<meta content="@ODIHQ" name="twitter:site">
+<meta content="../continuously-deploying-your-chef-cookbooks-in-travis" property="og:url">
+<meta content="Continuously deploying your Chef cookbooks in Travis | Open Data Institute" property="og:title">
+<meta content="The Open Data Institute (ODI) equip, connect and inspire people around the world to innovate with data. Co-founded by Sir Tim Berners-Lee and Sir Nigel Shadbolt, the ODI provides events, training, membership and consultancy around open data." property="og:description">
+<meta content="article" property="og:type">
+<meta content="Open Data Institute" property="og:site_name">
+<meta content="../assets/about_hero.jpg" property="og:image">
+<meta name="govuk:rendering-application" content="Www">
+<script type="text/javascript">
+
+
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-34573394-1', {});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   ga('send', 'pageview');
+
+
+</script></head>
+<body>
+<header class="site-header">
+<div class="navbar navbar-inverse navbar-static-top">
+<div class="container">
+<div class="navbar-header">
+
+<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+<a class="navbar-brand" href="../"><img alt="The ODI" id="odi-logo" src="../assets/logo-header-dc4ead7a18ea4133873c79502c174638.png"></a>
+</div>
+<div class="modal fade" id="getLogo" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<h4 class="modal-title" id="myModalLabel">Welcome to the ODI
+<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&#215;</button>
+</h4>
+</div>
+<div class="modal-body">
+<p>Knowledge for everyone</p>
+<p>The ODI helps to unlock the value of open data.</p>
+<p>If you want to use our logo, different sizes and types are here: <a href="../brand">../brand</a></p>
+<p><a rel="external" href="../uploads/assets/legacy/ODI%2Dlogo%2Dsml.png"><img src="../uploads/assets/legacy/ODI%2Dlogo%2Dsml.png" alt=""></a></p>
+<p><a rel="external" href="../uploads/assets/legacy/ODI%2Dlogo%2Dmed.png"><img src="../uploads/assets/legacy/ODI%2Dlogo%2Dmed.png" alt=""></a></p>
+<p><a rel="external" href="../uploads/assets/legacy/ODI%2Dlogo%2Dmed.png"><img src="../uploads/assets/legacy/ODI%2Dlogo%2Dlg.png" alt=""></a></p>
+<p><a rel="external" href="../uploads/assets/legacy/ODI%2Dlogo%2Dmed.png"><img src="../uploads/assets/legacy/ODI%2Dlogo%2Dxlg.png" alt=""></a></p>
+</div>
+</div>
+</div>
+</div>
+<ul class="nav navbar-nav navbar-right">
+<li><a href="../contact">Contact us</a></li>
+<li><a href="../newsletters">Newsletters</a></li>
+
+</ul>
+
+<form class="navbar-form navbar-right" method="get" action="//duckduckgo.com/">
+<div class="form-group">
+<div class="input-group">
+<input value="oldsite.theodi.org" name="sites" type="hidden">
+<input class="form-control" placeholder="Search ODI" name="q" type="text">
+<input value="Go" class="btn" type="submit">
+</div>
+</div>
+</form>
+</div>
+</div>
+<div class="collapse navbar-collapse">
+<div class="navbar navbar-static-top">
+<div class="container">
+<ul class="nav navbar-nav main-nav">
+<li class="dropdown">
+<a href="../news">
+News &amp; blog
+</a>
+</li>
+<li class="dropdown">
+<a href="../get-involved">
+Get involved
+</a>
+</li>
+<li class="dropdown">
+<a href="../our-network">
+Our global network
+</a>
+</li>
+<li class="dropdown">
+<a href="../events">
+Events
+</a>
+</li>
+<li class="dropdown">
+<a href="../our-focus">
+Our focus
+</a>
+</li>
+<li class="dropdown">
+<a href="../publications">
+Publications
+</a>
+</li>
+<li class="dropdown last">
+<a href="../about">
+About the ODI
+</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="navbar navbar-inverse navbar-static-top mobile-only">
+<div class="container">
+<ul class="nav navbar-nav navbar-right">
+<li><a href="../contact">Contact us</a></li>
+<li><a href="../newsletters">Newsletters</a></li>
+
+</ul>
+
+</div>
+</div>
+</header> 
+<div id="wrapper">
+<header class="page-title">
+<div class="container header-wrap">
+<h1>Continuously deploying your Chef cookbooks in Travis</h1>
+</div>
+</header>
+<div class="container">
+<div class="row">
+<div class="article-full">
+<article class="article-body">
+<p>Here in the ODI Tech Team, we love robots (heck, we even have a <a href="../team/sam-pikesley">Head of Robots</a>), and, as a result, all our code is deployed by robots (using <a href="http://www.getchef.com/">Chef</a>).</p>
+<p>As has been <a href="../blog/better-living-through-openness">mentioned before</a>, our workflow is very much based on <a href="http://scottchacon.com/2011/08/31/github-flow.html">Github flow</a>. We write some code (with tests), publish it to a branch, and then open a pull request. If the tests pass (on <a href="https://travis-ci.org/">Travis</a>), someone else reviews the code and merges it. Once the tests pass on the master branch, a tag is applied to the code and the Chef robots (which run every 10 minutes or so), pick the code up and deploy it to our servers. </p>
+<p>Up until now, we haven't been able to apply this approach to our Chef cookbooks. We test them, sure, but it's tricky to test infrastructure on Travis, because it's difficult (nay, impossble) to spin up virtual machines within the virtual machines that Travis spin up to test our code.</p>
+<p>However, we've recently started using <a href="http://kitchen.ci/">Test Kitchen</a> to test our Chef recipes, and thanks to some wonderful tools that other people have built, this is a lot easier. </p>
+<p>When running Test Kitchen on our local machines, the default behaviour is to use <a href="http://www.vagrantup.com/">Vagrant</a> to launch a virtual machine, apply the recipes and then use <a href="http://serverspec.org/">ServerSpec</a> to test the behaviour (For more information, check out the <a href="http://kitchen.ci/">Test Kitchen Docs</a>).</p>
+<p>When we are running our tests on Travis, however, we need to do things a little differently. Instead of spinning up a virtual machine on Travis, we use <a href="https://github.com/test-kitchen/kitchen-rackspace">Kitchen Rackspace</a> to spin up a VM on Rackspace for us. The tests are then run on that machine, and the server is destroyed for us, meaning we pay pennies for a short-lived server.</p>
+<p>Getting this set up is a little tricky, so I thought I'd give something back and document this process, so that future generations (that's you, dear reader) might benefit.</p>
+<p>Assuming you've got Test Kitchen set up, and have everything set up in Travis, the first thing to do is add <code>kitchen-rackspace</code> to your Gemfile like so:</p>
+<pre><code>gem 'kitchen-rackspace'
+</code></pre>
+<p>Then run <code>bundle install</code>. The next thing to do is create a new <code>.kitchen.yml</code> file. (We've called it <code>.kitchen.cloud.yml</code> as this seems to be the convention), and add the following:</p>
+<pre><code>---
+driver:
+  name: rackspace
+  rackspace_username: &lt;%= ENV['RACKSPACE_USERNAME'] %&gt;
+  rackspace_api_key: &lt;%= ENV['RACKSPACE_API_KEY'] %&gt;
+  rackspace_region: lon
+  require_chef_omnibus: latest
+
+provisioner:
+  name: chef_zero
+
+platforms:
+  - name: ubuntu-12.04
+</code></pre>
+<p>Then add your run list to the file from your existing <code>.kitchen.yml</code> file. You may want to tweak some of the settings above to suit your needs. See the <a href="https://github.com/test-kitchen/kitchen-rackspace">kitchen-rackspace docs for more</a>.</p>
+<p>It's also worth pointing out that the <code>platforms</code> section will only work if the <code>name</code> is referred to in the <a href="https://github.com/test-kitchen/kitchen-rackspace/blob/master/data/images.json">JSON file included in the kitchen-rackspace gem</a>. If you want to use a different platform, you can list the ones available to you by running: </p>
+<pre><code> knife rackspace image list --rackspace-region=lon --rackspace-username=$RACKSPACE_USERNAME --rackspace-api-key=$RACKSPACE_API_KEY
+</code></pre>
+<p>Where <code>$RACKSPACE_USERNAME</code> is your Rackspace Username and <code>$RACKSPACE_API_KEY</code> is your Rackspace API key.</p>
+<p>You'll notice we're passing some environment variables to the YAML file. These can be encrypted and added to your <code>.travis.yml</code> file on the command line like so:</p>
+<pre><code>travis encrypt RACKSPACE_USERNAME=YOUR_RACKSPACE_USERNAME --add
+travis encrypt RACKSPACE_API_KEY=YOUR_RACKSPACE_API_KEY --add
+</code></pre>
+<p>Once that's done, you need to add a few more things to your <code>.travis.yml</code> file. Firstly, you need to make sure the Travis VM has an ssh key (they don't by default). This allows <code>kitchen-rackspace</code> to transfer the necessary files to your Rackspace node, trigger the Chef run, and run the tests:</p>
+<pre><code>before_script:
+   - ssh-keygen -f ~/.ssh/id_rsa -t rsa -N ''
+</code></pre>
+<p>The next thing to do is add the environment variable <code>KITCHEN_YAML</code> to your Travis env to make sure Test Kitchen knows what YAML file to use. The <code>env</code> section of your <code>.travis.yml</code> file should look something like this:</p>
+<pre><code>env:
+  global:
+  - secure: SOME_ENCRYPTED_TOKEN
+  - secure: ANOTHER_ENCRYPTED_TOKEN
+  - KITCHEN_YAML=.kitchen.cloud.yml
+</code></pre>
+<p>Then, the next thing to do, is tell Travis what command to run to run your tests. In our live projects, we've got a Rakefile which runs some other tests as well as Test Kitchen, but, in the interests of keeping it simple, we'll just run Test Kitchen here:</p>
+<pre><code>script: 
+  - travis_wait 35 kitchen test --destroy=always
+</code></pre>
+<p>The first thing to note is the <code>kitchen test</code> command is preceeded by <code>travis_wait 35</code>, this is a special Travis command which stops Travis from timing out until the following command has been running for 35 minutes. Normally Travis will time out after 10 minutes, and this often isn't enough for the whole test run to happen. We're building a virtual machine from scratch remember? <a href="http://docs.travis-ci.com/user/build-timeouts/#Build-times-out-because-no-output-was-received">You can see more about <code>travis_wait</code> here</a></p>
+<p>The <code>--destroy=always</code> tag is important because by default, Test Kitchen only destroys your box after a successful test. We don't want additional servers hanging around and costing us money, so we'll kill them every time.</p>
+<p>By now, your <code>.travis.yml</code> file should look something like this:</p>
+<pre><code>language: ruby
+rvm:
+- 2.1.0
+before_script:
+  - ssh-keygen -f ~/.ssh/id_rsa -t rsa -N ''
+script:
+  - kitchen test --destroy=always
+env:
+  global:
+  - secure: SOME_ENCRYPTED_TOKEN
+  - secure: ANOTHER_ENCRYPTED_TOKEN
+  - KITCHEN_YAML=.kitchen.cloud.yml
+</code></pre>
+<p>You could just stop there, add your project to Travis and push your changes, then upload your cookbook to the Chef server, but as I mentioned before, we're all about continuous deployment here, so we want to go one step further - if the tests pass on master, we want to upload our cookbook to the Chef server.</p>
+<p>To get this done, you'll need to make sure you're using <a href="http://berkshelf.com/">Berkshelf</a>. Firstly, add:</p>
+<pre><code>gem 'berkshelf'
+</code></pre>
+<p>To your Gemfile, then run:</p>
+<pre><code>bundle install
+berks init .
+</code></pre>
+<p>You will then have a <code>Berksfile</code> in your project root. You can use this to manage cookbook dependencies, <a href="http://berkshelf.com/">more on this on the Berkshelf website here</a>, but for the sake of argument, we'll just leave the Berksfile as it is.</p>
+<p>The next step is to add a <code>berkshelf.json</code> file to your repository. We tend to put this in a deploy subdirectory.</p>
+<pre><code>{
+  "chef": {
+    "chef_server_url": "https://chef.theodi.org",
+    "client_key": "deploy/key.pem",
+    "node_name": "odi"
+  },
+  "ssl": {
+    "verify": false
+  }
+}
+</code></pre>
+<p>This tells Berkshelf where to upload the cookbook to. Note it needs the client key PEM file. This should <em>not</em> be added to version control. In order to get this, we add an encrypted version to git, and decrypt it on Travis with an environment variable.</p>
+<pre><code>export CHEF_KEY=SOME-UNIQUE-KEY
+openssl aes-256-cbc -k "$CHEF_KEY" -in deploy/key.pem -out deploy/key.enc -a -e
+</code></pre>
+<p>We then need to add our unique key to Travis like so:</p>
+<pre><code>travis encrypt CHEF_KEY=${CHEF_KEY} --add
+</code></pre>
+<p>Then add <code>deploy/key.enc</code> to version control.</p>
+<p>For convenience, we usually add a rake task to handle the berkshelf upload:</p>
+<pre><code>namespace :berkshelf do
+
+  desc "Upload cookbook to chef server"
+  task :upload do
+    sh "bundle exec berks upload -c deploy/berkshelf.json"
+  end
+
+end
+</code></pre>
+<p>Now, in your travis config, after successful master builds, you want to decrypt the PEM file and run the rask task:</p>
+<pre><code>after_success:
+- openssl enc -d -aes-256-cbc -k $CHEF_KEY -in deploy/key.enc -out deploy/key.pem
+- chmod 600 deploy/key.pem
+- bundle exec berks install
+- "[ \"$TRAVIS_BRANCH\" == \"master\" ] &amp;&amp; [ \"$TRAVIS_PULL_REQUEST\" == \"false\"] &amp;&amp; bundle exec rake berkshelf:upload"
+</code></pre>
+<p>Now, when your build passes, Travis should try to upload the new cookbook to the Chef server. Bingo!</p>
+</article>
+</div>
+</div>
+</div>
+</div>
+<footer class="site-footer">
+<div class="container">
+<div class="row">
+<div class="col-md-8 footer-content">
+<h1 class="footer-logo"><a href="http://oldsite.theodi.org">Open Data Institute</a></h1>
+<p><a href="../contact">Open Data Institute, 65 Clifton Street, London EC2A 4JE</a></p>
+<p><a href="../cdn-cgi/l/email-protection#83eaede5ecc3f7ebe6ece7eaadecf1e4"><span class="__cf_email__" data-cfemail="cda4a3aba28db9a5a8a2a9a4e3a2bfaa">[email&#160;protected]</span></a> Company <a href="http://opencorporates.com/companies/gb/08030289">08030289</a>
+<span>VAT</span><span>143 7796 80</span>
+</p>
+<p class="license">
+<a href="http://creativecommons.org/licenses/by-sa/2.0/uk/deed.en_GB" rel="license">
+<img alt="Creative Commons Licence" height="15" src="../assets/cc-a23fe95f04508432c8d97c00b0a36254.png" width="80">
+</a>
+</p>
+</div>
+<div class="col-md-4 footer-nav">
+<nav><ul class="pull-right list-inline">
+<li><a href="http://www.twitter.com/ODIHQ" class=" ">
+<img alt="Follow us on Twitter" src="../assets/twitter-a658ecc9fe2aab3308a5fb36adfb9a64.png" title="Follow us on Twitter"></a></li>
+<li><a href="https://soundcloud.com/theodi" class=" ">
+<img alt="Listen on Soundcloud" src="../assets/soundcloud-3932b3db23c6fb6c45bce20c8016462c.png" title="Listen on Soundcloud"></a></li>
+<li><a href="http://www.scribd.com/OpenDataInstitute" class=" ">
+<img alt="Read on Scribd" src="../assets/scribd-8afadecb87771fd6f6814e6ea81fb23d.png" title="Read on Scribd"></a></li>
+<li><a href="https://github.com/orgs/theodi" class=" ">
+<img alt="Follow us on Github" src="../assets/github-914931d2a14f54f3c64caec5c6e68017.png" title="Follow us on Github"></a></li>
+<li><a href="http://vimeo.com/theodiuk" class=" ">
+<img alt="Watch on Vimeo" src="../assets/vimeo-a865234771edd239032629b694ddaa32.png" title="Watch on Vimeo"></a></li>
+<li><a href="http://www.youtube.com/user/OpenDataInstituteUK" class=" ">
+<img alt="Watch on Youtube" src="../assets/youtube-cccfa6f837a0acfe0d2fd9492b0d45b3.png" title="Watch on Youtube"></a></li>
+<li><a href="http://www.flickr.com/photos/ukodi/" class=" ">
+<img alt="Follow us on Flickr" src="../assets/flickr-c81d78a530d046663cfff44293f6f775.png" title="Follow us on Flickr"></a></li>
+</ul></nav>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<nav><ul class="pull-right list-inline">
+<li class=" "><a href="../terms-of-use" class=" ">Terms of use</a></li>
+<li class=" "><a href="../privacy-policy" class=" ">Privacy policy</a></li>
+<li class=" "><a href="../cookie-policy" class=" ">Cookie policy</a></li>
+</ul></nav>
+</div>
+</div>
+</div>
+</footer>
+<script data-cfasync="false" src="../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+
+  var _pt = ["E6AF1363-3E19-409A-983C-91FFE62C2CBB"];
+  (function(d,t){
+    var a=d.createElement(t),s=d.getElementsByTagName(t)[0];a.src=location.protocol+'//a1webstrategy.com/track.js';s.parentNode.insertBefore(a,s);
+  }(document,'script'));
+
+  </script>
+<script type="text/javascript">
+      (function (n) {
+          var u = window.location.href;
+          var p = u.split("/")[0];
+          var t = n.createElement("script"), i;
+          t.type = "text/javascript";
+          t.async = !0;
+          t.src = p + "//dashboard.whoisvisiting.com/who.js";
+          i = n.getElementsByTagName("script")[0];
+          i.parentNode.insertBefore(t, i)
+      })(document);
+
+          var whoparam = whoparam || [];
+          whoparam.push(["AcNo", "8d5d04b9adc94a34bc385c6f3370594e"]);
+          whoparam.push(["SendHit", ""]
+      );
+  </script>
+<script src="../assets/application-4829863ea093de33ae55c9a127d6af6b.js" type="text/javascript"></script>
+
+<!--[if gt IE 7]><!-->
+<script src="../assets/bootstrap/bootstrap-collapse-c4cb45620c1346753e2385c125ed4bdd.js" type="text/javascript"></script>
+<!--<![endif]-->
+
+
+<!--[if gt IE 7]><!-->
+<script src="../assets/masonry-c617ee0c7d6c602b548ab5e69d50f4fa.js" type="text/javascript"></script>
+<script src="../assets/infinitescroll-243a7a50c0c843f1deb394ea98f4d0a6.js" type="text/javascript"></script>
+<script src="../assets/background-check-677e6100d9ce594cd30a88f57fc49b48.js" type="text/javascript"></script>
+<!--<![endif]-->
+</body>
+</html>

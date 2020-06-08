@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=US-ASCII">
+<title>Kicking Aruba into a bin | Open Data Institute</title>
+<link href="../assets/application-693091b423df059e90189392fffb0ae0.css" media="all" rel="stylesheet" type="text/css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="../assets/favicon-e0340b5bc5738e53c1b06680529c0963.ico" rel="shortcut icon" type="image/vnd.microsoft.icon">
+
+<!--[if lt IE 9]>
+      <script src="../assets/html5shiv-5d1c7196accd7174ed22f320c693b063.js" type="text/javascript"></script>
+    <![endif]-->
+
+<!--[if (IE 7)|(IE 8)]>
+      <script src="../assets/respond.min-5eec43180e3f6d282f038de07483dc4b.js" type="text/javascript"></script>
+    <![endif]-->
+
+<script src="../assets/modernizr.custom-1ecf37d7f9fbb3066a877e31ce79e79e.js" type="text/javascript"></script>
+
+<!--[if lte IE 9]><link href="../assets/ie9-875f0d42a52ff5536404da8fda8d423b.css" media="screen" rel="stylesheet" type="text/css" /><![endif]-->
+<!--[if lte IE 8]><link href="../assets/ie8-4a6b9f309032dacb3913ccc2d55bda8b.css" media="screen" rel="stylesheet" type="text/css" /><![endif]-->
+<!--[if lte IE 7]><link href="../assets/ie7-d4066942f039a08eed8b62b80cde16cb.css" media="screen" rel="stylesheet" type="text/css" /><![endif]-->
+<!--[if lt IE 7]><link href="../assets/ie6-cab152e9612eeec9bd0af579a2231dd5.css" media="screen" rel="stylesheet" type="text/css" /><![endif]-->
+
+<meta property="fb:pages" content="1755416561338416">
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+<link href="../kicking-aruba-into-a-bin.json" rel="alternate" title="json" type="application/json">
+<meta content="The Open Data Institute (ODI) equip, connect and inspire people around the world to innovate with data. Co-founded by Sir Tim Berners-Lee and Sir Nigel Shadbolt, the ODI provides events, training, membership and consultancy around open data." name="description">
+<meta content="summary_large_image" name="twitter:card">
+<meta content="@ODIHQ" name="twitter:site">
+<meta content="article" property="og:type">
+<meta content="../uploads/assets/c1/d4/56c1d4f2d0d4622145000001/2016-02-15_13.16.16.jpg" property="og:image">
+<meta content="Kicking Aruba into a bin | Open Data Institute" property="og:title">
+<meta content="&lt;p&gt;ODI Head of Robots Sam Pikesley uncovers some new features in Rspec in his search for alternative tools for building Ruby command-line interface apps&lt;/p&gt;" property="og:description">
+<meta content="Open Data Institute" property="og:site_name">
+<meta content="../kicking-aruba-into-a-bin" property="og:url">
+<meta name="govuk:rendering-application" content="Www">
+<script type="text/javascript">
+
+
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-34573394-1', {});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   ga('send', 'pageview');
+
+
+</script></head>
+<body>
+<header class="site-header">
+<div class="navbar navbar-inverse navbar-static-top">
+<div class="container">
+<div class="navbar-header">
+
+<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+<a class="navbar-brand" href="../"><img alt="The ODI" id="odi-logo" src="../assets/logo-header-dc4ead7a18ea4133873c79502c174638.png"></a>
+</div>
+<div class="modal fade" id="getLogo" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<h4 class="modal-title" id="myModalLabel">Welcome to the ODI
+<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&#215;</button>
+</h4>
+</div>
+<div class="modal-body">
+<p>Knowledge for everyone</p>
+<p>The ODI helps to unlock the value of open data.</p>
+<p>If you want to use our logo, different sizes and types are here: <a href="../brand">../brand</a></p>
+<p><a rel="external" href="../uploads/assets/legacy/ODI%2Dlogo%2Dsml.png"><img src="../uploads/assets/legacy/ODI%2Dlogo%2Dsml.png" alt=""></a></p>
+<p><a rel="external" href="../uploads/assets/legacy/ODI%2Dlogo%2Dmed.png"><img src="../uploads/assets/legacy/ODI%2Dlogo%2Dmed.png" alt=""></a></p>
+<p><a rel="external" href="../uploads/assets/legacy/ODI%2Dlogo%2Dmed.png"><img src="../uploads/assets/legacy/ODI%2Dlogo%2Dlg.png" alt=""></a></p>
+<p><a rel="external" href="../uploads/assets/legacy/ODI%2Dlogo%2Dmed.png"><img src="../uploads/assets/legacy/ODI%2Dlogo%2Dxlg.png" alt=""></a></p>
+</div>
+</div>
+</div>
+</div>
+<ul class="nav navbar-nav navbar-right">
+<li><a href="../contact">Contact us</a></li>
+<li><a href="../newsletters">Newsletters</a></li>
+
+</ul>
+
+<form class="navbar-form navbar-right" method="get" action="//duckduckgo.com/">
+<div class="form-group">
+<div class="input-group">
+<input value="oldsite.theodi.org" name="sites" type="hidden">
+<input class="form-control" placeholder="Search ODI" name="q" type="text">
+<input value="Go" class="btn" type="submit">
+</div>
+</div>
+</form>
+</div>
+</div>
+<div class="collapse navbar-collapse">
+<div class="navbar navbar-static-top">
+<div class="container">
+<ul class="nav navbar-nav main-nav">
+<li class="dropdown">
+<a href="../news">
+News &amp; blog
+</a>
+</li>
+<li class="dropdown">
+<a href="../get-involved">
+Get involved
+</a>
+</li>
+<li class="dropdown">
+<a href="../our-network">
+Our global network
+</a>
+</li>
+<li class="dropdown">
+<a href="../events">
+Events
+</a>
+</li>
+<li class="dropdown">
+<a href="../our-focus">
+Our focus
+</a>
+</li>
+<li class="dropdown">
+<a href="../publications">
+Publications
+</a>
+</li>
+<li class="dropdown last">
+<a href="../about">
+About the ODI
+</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="navbar navbar-inverse navbar-static-top mobile-only">
+<div class="container">
+<ul class="nav navbar-nav navbar-right">
+<li><a href="../contact">Contact us</a></li>
+<li><a href="../newsletters">Newsletters</a></li>
+
+</ul>
+
+</div>
+</div>
+</header> 
+<div id="wrapper">
+<header class="page-title">
+<div class="container header-wrap">
+<h1>Kicking Aruba into a bin</h1>
+</div>
+</header>
+<div class="container">
+<div class="row">
+<div class="article-main">
+<article class="article-body">
+<p><em>ODI Head of Robots Sam Pikesley uncovers some new features in Rspec in his search for alternative tools for building Ruby command-line interface apps</em></p>
+<p><img src="../uploads/assets/c1/d4/56c1d4f2d0d4622145000001/2016-02-15_13.16.16.jpg" alt="" class="img text-center" id="56c1d4f2f362be07f1000008"><br>
+<small>'Doing it all with Rspec.' Photo: Sam Pikesley</small></p>
+<p>Once upon a time, I was a UNIX SysAdmin, which means I've spent a lot of my working life deep in the command-line. As a consequence, many of the Ruby tools I've built in recent years have been CLI ones.</p>
+<p>My weapon-of-choice for building Ruby command-line interface (CLI) apps has long been the mighty <a href="http://whatisthor.com/">Thor</a>, and up until now I've always used <a href="https://github.com/cucumber/aruba">Aruba</a> to test my Thor apps (while sticking with <a href="http://rspec.info/">Rspec</a> to TDD the actual workings of my gems). This has mostly worked OK, but I'm also (for better or worse) a big fan of <a href="https://github.com/vcr/vcr">VCR</a>, and these things really do not play nicely together.</p>
+<h3 id="ohhitechnicaldebt">Oh hi, technical debt</h3>
+<p>Because Aruba spawns a separate Ruby process to run its tests, it's all invisible to VCR. There are a number of (<a href="https://groups.google.com/forum/#!topic/cukes/UQRkro-AeVg">now deprecated</a>) <a href="http://georgemcintosh.com/vcr-and-aruba/">hacks</a> to get around this problem, but I was finding that I had to write my features in very contrived ways (which definitely defeats the purpose of Cucumber), and it still behaved unexpectedly. And when Aruba also started to interfere with some of my other <a href="https://github.com/travisjeffery/timecop">favourite</a> <a href="https://coveralls.io/">tools</a>, I decided it was Different Solution time.</p>
+<h3 id="doingitallwithrspec">Doing it all with Rspec</h3>
+<p>I came across <a href="http://bokstuff.com/blog/testing-thor-command-lines-with-rspec/">this blogpost</a> which mentions <a href="https://github.com/erikhuda/thor/blob/d634d240bdc0462fe677031e1dc6ed656e54f27e/spec/helper.rb#L49-L60">this capture method</a> in Thor's <em>spec</em>helper<em>. Turns out this is kinda generic, and we can paste it right into our Gem's own <em>spec</em>helper</em>.</p>
+<p>But wait, don't call yet, because <em>then</em> I was pointed towards <a href="http://stackoverflow.com/questions/1480537/how-can-i-validate-exits-and-aborts-in-rspec/28047771#28047771">this Stack Overflow post</a> about validating exits in Rspec, and <em>that</em> led me to <a href="https://www.relishapp.com/rspec/rspec-expectations/docs/built-in-matchers/output-matcher">Rspec's <code>output</code> matcher</a> which appears to make all of the foregoing redundant.</p>
+<p>So how does this all fit together?</p>
+<h3 id="simplematch">Simple match</h3>
+<pre><code>module Banjaxer
+  describe CLI do
+    let :subject do
+      described_class.new
+    end
+
+    it 'has a version' do
+      expect { subject.version }.to output(/^banjaxer version #{VERSION}$/).to_stdout
+    end
+  end
+end
+
+
+module Banjaxer
+  class CLI &lt; Thor
+    desc 'version', 'Print banjaxer version'
+    def version
+      puts "banjaxer version #{VERSION}"
+    end
+    map %w(-v --version) =&gt; :version
+  end
+end
+</code></pre>
+<p>In the spec, we set up a instance of our class, which is a <em>Thor</em>, then we call its <code>#version</code> method and inspect whatever lands on STDOUT.</p>
+<p>There is a certain amount of sleight-of-hand going on in this: note that our argument to the <em>output</em> matcher is a regex, even though we really want to match a string. That's because the actual output string will have a <code>"\n"</code> on the end of it, so we'd have to match that explicitly.</p>
+<h3 id="withanargument">With an argument</h3>
+<pre><code>module Banjaxer
+  describe CLI do
+    let :subject do
+      described_class.new
+    end
+
+    it 'gets the url', :vcr do
+      expect { subject.get_url 'http://uncleclive.herokuapp.com/banjax' }.to output(/^Content-Length is 808$/).to_stdout
+    end
+  end
+end
+
+module Banjaxer
+  class CLI &lt; Thor
+    desc 'get url', 'GET a url and tell us the Content-Length'
+    def get_url url
+      h = HTTParty.get url, headers: { 'Accept' =&gt; 'application/json' }
+      puts "Content-Length is #{h.headers['Content-Length']}"
+    end
+  end
+end
+</code></pre>
+<p>We might notice some more prestidigitation here, when we consider how Thor works: it takes something like <code>banjaxer get_url http://uncleclive.herokuapp.com/banjax</code> from STDIN, and turns that (via the <code>./exe/banjaxer</code> executable) into a call to <code>#version('http://uncleclive.herokuapp.com/banjax')</code> - we're bypassing that step and making the method call directly. The corresponding Aruba:</p>
+<pre><code>Scenario: Get url        
+  When I successfully run `banjaxer get_url http://uncleclive.herokuapp.com/banjax`        
+  Then the output should contain "Content-Length is 808"
+</code></pre>
+<p>... will do <em>exactly</em> what it says, which may be a more accurate test, but notice that we've dropped a <code>:vcr</code> into the Rspec version <a href="https://github.com/theodi/banjaxer/blob/ed1a4801e1f250113310d607eee5e903200bfac2/spec/fixtures/vcr/Banjaxer_CLI/gets_the_url.yml"><em>and it worked as expected</em></a>, which simply would not happen with Aruba.</p>
+<h3 id="withoptions">With options</h3>
+<pre><code>module Banjaxer
+  describe CLI do
+    let :subject do
+      described_class.new
+    end
+
+    context 'with options' do
+      it 'can handle an option' do
+        subject.options = {json: true}
+        expect { subject.embiggen 'the smallest man' }.to output(/^{"embiggening":"the smallest man"}/).to_stdout
+      end
+    end
+  end
+end
+
+module Banjaxer
+  class CLI &lt; Thor
+    desc 'embiggen', 'Embiggen something'
+    method_option :json,
+                  type: :boolean,
+                  aliases: '-j',
+                  description: 'Return JSON on the console'
+    def embiggen value
+      if options[:json]
+        puts({ embiggening: value }.to_json)
+      else
+        puts "embiggening #{value}"
+      end
+    end
+  end
+end
+</code></pre>
+<p>Some more trickery here, which took me a little while to figure out: when we pass options on the command-line, Thor shoves them into the <em>options</em> hash on the instance. So in our spec, we set up that hash ourselves with <code>subject.options = {json: true}</code> and then call the method.</p>
+<h3 id="testingexitstatuses">Testing exit statuses</h3>
+<pre><code>module Banjaxer
+  describe CLI do
+    let :subject do
+      described_class.new
+    end
+
+    context 'deal with exit codes' do
+      it 'exits with a zero by default' do
+        expect { subject.cromulise }.to exit_with_status 0
+      end
+    end
+  end
+end
+
+module Banjaxer
+  class CLI &lt; Thor
+    desc 'cromulise', 'Exit with the supplied status'
+    def cromulise status = 'zero'
+      lookups = {
+        'zero' =&gt; 0,
+        'one' =&gt; 1
+      }
+      code = lookups.fetch(status, 99)
+
+      puts "Exiting with a #{code}"
+      exit code
+    end
+  end
+end
+</code></pre>
+<p>Checking the exit status is supported out-of-the-box in Aruba:</p>
+<pre><code>Scenario: Get version
+  When I run `banjaxer -v`
+  Then the exit status should be 0
+</code></pre>
+<p>... but for Rspec, we have to cook up our own <a href="https://www.relishapp.com/rspec/rspec-expectations/v/2-4/docs/custom-matchers/define-matcher">custom matcher</a>:</p>
+<pre><code>RSpec::Matchers.define :exit_with_status do |expected|
+  match do |actual|
+    expect { actual.call }.to raise_error(SystemExit)
+
+    begin
+      actual.call
+    rescue SystemExit =&gt; e
+      expect(e.status).to eq expected
+    end
+  end
+
+  supports_block_expectations
+end
+</code></pre>
+<p>This is surprisingly simple: we just <code>#call</code> the method passed in as <code>actual</code>, trap the exception it raises, and check its <code>#status</code> against the expectation. That <code>supports_block_expectations</code> is apparently required because this matcher actually calls a block (but this is a bit magical and I don't fully understand it, I just know that it didn't work without it).</p>
+<h3 id="inspectingoutputfiles">Inspecting output files</h3>
+<pre><code>module Banjaxer
+  describe CLI do
+    let :subject do
+      described_class.new
+    end
+
+    context 'read output files' do
+      it 'writes the expected output file' do
+        subject.say 'monorail'
+        expect('said').to have_content (
+        """
+        The word was:
+          monorail
+        """
+        )
+      end
+    end
+  end
+end
+
+module Banjaxer
+  class CLI &lt; Thor
+    desc 'say', 'Say the word'
+    def say word, outfile = 'said'
+      File.open outfile, 'w' do |f|
+        f.write "The word was:\n#{word}"
+      end
+    end
+  end
+end
+</code></pre>
+<p>Replicating this (very useful) feature of Aruba:</p>
+<pre><code>Scenario: Write file
+  When I run `banjaxer say monorail`
+  Then a file named "said" should exist
+  And the file named "said" should contain:  
+  """
+  The word was:
+    monorail
+  """
+</code></pre>
+<p>... required considerably more work. The full code for the <code>have_content</code> custom matcher (and its supporting bits and pieces) can be seen <a href="https://github.com/theodi/banjaxer/blob/master/spec/support/matchers/have_content.rb">here</a>. There's quite a bit going on in this, so let's dig in:</p>
+<h4 id="temporaryoutputdirectoryhttpsgithubcomtheodibanjaxerblobmasterspecsupportmatchershave_contentrbl1l13"><a href="https://github.com/theodi/banjaxer/blob/master/spec/support/matchers/have_content.rb#L1-L13">Temporary output directory</a></h4>
+<p>Presumably our CLI app would generate any output files in its Present Working Directory, but we can get Rspec to make us a temporary directory and switch to that before each test (and then bounce back out of it afterwards). Notice that it deletes the <em>tmp/</em> directory before it starts, <em>not</em> at the end of the run. I stole this idea from Aruba and it means that in the event of a spec failure, we can run just the failing test and then debug by having a look at exactly the output it produced.</p>
+<h4 id="custommatcherhttpsgithubcomtheodibanjaxerblobmasterspecsupportmatchershave_contentrbl15l39"><a href="https://github.com/theodi/banjaxer/blob/master/spec/support/matchers/have_content.rb#L15-L39">Custom matcher</a></h4>
+<p>This matcher takes the <em>expected</em> string from the spec and reads the <em>actual</em> file, then splits them both into lines and compares them &#8211; if it finds a mismatch, then <code>pass</code> becomes <code>false</code> and we get a failure. The clever stuff is in the next section, though:</p>
+<h4 id="monkeypatchingstringhttpsgithubcomtheodibanjaxerblobmasterspecsupportmatchershave_contentrbl41l61"><a href="https://github.com/theodi/banjaxer/blob/master/spec/support/matchers/have_content.rb#L41-L61">Monkey-patching <code>String</code></a></h4>
+<p>I originally wrote these as normal static methods, but it occurred to me that everything would be a lot more elegant if they were <code>String</code> instance methods. The interesting (and possibly brittle) thing here is the <code>#is_regex</code> stuff: if the string <em>looks</em> like a Regular Expression (ie with leading and trailing slashes) then we take the body of it and turn it into an <em>actual</em> regular expression and then do our comparison against that. I think this may bite me somewhere down the road.</p>
+<p>This matcher is significantly more sophisticated than the <code>exit_with_status</code> one - so much so that it became necessary to <a href="https://github.com/theodi/banjaxer/blob/master/spec/matcher/have_content_spec.rb">generate Rspec with Rspec</a>.</p>
+<h3 id="suppressingconsoleoutput">Suppressing console output</h3>
+<p>Any self-respecting CLI app is likely to be generating feedback on the command line, but this is going to pollute our Rspec output. We can suppress it with something like this in the <em>spec_helper</em>:</p>
+<pre><code>RSpec.configure do |config|
+  # Suppress CLI output. This *will* break Pry
+  original_stderr = $stderr
+  original_stdout = $stdout
+  config.before(:all) do
+    # Redirect stderr and stdout
+    $stderr = File.new '/dev/null', 'w'
+    $stdout = File.new '/dev/null', 'w'
+  end
+
+  config.after(:all) do
+    $stderr = original_stderr
+    $stdout = original_stdout
+  end
+end
+</code></pre>
+<p>Before each test, we redirect STDOUT and STDERR to <code>/dev/null</code>, then bring them back afterwards. Note that this is not platform-independent, you need to something different on Windows, but I don't know what. Also note that this causes <em>pry</em> to do <em>really</em> odd things - disable this if you want to reliably pry into your code (maybe this should be wrapped in an <code>unless ENV['PRY']</code> guard of some sort).</p>
+<h3 id="runningthecode">Running the code</h3>
+<p>The code is all <a href="https://github.com/theodi/banjaxer">here</a>, please feel free to have a look at it and run it:</p>
+<pre><code>git clone https://github.com/theodi/banjaxer
+cd banjaxer
+bundle
+bundle exec rake
+</code></pre>
+<p>As always, feedback, PRs etc are welcome.</p>
+<h3 id="nextsteps">Next steps</h3>
+<p>I seem to have replicated quite a lot of the functionality of Aruba, but with the added benefit of not using Aruba. I think the thing to do now <em>might</em> be to package this up into a Gem and use it on a real project.</p>
+<p>I sincerely hope somebody else finds this useful &#8211; I certainly did.</p>
+<p><em><strong>Sam Pikesley is <a href="../team/sam-pikesley">Head of Robots</a> at the ODI. Follow <a href="https://twitter.com/pikesley">@pikesley</a> on Twitter.</strong></em></p>
+<p><em><strong>If you have ideas or experience in open data that you'd like to share, <a href="../cdn-cgi/l/email-protection#f383819c978690879a9c9db3879b969c979add9c8194" title="pitch us a blog">pitch us a blog</a> or tweet us at <a href="https://twitter.com/odihq" title="@ODIHQ">@ODIHQ</a>.</strong></em></p>
+</article>
+</div>
+<aside class="article-sidebar listing">
+<div class="module module-light module-colour-6">
+<a href="../labs">
+<h1 class="module-heading">ODI Labs</h1>
+</a>
+</div>
+<div class="module module-light module-colour-7">
+<a href="../blog/blockchain-and-open-data-how-could-it-work">
+<h1 class="module-heading">Blockchain and open data: how could it work?</h1>
+</a>
+</div>
+</aside>
+</div>
+</div>
+</div>
+<footer class="site-footer">
+<div class="container">
+<div class="row">
+<div class="col-md-8 footer-content">
+<h1 class="footer-logo"><a href="http://oldsite.theodi.org">Open Data Institute</a></h1>
+<p><a href="../contact">Open Data Institute, 65 Clifton Street, London EC2A 4JE</a></p>
+<p><a href="../cdn-cgi/l/email-protection#4d24232b220d39252822292463223f2a"><span class="__cf_email__" data-cfemail="5e373038311e2a363b313a3770312c39">[email&#160;protected]</span></a> Company <a href="http://opencorporates.com/companies/gb/08030289">08030289</a>
+<span>VAT</span><span>143 7796 80</span>
+</p>
+<p class="license">
+<a href="http://creativecommons.org/licenses/by-sa/2.0/uk/deed.en_GB" rel="license">
+<img alt="Creative Commons Licence" height="15" src="../assets/cc-a23fe95f04508432c8d97c00b0a36254.png" width="80">
+</a>
+</p>
+</div>
+<div class="col-md-4 footer-nav">
+<nav><ul class="pull-right list-inline">
+<li><a href="http://www.twitter.com/ODIHQ" class=" ">
+<img alt="Follow us on Twitter" src="../assets/twitter-a658ecc9fe2aab3308a5fb36adfb9a64.png" title="Follow us on Twitter"></a></li>
+<li><a href="https://soundcloud.com/theodi" class=" ">
+<img alt="Listen on Soundcloud" src="../assets/soundcloud-3932b3db23c6fb6c45bce20c8016462c.png" title="Listen on Soundcloud"></a></li>
+<li><a href="http://www.scribd.com/OpenDataInstitute" class=" ">
+<img alt="Read on Scribd" src="../assets/scribd-8afadecb87771fd6f6814e6ea81fb23d.png" title="Read on Scribd"></a></li>
+<li><a href="https://github.com/orgs/theodi" class=" ">
+<img alt="Follow us on Github" src="../assets/github-914931d2a14f54f3c64caec5c6e68017.png" title="Follow us on Github"></a></li>
+<li><a href="http://vimeo.com/theodiuk" class=" ">
+<img alt="Watch on Vimeo" src="../assets/vimeo-a865234771edd239032629b694ddaa32.png" title="Watch on Vimeo"></a></li>
+<li><a href="http://www.youtube.com/user/OpenDataInstituteUK" class=" ">
+<img alt="Watch on Youtube" src="../assets/youtube-cccfa6f837a0acfe0d2fd9492b0d45b3.png" title="Watch on Youtube"></a></li>
+<li><a href="http://www.flickr.com/photos/ukodi/" class=" ">
+<img alt="Follow us on Flickr" src="../assets/flickr-c81d78a530d046663cfff44293f6f775.png" title="Follow us on Flickr"></a></li>
+</ul></nav>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<nav><ul class="pull-right list-inline">
+<li class=" "><a href="../terms-of-use" class=" ">Terms of use</a></li>
+<li class=" "><a href="../privacy-policy" class=" ">Privacy policy</a></li>
+<li class=" "><a href="../cookie-policy" class=" ">Cookie policy</a></li>
+</ul></nav>
+</div>
+</div>
+</div>
+</footer>
+<script data-cfasync="false" src="../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+
+  var _pt = ["E6AF1363-3E19-409A-983C-91FFE62C2CBB"];
+  (function(d,t){
+    var a=d.createElement(t),s=d.getElementsByTagName(t)[0];a.src=location.protocol+'//a1webstrategy.com/track.js';s.parentNode.insertBefore(a,s);
+  }(document,'script'));
+
+  </script>
+<script type="text/javascript">
+      (function (n) {
+          var u = window.location.href;
+          var p = u.split("/")[0];
+          var t = n.createElement("script"), i;
+          t.type = "text/javascript";
+          t.async = !0;
+          t.src = p + "//dashboard.whoisvisiting.com/who.js";
+          i = n.getElementsByTagName("script")[0];
+          i.parentNode.insertBefore(t, i)
+      })(document);
+
+          var whoparam = whoparam || [];
+          whoparam.push(["AcNo", "8d5d04b9adc94a34bc385c6f3370594e"]);
+          whoparam.push(["SendHit", ""]
+      );
+  </script>
+<script src="../assets/application-4829863ea093de33ae55c9a127d6af6b.js" type="text/javascript"></script>
+
+<!--[if gt IE 7]><!-->
+<script src="../assets/bootstrap/bootstrap-collapse-c4cb45620c1346753e2385c125ed4bdd.js" type="text/javascript"></script>
+<!--<![endif]-->
+
+
+<!--[if gt IE 7]><!-->
+<script src="../assets/masonry-c617ee0c7d6c602b548ab5e69d50f4fa.js" type="text/javascript"></script>
+<script src="../assets/infinitescroll-243a7a50c0c843f1deb394ea98f4d0a6.js" type="text/javascript"></script>
+<script src="../assets/background-check-677e6100d9ce594cd30a88f57fc49b48.js" type="text/javascript"></script>
+<!--<![endif]-->
+</body>
+</html>

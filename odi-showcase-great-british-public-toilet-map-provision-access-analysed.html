@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=US-ASCII">
+<title>The Great British Public Toilet Analysis | Open Data Institute</title>
+<link href="assets/application-693091b423df059e90189392fffb0ae0.css" media="all" rel="stylesheet" type="text/css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="assets/favicon-e0340b5bc5738e53c1b06680529c0963.ico" rel="shortcut icon" type="image/vnd.microsoft.icon">
+
+<!--[if lt IE 9]>
+      <script src="assets/html5shiv-5d1c7196accd7174ed22f320c693b063.js" type="text/javascript"></script>
+    <![endif]-->
+
+<!--[if (IE 7)|(IE 8)]>
+      <script src="assets/respond.min-5eec43180e3f6d282f038de07483dc4b.js" type="text/javascript"></script>
+    <![endif]-->
+
+<script src="assets/modernizr.custom-1ecf37d7f9fbb3066a877e31ce79e79e.js" type="text/javascript"></script>
+
+<!--[if lte IE 9]><link href="assets/ie9-875f0d42a52ff5536404da8fda8d423b.css" media="screen" rel="stylesheet" type="text/css" /><![endif]-->
+<!--[if lte IE 8]><link href="assets/ie8-4a6b9f309032dacb3913ccc2d55bda8b.css" media="screen" rel="stylesheet" type="text/css" /><![endif]-->
+<!--[if lte IE 7]><link href="assets/ie7-d4066942f039a08eed8b62b80cde16cb.css" media="screen" rel="stylesheet" type="text/css" /><![endif]-->
+<!--[if lt IE 7]><link href="assets/ie6-cab152e9612eeec9bd0af579a2231dd5.css" media="screen" rel="stylesheet" type="text/css" /><![endif]-->
+
+<meta property="fb:pages" content="1755416561338416">
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+<link href="odi-showcase-great-british-public-toilet-map-provision-access-analysed.json" rel="alternate" title="json" type="application/json">
+<meta content="The Open Data Institute (ODI) equip, connect and inspire people around the world to innovate with data. Co-founded by Sir Tim Berners-Lee and Sir Nigel Shadbolt, the ODI provides events, training, membership and consultancy around open data." name="description">
+<meta content="summary_large_image" name="twitter:card">
+<meta content="@ODIHQ" name="twitter:site">
+<meta content="The Great British Public Toilet Analysis | Open Data Institute" property="og:title">
+<meta content="article" property="og:type">
+<meta content="odi-showcase-great-british-public-toilet-map-provision-access-analysed" property="og:url">
+<meta content="uploads/assets/2f/22/582f22051f986a0830000055/Disused_toilets2" property="og:image">
+<meta content="Open Data Institute" property="og:site_name">
+<meta content="The Open Data Institute (ODI) equip, connect and inspire people around the world to innovate with data. Co-founded by Sir Tim Berners-Lee and Sir Nigel Shadbolt, the ODI provides events, training, membership and consultancy around open data." property="og:description">
+<meta name="govuk:rendering-application" content="Www">
+<script type="text/javascript">
+
+
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-34573394-1', {});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   ga('send', 'pageview');
+
+
+</script></head>
+<body>
+<header class="site-header">
+<div class="navbar navbar-inverse navbar-static-top">
+<div class="container">
+<div class="navbar-header">
+
+<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+<a class="navbar-brand" href=""><img alt="The ODI" id="odi-logo" src="assets/logo-header-dc4ead7a18ea4133873c79502c174638.png"></a>
+</div>
+<div class="modal fade" id="getLogo" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<h4 class="modal-title" id="myModalLabel">Welcome to the ODI
+<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&#215;</button>
+</h4>
+</div>
+<div class="modal-body">
+<p>Knowledge for everyone</p>
+<p>The ODI helps to unlock the value of open data.</p>
+<p>If you want to use our logo, different sizes and types are here: <a href="brand">brand</a></p>
+<p><a rel="external" href="uploads/assets/legacy/ODI%2Dlogo%2Dsml.png"><img src="uploads/assets/legacy/ODI%2Dlogo%2Dsml.png" alt=""></a></p>
+<p><a rel="external" href="uploads/assets/legacy/ODI%2Dlogo%2Dmed.png"><img src="uploads/assets/legacy/ODI%2Dlogo%2Dmed.png" alt=""></a></p>
+<p><a rel="external" href="uploads/assets/legacy/ODI%2Dlogo%2Dmed.png"><img src="uploads/assets/legacy/ODI%2Dlogo%2Dlg.png" alt=""></a></p>
+<p><a rel="external" href="uploads/assets/legacy/ODI%2Dlogo%2Dmed.png"><img src="uploads/assets/legacy/ODI%2Dlogo%2Dxlg.png" alt=""></a></p>
+</div>
+</div>
+</div>
+</div>
+<ul class="nav navbar-nav navbar-right">
+<li><a href="contact">Contact us</a></li>
+<li><a href="newsletters">Newsletters</a></li>
+
+</ul>
+
+<form class="navbar-form navbar-right" method="get" action="//duckduckgo.com/">
+<div class="form-group">
+<div class="input-group">
+<input value="oldsite.theodi.org" name="sites" type="hidden">
+<input class="form-control" placeholder="Search ODI" name="q" type="text">
+<input value="Go" class="btn" type="submit">
+</div>
+</div>
+</form>
+</div>
+</div>
+<div class="collapse navbar-collapse">
+<div class="navbar navbar-static-top">
+<div class="container">
+<ul class="nav navbar-nav main-nav">
+<li class="dropdown">
+<a href="news">
+News &amp; blog
+</a>
+</li>
+<li class="dropdown">
+<a href="get-involved">
+Get involved
+</a>
+</li>
+<li class="dropdown">
+<a href="our-network">
+Our global network
+</a>
+</li>
+<li class="dropdown">
+<a href="events">
+Events
+</a>
+</li>
+<li class="dropdown">
+<a href="our-focus">
+Our focus
+</a>
+</li>
+<li class="dropdown">
+<a href="publications">
+Publications
+</a>
+</li>
+<li class="dropdown last">
+<a href="about">
+About the ODI
+</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="navbar navbar-inverse navbar-static-top mobile-only">
+<div class="container">
+<ul class="nav navbar-nav navbar-right">
+<li><a href="contact">Contact us</a></li>
+<li><a href="newsletters">Newsletters</a></li>
+
+</ul>
+
+</div>
+</div>
+</header> 
+<div id="wrapper">
+<header class="page-title">
+<div class="container header-wrap">
+<h1>The Great British Public Toilet Analysis</h1>
+</div>
+</header>
+<div class="container">
+<div class="row">
+<div class="article-main">
+<article class="article-body">
+<ul>
+<li><a href="#1">The Great British Public Toilet Map: provision and access analysed</a></li>
+<li><a href="#2">Background</a></li>
+<li><a href="#3">About the data</a></li>
+<li><a href="#4">Methodology</a></li>
+<li><a href="#5">Collaboration</a></li>
+<li><a href="#6">What next?</a></li>
+</ul>
+<h2 id="aid1thegreatbritishpublictoiletmapprovisionandaccessanalyseda"><a id="1">The Great British Public Toilet Map: provision and access analysed</a></h2>
+<p>People across the UK rely on a range of publicly accessible toilet facilities, whether in train stations, libraries, shopping centres, supermarkets, service stations or town centres. </p>
+<p>Some of these will be provided by council-run community schemes, but many are run by private operators. The provision of public toilets has changed a lot in the last few decades, with the traditional council-run facility in decline.</p>
+<p><img src="uploads/assets/2f/22/582f22051f986a0830000055/Disused_toilets2" alt="Toilet3" class="img" id="582f2205d0d46206f000009e">
+<small>Disused toilet in Belfast. <a href="https://creativecommons.org/licenses/by/2.0/" title="CC BY 2.0">CC BY 2.0</a>, uploaded by [Albert Bridge](http://www.geograph.org.uk/photo/779638 &#8220;Albert Bridge").</small></p>
+<p><strong>The Great British Public Toilet Map</strong> is the UK&#8217;s largest database of publicly accessible toilets, featuring over 10,000 facilities. It aims to show all toilets that the public and the provider consider to be publicly accessible, and therefore a useful resource for anyone reliant on public toilets when away from home. </p>
+<p>The public can search the data using the website <a href="https://greatbritishpublictoiletmap.rca.ac.uk">greatbritishpublictoiletmap.rca.ac.uk</a> on any device.</p>
+<p>The project launched nationwide in 2014 using open data, and data from Freedom of Information requests and crowdsourcing. Since then it has featured in online news articles and on national radio.</p>
+<p>In this latest project, <strong>Great British Public Toilet Analysis</strong>, the team has used the dataset to reveal insights into the current state of the UK&#8217;s public toilet provision, who is providing them and who can access them. </p>
+<p>This project continues the work of <a href="https://greatbritishpublictoiletmap.rca.ac.uk/">The Great British Public Toilet Map</a> to raise awareness of the need for publicly accessible toilets as a reliable public service across the UK, to meet the needs of the entire population. The team focus especially on the people who rely on publicly accessible toilets to leave their house, so they can &#8220;enjoy a quality of life many of us take for granted&#8221;, says project lead Gail Ramster. </p>
+<blockquote>
+<p>It also provides insights for local campaigners, local government and private providers in terms of who&#8217;s getting it right and where provision is woefully inadequate, signalling where investment might be needed but also where best practice can be highlighted for others to benefit from.</p>
+</blockquote>
+<h3 id="findings">Findings</h3>
+<p>The dataset shows <strong>10,738 publicly accessible toilets</strong>, of which <strong>8,955 are public toilets</strong>, including those in public buildings such as libraries and town halls (80%). <strong>1,783 are other publicly accessible toilets</strong> (17%).</p>
+<p>These findings show that <strong>17% of the UK&#8217;s publicly accessible toilets</strong> are not provided by a public body.</p>
+<p>These include train stations (42%), and supermarkets (16%) &#8211; Tesco being listed most frequently with 161 stores.</p>
+<p><strong>Toilets by area</strong></p>
+<p>Provision across the country was explored by looking at the number of toilets in 381 council areas (not including Northern Ireland).</p>
+<p><strong>Areas with most publicly accessible toilets</strong> (by council boundary):</p>
+<ol>
+<li><p>Cornwall, with 203 toilets</p></li>
+<li><p>The Highlands, with 191 toilets</p></li>
+<li><p>The City of London, with 108 toilets</p></li>
+</ol>
+<p>This includes the UK&#8217;s largest (Highlands) and smallest (City of London) councils by area. What links these councils is their visitor numbers, showing the link between toilets and leisure.</p>
+<p><img src="uploads/assets/2f/11/582f1128f362be089d000056/b1.jpg" alt="null" class="img text-center" id="582f1127d0d46206f0000098"> </p>
+<p><strong>The areas with the fewest publicly accessible toilets</strong> are Darlington, Flintshire, Melton, North Kesteven, Redditch and South Ribble, with just four toilets listed each. There are no areas with no toilets listed. </p>
+<p><img src="uploads/assets/2f/11/582f11c4d0d46207eb000045/w1.jpg" alt="null" class="img text-center" id="582f11c4f362be0854000098"></p>
+<p>In 2016 BBC Breakfast <a href="http://www.bbc.co.uk/news/uk-36405414">reported</a> public toilets had been &#8220;wiped out in parts of the UK&#8221; and that &#8220;ten areas ... have no council-run public toilets at all&#8221;. One of the councils the BBC reported having no council-run public toilets was Wandsworth in South London, however The Great British Toilet Map shows that Wandsworth has 38 publicly accessible toilets.</p>
+<h3 id="howmanytoiletsareenoughtoilets">How many toilets are enough toilets?</h3>
+<p>This depends on many factors: geographical area, resident and visitor population, land use.</p>
+<p>The Great British Public Toilet Map shows a mean average of 17,354 residents per toilet, per council area. In 72% of council areas there are 20,000 residents or less per facility. However, 18 council areas have over 40,000 residents per facility, with Flintshire and Bury having over 70,000 residents per facility. </p>
+<h2 id="aid2backgrounda"><a id="2">Background</a></h2>
+<p>The NHS <a href="http://www.steroplast.co.uk/articles/type/press_release/52-everything-you-wanted-to-know-about-incontinence-but-were-afraid-to-ask">estimates</a> that between 3 and 6 million people in the UK experience a degree of urinary incontinence. The aim of The Great British Public Toilet Map is to help people manage continence concerns when away from home. </p>
+<p>The Great British Public Toilet Map was originally the output of a three-year research study called <a href="http://www.newdynamics.group.shef.ac.uk/tact3.html">TACT3</a>, funded by UK research councils and undertaken by The Helen Hamlyn Centre for Design at the Royal College of Art. The team received further funding from Nominet Trust in 2013 to expand from a pilot site to a nationwide resource. </p>
+<p>People&#8217;s requirements of public toilets can vary depending on what they need, where they need it and how often they need access, particularly if their continence is affected by a medical condition. They might need to empty a colostomy bag or they might need frequent access as a side-effect of medication.</p>
+<p>A lack of access to public toilets can cause people to avoid visiting new places, hamper their working lives, or stop them from leaving home altogether &#8211; leading to isolation, loneliness and reduced quality of life.</p>
+<p>To help people access toilets that meet their specific needs, The Great British Toilet Map team needed to create a detailed toilet finder that could be used to plan ahead and on the go. However, no national open dataset of public toilets existed, and it was becoming increasingly urgent that one was developed since the service became more fragmented across the public and private sectors. </p>
+<p>There are around 400 councils at the level of government who provide public toilets, though none are legally obliged to do so. There has been a recent trend for councils to close traditional toilet blocks and begin offering toilets through community toilet schemes where businesses allow non-customers to use their toilets normally in exchange for a small council grant. In addition to this is the myriad of transport operators, shopping centres, supermarkets, department stores, museums, hospitals, national parks and local communities who also provide toilets with varying levels of public accessibility. </p>
+<p>The Great British Public Toilet Map team set out to create this national open dataset, first by building a database of council-run toilets collated through council websites and nearly 300 Freedom of Information requests, then combining this with public toilet data from the <a href="http://www.openstreetmap.org/#map=5/51.500/-0.100">OpenStreetMap</a> project, open datasets from train operators and local government, and crowdsourced information from users of the website. </p>
+<p>This has created the largest resource for publicly accessible toilets in the UK, but what can it tell us about them?</p>
+<p>Public toilets have been in decline for many years, however cuts to local government funding since 2008 have sped up this process, with many local news reports of toilets closing and local campaigns trying to save them. As public toilets are a voluntary provision, it is inevitable that their budgets are cut to protect statutory services. As Gail Ramster says: </p>
+<blockquote>
+<p>Using our dataset we are in the unique position to shed light on the changing provision of publicly accessible toilets across the nation. Our toilet analysis can help campaigners to reveal whether their council is underperforming compared to others with similar demographics, geography and industry, and highlight those champion providers who are managing to protect this vital public service.</p>
+<p>Our data also reveals the extent to which the public is relying on toilet provided by private providers in the absence of true public facilities, which could have implications for those who may not be comfortable not be comfortable using a private facility (such as the many pubs that participate in community toilet schemes) or might even fear they will be denied access, as use is still at the discretion of the private operator.</p>
+</blockquote>
+<h2 id="aid3aboutthedataa"><a id="3">About the data</a></h2>
+<p>The Great British Public Toilet Map uses several open datasets.</p>
+<ul>
+<li>
+<a href="http://wiki.openstreetmap.org/wiki/Tag:amenity%3Dtoilets">OpenStreetMap tag amenity: toilets</a> (Open Data Commons Open Database Licence)</li>
+<li>The Local Government Association&#8217;s (LGA) <a href="http://aggregator.opendata.esd.org.uk">aggregated dataset</a> from 80+ councils (each published under Open Government Licence) </li>
+<li>Data from National Rail Enquiries on nearly 800 train station toilets (free to use though no official licence given)</li>
+</ul>
+<p>The map also publishes metadata about each toilet, to show the data source and how many times it has been edited, giving a rating to indicate how reliable each data point it is. </p>
+<p>&#8220;We cannot check the validity of new reports immediately so this gives users an idea for themselves of the accuracy of the information, as they will want to be certain of a toilet&#8217;s existence and accessibility before making their way there,&#8221; says Gail Ramster. </p>
+<blockquote>
+<p>We also plan to publish the complete dataset under open licence ourselves. This is a critical aim of the project in order to fulfil our initial objective of creating a national open dataset for publicly accessible toilets, and for making sure the data gets out to the public through as many channels as possible to increase access to toilet information and to toilets, enhancing people&#8217;s leisure and working lives.</p>
+<p>We plan to do this as soon as we&#8217;ve established the medium- to long-term sustainability of the project, so we can ensure the database is maintained for those who come to rely on it.</p>
+</blockquote>
+<h2 id="aid4methodologya"><a id="4">Methodology</a></h2>
+<p>The Great British Public Toilet Map pilot site was created in 2011, with design and development from the team&#8217;s project partners <a href="https://www.neontribe.co.uk">Neontribe</a>. Neontribe created The Great British Public Toilet Map Explorer, which allowed the team to explore their data in new ways.</p>
+<p>The Great British Public Toilet Map Explorer is made up of a dashboard of toilet statistics, listings of toilets by council area, and a search function that allows people to search both the toilet name and &#8216;notes&#8217; fields. The area listings and search function display results with a preview of the facility showing the toilet&#8217;s name, notes and a thumbnail map of its location. </p>
+<p>These results click straight through to the toilet edit function on The Great British Public Toilet Map, meaning the team can very quickly click through dozens of toilets within a certain council area, checking them against the data provided by the council to see whether they are showing additional facilities and remove any duplications or reports made in error. </p>
+<p>&#8220;We also checked for inconsistencies in the map,&#8221; Gail explains. </p>
+<blockquote>
+<p>For example, many members of the public listed supermarket toilets as &#8216;public&#8217;, whereas we prefer to record them as &#8216;public use permitted&#8217;. This emphasises that these are not publicly-provided facilities, even though we and the public know that the supermarket would rarely deny access to someone not making a purchase, and in some cases they are members of community toilet schemes, such as in London where Sainsbury&#8217;s, ASDA, Tesco and Marks &amp; Spencer all agreed to be members of the Mayor of London&#8217;s &#8216;Open London&#8217; scheme.</p>
+</blockquote>
+<p>The team spent several days exploring, improving and analysing the data. This involved checking that they could not find more toilets in areas with very few. The team then commissioned a designer to create a visualisation, highlighting the difference in levels of publicly accessible toilets from council to council.</p>
+<p>Along with statistical findings, the team also found interesting comments about toilets added by members of the public. </p>
+<p><strong>Some were complimentary:</strong> </p>
+<p><em>"Always nice and clean and welcome after a long drive."</em></p>
+<p><em>"Probably the cleanest, nicest facilities in rural Scotland."</em></p>
+<p><strong>Others, less so:</strong></p>
+<p><em>"Disgusting and should be reported to the local council."</em></p>
+<p><em>"Disabled toilet currently under reconstruction after arson attack."</em></p>
+<p><strong>Some reflected the decline in public facilities, with several reporting:</strong> </p>
+<p><em>"Currently closed due to council cutbacks."</em></p>
+<p><strong>... along with local efforts to save them:</strong></p>
+<p><em>"Maintained by Jordan&#8217;s Cafe since local council decided to close it due to cost."</em></p>
+<p><em>"Currently being saved from closure by South Lanarkshire Council through Public Conscription."</em></p>
+<p><em>"The community took these over from the Council which was planning to close them and has refurbished them."</em></p>
+<p><strong>... and private businesses offering public use of their toilets, such as a pub in Shepton Mallet, who added their toilet to the map, saying:</strong></p>
+<p><em>"We are a pub and invite people to use the toilets but make a small contribution to whatever charity box we are running."</em></p>
+<p>These give an insight into The Great British Public Toilet Map users, their positive contributions to the project and the importance they place on the availability of clean, public toilets, along with the issues affecting publicly accessible toilets today. </p>
+<h2 id="aid5collaborationa"><a id="5">Collaboration</a></h2>
+<p>The ODI Showcase grant helped the team to develop The Great British Public Toilet Map Explorer, buy staff time to clean-up the data prior to analysis and commission data visualisations to share findings with the public and public toilet providers. </p>
+<p>The ODI also supported the team with guidance on licensing, as Gail Ramster explains:</p>
+<blockquote>
+<p>We were able to use their expertise in data licensing to understand how we might (one day soon!) best publish our dataset under an open licence, bearing in mind it is part derived from several other open datasets, each with slightly different licences. Data licensing agreements &#8211; even those for open data &#8211; can seem scary, with a lot of clauses and legal terms. This support is helping us to achieve our long-term aims of creating a national open dataset for publicly accessible toilets.</p>
+</blockquote>
+<h2 id="aid6whatnexta"><a id="6">What next?</a></h2>
+<p>The Great British Public Toilet Map team plan to release an app in 2017 to allow greater access to the data for people when they are out and about without access to wifi.</p>
+<p>This would be particularly useful in rural areas that are far from commercial properties, such as national parks and coastlines. </p>
+<p>The team then hope to release the dataset under open licence for others to incorporate toilets into their apps, maps and guidebooks to get the data out there through as many channels as possible to those who need it most.</p>
+<p>Key to the project&#8217;s long-term success will be contributions from the public, as Gail explains:</p>
+<blockquote>
+<p>With over 10,000 toilets, and so much local knowledge required to keep them up to date, we really do rely on the public to add, edit and remove toilets and keep the website working for everyone.</p>
+<p>Please don&#8217;t hesitate to change any data you think to be inaccurate or add missing details. We can also include data on accessible (sometimes called disabled) toilets, whether facilities are gendered or unisex, opening hours, baby-changing, if there&#8217;s an attendant, if it&#8217;s an automatic toilet (or &#8216;superloo&#8217;), if it can be opened with a RADAR key and if you have to pay to use it. However this data isn&#8217;t always complete, for example, we have details on wheelchair accessible toilets for 30% of our facilities.</p>
+<p>We&#8217;d love it if the public could help us improve this and other details about toilets for those that need it most.</p>
+</blockquote>
+<p><strong><em>Find out more at <a href="https://greatbritishpublictoiletmap.rca.ac.uk">greatbritishpublictoiletmap.rca.ac.uk</a>.</em></strong></p>
+<p><strong><em>The ODI Showcase supports projects that demonstrate how open data can be used to bring longstanding benefits to individuals, organisations and society. The ODI provides grant funding, mentoring and promotional support to maximise these impacts. Find out more <a href="odi-showcase-2016-spring-call-for-entries">here</a>.</em></strong></p>
+<p><strong><em>If you have ideas or experience in open data that you&#8217;d like to share, <a href="cdn-cgi/l/email-protection#d0a0a2bfb4a5b3a4b9bfbe90a4b8b5bfb4b9febfa2b7">pitch us a blog</a> or tweet us at <a href="https://twitter.com/odihq">@ODIHQ</a>.</em></strong></p>
+</article>
+</div>
+<aside class="article-sidebar listing">
+<div class="module module-light module-colour-6">
+<a href="blog/odi-showcase-winners-qa-great-british-toilet-map">
+<h1 class="module-heading">ODI Showcase &#8211; winner&#8217;s Q&amp;A: Great British Toilet Map</h1>
+</a>
+</div>
+<div class="module module-light module-colour-7">
+<a href="lunchtime-lectures/excuse-me-where-is-the-toilet-open-data">
+<h1 class="module-heading">Friday Lunchtime Lecture: Excuse me, where is the toilet (data)?</h1>
+</a>
+</div>
+<div class="module module-light module-colour-6">
+<a href="blog/how-open-data-can-help-us-all-find-the-toilet">
+<h1 class="module-heading">How open data can help us all find the toilet</h1>
+</a>
+</div>
+</aside>
+</div>
+</div>
+</div>
+<footer class="site-footer">
+<div class="container">
+<div class="row">
+<div class="col-md-8 footer-content">
+<h1 class="footer-logo"><a href="http://oldsite.theodi.org">Open Data Institute</a></h1>
+<p><a href="contact">Open Data Institute, 65 Clifton Street, London EC2A 4JE</a></p>
+<p><a href="cdn-cgi/l/email-protection#523b3c343d12263a373d363b7c3d2035"><span class="__cf_email__" data-cfemail="a0c9cec6cfe0d4c8c5cfc4c98ecfd2c7">[email&#160;protected]</span></a> Company <a href="http://opencorporates.com/companies/gb/08030289">08030289</a>
+<span>VAT</span><span>143 7796 80</span>
+</p>
+<p class="license">
+<a href="http://creativecommons.org/licenses/by-sa/2.0/uk/deed.en_GB" rel="license">
+<img alt="Creative Commons Licence" height="15" src="assets/cc-a23fe95f04508432c8d97c00b0a36254.png" width="80">
+</a>
+</p>
+</div>
+<div class="col-md-4 footer-nav">
+<nav><ul class="pull-right list-inline">
+<li><a href="http://www.twitter.com/ODIHQ" class=" ">
+<img alt="Follow us on Twitter" src="assets/twitter-a658ecc9fe2aab3308a5fb36adfb9a64.png" title="Follow us on Twitter"></a></li>
+<li><a href="https://soundcloud.com/theodi" class=" ">
+<img alt="Listen on Soundcloud" src="assets/soundcloud-3932b3db23c6fb6c45bce20c8016462c.png" title="Listen on Soundcloud"></a></li>
+<li><a href="http://www.scribd.com/OpenDataInstitute" class=" ">
+<img alt="Read on Scribd" src="assets/scribd-8afadecb87771fd6f6814e6ea81fb23d.png" title="Read on Scribd"></a></li>
+<li><a href="https://github.com/orgs/theodi" class=" ">
+<img alt="Follow us on Github" src="assets/github-914931d2a14f54f3c64caec5c6e68017.png" title="Follow us on Github"></a></li>
+<li><a href="http://vimeo.com/theodiuk" class=" ">
+<img alt="Watch on Vimeo" src="assets/vimeo-a865234771edd239032629b694ddaa32.png" title="Watch on Vimeo"></a></li>
+<li><a href="http://www.youtube.com/user/OpenDataInstituteUK" class=" ">
+<img alt="Watch on Youtube" src="assets/youtube-cccfa6f837a0acfe0d2fd9492b0d45b3.png" title="Watch on Youtube"></a></li>
+<li><a href="http://www.flickr.com/photos/ukodi/" class=" ">
+<img alt="Follow us on Flickr" src="assets/flickr-c81d78a530d046663cfff44293f6f775.png" title="Follow us on Flickr"></a></li>
+</ul></nav>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<nav><ul class="pull-right list-inline">
+<li class=" "><a href="terms-of-use" class=" ">Terms of use</a></li>
+<li class=" "><a href="privacy-policy" class=" ">Privacy policy</a></li>
+<li class=" "><a href="cookie-policy" class=" ">Cookie policy</a></li>
+</ul></nav>
+</div>
+</div>
+</div>
+</footer>
+<script data-cfasync="false" src="cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+
+  var _pt = ["E6AF1363-3E19-409A-983C-91FFE62C2CBB"];
+  (function(d,t){
+    var a=d.createElement(t),s=d.getElementsByTagName(t)[0];a.src=location.protocol+'//a1webstrategy.com/track.js';s.parentNode.insertBefore(a,s);
+  }(document,'script'));
+
+  </script>
+<script type="text/javascript">
+      (function (n) {
+          var u = window.location.href;
+          var p = u.split("/")[0];
+          var t = n.createElement("script"), i;
+          t.type = "text/javascript";
+          t.async = !0;
+          t.src = p + "//dashboard.whoisvisiting.com/who.js";
+          i = n.getElementsByTagName("script")[0];
+          i.parentNode.insertBefore(t, i)
+      })(document);
+
+          var whoparam = whoparam || [];
+          whoparam.push(["AcNo", "8d5d04b9adc94a34bc385c6f3370594e"]);
+          whoparam.push(["SendHit", ""]
+      );
+  </script>
+<script src="assets/application-4829863ea093de33ae55c9a127d6af6b.js" type="text/javascript"></script>
+
+<!--[if gt IE 7]><!-->
+<script src="assets/bootstrap/bootstrap-collapse-c4cb45620c1346753e2385c125ed4bdd.js" type="text/javascript"></script>
+<!--<![endif]-->
+
+
+<!--[if gt IE 7]><!-->
+<script src="assets/masonry-c617ee0c7d6c602b548ab5e69d50f4fa.js" type="text/javascript"></script>
+<script src="assets/infinitescroll-243a7a50c0c843f1deb394ea98f4d0a6.js" type="text/javascript"></script>
+<script src="assets/background-check-677e6100d9ce594cd30a88f57fc49b48.js" type="text/javascript"></script>
+<!--<![endif]-->
+</body>
+</html>

@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=US-ASCII">
+<title>Understanding mapping data infrastructure | Open Data Institute</title>
+<link href="assets/application-693091b423df059e90189392fffb0ae0.css" media="all" rel="stylesheet" type="text/css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="assets/favicon-e0340b5bc5738e53c1b06680529c0963.ico" rel="shortcut icon" type="image/vnd.microsoft.icon">
+
+<!--[if lt IE 9]>
+      <script src="assets/html5shiv-5d1c7196accd7174ed22f320c693b063.js" type="text/javascript"></script>
+    <![endif]-->
+
+<!--[if (IE 7)|(IE 8)]>
+      <script src="assets/respond.min-5eec43180e3f6d282f038de07483dc4b.js" type="text/javascript"></script>
+    <![endif]-->
+
+<script src="assets/modernizr.custom-1ecf37d7f9fbb3066a877e31ce79e79e.js" type="text/javascript"></script>
+
+<!--[if lte IE 9]><link href="assets/ie9-875f0d42a52ff5536404da8fda8d423b.css" media="screen" rel="stylesheet" type="text/css" /><![endif]-->
+<!--[if lte IE 8]><link href="assets/ie8-4a6b9f309032dacb3913ccc2d55bda8b.css" media="screen" rel="stylesheet" type="text/css" /><![endif]-->
+<!--[if lte IE 7]><link href="assets/ie7-d4066942f039a08eed8b62b80cde16cb.css" media="screen" rel="stylesheet" type="text/css" /><![endif]-->
+<!--[if lt IE 7]><link href="assets/ie6-cab152e9612eeec9bd0af579a2231dd5.css" media="screen" rel="stylesheet" type="text/css" /><![endif]-->
+
+<meta property="fb:pages" content="1755416561338416">
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+<link href="understanding-mapping-data-infrastructure-for-the-21st-century.json" rel="alternate" title="json" type="application/json">
+<meta content="The Open Data Institute (ODI) equip, connect and inspire people around the world to innovate with data. Co-founded by Sir Tim Berners-Lee and Sir Nigel Shadbolt, the ODI provides events, training, membership and consultancy around open data." name="description">
+<meta content="summary_large_image" name="twitter:card">
+<meta content="@ODIHQ" name="twitter:site">
+<meta content="article" property="og:type">
+<meta content="uploads/assets/97/7d/57977d9dd0d46207ec000001/k-UrbanData2Decide-Logo.png" property="og:image">
+<meta content="Understanding mapping data infrastructure | Open Data Institute" property="og:title">
+<meta content="&lt;p&gt;Understanding mapping data infrastructure for the 21st century&lt;/p&gt;" property="og:description">
+<meta content="Open Data Institute" property="og:site_name">
+<meta content="understanding-mapping-data-infrastructure-for-the-21st-century" property="og:url">
+<meta name="govuk:rendering-application" content="Www">
+<script type="text/javascript">
+
+
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-34573394-1', {});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   ga('send', 'pageview');
+
+
+</script></head>
+<body>
+<header class="site-header">
+<div class="navbar navbar-inverse navbar-static-top">
+<div class="container">
+<div class="navbar-header">
+
+<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+<a class="navbar-brand" href=""><img alt="The ODI" id="odi-logo" src="assets/logo-header-dc4ead7a18ea4133873c79502c174638.png"></a>
+</div>
+<div class="modal fade" id="getLogo" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<h4 class="modal-title" id="myModalLabel">Welcome to the ODI
+<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&#215;</button>
+</h4>
+</div>
+<div class="modal-body">
+<p>Knowledge for everyone</p>
+<p>The ODI helps to unlock the value of open data.</p>
+<p>If you want to use our logo, different sizes and types are here: <a href="brand">brand</a></p>
+<p><a rel="external" href="uploads/assets/legacy/ODI%2Dlogo%2Dsml.png"><img src="uploads/assets/legacy/ODI%2Dlogo%2Dsml.png" alt=""></a></p>
+<p><a rel="external" href="uploads/assets/legacy/ODI%2Dlogo%2Dmed.png"><img src="uploads/assets/legacy/ODI%2Dlogo%2Dmed.png" alt=""></a></p>
+<p><a rel="external" href="uploads/assets/legacy/ODI%2Dlogo%2Dmed.png"><img src="uploads/assets/legacy/ODI%2Dlogo%2Dlg.png" alt=""></a></p>
+<p><a rel="external" href="uploads/assets/legacy/ODI%2Dlogo%2Dmed.png"><img src="uploads/assets/legacy/ODI%2Dlogo%2Dxlg.png" alt=""></a></p>
+</div>
+</div>
+</div>
+</div>
+<ul class="nav navbar-nav navbar-right">
+<li><a href="contact">Contact us</a></li>
+<li><a href="newsletters">Newsletters</a></li>
+
+</ul>
+
+<form class="navbar-form navbar-right" method="get" action="//duckduckgo.com/">
+<div class="form-group">
+<div class="input-group">
+<input value="oldsite.theodi.org" name="sites" type="hidden">
+<input class="form-control" placeholder="Search ODI" name="q" type="text">
+<input value="Go" class="btn" type="submit">
+</div>
+</div>
+</form>
+</div>
+</div>
+<div class="collapse navbar-collapse">
+<div class="navbar navbar-static-top">
+<div class="container">
+<ul class="nav navbar-nav main-nav">
+<li class="dropdown">
+<a href="news">
+News &amp; blog
+</a>
+</li>
+<li class="dropdown">
+<a href="get-involved">
+Get involved
+</a>
+</li>
+<li class="dropdown">
+<a href="our-network">
+Our global network
+</a>
+</li>
+<li class="dropdown">
+<a href="events">
+Events
+</a>
+</li>
+<li class="dropdown">
+ <a href="our-focus">
+Our focus
+</a>
+</li>
+<li class="dropdown">
+<a href="publications">
+Publications
+</a>
+</li>
+<li class="dropdown last">
+<a href="about">
+About the ODI
+</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="navbar navbar-inverse navbar-static-top mobile-only">
+<div class="container">
+<ul class="nav navbar-nav navbar-right">
+<li><a href="contact">Contact us</a></li>
+<li><a href="newsletters">Newsletters</a></li>
+
+</ul>
+
+</div>
+</div>
+</header> 
+<div id="wrapper">
+<header class="page-title">
+<div class="container header-wrap">
+<h1>Understanding mapping data infrastructure</h1>
+</div>
+</header>
+<div class="container">
+<div class="row">
+<div class="article-main">
+<article class="article-body">
+<p><strong><em>A report based on a workshop held by the ODI, published with support from</em></strong> </p>
+<p><img src="uploads/assets/97/7d/57977d9dd0d46207ec000001/k-UrbanData2Decide-Logo.png" alt="null" class="img" id="57977d9df362be0804000001"></p>
+<ul>
+<li><a href="#2">Why maps?</a></li>
+<li><a href="#3">Investigating user needs</a></li>
+<li><a href="#4">Understanding current mapping data infrastructure</a></li>
+<li><a href="#5">Emerging themes and questions</a></li>
+<li><a href="#6">What does a 21st-century mapping data infrastructure look like?</a></li>
+<li><a href="#7">About this report</a></li>
+</ul>
+<p><a href="data-infrastructure">Data is infrastructure</a>. Data promises to help us meet 21st century challenges: reducing friction in our economy, increasing our sustainability and creating opportunities to innovate. </p>
+<p>When we talk about data infrastructure, we mean <a href="what-is-data-infrastructure">more than just the data assets</a>. Our data infrastructure consists of the <strong>data assets, the organisations</strong> that operate and maintain them, and <strong>guides</strong> describing how to use and manage the data. It includes technology, processes and organisation. Trustworthy data infrastructure is <strong>sustainably funded</strong> and has oversight that provides direction to <strong>maximise data use and value</strong> by meeting the needs of society.</p>
+<p>At the ODI we are exploring what our mapping data infrastructure looks like and could look like in the 21st century.</p>
+<h3 id="aid2whymapsa"><a id="2">Why maps?</a></h3>
+<p><img src="uploads/assets/0d/e5/580de54bf362be08900000c8/1200px-Mediterranean_chart_fourteenth_century2.jpg" alt="null" class="img" id="580de54bf362be0821000170">
+<small><a href="https://commons.wikimedia.org/w/index.php?curid=5736843">Mediterranean fourteenth century nautical chart</a>. <a href="https://en.wikipedia.org/wiki/Public_domain">Public Domain</a>, uploaded by Library of Congress.</small> </p>
+<p>Maps are one of the oldest forms of information infrastructure. Since the <a href="http://www.telegraph.co.uk/news/worldnews/europe/spain/5978900/Worlds-oldest-map-Spanish-cave-has-landscape-from-14000-years-ago.html">earliest days</a> of human civilisation, maps have been at the centre of trade, building, administration, war and diplomacy. Without them Dr John Snow would never have proven <a href="https://en.wikipedia.org/wiki/1854_Broad_Street_cholera_outbreak">cholera was waterborne</a>, Columbus <a href="https://www.wired.com/2014/09/martellus-map/">may never have set sail</a> and London&#8217;s tube system would be unlikely to have spawned <a href="http://www.theverge.com/2013/3/29/4160028/harry-beck-designer-of-iconic-london-underground-map">a design icon</a>. </p>
+<p>Indeed, even in the modern era maps are arguably the most prominent and familiar representation of data because &#8216;everything happens somewhere&#8217;. Lots of data therefore contains a geographic element &#8211; a point, an area, a region or a country &#8211; thus lending itself to this type of visualisation. When information is presented to us on a map, many of us can grasp its significance much better than a bar chart or scatter plot, because we know what location means.</p>
+<p>We have chosen to focus on maps themselves, as opposed to geospatial data more generally. This is because maps cut across sectors and different uses &#8211; they form the backbone of many data types and many services. In short, maps form a core part of our data infrastructure.</p>
+<p>Like all data infrastructure, our mapping data infrastructure is not just the data or the maps themselves. It is not just the services, tools and technologies that allow us to use those maps. It also includes the organisations that maintain them and the processes that govern their creation, maintenance and use. It even stretches to the management aimed at maximising data use and value to meet the needs of society.</p>
+<p>To have a strong data infrastructure, we need a strong mapping data infrastructure that meets the needs of its users.</p>
+<h3 id="aid3investigatinguserneedsa"><a id="3">Investigating user needs</a></h3>
+<p>In order to understand the needs of mapping data infrastructure users, the ODI <a href="https://docs.google.com/document/d/1OLioWoxiikEvjmKOMoOk5UbSjWYj2b3jr1rrRhfzmiQ/edit">held a workshop</a>. Users have a very diverse range of needs, and most access maps through services that are build on maps and geographic data, not the data and maps themselves. The people who build these services use data infrastructure directly, because of their direct needs. The needs of those building successful services will stem directly from the needs of their users.</p>
+<p>To focus our search for user needs, we focused on transport professionals who used maps in their day-to-day roles producing products and services for their companies, the industry or consumers. Attendees included developers, planners, designers, engineers and others who not only used mapping data infrastructure but to an extent formed a part of it.</p>
+<p>Through the workshop we <a href="https://docs.google.com/document/d/1OLioWoxiikEvjmKOMoOk5UbSjWYj2b3jr1rrRhfzmiQ/edit#heading=h.nilzsnexhf66">explored what needs they have</a> with respect to maps. What emerged was roughly five high-level user needs. While this does not cover all the needs expressed, nor is it close to all the needs of those using mapping data infrastructure, it does provide some initial insight into the nature and scope of user needs of mapping data infrastructure.</p>
+<p><strong>1. Digital</strong><br>
+Users want maps that are natively digital and increasingly native to the web. Maps that are not static images. Underlying the graphics that seek to represent the physical world is data. This data describes the characteristics and features &#8211; location, gradient or land type, for example &#8211; in a way that both humans and machines can understand and use. Depending on the usage and context, this is translated as a level of interactivity, where maps can be interrogated through an interface that allows users to pan and zoom smoothly between different layers of granularity.</p>
+<p><strong>2. Accurate</strong><br>
+Users want maps that provide an "accurate enough" representation of the subject for the purpose at hand, which varies depending on context. Accuracy relates not only to a point in time but to the ability to reliably update and maintain maps. Often the accuracy, or perceived accuracy, of a map is driven by trust based on users&#8217; opinions of the organisations, institutions or processes responsible for creating and maintaining the map. </p>
+<p><strong>3. Accessible</strong><br>
+Users want maps to fulfil a variety of purposes &#8211; to visualise, to plan, to understand and communicate data or insights. To do this they need to make them accessible, both visually and technically, to a wide range of audiences and users. This leads them to want to access maps in a range of human and machine-readable formats. Another key factor in this is the ability to add and strip away information using multi-layered information on maps to suit their purpose and audience. </p>
+<p><strong>4. Practical</strong><br>
+Users want maps that are useful, in that they can be combined with other data to create and display new insights. For this, maps must be built off standards, and be interoperable and linkable to separate and existing topologies. Users also want extensible solutions that could adapt to new uses or developments, and solutions that are reliable and could be confidently built upon.</p>
+<p><strong>5. Responsive</strong><br>
+Users want strong two-way communication around their mapping solutions. They want to be able to know what they can and cannot do with the maps, through clear and accessible licensing and terms. They want to be made aware of updates to these licences and terms in a clear and prompt manner, and they want to be able to provide feedback, updates and annotations to the solution providers and have these dealt with quickly.</p>
+<h3 id="aid4understandingcurrentmappingdatainfrastructurea"><a id="4">Understanding current mapping data infrastructure</a></h3>
+<p>After capturing the needs of users at the workshop, we went on to discuss what our current mapping data infrastructure <a href="https://docs.google.com/document/d/1OLioWoxiikEvjmKOMoOk5UbSjWYj2b3jr1rrRhfzmiQ/edit#heading=h.8lry5d81b5k2">looked like</a> and how it was <a href="https://docs.google.com/document/d/1OLioWoxiikEvjmKOMoOk5UbSjWYj2b3jr1rrRhfzmiQ/edit#heading=h.6fk3gyukzzzl">meeting the needs identified</a>. The first realisation from this conversation was that there were a lot of maps, solutions, organisations, processes, tools and technologies in the mapping data landscape. In order to better interrogate these, we split them broadly into three categories:</p>
+<ul>
+<li><p><strong>Government providers</strong><br>
+This infrastructure often centres around national mapping agencies, such as Ordnance Survey in the UK.</p></li>
+<li><p><strong>Commercial providers</strong><br>
+This infrastructure includes a whole range of full suite data providers from the private sector, examples include Google, HERE, Apple, Bing and a range of others.</p></li>
+<li><p><strong>Open collaborative data providers</strong><br>
+This infrastructure sits primarily around OpenStreetMap and associated technologies.</p></li>
+</ul>
+<p>Each of these categories, and the solutions and organisations associated with them, had its own strengths and weakness. Because this exercise involved only a small number of users in a specific field, and therefore could never be comprehensive, we decided not to report on specific aspects of parts of our mapping data infrastructure. </p>
+<h3 id="aid5emergingthemesandquestionsa"><a id="5">Emerging themes and questions</a></h3>
+<p>Instead of reporting on specific aspects of parts of our mapping data infrastructure, we examine some of the key themes and questions that emerged at the workshop.</p>
+<p><strong>1. What constitutes a map?</strong><br>
+In support of the idea of mapping data infrastructure, users presented many different conceptions of what constituted &#8216;a map&#8217;. For some it was just the base map on which things could be presented, for others it was a full suite of tools to interact with that map. Another interesting presentation of this problem was whether or not network diagrams &#8211; particularly prominent in transport for things like route maps &#8211; constituted maps, or were in some ways separate from mapping.</p>
+<p><strong>2. Needs are relative, not absolute</strong><br>
+A strong mapping data infrastructure is one that meets the diverse needs of all its users. One of the key findings of the workshop is that these needs vary depending on the project, timeframe or technical skill of the data user, the data literacy of the end-user, and a wide range of other factors. For instance, maps need only be accurate enough or granular enough, allowing for tradeoffs between needs when, for instance, the map must be visually accessible or handled quickly. </p>
+<p><strong>3. Users can get &#8216;locked into solutions&#8217;</strong><br>
+Another interesting point that users raised was that they often cannot choose the &#8216;best&#8217; solution because they might be locked into existing arrangements or agreements, negotiated for the organisations they work for. This also extends to the fact that they might only use solutions they themselves or their users are familiar and comfortable with. Users also mentioned that as a personal user, they were generally captive to the choices made by app and programme designers.</p>
+<p><strong>4. Two-way communication is key</strong><br>
+Users mentioned in various different ways in which communication was a key part of mapping data infrastructure. These broadly fell into two categories. First, clear and ongoing communication about what users can do with the maps they use, be that through specific licensing or terms and conditions. Second, strong channels of feedback by which users could suggest changes to the mapping solution.</p>
+<p><strong>5. Distinguishing between individual vs business usage</strong><br>
+Another theme that came up was the confusion around individual and business usage of different mapping solutions. Users mentioned that they had come across others who assumed that public-facing free services (often commercial services) could be used in a business context in a similar manner. Normally, however, such services place heavy restrictions on using their services for commercial activity without a paid licence. This confusion often hampered discussions between the users and their less-technical colleagues. </p>
+<h3 id="aid6whatdoesa21stcenturymappingdatainfrastructurelooklikea"><a id="6">What does a 21st-century mapping data infrastructure look like?</a></h3>
+<p>The workshop exposed clear challenges with our current mapping data infrastructure. Even within specific areas such as transport, the data user needs are very diverse and it can be difficult to make the solutions to these different needs work together. Each of the available solutions have a variety of strengths and weaknesses in how they meet these needs. It is therefore likely that users will need to choose and use different solutions to meet their individual or organisational needs. However, the existing systems are not fully interoperable, meaning that different users are unable to capitalise on each others&#8217; data, tools and investments. This results in our mapping data infrastructure, as a whole, not being as strong as it could or should be.</p>
+<p>To help guide us in building a stronger mapping data infrastructure, the ODI has released a set of <a href="guides/principles-for-strengthening-our-data-infrastructure">data infrastructure principles</a>.</p>
+<p>These are:</p>
+<ul>
+<li>Design for open</li>
+<li>Build for the web</li>
+<li>Respect privacy</li>
+<li>Benefit everyone</li>
+<li>Think big, start small</li>
+<li>Design to adapt</li>
+<li>Encourage open innovation</li>
+</ul>
+<p>If each of the organisations involved in mapping data infrastructure adopts these principles in their work, we expect that we can strengthen the infrastructure in place today. </p>
+<p>We have already seen many promising developments in recent years towards a more open, adaptable and collaborative web-oriented data infrastructure. We have seen <a href="http://stateofthemap.us/2014/session/openstreetmap-as-infrastructure/">government agencies</a> and <a href="http://forum.openstreetmap.org/viewtopic.php?id=55220">businesses</a> engaging with, embracing and contributing to more collaborative models for maintenance. We have seen companies and citizens <a href="http://map.grough.co.uk/">combining data sources and integrating the data infrastructure</a> to meet their own goals and share these successes with others. All this has been enabled by open data, open culture, open standards, open source and collaborative models.</p>
+<p><strong><em>ODI policy activities provide leadership on emerging data issues and challenge ways people and organisations communicate about data. Find out more at our <a href="policy">policy page</a>.</em></strong></p>
+<h3 id="aid7aboutthisreporta"><a id="7">About this report</a></h3>
+<p>Please cite this report as: Jamie Fawcett (2016) <em>Understanding mapping data infrastructure</em>. London: Open Data Institute. Available at understanding-mapping-data-infrastructure-for-the-21st-century</p>
+</article>
+</div>
+<aside class="article-sidebar listing">
+<div class="module module-light module-colour-10">
+<a href="we-need-to-strengthen-our-data-infrastructure">
+<h1 class="module-heading">We need to strengthen our data infrastructure</h1>
+</a>
+</div>
+<div class="module module-light module-colour-1">
+<a href="guides/principles-for-strengthening-our-data-infrastructure">
+<h1 class="module-heading">Principles for strengthening our data infrastructure </h1>
+</a>
+</div>
+<div class="module module-light module-colour-10">
+<a href="policy">
+<h1 class="module-heading">Policy</h1>
+</a>
+</div>
+</aside>
+</div>
+</div>
+</div>
+<footer class="site-footer">
+<div class="container">
+<div class="row">
+<div class="col-md-8 footer-content">
+<h1 class="footer-logo"><a href="http://oldsite.theodi.org">Open Data Institute</a></h1>
+<p><a href="contact">Open Data Institute, 65 Clifton Street, London EC2A 4JE</a></p>
+<p><a href="cdn-cgi/l/email-protection#ee87808881ae9a868b818a87c0819c89"><span class="__cf_email__" data-cfemail="375e59515877435f5258535e19584550">[email&#160;protected]</span></a> Company <a href="http://opencorporates.com/companies/gb/08030289">08030289</a>
+<span>VAT</span><span>143 7796 80</span>
+</p>
+<p class="license">
+<a href="http://creativecommons.org/licenses/by-sa/2.0/uk/deed.en_GB" rel="license">
+<img alt="Creative Commons Licence" height="15" src="assets/cc-a23fe95f04508432c8d97c00b0a36254.png" width="80">
+</a>
+</p>
+</div>
+<div class="col-md-4 footer-nav">
+<nav><ul class="pull-right list-inline">
+<li><a href="http://www.twitter.com/ODIHQ" class=" ">
+<img alt="Follow us on Twitter" src="assets/twitter-a658ecc9fe2aab3308a5fb36adfb9a64.png" title="Follow us on Twitter"></a></li>
+<li><a href="https://soundcloud.com/theodi" class=" ">
+<img alt="Listen on Soundcloud" src="assets/soundcloud-3932b3db23c6fb6c45bce20c8016462c.png" title="Listen on Soundcloud"></a></li>
+<li><a href="http://www.scribd.com/OpenDataInstitute" class=" ">
+<img alt="Read on Scribd" src="assets/scribd-8afadecb87771fd6f6814e6ea81fb23d.png" title="Read on Scribd"></a></li>
+<li><a href="https://github.com/orgs/theodi" class=" ">
+<img alt="Follow us on Github" src="assets/github-914931d2a14f54f3c64caec5c6e68017.png" title="Follow us on Github"></a></li>
+<li><a href="http://vimeo.com/theodiuk" class=" ">
+<img alt="Watch on Vimeo" src="assets/vimeo-a865234771edd239032629b694ddaa32.png" title="Watch on Vimeo"></a></li>
+<li><a href="http://www.youtube.com/user/OpenDataInstituteUK" class=" ">
+<img alt="Watch on Youtube" src="assets/youtube-cccfa6f837a0acfe0d2fd9492b0d45b3.png" title="Watch on Youtube"></a></li>
+<li><a href="http://www.flickr.com/photos/ukodi/" class=" ">
+<img alt="Follow us on Flickr" src="assets/flickr-c81d78a530d046663cfff44293f6f775.png" title="Follow us on Flickr"></a></li>
+</ul></nav>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<nav><ul class="pull-right list-inline">
+<li class=" "><a href="terms-of-use" class=" ">Terms of use</a></li>
+<li class=" "><a href="privacy-policy" class=" ">Privacy policy</a></li>
+<li class=" "><a href="cookie-policy" class=" ">Cookie policy</a></li>
+</ul></nav>
+</div>
+</div>
+</div>
+</footer>
+<script data-cfasync="false" src="cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+
+  var _pt = ["E6AF1363-3E19-409A-983C-91FFE62C2CBB"];
+  (function(d,t){
+    var a=d.createElement(t),s=d.getElementsByTagName(t)[0];a.src=location.protocol+'//a1webstrategy.com/track.js';s.parentNode.insertBefore(a,s);
+  }(document,'script'));
+
+  </script>
+<script type="text/javascript">
+      (function (n) {
+          var u = window.location.href;
+          var p = u.split("/")[0];
+          var t = n.createElement("script"), i;
+          t.type = "text/javascript";
+          t.async = !0;
+          t.src = p + "//dashboard.whoisvisiting.com/who.js";
+          i = n.getElementsByTagName("script")[0];
+          i.parentNode.insertBefore(t, i)
+      })(document);
+
+          var whoparam = whoparam || [];
+          whoparam.push(["AcNo", "8d5d04b9adc94a34bc385c6f3370594e"]);
+          whoparam.push(["SendHit", ""]
+      );
+  </script>
+<script src="assets/application-4829863ea093de33ae55c9a127d6af6b.js" type="text/javascript"></script>
+
+<!--[if gt IE 7]><!-->
+<script src="assets/bootstrap/bootstrap-collapse-c4cb45620c1346753e2385c125ed4bdd.js" type="text/javascript"></script>
+<!--<![endif]-->
+
+
+<!--[if gt IE 7]><!-->
+<script src="assets/masonry-c617ee0c7d6c602b548ab5e69d50f4fa.js" type="text/javascript"></script>
+<script src="assets/infinitescroll-243a7a50c0c843f1deb394ea98f4d0a6.js" type="text/javascript"></script>
+<script src="assets/background-check-677e6100d9ce594cd30a88f57fc49b48.js" type="text/javascript"></script>
+<!--<![endif]-->
+</body>
+</html>

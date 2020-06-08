@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=US-ASCII">
+<title>Blockchain and open data: how could it work? | Open Data Institute</title>
+<link href="../assets/application-693091b423df059e90189392fffb0ae0.css" media="all" rel="stylesheet" type="text/css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="../assets/favicon-e0340b5bc5738e53c1b06680529c0963.ico" rel="shortcut icon" type="image/vnd.microsoft.icon">
+
+<!--[if lt IE 9]>
+      <script src="../assets/html5shiv-5d1c7196accd7174ed22f320c693b063.js" type="text/javascript"></script>
+    <![endif]-->
+
+<!--[if (IE 7)|(IE 8)]>
+      <script src="../assets/respond.min-5eec43180e3f6d282f038de07483dc4b.js" type="text/javascript"></script>
+    <![endif]-->
+
+<script src="../assets/modernizr.custom-1ecf37d7f9fbb3066a877e31ce79e79e.js" type="text/javascript"></script>
+
+<!--[if lte IE 9]><link href="../assets/ie9-875f0d42a52ff5536404da8fda8d423b.css" media="screen" rel="stylesheet" type="text/css" /><![endif]-->
+<!--[if lte IE 8]><link href="../assets/ie8-4a6b9f309032dacb3913ccc2d55bda8b.css" media="screen" rel="stylesheet" type="text/css" /><![endif]-->
+<!--[if lte IE 7]><link href="../assets/ie7-d4066942f039a08eed8b62b80cde16cb.css" media="screen" rel="stylesheet" type="text/css" /><![endif]-->
+<!--[if lt IE 7]><link href="../assets/ie6-cab152e9612eeec9bd0af579a2231dd5.css" media="screen" rel="stylesheet" type="text/css" /><![endif]-->
+
+<meta property="fb:pages" content="1755416561338416">
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+<link href="../blockchain-and-open-data-how-could-it-work.json" rel="alternate" title="json" type="application/json">
+<meta content="The Open Data Institute (ODI) equip, connect and inspire people around the world to innovate with data. Co-founded by Sir Tim Berners-Lee and Sir Nigel Shadbolt, the ODI provides events, training, membership and consultancy around open data." name="description">
+<meta content="summary_large_image" name="twitter:card">
+<meta content="@ODIHQ" name="twitter:site">
+<meta content="article" property="og:type">
+<meta content="../uploads/assets/9d/1a/569d1aa61f986a0842000003/Yap_Stone_Money.jpg" property="og:image">
+<meta content="Blockchain and open data: how could it work? | Open Data Institute" property="og:title">
+<meta content="&lt;p&gt;Stuart Harrison discusses the ODI Labs team's foray into putting open data into a blockchain &#8211; and what would happen if they opened it up to miners&lt;/p&gt;" property="og:description">
+<meta content="Open Data Institute" property="og:site_name">
+<meta content="../blockchain-and-open-data-how-could-it-work" property="og:url">
+<meta name="govuk:rendering-application" content="Www">
+<script type="text/javascript">
+
+
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-34573394-1', {});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   ga('send', 'pageview');
+
+
+</script></head>
+<body>
+<header class="site-header">
+<div class="navbar navbar-inverse navbar-static-top">
+<div class="container">
+<div class="navbar-header">
+
+<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+<a class="navbar-brand" href="../"><img alt="The ODI" id="odi-logo" src="../assets/logo-header-dc4ead7a18ea4133873c79502c174638.png"></a>
+</div>
+<div class="modal fade" id="getLogo" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<h4 class="modal-title" id="myModalLabel">Welcome to the ODI
+<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&#215;</button>
+</h4>
+</div>
+<div class="modal-body">
+<p>Knowledge for everyone</p>
+<p>The ODI helps to unlock the value of open data.</p>
+<p>If you want to use our logo, different sizes and types are here: <a href="../brand">../brand</a></p>
+<p><a rel="external" href="../uploads/assets/legacy/ODI%2Dlogo%2Dsml.png"><img src="../uploads/assets/legacy/ODI%2Dlogo%2Dsml.png" alt=""></a></p>
+<p><a rel="external" href="../uploads/assets/legacy/ODI%2Dlogo%2Dmed.png"><img src="../uploads/assets/legacy/ODI%2Dlogo%2Dmed.png" alt=""></a></p>
+<p><a rel="external" href="../uploads/assets/legacy/ODI%2Dlogo%2Dmed.png"><img src="../uploads/assets/legacy/ODI%2Dlogo%2Dlg.png" alt=""></a></p>
+<p><a rel="external" href="../uploads/assets/legacy/ODI%2Dlogo%2Dmed.png"><img src="../uploads/assets/legacy/ODI%2Dlogo%2Dxlg.png" alt=""></a></p>
+</div>
+</div>
+</div>
+</div>
+<ul class="nav navbar-nav navbar-right">
+<li><a href="../contact">Contact us</a></li>
+<li><a href="../newsletters">Newsletters</a></li>
+
+</ul>
+
+<form class="navbar-form navbar-right" method="get" action="//duckduckgo.com/">
+<div class="form-group">
+<div class="input-group">
+<input value="oldsite.theodi.org" name="sites" type="hidden">
+<input class="form-control" placeholder="Search ODI" name="q" type="text">
+<input value="Go" class="btn" type="submit">
+</div>
+</div>
+</form>
+</div>
+</div>
+<div class="collapse navbar-collapse">
+<div class="navbar navbar-static-top">
+<div class="container">
+<ul class="nav navbar-nav main-nav">
+<li class="dropdown">
+<a href="../news">
+News &amp; blog
+</a>
+</li>
+<li class="dropdown">
+<a href="../get-involved">
+Get involved
+</a>
+</li>
+<li class="dropdown">
+<a href="../our-network">
+Our global network
+</a>
+</li>
+<li class="dropdown">
+<a href="../events">
+Events
+</a>
+</li>
+<li class="dropdown">
+<a href="../our-focus">
+Our focus
+</a>
+</li>
+<li class="dropdown">
+<a href="../publications">
+Publications
+</a>
+</li>
+<li class="dropdown last">
+<a href="../about">
+About the ODI
+</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="navbar navbar-inverse navbar-static-top mobile-only">
+<div class="container">
+<ul class="nav navbar-nav navbar-right">
+<li><a href="../contact">Contact us</a></li>
+<li><a href="../newsletters">Newsletters</a></li>
+
+</ul>
+
+</div>
+</div>
+</header> 
+<div id="wrapper">
+<header class="page-title">
+<div class="container header-wrap">
+<h1>Blockchain and open data: how could it work?</h1>
+</div>
+</header>
+<div class="container">
+<div class="row">
+<div class="article-full">
+<article class="article-body">
+<p><em>Stuart Harrison discusses the ODI Labs team's foray into putting open data into a blockchain &#8211; and what would happen if they opened it up to miners</em></p>
+<p><img src="../uploads/assets/9d/1a/569d1aa61f986a0842000003/Yap_Stone_Money.jpg" alt="null" class="img" id="569d1aa5d0d4620677000025"><small>A rai stone in the village of Gachpar. Too large to move, these discs were used as currency, recorded in oral history, by the Yapese. Credit: <a href="https://commons.wikimedia.org/wiki/File:Yap_Stone_Money.jpg#/media/File:Yap_Stone_Money.jpg">Eric Guinther, CC BY-SA 3.0</a> </small></p>
+<p>If you work in the technology sector (which, if you're reading this, you probably do), then you've most likely been swept up in a lot of hype and talk about blockchain. This immutable, distributed ledger technology will apparently change the world, allowing a revolutionised approach to share trading, smart contracts and provenance tracking, to name but a few things.</p>
+<p>But what does this mean for open data? With 2016 just getting started, ODI Labs decided to use our first week back in the office to try to tease out the answers to this question.</p>
+<h3 id="settingupadigitalcurrency">Setting up a digital currency</h3>
+<p>Firstly, we needed to find a blockchain; not, as I should point out, <em>the</em> blockchain (which is the ledger that stores Bitcoin transactions) &#8211; we wanted something quick and dirty to experiment with, and we weren&#8217;t entirely convinced that storing data in the Bitcoin blockchain was the right solution. </p>
+<p>We settled on <a href="http://www.multichain.com/">Multichain</a>, a Bitcoin-compatible blockchain, which builds on the main Bitcoin blockchain spec, but crucially adds support for things like metadata and custom assets, so we could mint our own digital currency.</p>
+<p>We followed the <a href="http://www.multichain.com/getting-started/">detailed instructions</a> and, within a morning, we were up and running, happily moving a new digital currency from one machine to another.</p>
+<p>The next step was to build a Ruby client, which we found didn't exist. As Multichain (and Bitcoin) exposes a JSON-RPC API, this was nice and easy. We also had some vague ideas that we might want to add some metadata that showed the state of a given URL at any time, so added in functionality for that too. You can <a href="https://github.com/theodi/multichain-client">see our code on GitHub</a> and pull requests are, of course, welcome.</p>
+<h3 id="theblockchainmeetstheopendata">The blockchain meets the open data</h3>
+<p>So, we had a blockchain and a way of accessing that blockchain in a language we felt comfortable using, what next? After some thought, we cast our minds back to earlier last year, when Philip Potter from GDS wrote a fantastic <a href="https://gdstechnology.blog.gov.uk/2015/10/13/guaranteeing-the-integrity-of-a-register/">blog post</a> about guaranteeing the integrity of a register, describing technology that looked, for all intents and purposes, like a blockchain.</p>
+<p>The example Philip used in this blog post was food safety inspections and, as I've got a long history in publishing and working with food safety data, we decided that we could use the existing open data to suck up the <a href="http://ratings.food.gov.uk/open-data/en-GB">Food Standards Agency (FSA) ratings data</a> and put it into our blockchain. That way, if people were unsure if a rating was genuine, they could look at our blockchain and see that it was the case. While a website can be hacked, and ratings altered, information on a blockchain cannot be deleted or altered, and can also be traced back to its originator.</p>
+<p>We knocked up a <a href="https://github.com/theodi/foodchain">quick script</a> that uses the FSA API to get inspection data and import their premises ID into the blockchain, along with the inspection date and rating. The idea was to then run the script on a regular basis to get any new inspections.</p>
+<p>The import seemed to work and we set out what we planned to do &#8211; put open data in a blockchain. But this raised more questions than answers.</p>
+<h3 id="indexingminingandthefutureofourblockchain">Indexing, mining and the future of our blockchain</h3>
+<p>Firstly, how do we search for the correct record? At the moment, it seems like we have to go through each block in the chain and check the metadata. There are many solutions for searching and viewing the Bitcoin blockchain but these seem to just index the blockchain into a database that is better suited to the task of searching. How do you guarantee the integrity of that database?</p>
+<p>Our blockchain currently only consists of two nodes, mining and sending fake currency to each other. The key to the integrity of blockchain technology is its decentralised nature. Once one person or organisation owns the majority of nodes in a blockchain network, this integrity breaks down.</p>
+<p>Related to this, if we were to open up our blockchain to the wider public, how would we incentivise mining? With Bitcoin, once a miner adds new transactions to the blockchain, there is a fixed reward (currently 25 BTC, almost &#163;7,500 in today's exchange rate). As the size of the blockchain increases, so does the computational power required to add new blocks (a <a href="https://karlodwyer.github.io/publications/pdf/bitcoin_KJOD_2014.pdf">recent paper</a> compared the electricity usage of the Bitcoin network to that of Ireland). As a result of this, and the rewards at stake, there are entire server farms devoted to Bitcoin mining.</p>
+<p>Currently, our blockchain is a fraction of the size of the Bitcoin blockchain, and we might get a few well-intentioned people happy to mine for us for free. However, as the blockchain grows, mining will get harder, and the worthless currency our blockchain 'rewards' miners with won't help miners cover the electricity bills the computation will end up costing them.</p>
+<p>Obviously, this has been a pretty shallow dive into blockchain, looking at the art of the possible. We&#8217;re not ruling out blockchain technology yet, and in the coming weeks and months, we&#8217;ll be doing more detailed investigation, looking into alternative blockchain technologies like <a href="https://www.ethereum.org/">Ethereum</a>, as well as smart contracts and the privacy implications of blockchain data storage. In the meantime, there may well be things we've missed or not considered. If that's the case, please let us know in the comments.</p>
+<p><strong>This work was supported by Deutsche Bank and is part of ODI Labs&#8217; work on data infrastructure. If you&#8217;re interested in supporting our R&amp;D work on data infrastructure and blockchains, email <a href="../cdn-cgi/l/email-protection#ea868b8899aa9e828f858e83c485988d"><span class="__cf_email__" data-cfemail="e78b868594a7938f8288838ec9889580">[email&#160;protected]</span></a>.</strong></p>
+</article>
+</div>
+</div>
+</div>
+</div>
+<footer class="site-footer">
+<div class="container">
+<div class="row">
+<div class="col-md-8 footer-content">
+<h1 class="footer-logo"><a href="http://oldsite.theodi.org">Open Data Institute</a></h1>
+<p><a href="../contact">Open Data Institute, 65 Clifton Street, London EC2A 4JE</a></p>
+<p><a href="../cdn-cgi/l/email-protection#dfb6b1b9b09fabb7bab0bbb6f1b0adb8"><span class="__cf_email__" data-cfemail="345d5a525b74405c515b505d1a5b4653">[email&#160;protected]</span></a> Company <a href="http://opencorporates.com/companies/gb/08030289">08030289</a>
+<span>VAT</span><span>143 7796 80</span>
+</p>
+<p class="license">
+<a href="http://creativecommons.org/licenses/by-sa/2.0/uk/deed.en_GB" rel="license">
+<img alt="Creative Commons Licence" height="15" src="../assets/cc-a23fe95f04508432c8d97c00b0a36254.png" width="80">
+</a>
+</p>
+</div>
+<div class="col-md-4 footer-nav">
+<nav><ul class="pull-right list-inline">
+<li><a href="http://www.twitter.com/ODIHQ" class=" ">
+<img alt="Follow us on Twitter" src="../assets/twitter-a658ecc9fe2aab3308a5fb36adfb9a64.png" title="Follow us on Twitter"></a></li>
+<li><a href="https://soundcloud.com/theodi" class=" ">
+<img alt="Listen on Soundcloud" src="../assets/soundcloud-3932b3db23c6fb6c45bce20c8016462c.png" title="Listen on Soundcloud"></a></li>
+<li><a href="http://www.scribd.com/OpenDataInstitute" class=" ">
+<img alt="Read on Scribd" src="../assets/scribd-8afadecb87771fd6f6814e6ea81fb23d.png" title="Read on Scribd"></a></li>
+<li><a href="https://github.com/orgs/theodi" class=" ">
+<img alt="Follow us on Github" src="../assets/github-914931d2a14f54f3c64caec5c6e68017.png" title="Follow us on Github"></a></li>
+<li><a href="http://vimeo.com/theodiuk" class=" ">
+<img alt="Watch on Vimeo" src="../assets/vimeo-a865234771edd239032629b694ddaa32.png" title="Watch on Vimeo"></a></li>
+<li><a href="http://www.youtube.com/user/OpenDataInstituteUK" class=" ">
+<img alt="Watch on Youtube" src="../assets/youtube-cccfa6f837a0acfe0d2fd9492b0d45b3.png" title="Watch on Youtube"></a></li>
+<li><a href="http://www.flickr.com/photos/ukodi/" class=" ">
+<img alt="Follow us on Flickr" src="../assets/flickr-c81d78a530d046663cfff44293f6f775.png" title="Follow us on Flickr"></a></li>
+</ul></nav>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<nav><ul class="pull-right list-inline">
+<li class=" "><a href="../terms-of-use" class=" ">Terms of use</a></li>
+<li class=" "><a href="../privacy-policy" class=" ">Privacy policy</a></li>
+<li class=" "><a href="../cookie-policy" class=" ">Cookie policy</a></li>
+</ul></nav>
+</div>
+</div>
+</div>
+</footer>
+<script data-cfasync="false" src="../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+
+  var _pt = ["E6AF1363-3E19-409A-983C-91FFE62C2CBB"];
+  (function(d,t){
+    var a=d.createElement(t),s=d.getElementsByTagName(t)[0];a.src=location.protocol+'//a1webstrategy.com/track.js';s.parentNode.insertBefore(a,s);
+  }(document,'script'));
+
+  </script>
+<script type="text/javascript">
+      (function (n) {
+          var u = window.location.href;
+          var p = u.split("/")[0];
+          var t = n.createElement("script"), i;
+          t.type = "text/javascript";
+          t.async = !0;
+          t.src = p + "//dashboard.whoisvisiting.com/who.js";
+          i = n.getElementsByTagName("script")[0];
+          i.parentNode.insertBefore(t, i)
+      })(document);
+
+          var whoparam = whoparam || [];
+          whoparam.push(["AcNo", "8d5d04b9adc94a34bc385c6f3370594e"]);
+          whoparam.push(["SendHit", ""]
+      );
+  </script>
+<script src="../assets/application-4829863ea093de33ae55c9a127d6af6b.js" type="text/javascript"></script>
+
+<!--[if gt IE 7]><!-->
+<script src="../assets/bootstrap/bootstrap-collapse-c4cb45620c1346753e2385c125ed4bdd.js" type="text/javascript"></script>
+<!--<![endif]-->
+
+
+<!--[if gt IE 7]><!-->
+<script src="../assets/masonry-c617ee0c7d6c602b548ab5e69d50f4fa.js" type="text/javascript"></script>
+<script src="../assets/infinitescroll-243a7a50c0c843f1deb394ea98f4d0a6.js" type="text/javascript"></script>
+<script src="../assets/background-check-677e6100d9ce594cd30a88f57fc49b48.js" type="text/javascript"></script>
+<!--<![endif]-->
+</body>
+</html>

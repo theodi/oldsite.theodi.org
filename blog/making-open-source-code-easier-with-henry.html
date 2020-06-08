@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=US-ASCII">
+<title>Making open source code easier with Henry | Open Data Institute</title>
+<link href="../assets/application-693091b423df059e90189392fffb0ae0.css" media="all" rel="stylesheet" type="text/css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="../assets/favicon-e0340b5bc5738e53c1b06680529c0963.ico" rel="shortcut icon" type="image/vnd.microsoft.icon">
+
+<!--[if lt IE 9]>
+      <script src="../assets/html5shiv-5d1c7196accd7174ed22f320c693b063.js" type="text/javascript"></script>
+    <![endif]-->
+
+<!--[if (IE 7)|(IE 8)]>
+      <script src="../assets/respond.min-5eec43180e3f6d282f038de07483dc4b.js" type="text/javascript"></script>
+    <![endif]-->
+
+<script src="../assets/modernizr.custom-1ecf37d7f9fbb3066a877e31ce79e79e.js" type="text/javascript"></script>
+
+<!--[if lte IE 9]><link href="../assets/ie9-875f0d42a52ff5536404da8fda8d423b.css" media="screen" rel="stylesheet" type="text/css" /><![endif]-->
+<!--[if lte IE 8]><link href="../assets/ie8-4a6b9f309032dacb3913ccc2d55bda8b.css" media="screen" rel="stylesheet" type="text/css" /><![endif]-->
+<!--[if lte IE 7]><link href="../assets/ie7-d4066942f039a08eed8b62b80cde16cb.css" media="screen" rel="stylesheet" type="text/css" /><![endif]-->
+<!--[if lt IE 7]><link href="../assets/ie6-cab152e9612eeec9bd0af579a2231dd5.css" media="screen" rel="stylesheet" type="text/css" /><![endif]-->
+
+<meta property="fb:pages" content="1755416561338416">
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+<link href="../making-open-source-code-easier-with-henry.json" rel="alternate" title="json" type="application/json">
+<meta content="The Open Data Institute (ODI) equip, connect and inspire people around the world to innovate with data. Co-founded by Sir Tim Berners-Lee and Sir Nigel Shadbolt, the ODI provides events, training, membership and consultancy around open data." name="description">
+<meta content="summary_large_image" name="twitter:card">
+<meta content="@ODIHQ" name="twitter:site">
+<meta content="article" property="og:type">
+<meta content="../uploads/assets/03/dd/5703dd911f986a0848000001/henry.jpg" property="og:image">
+<meta content="Making open source code easier with Henry | Open Data Institute" property="og:title">
+<meta content="&lt;p&gt;Along with technology to help open data publication, the ODI Labs team work on tools to help make open source code publication easier. ODI web developer Stuart Harrison introduces 'Henry', a tool to help you deploy Ruby gems faster and more frequently&lt;/p&gt;" property="og:description">
+<meta content="Open Data Institute" property="og:site_name">
+<meta content="../making-open-source-code-easier-with-henry" property="og:url">
+<meta name="govuk:rendering-application" content="Www">
+<script type="text/javascript">
+
+
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-34573394-1', {});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   ga('send', 'pageview');
+
+
+</script></head>
+<body>
+<header class="site-header">
+<div class="navbar navbar-inverse navbar-static-top">
+<div class="container">
+<div class="navbar-header">
+
+<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+<a class="navbar-brand" href="../"><img alt="The ODI" id="odi-logo" src="../assets/logo-header-dc4ead7a18ea4133873c79502c174638.png"></a>
+</div>
+<div class="modal fade" id="getLogo" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<h4 class="modal-title" id="myModalLabel">Welcome to the ODI
+<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&#215;</button>
+</h4>
+</div>
+<div class="modal-body">
+<p>Knowledge for everyone</p>
+<p>The ODI helps to unlock the value of open data.</p>
+<p>If you want to use our logo, different sizes and types are here: <a href="../brand">../brand</a></p>
+<p><a rel="external" href="../uploads/assets/legacy/ODI%2Dlogo%2Dsml.png"><img src="../uploads/assets/legacy/ODI%2Dlogo%2Dsml.png" alt=""></a></p>
+<p><a rel="external" href="../uploads/assets/legacy/ODI%2Dlogo%2Dmed.png"><img src="../uploads/assets/legacy/ODI%2Dlogo%2Dmed.png" alt=""></a></p>
+<p><a rel="external" href="../uploads/assets/legacy/ODI%2Dlogo%2Dmed.png"><img src="../uploads/assets/legacy/ODI%2Dlogo%2Dlg.png" alt=""></a></p>
+<p><a rel="external" href="../uploads/assets/legacy/ODI%2Dlogo%2Dmed.png"><img src="../uploads/assets/legacy/ODI%2Dlogo%2Dxlg.png" alt=""></a></p>
+</div>
+</div>
+</div>
+</div>
+<ul class="nav navbar-nav navbar-right">
+<li><a href="../contact">Contact us</a></li>
+<li><a href="../newsletters">Newsletters</a></li>
+
+</ul>
+
+<form class="navbar-form navbar-right" method="get" action="//duckduckgo.com/">
+<div class="form-group">
+<div class="input-group">
+<input value="oldsite.theodi.org" name="sites" type="hidden">
+<input class="form-control" placeholder="Search ODI" name="q" type="text">
+<input value="Go" class="btn" type="submit">
+</div>
+</div>
+</form>
+</div>
+</div>
+<div class="collapse navbar-collapse">
+<div class="navbar navbar-static-top">
+<div class="container">
+<ul class="nav navbar-nav main-nav">
+<li class="dropdown">
+<a href="../news">
+News &amp; blog
+</a>
+</li>
+<li class="dropdown">
+<a href="../get-involved">
+Get involved
+</a>
+</li>
+<li class="dropdown">
+<a href="../our-network">
+Our global network
+</a>
+</li>
+<li class="dropdown">
+<a href="../events">
+Events
+</a>
+</li>
+<li class="dropdown">
+<a href="../our-focus">
+Our focus
+</a>
+</li>
+<li class="dropdown">
+<a href="../publications">
+Publications
+</a>
+</li>
+<li class="dropdown last">
+<a href="../about">
+About the ODI
+</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="navbar navbar-inverse navbar-static-top mobile-only">
+<div class="container">
+<ul class="nav navbar-nav navbar-right">
+<li><a href="../contact">Contact us</a></li>
+<li><a href="../newsletters">Newsletters</a></li>
+
+</ul>
+
+</div>
+</div>
+</header> 
+<div id="wrapper">
+<header class="page-title">
+<div class="container header-wrap">
+<h1> Making open source code easier with Henry</h1>
+</div>
+</header>
+<div class="container">
+<div class="row">
+<div class="article-full">
+<article class="article-body">
+<p><em>Along with technology to help open data publication, the ODI Labs team work on tools to help make open source code publication easier. ODI web developer Stuart Harrison introduces 'Henry', a tool to help you deploy Ruby gems faster and more frequently</em></p>
+<p><img src="../uploads/assets/03/dd/5703dd911f986a0848000001/henry.jpg" alt="" class="img" id="5703dd91d0d4620624000008">
+<small>Henry is a tool developed by ODI Labs to lower the barriers to publishing open source software. <a href="https://creativecommons.org/licenses/by/2.0/" title="CC BY 2.0">CC BY 2.0</a>, uploaded by [davidwithacamera](https://www.flickr.com/photos/davidwithacamera/8735762528/in/photolist-eiX4Rj-acUjmF-4bovG5-iY8b5-8rFzHk-8zvhCt-7x3Arr-7x3At8-pwa9MS-gXVmsT-77P3vT-6wmd3u-4yFEiP-de88Zq-9n77JU-9ibgqA-77SWZW-iuDhWd-7hXjpC-Q4L3W-siaKXc-iMUCq-iMUCo-iMpV9-nfdQHV-iMpV7-bv7gRn-iMUCn-4XKeGw-bv7gPa-iMpVa-nuENLQ-ppP12m-iMpV6-76ZeS9-6XkzcH-sfVoQN-71dYXN-8RqpdM-8Rqpgp-fAts7o-b6fFHc-aFjc81-6FECmy-6Xpzku-bd84hV-d3RA1-6BQfCG-7pUwj9-amBpQP &#8220;davidwithacamera").</small></p>
+<p>In the ODI Labs team, our weapon of choice for almost all software development work is Ruby. It's fast, pleasing to write and enormously flexible. Plus, it has a huge community of people writing open source code that we can build upon, meaning we don't need to reinvent the wheel every time we want to carry out a common task, like parsing XML, interfacing with an API, or connecting to a database.</p>
+<p>As with most modern programming languages, these pieces of code are often wrapped up in packages, which in Ruby-land are called 'gems'. When taking on a new project, Ruby developers will pretty much always use at least one gem, and often many, many more.</p>
+<p>Every now and then, we come across a problem that hasn't been solved, and if it's a problem we think other people may have, we write a gem of our own. Amongst other things,
+we've written gems to <a href="https://github.com/theodi/csvlint.rb">validate CSV files</a>, <a href="https://github.com/theodi/data_kitten">extract metadata out of open data datasets</a> and <a href="https://github.com/theodi/bimble">keep code dependencies up to date</a>. When we're ready to share our code with the world, we publish our gem to <a href="http://rubygems.org">Rubygems</a>, which is the de-facto standard package repository for Ruby gems.</p>
+<h3 id="continuousdeploymentforfunandforprofit">Continuous deployment for fun and for profit</h3>
+<p>To rewind for a minute, when we're building tools for the Web, such as <a href="http://csvlint.io">CSVlint</a> or <a href="http://certificates.theodi.org">Open Data Certificates</a>, we employ a technique known as Continuous Deployment.</p>
+<p>Put very simply, when we push our code up to GitHub, our tests run (currently in <a href="http://travis-ci.org">Travis</a>), and if the code is on a master branch, a git tag marked <code>CURRENT</code> is applied to that version of the code. We have a job that runs every 10 minutes on our servers, and if it picks up that the <code>CURRENT</code> tag has changed, it deploys that version of the code to the server. This way we don't have to think about deploying our code when
+it changes, it just works.</p>
+<p>I've often wished we could apply that approach to our gems. Usually, when you publish a new version of a gem, you need to write a Changelog (saying what you've added or changed), package your code into a new gem and push this up to Rubygems. It also helps to push a new tag in Github with the current version number, so people can see a snapshot of what the code looked like at a certain point.</p>
+<p>This can be automated to a certain extent in Travis, using <a href="https://docs.travis-ci.com/user/deployment/rubygems">Travis's fantastic Rubygems integration</a>, but I wanted more. </p>
+<p>Sensibly, by default, Travis suggests that you only publish to Rubygems when you push a new tag to Github. This is fine and dandy, but still involves another manual step after you've written new code. You can often forget to do this, too, meaning users won't immediately get the benefit from your shiny new code.</p>
+<h3 id="itsgemsallthewaydown">It's gems, all the way down</h3>
+<p>After this had been bugging me for a while, I decided to do something about it. Initially I reengineered a bash script that we already used with our web-based projects for continuous deployment, which applies the <code>CURRENT</code> tag.</p>
+<p>This runs after a successful test run on the master branch, gets the current version of the code, and pushes a tag with that version. Travis then runs the tests for a second time against the tagged code and deploys to Rubygems.</p>
+<pre><code>export GEM_VERSION=`ruby -e "puts Gem::Specification.load(Dir['*.gemspec'].first).version.to_s"`
+'[ "$TRAVIS_BRANCH" == "master" ] &amp;&amp; [ "$TRAVIS_PULL_REQUEST" == "false" ] &amp;&amp; curl \
+-v -X POST -d ''{"ref":"refs/tags/''$GEM_VERSION''","sha":"''$TRAVIS_COMMIT''"}'' --header \
+"Content-Type:application/json" -u $GITHUB_USER:$GITHUB_PASSWORD "https://api.github.com/repos/$TRAVIS_REPO_SLUG/git/refs"'
+</code></pre>
+<p>That worked surprisingly well, and we have been happily using it with CSVLint for a few months now. But, again, I wanted more.</p>
+<p>I'd been using a tool called <a href="https://github.com/skywinder/github-changelog-generator">Github Changelog Generator</a> for a few months, which uses your Github history to create a changelog, showing what code has changed, as well as what issues and pull requests have been closed since the last version of the code. You can see some example output <a href="https://github.com/theodi/csvlint.rb/blob/master/CHANGELOG.md">here</a>.
+I wondered if I could combine what I'd written with Github Changelog Generator to automatically create a tag, publish the gem and create a changelog, making pushing a new version of a gem as easy as deploying new code to a webserver. So I gave it a shot, and here's the outcome.</p>
+<pre><code>'[ "$TRAVIS_BRANCH" == "master" ] &amp;&amp; [ "$TRAVIS_PULL_REQUEST" == "false" ] &amp;&amp; \
+gem install github_changelog_generator &amp;&amp; github_changelog_generator &amp;&amp; git config user.name "Travis CI" &amp;&amp; \
+git config user.email "<a href="../cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="33474152455a4073475b565c575a1d5c4154">[email&#160;protected]</a>" &amp;&amp; git checkout master &amp;&amp; git add CHANGELOG.md &amp;&amp; \
+git commit -m "Updated Changelog [ci skip]" &amp;&amp; git push "https://${CHANGELOG_GITHUB_TOKEN}@github.com/${TRAVIS_REPO_SLUG}" master'
+</code></pre>
+<p>This horror show of a bash script checks if we're on master and the code isn't from a pull request, installs and runs the changelog generator, then pushes the newly generated changelog to master. The commit message is prefixed with <code>[ci skip]</code>, which tells Travis not to run the tests, otherwise we'd be in a whole heap of trouble with infinite looping test runs.</p>
+<p>This worked reasonably well, but I still wasn't 100% happy. My bash-fu is pretty weak, and I wasn't entirely sure that copying and pasting bash scripts from one project to another was an entirely smooth development flow, so, like in many of these cases, I decided to write a gem.</p>
+<h3 id="enterhenry">Enter Henry</h3>
+<p>The result was <a href="https://github.com/theodi/henry">Henry</a>, initially named after Henry Ford, the inventor of the production line, but I'm actually happier with using a Henry vacuum cleaner as a mascot, because who doesn't love a smiling anthropomorphic household appliance?</p>
+<p>Now, if you want to continuously deploy your own Ruby gems, rather than copying and pasting some crufty, error-prone bash script, you can run <code>gem install henry</code> inside your project, then run <code>henry bootstrap</code>, and Henry will do the rest!</p>
+<p>It's still very early days for Henry, and I'm sure there are some rough edges that could be ironed out, but I'm pretty happy with the overall approach. It lowers the barriers to publishing open source software, and will (hopefully) make some people's lives easier. So if you're a Ruby developer, please give it a go, and if anything breaks &#8211; or if you have an idea for any improvements &#8211; please <a href="https://github.com/theodi/henry/issues">open an issue</a> or a <a href="https://github.com/theodi/henry/pulls">pull request</a>.</p>
+<p><strong><em>Stuart Harrison is <a href="../team/stuart-harrison">Web Developer</a> at the ODI. Follow <a href="https://twitter.com/pezholio">@pezholio</a> on Twitter.</em></strong></p>
+<p><em><strong>If you have ideas or experience in open data that you'd like to share, <a href="../cdn-cgi/l/email-protection#4a3a38252e3f293e2325240a3e222f252e236425382d" title="pitch us a blog">pitch us a blog</a> or tweet us at <a href="https://twitter.com/odihq" title="@ODIHQ">@ODIHQ</a>.</strong></em></p>
+</article>
+</div>
+</div>
+</div>
+</div>
+<footer class="site-footer">
+<div class="container">
+<div class="row">
+<div class="col-md-8 footer-content">
+<h1 class="footer-logo"><a href="http://oldsite.theodi.org">Open Data Institute</a></h1>
+<p><a href="../contact">Open Data Institute, 65 Clifton Street, London EC2A 4JE</a></p>
+<p><a href="../cdn-cgi/l/email-protection#7c15121a133c08141913181552130e1b"><span class="__cf_email__" data-cfemail="472e29212807332f2228232e69283520">[email&#160;protected]</span></a> Company <a href="http://opencorporates.com/companies/gb/08030289">08030289</a>
+<span>VAT</span><span>143 7796 80</span>
+</p>
+<p class="license">
+<a href="http://creativecommons.org/licenses/by-sa/2.0/uk/deed.en_GB" rel="license">
+<img alt="Creative Commons Licence" height="15" src="../assets/cc-a23fe95f04508432c8d97c00b0a36254.png" width="80">
+</a>
+</p>
+</div>
+<div class="col-md-4 footer-nav">
+<nav><ul class="pull-right list-inline">
+<li><a href="http://www.twitter.com/ODIHQ" class=" ">
+<img alt="Follow us on Twitter" src="../assets/twitter-a658ecc9fe2aab3308a5fb36adfb9a64.png" title="Follow us on Twitter"></a></li>
+<li><a href="https://soundcloud.com/theodi" class=" ">
+<img alt="Listen on Soundcloud" src="../assets/soundcloud-3932b3db23c6fb6c45bce20c8016462c.png" title="Listen on Soundcloud"></a></li>
+<li><a href="http://www.scribd.com/OpenDataInstitute" class=" ">
+<img alt="Read on Scribd" src="../assets/scribd-8afadecb87771fd6f6814e6ea81fb23d.png" title="Read on Scribd"></a></li>
+<li><a href="https://github.com/orgs/theodi" class=" ">
+<img alt="Follow us on Github" src="../assets/github-914931d2a14f54f3c64caec5c6e68017.png" title="Follow us on Github"></a></li>
+<li><a href="http://vimeo.com/theodiuk" class=" ">
+<img alt="Watch on Vimeo" src="../assets/vimeo-a865234771edd239032629b694ddaa32.png" title="Watch on Vimeo"></a></li>
+<li><a href="http://www.youtube.com/user/OpenDataInstituteUK" class=" ">
+<img alt="Watch on Youtube" src="../assets/youtube-cccfa6f837a0acfe0d2fd9492b0d45b3.png" title="Watch on Youtube"></a></li>
+<li><a href="http://www.flickr.com/photos/ukodi/" class=" ">
+<img alt="Follow us on Flickr" src="../assets/flickr-c81d78a530d046663cfff44293f6f775.png" title="Follow us on Flickr"></a></li>
+</ul></nav>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<nav><ul class="pull-right list-inline">
+<li class=" "><a href="../terms-of-use" class=" ">Terms of use</a></li>
+<li class=" "><a href="../privacy-policy" class=" ">Privacy policy</a></li>
+<li class=" "><a href="../cookie-policy" class=" ">Cookie policy</a></li>
+</ul></nav>
+</div>
+</div>
+</div>
+</footer>
+<script data-cfasync="false" src="../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+
+  var _pt = ["E6AF1363-3E19-409A-983C-91FFE62C2CBB"];
+  (function(d,t){
+    var a=d.createElement(t),s=d.getElementsByTagName(t)[0];a.src=location.protocol+'//a1webstrategy.com/track.js';s.parentNode.insertBefore(a,s);
+  }(document,'script'));
+
+  </script>
+<script type="text/javascript">
+      (function (n) {
+          var u = window.location.href;
+          var p = u.split("/")[0];
+          var t = n.createElement("script"), i;
+          t.type = "text/javascript";
+          t.async = !0;
+          t.src = p + "//dashboard.whoisvisiting.com/who.js";
+          i = n.getElementsByTagName("script")[0];
+          i.parentNode.insertBefore(t, i)
+      })(document);
+
+          var whoparam = whoparam || [];
+          whoparam.push(["AcNo", "8d5d04b9adc94a34bc385c6f3370594e"]);
+          whoparam.push(["SendHit", ""]
+      );
+  </script>
+<script src="../assets/application-4829863ea093de33ae55c9a127d6af6b.js" type="text/javascript"></script>
+
+<!--[if gt IE 7]><!-->
+<script src="../assets/bootstrap/bootstrap-collapse-c4cb45620c1346753e2385c125ed4bdd.js" type="text/javascript"></script>
+<!--<![endif]-->
+
+
+<!--[if gt IE 7]><!-->
+<script src="../assets/masonry-c617ee0c7d6c602b548ab5e69d50f4fa.js" type="text/javascript"></script>
+<script src="../assets/infinitescroll-243a7a50c0c843f1deb394ea98f4d0a6.js" type="text/javascript"></script>
+<script src="../assets/background-check-677e6100d9ce594cd30a88f57fc49b48.js" type="text/javascript"></script>
+<!--<![endif]-->
+</body>
+</html>

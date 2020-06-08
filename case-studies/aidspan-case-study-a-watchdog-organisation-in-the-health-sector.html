@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=US-ASCII">
+<title>Case study: How Aidspan use open data to track health spending | Case studies | Open Data Institute</title>
+<link href="../assets/application-693091b423df059e90189392fffb0ae0.css" media="all" rel="stylesheet" type="text/css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="../assets/favicon-e0340b5bc5738e53c1b06680529c0963.ico" rel="shortcut icon" type="image/vnd.microsoft.icon">
+
+<!--[if lt IE 9]>
+      <script src="../assets/html5shiv-5d1c7196accd7174ed22f320c693b063.js" type="text/javascript"></script>
+    <![endif]-->
+
+<!--[if (IE 7)|(IE 8)]>
+      <script src="../assets/respond.min-5eec43180e3f6d282f038de07483dc4b.js" type="text/javascript"></script>
+    <![endif]-->
+
+<script src="../assets/modernizr.custom-1ecf37d7f9fbb3066a877e31ce79e79e.js" type="text/javascript"></script>
+
+<!--[if lte IE 9]><link href="../assets/ie9-875f0d42a52ff5536404da8fda8d423b.css" media="screen" rel="stylesheet" type="text/css" /><![endif]-->
+<!--[if lte IE 8]><link href="../assets/ie8-4a6b9f309032dacb3913ccc2d55bda8b.css" media="screen" rel="stylesheet" type="text/css" /><![endif]-->
+<!--[if lte IE 7]><link href="../assets/ie7-d4066942f039a08eed8b62b80cde16cb.css" media="screen" rel="stylesheet" type="text/css" /><![endif]-->
+<!--[if lt IE 7]><link href="../assets/ie6-cab152e9612eeec9bd0af579a2231dd5.css" media="screen" rel="stylesheet" type="text/css" /><![endif]-->
+
+<meta property="fb:pages" content="1755416561338416">
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+<link href="../case-studies/aidspan-case-study-a-watchdog-organisation-in-the-health-sector.json" rel="alternate" title="json" type="application/json">
+<link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
+<meta content="The Open Data Institute (ODI) equip, connect and inspire people around the world to innovate with data. Co-founded by Sir Tim Berners-Lee and Sir Nigel Shadbolt, the ODI provides events, training, membership and consultancy around open data." name="description">
+<meta content="summary_large_image" name="twitter:card">
+<meta content="@ODIHQ" name="twitter:site">
+<meta content="Case study: How Aidspan use open data to track health spending | Case studies | Open Data Institute" property="og:title">
+<meta content="article" property="og:type">
+<meta content="../case-studies/aidspan-case-study-a-watchdog-organisation-in-the-health-sector" property="og:url">
+<meta content="This case study was supported by the Partnership for Open Data, funded by the World Bank." property="og:description">
+<meta content="Open Data Institute" property="og:site_name">
+<meta content="../assets/about_hero.jpg" property="og:image">
+<meta name="govuk:rendering-application" content="Www">
+<script type="text/javascript">
+
+
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-34573394-1', {});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   ga('send', 'pageview');
+
+
+</script></head>
+<body>
+<header class="site-header">
+<div class="navbar navbar-inverse navbar-static-top">
+<div class="container">
+<div class="navbar-header">
+
+<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+<a class="navbar-brand" href="../"><img alt="The ODI" id="odi-logo" src="../assets/logo-header-dc4ead7a18ea4133873c79502c174638.png"></a>
+</div>
+<div class="modal fade" id="getLogo" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<h4 class="modal-title" id="myModalLabel">Welcome to the ODI
+<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&#215;</button>
+</h4>
+</div>
+<div class="modal-body">
+<p>Knowledge for everyone</p>
+<p>The ODI helps to unlock the value of open data.</p>
+<p>If you want to use our logo, different sizes and types are here: <a href="../brand">../brand</a></p>
+<p><a rel="external" href="../uploads/assets/legacy/ODI%2Dlogo%2Dsml.png"><img src="../uploads/assets/legacy/ODI%2Dlogo%2Dsml.png" alt=""></a></p>
+<p><a rel="external" href="../uploads/assets/legacy/ODI%2Dlogo%2Dmed.png"><img src="../uploads/assets/legacy/ODI%2Dlogo%2Dmed.png" alt=""></a></p>
+<p><a rel="external" href="../uploads/assets/legacy/ODI%2Dlogo%2Dmed.png"><img src="../uploads/assets/legacy/ODI%2Dlogo%2Dlg.png" alt=""></a></p>
+<p><a rel="external" href="../uploads/assets/legacy/ODI%2Dlogo%2Dmed.png"><img src="../uploads/assets/legacy/ODI%2Dlogo%2Dxlg.png" alt=""></a></p>
+</div>
+</div>
+</div>
+</div>
+<ul class="nav navbar-nav navbar-right">
+<li><a href="../contact">Contact us</a></li>
+<li><a href="../newsletters">Newsletters</a></li>
+
+</ul>
+
+<form class="navbar-form navbar-right" method="get" action="//duckduckgo.com/">
+<div class="form-group">
+<div class="input-group">
+<input value="oldsite.theodi.org" name="sites" type="hidden">
+<input class="form-control" placeholder="Search ODI" name="q" type="text">
+<input value="Go" class="btn" type="submit">
+</div>
+</div>
+</form>
+</div>
+</div>
+<div class="collapse navbar-collapse">
+<div class="navbar navbar-static-top">
+<div class="container">
+<ul class="nav navbar-nav main-nav">
+<li class="dropdown">
+<a href="../news">
+News &amp; blog
+</a>
+</li>
+<li class="dropdown">
+<a href="../get-involved">
+Get involved
+</a>
+</li>
+<li class="dropdown">
+<a href="../our-network">
+Our global network
+</a>
+</li>
+<li class="dropdown">
+<a href="../events">
+Events
+</a>
+</li>
+<li class="dropdown">
+<a href="../our-focus">
+Our focus
+</a>
+</li>
+<li class="dropdown">
+<a href="../publications">
+Publications
+</a>
+</li>
+<li class="dropdown last">
+<a href="../about">
+About the ODI
+</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="navbar navbar-inverse navbar-static-top mobile-only">
+<div class="container">
+<ul class="nav navbar-nav navbar-right">
+<li><a href="../contact">Contact us</a></li>
+<li><a href="../newsletters">Newsletters</a></li>
+
+</ul>
+
+</div>
+</div>
+</header> 
+<div id="wrapper">
+<header class="page-title">
+<div class="container header-wrap">
+<h1> <a href="../news">Case studies</a>
+</h1>
+</div>
+</header>
+<div class="container">
+<div class="row">
+<div class="article-main">
+<article class="article-body">
+<h2>Case study: How Aidspan use open data to track health spending</h2>
+<p><strong><em>This case study was supported by the Partnership for Open Data, funded by the World Bank.</em></strong></p>
+<p><em>Authors: Stephane Boyera and Carlos Iglesias</em></p>
+<hr>
+<ul>
+<li><a href="#1">Executive summary</a></li>
+<li><a href="#2">Introduction</a></li>
+<li><a href="#3">About Aidspan</a></li>
+<li><a href="#4">Aidspan's data approach</a></li>
+<li><a href="#5">Aidspan&#8217;s consumption of data</a></li>
+<li><a href="#6">Data supplied by Aidspan</a></li>
+<li><a href="#7">Tools and technology</a></li>
+<li><a href="#8">Key success factors</a></li>
+<li><a href="#9">Challenges for watchdogs like Aidspan</a></li>
+<li><a href="#13">Recommendations</a></li>
+<li><a href="#11">Conclusion</a></li>
+<li><a href="#12">Acknowledgments</a></li>
+</ul>
+<hr>
+<h3 id="aid1executivesummarya"><a id="1">Executive summary</a></h3>
+<p><a href="http://www.aidspan.org/" title="Aidspan">Aidspan</a> is an international NGO that serves as an independent watchdog for the <a href="http://www.theglobalfund.org/" title="Global Fund">Global Fund</a>, a partnership that includes various public and private donors, governments, international organisations and civil society organisations whose role is to fight HIV/AIDS, tuberculosis and malaria around the world.
+The objective of this study is to explore how Aidspan has been using open data to increase its impact and to provide a series of analysis and visualisation tools to its community. </p>
+<p>It also contains recommendations for how Aidspan can extract more value from open data.
+The vast majority of datasets used in the various Web tools offered by Aidspan come from the Global Fund, with some coming from other well-known organisations such as the International Aid Transparency Initiative (IATI) or the World Bank. The datasets that are integrated in the Aidspan web site and tools represent only a subset of the overall sources of information used by Aidspan analysts to build their analysis and reports. The case study focuses only on the subset of datasets used as open data. </p>
+<p>Aidspan provides different tools on their website to visualise information related to Global Fund grants and grantees, grant performance and donors. Internally, Aidspan use a homemade tool &#8211; <a href="http://apw.aidspan.net/" title="the Aidspan Portal Workbench (APW)">the Aidspan Portal Workbench (APW)</a> &#8211; to integrate the various datasets and make analysis. This tool is not yet public but will be released soon.
+Thanks to this data-driven approach, Aidspan is a very innovative watchdog organisation that efficiently supports the Global Fund community at large, not only with evidence-based analysis but also by providing tools to help various stakeholder groups engage with the Global Fund (grantees, grant applicants, technical partners and so on).</p>
+<p>However, Aidspan faces a number of challenges. These include:</p>
+<ul>
+<li>
+<strong>Community building</strong>: While Aidspan is well-connected to the Global Fund community, it is difficult for it to engage with its broader audience and understand the needs of various actors in terms of datasets or specific visualisations.</li>
+<li>
+<strong>Capacity building</strong>: Aidspan does not have the resources to integrate all the datasets they are currently using. Moreover, without an open data background, it is difficult for members of Aidspan staff to take full advantage of the open data community resources and some key elements, like data licenses, are missing.</li>
+<li>
+<strong>Data quality and completeness</strong>: While the quality of data has been improving over the years, especially since the new <a href="http://web-api.theglobalfund.org/" title="Global Fund Data Site">Global Fund Data Site</a> was put in place, exploiting other sources is still difficult. Some sources are not structured, or are not in a machine-readable format. </li>
+</ul>
+<p>These challenges lead to a series of recommendations:</p>
+<ul>
+<li>
+<strong>Increase the use of external data sources</strong>: For now, the open data tools provided by Aidspan are primarily using Global Fund data. It would be useful to cover more datasets to expand analysis capabilities of Aidspan audience. </li>
+<li>
+<strong>Publishing your own data</strong>: The APW is currently an internal tool only. It will be useful for the community to make it public and then expand the number of datasets published.</li>
+<li>
+<strong>Expand your activities</strong>: Aidspan could expand its activities to cover not only financial dimensions of the Global Fund, but also cover activities and impact. </li>
+<li>
+<strong>Build internal open data capacity</strong>: Aidspan should develop its internal capacity in open data and could also develop national-level watchdog organisations open data capacities.</li>
+<li>
+<strong>Increase knowledge of your customers</strong>: Aidspan could use open data tools online to engage with its audience to understand new needs, requirements and how to support them better.</li>
+</ul>
+<p>Finally, the report contains recommendations for other actors, such as the Global Fund community at large, watchdog organisations in general, data producers or publishers or the open data community in general. These recommendations include how they can take advantage of the Aidspan example, or how they can support organisations like Aidspan more effectively.</p>
+<hr>
+<h3 id="aid2introductiona"><a id="2">Introduction</a></h3>
+<p>This document is a case study of <a href="http://www.aidspan.org/" title="Aidspan">Aidspan</a> developed by <a href="http://www.sbc4d.com" title="SBC4De">SBC4D</a> on behalf of the <a href="http://oldsite.theodi.org" title="Open Data Institute (ODI)">Open Data Institute (ODI)</a>, funded by the World Bank under its Partnership for Open Data. </p>
+<p>The study explores how Aidspan, a watchdog organisation monitoring the <a href="http://www.theglobalfund.org/" title="Global Fund">Global Fund</a>, has been using open data to increase its impact and provide a series of useful tools to its community.</p>
+<p>In terms of methodology, the study was conducted in three phases, including preliminary desk research, a series of interviews with representatives from Aidspan and its various stakeholder groups and a final analysis consolidating the findings and proposing a series of recommendations. The report is structured in three major parts: a short Aidspan profile and its open data approach; key findings of the study; and finally the recommendations and conclusion.</p>
+<h3 id="aid3aboutaidspana"><a id="3">About Aidspan</a></h3>
+<p>Aidspan is an international non-governmental organisation that serves as an independent watchdog for the Global Fund, a partnership that includes various public and private donors, governments, international organisations and civil society organisations and whose role is to fight AIDS, Tuberculosis and Malaria in the world. The Global Fund was founded in 2002, and is a grant-making organisation investing nearly US$4bn a year to support programmes in more than 140 countries.</p>
+<p>Aidspan was founded by Bernard Rivers in 2002, just after the launch of the Global Fund. Its mission is:</p>
+<blockquote>
+<p>To serve as an independent watchdog of the Global Fund and its grant implementers through providing information, analysis and advice, facilitating critical debate and promoting greater transparency, accountability, effectiveness and impact. </p>
+</blockquote>
+<p>Over its twelve-year history, Aidspan has developed various activities to realise its mission. Since its creation, Aidspan has been focusing its action on exploiting available data, processing them and extracting valuable analysis to make them meaningful to the Global Fund community at large. In recent years they have also been developing and releasing various data analysis and visualisation tools to support the different Global Fund stakeholders and to build capacities of local country-level watchdog organisations.</p>
+<h3 id="stakeholdersinvolved">Stakeholders involved</h3>
+<p>Although people at Aidspan are the primary users of the data they produce during their daily work, its audience also includes all other stakeholders of the Global Fund. These consist of the Global Fund&#8217;s Board and Secretariat; Global Fund donors; grant applicants and grant recipients. It also covers other NGOs and international organisations working as observers and activists, as well as researchers and media interested in exploiting Global Fund data in different ways. Finally, its audience includes technical partners of the Global Fund &#8211; eg UNAIDS; WHO; STOP TB; Roll Back Malaria; UNICEF; and UNITAID. This is a relatively small community and a large part of it is already aware of Aidspan and its work.</p>
+<p>Aidspan currently provides information at the national level for more than 120 countries where the Global Fund operates. Aidspan is not yet able to provide data at the sub-national level, due to its limited internal resources and capacities, as well as the additional effort required to tap into national datasets that need heavy quality check and may not be properly formatted.</p>
+<p>Nevertheless, in order to be able to provide more specific insight at the country level, Aidspan is starting to work more closely with a range of other local partners in countries, including activists on health issues; professional associations; health workers; health rights campaigners; budget tracking and transparency organisations; and other local communities.</p>
+<hr>
+<h3 id="aid4aidspansdataapproacha"><a id="4">Aidspan's data approach</a></h3>
+<p>While the underlying spirit of the Aidspan approach has <a href="http://sunlightfoundation.com/policy/documents/ten-open-data-principles/" title="much in common with open data principles">much in common with open data principles</a>, Aidspan staff were driven by the desire to facilitate data access. They began years before the open data concept was developed, and until very recently haven&#8217;t been connected to the open data community at all. The same applies for the Global Fund itself, where transparency and accountability were key founding principles and the publication of their data has been part of their core activities.</p>
+<p>Aidspan has, over a period of time, evolved in its use of Global Fund data. In the very beginning, Aidspan analysts tended to use a small amount of statistical data from spreadsheets and manually process the datasets to extract key elements that were then reported in Aidspan publications. </p>
+<p>Subsequently, they moved to a full programmatic access to data in order to increase the amount of information collected and to perform a more in-depth and regular analysis.</p>
+<p>Aidspan automated this process and developed an internal tool, the <a href="http://apw.aidspan.net/" title="Aidspan Portal Workbench (APW)">Aidspan Portal Workbench (APW)</a> to ease the work of their analysts. At the same time, Aidspan decided to make the data available on their website on multiple ways. Finally, Aidspan is now in the process of releasing this internal tool openly to facilitate further data exploration and analysis by external users. </p>
+<p>It is important to note that the datasets integrated in the Aidspan website and tools represent only a subset of the overall sources of information used by its analysts to build their daily reports. In the sections below, this case study only focuses on the datasets that are used on Aidspan website and tools.</p>
+<hr>
+<h3 id="aid5aidspansconsumptionofdataa"><a id="5">Aidspan&#8217;s consumption of data</a></h3>
+<p>On the data demand side, Aidspan primarily uses <strong>data from the <a href="http://web-api.theglobalfund.org/" title="Global Fund Data Site">Global Fund Data Site</a></strong>, although also some other Global Fund data, like that which they publish on the <a href="http://iatiregistry.org/publisher/theglobalfund" title="IATI Registry">IATI Registry</a>. They also use some country economic indicators (Gross National Income and Economic classification) from the <a href="http://data.worldbank.org/" title="World Bank open databases">World Bank open databases</a> along with other disease-specific data, but this is <a href="http://www.aidspan.org/page/global-fund-pledges-and-contributions" title="limited to the most recent feature related to donor analysis">limited to the most recent feature related to donor analysis</a>. </p>
+<p>Aidspan is now in the process of <strong>exploring the integration of other new valuable data providers</strong>, such as the <a href="http://www.who.int/en/" title="World Health Organisation">World Health Organisation</a> or the <a href="http://www.usaid.gov/" title="United States Agency for International Development">United States Agency for International Development</a> or the US Congress, as part of their future plan not only to focus on following the money, but also to start <strong>exploring the overall programmes&#8217; impact</strong> at the activities level. This is particularly hard due to the <strong>lack of access to reliable structured data</strong> and the limited resources in the Aidspan team to integrate them (and check their quality) when they are available. </p>
+<p>In order to perform appropriate analysis, <strong>data must be very granular</strong>, which is almost impossible from the different sources Aidspan has been assessing. They also need to deal with more specific data sources that are not always properly structured, such as national or health budgets. In other cases, when the data is available, it is still <strong>difficult to make the connection back to the original Global Fund grants</strong>.</p>
+<hr>
+<h3 id="aid6datasuppliedbyaidspana"><a id="6">Data supplied by Aidspan</a></h3>
+<p>Aidspan provides two main ways of interacting with data:</p>
+<ol>
+<li>The different <strong>tools available on their website</strong>, with data and analysis based on the Global Fund data sources, including:</li>
+</ol>
+<ul>
+<li>
+<a href="http://www.aidspan.org/page/global-fund-overview" title="**Grant Portfolio**"><strong>Grant Portfolio</strong></a>: a tool to explore total grant amounts by country, disease or regions, as well as country-level details.</li>
+<li>
+<a href="http://www.aidspan.org/page/grant-performance-analysis" title="**Grant Performance Analysis**"><strong>Grant Performance Analysis</strong></a>: a tool that allows for the analysis of grant performance accordingly to the Global Fund ratings scale by a number of different criteria: region, country, disease component, health system, recipients and so on.</li>
+<li>
+<a href="http://www.aidspan.org/page/global-fund-pledges-and-contributions" title="**Donor information**"><strong>Donor information</strong></a>: a tool providing information about donor pledges and contributions by the different types of donors, with an Aidspan 'generosity score' added in. </li>
+</ul>
+<p>These tools are intended to help the average user gain <strong>access and understanding</strong> of the original data. </p>
+<ol>
+<li>Aidspan's own 'backend' set of utilities (the APW) is not available for the general public yet, but will be [partially made public soon (it is currently being tested by some partner organisations and wider publication is expected for 2015). The original intention was to input the Global Fund data into their own databases so they can easily transform, adapt, create secondary data from different calculations and get more elaborate insights in general (eg with respect to specific country or regional profiles, or different disease profiles and spending or disbursement data analysis). </li>
+</ol>
+<p>This tool also allows <strong>data export</strong> in a series of machine-readable formats (csv, xml and xls) and its data structure and storage database have been designed to support easy plugin of new data sources. Once available, other stakeholders will be able to access Aidspan raw data and use them to <strong>create ad-hoc reports or products</strong>.</p>
+<p>Apart from these data and related tools, Aidspan publishes also other data, such as the different reports and <a href="http://www.aidspan.org/page/research" title="papers">papers</a>, <a href="http://www.aidspan.org/page/guides-global-fund" title="guides">guides</a>, or <a href="http://www.aidspan.org/gfo_article/global-funds-32nd-board-meeting-focus-systems" title="newsletters">newsletters</a> currently available on their website as <strong>unstructured data</strong>, mostly .pdf or text files. They also rely on an internal content management system that is used to store documents and references for their daily work.</p>
+<p>As a result, not only can people read the various reports and analyses that Aidspan staff publish but <strong>they could also conduct their own analysis</strong> using the same data as Aidspan, challenge their conclusions, or run their own secondary research on specific regions or themes. People are already using this data in a variety of ways:</p>
+<ul>
+<li>Learning what is going on in the field and detecting trends</li>
+<li>Acquiring deeper knowledge on how to build successful grant proposals</li>
+<li>Identifying opportunities on finishing grants</li>
+<li>Evaluating risks for a given grant, a specific country, or with specific partners</li>
+<li>Identifying potential competitors in the same area</li>
+</ul>
+<hr>
+<h3 id="aid7toolsandtechnologya"><a id="7">Tools and technology</a></h3>
+<p>All Aidspan tools for data processing have been developed internally after initial conceptualisation of their specific needs. Then, other visual frameworks and libraries are used for the graphical presentation on the top of their content management system. A future plan starting in 2015 includes the use of geolocalised presentation of information.</p>
+<p>Aidspan usually gathers all the data from the interfaces provided by the original data sources, using a variety of techniques and standards (web services, APIs, scripts, JSON, OData and so on). They try to align with the technologies their main data providers are using. </p>
+<hr>
+<h3 id="aid8keysuccessfactorsa"><a id="8">Key success factors</a></h3>
+<p>This section lists the key success factors of Aidspan in its current activities.</p>
+<p><strong>Collaboration</strong></p>
+<p>Aidspan is a great example of a progressive watchdog that, while being completely independent, is working together with the organisation they are monitoring on improving data quality and facilitating access. Such a positive relationship is beneficial for both parties, as it makes the monitoring work easier and increases the value of the organisation being monitored.</p>
+<p>Aidspan is not perceived as a problem by the Global Fund, but quite the opposite: an asset demonstrating their transparency and the quality of their work and helping the Global Fund to be more useful and efficient improving the way it relates to its partners. This good and stable relationship between staff working on the datasets is key for mutual trust and success.</p>
+<p><strong>Adding value to data</strong></p>
+<p>Aidspan&#8217;s major success is transforming complex data from the Global Fund to a comprehensible and accessible format for the audience. From the perspectives of grantees and other Aidspan data consumers, it is far simpler and easier now for them to access and use the data. They can easily track how their grants are performing or where they stand in terms of budget and spending. </p>
+<p>Aidspan has also had a relevant impact on the fund&#8217;s quality of data while relentlessly commenting on its accuracy and its implications. There are several examples of improved quality of data because of their push of the Global Fund for better information and more complete datasets. One of the most relevant comes from mid-2013, when the test of the new web services resulted in Aidspan detecting that about half of all the grant data reported on the old website had been incorrect, by <a href="http://www.aidspan.org/gfo_article/aidspan-analysis-reveals-problems-grant-data-provided-global-fund" title="anything from a few dollars up to $300m">anything from a few dollars up to $300m</a>. </p>
+<p><strong>Being innovative as data-driven activists</strong></p>
+<p>Aidspan is also proud to be an organisation made up not just of activists but data analysts. The founder of Aidspan is an economist by education and passionate about investigative journalism, having spent a significant part of his life exploring and utilising public domain datasets to extract information that is easily understandable for the public. </p>
+<p>This rigorous scientific approach is also helpful at the time of building legitimacy of watchdog organisations, providing a more professional and neutral image of the organisations working on such activities. Now Aidspan is also starting to engage in helping other organisations to be more efficient in their watchdog function by questioning and evaluating data.</p>
+<hr>
+<h3 id="aid9challengesforwatchdogslikeaidspana"><a id="9">Challenges for watchdogs like Aidspan</a></h3>
+<p>This section summarises the key challenges that Aidspan is currently facing.</p>
+<p><strong>Community building</strong></p>
+<p>A balanced open data ecosystem requires both data supply and demand. Releasing data could be costly in terms of resources and time. People and organisations are likely to support these activities only if they can see a real sustaining impact. Partnerships are useful in allowing Aidspan to do more than its small team can achieve by themselves.</p>
+<p>On the other hand, while qualitatively Aidspan knows well what its potential audience is, it does not know exactly which assets are being used by its users, how well their needs are currently being covered or what their future expectations are. There is also a general lack of feedback or requirements from Aidspan's audience, which might never have requested specific data analysis or new tools. </p>
+<p>For a long time, Aidspan has tried to engage with its community through different online tools and some participatory events, but such initiatives have not yet delivered promising results. There is currently no specific interaction within the community to address these questions, apart from data enquiries and requests received from time to time, or during casual meetings at workshops and other events.</p>
+<p><strong>Capacity building</strong></p>
+<p>Aidspan is a <strong>small organisation</strong> that has a mix of different roles and capacities in its team covering the skills they need, including IT and data analysis. They also rely on the support of some external consultants for more specific tasks when required, for example, analysis of complex health systems. At present, the team is more limited by lack of time than any lack of skills.</p>
+<p>For this reason, it could be useful to have <strong>local country teams that are able to do their own analysis</strong> in order to compare with official data from the Global Fund in search of problems and discrepancies. This is a field that Aidspan has started to explore, but working with communities of practice and local watchdogs is sometimes difficult due to the <strong>weak capacity to analyse data</strong>. Getting access to proper support and financing to address this issue is also problematic for an NGO like Aidspan.</p>
+<p>Internally, working out a <strong>governance model</strong> when opening Aidspan&#8217;s own data is quite challenging mainly due to legal difficulties working out licensing, terms of use and responsibilities. This is a topic Aidspan has not addressed in the past and where it does not yet have expertise.</p>
+<p><strong>Data quality</strong></p>
+<p>The quality of available data was a major challenge in the early days and remains a problem due to the difficulty in checking or triangulating data from the Global Fund. Data was usually hard to use (eg only available within scanned documents), with different quality problems and often incomplete. Now the situation is different, given that the <strong>quality of data has been improving over the years</strong>, especially since the new <a href="http://web-api.theglobalfund.org/" title="Global Fund Data website">Global Fund Data website</a> was put in place. That made data quicker and easier to access or see problems with. Also, the predisposition and quick reaction from the Global Fund towards the feedback received made the quality leap possible.</p>
+<p>The move from the old reports and spreadsheets approach to the current dynamic Global Fund data store brought an unexpected consequence with some loss of transparency in practice, given that many data users do not hold the required skills that such programmatic access to data requires (and were better able to cope with, for example, csv or excel files). This has probably reinforced Aidspan&#8217;s role, although the Global Fund has also reacted by incorporating new ways to explore and reuse the data, such as the <a href="http://web-api.theglobalfund.org/Explorer/Index/" title="data analysts">data analysts</a> and the <a href="http://web-api.theglobalfund.org/Explorer/Index/" title="data explorer">data explorer</a> to accommodate a wider range of users.</p>
+<p><strong>Data completeness</strong></p>
+<p>Aidspan has proven a very useful actor improving access to data from the Global Fund, but <strong>there are still several important missing pieces</strong>, such as the different activities at grant level (deliverables, beneficiaries, audits, etc) or some grantee information (work, performance, etc). Not all recipients are listed on the websites, e.g. principal recipients are listen, but not sub-recipients. Data that the Global Fund currently publishes mostly comes directly from its business management software but data is first filtered and approved to avoid publishing any sensitive information.</p>
+<p>More globally, Aidspan faces some limitations with regards to data availability, given that even when there are multiple potential sources <strong>it is not always easy to get structured data</strong>. Another challenge in this regards comes from the granularity of current data, where sub-recipient registers do not exist for public scrutiny, this prevents Aidspan for analysing at that level. This is a very important issue when you want to be more relevant at the local level.</p>
+<p>Finally, the adoption of the new Global Fund funding model brings a series of new indicators for Aidspan to incorporate in its analytical tools. In addition, there were no standardised key performance indicators for Global Fund data up to now, but it is now moving towards annual standardised indicators that will make comparisons possible and therefore open up very interesting new opportunities for data integration.</p>
+<hr>
+<h3 id="aid13recommendationsa"><a id="13">Recommendations</a></h3>
+<p>Following the findings above, we present here a list of recommendations that would help Aidspan to embrace a more complete open data approach. We also include a section with additional recommendations for other actors in the Global Fund ecosystem.</p>
+<p><strong>Recommendations for Aidspan</strong></p>
+<p>Based on the findings of the study, we have identified five major open data-related recommendations that should help Aidspan to <strong>increase its impact and better serve its audience</strong>. Those recommendations are:</p>
+<ul>
+<li><p><strong>Use more external data sources</strong> through exploring datasets available at the national level and from international organisations.</p></li>
+<li><p><strong>Publish your own data</strong>, including internal secondary data and a structured library of publications.</p></li>
+<li><p><strong>Expand activities to include specific views on data that are still missing</strong>, visualisation related the new funding model and information related to programme activities.</p></li>
+<li><p><strong>Build internal open data capacity</strong> including open data tools, principles and recommendations such as data licenses; metadata standards; data extraction and transformation tools; visualisation concepts and so on. </p></li>
+<li><p><strong>Increase knowledge about your customers</strong> with a two-sided approach, keeping track of current users and increasing community engagement through direct dialogue.</p></li>
+</ul>
+<p><strong>Increase the use of external data sources</strong></p>
+<p>Today, most of Aidspan&#8217;s analysis is based on Global Fund data. This is largely due to internal capacity and the time required to bring new sources on board, plus the quality gap that will need to be addressed. Nevertheless, with the increasing number of governments and organisations engaging in the open data movement and <a href="http://opengeocode.org/opendata/" title="making their data assets available">making their data assets available</a> in a way that enables re-use, it should be easier to integrate more datasets in the near future. In that respect, there are two areas in which Aidspan should engage:</p>
+<p><strong>Explore datasets at the national level</strong></p>
+<p>With countries all over the world embracing the open data movement, this is a great opportunity for Aidspan to import more data from national repositories and later at the subnational level. Various public bodies (eg agencies and ministries) could be new useful sources of additional datasets for Aidspan. The same approach as the one put in place with the Global Fund should be developed again in this case, establishing positive dialogue with the various ministries. </p>
+<p>Furthermore, most national open data initiatives are launched today in conjunction with activities aiming at developing capacity in civil society and developers&#8217; communities. This is a great opportunity to create partnerships between Aidspan, an identified local watchdog organisation, and local open data experts to develop relationships with various ministries and exploit existing data. Here, the authors recommend that Aidspan follow the Code-for-Africa model to bring within organisations local expertise on open data.</p>
+<p><strong>Explore international organisations</strong></p>
+<p>The second area for Aidspan to explore is using data sources from international organisations as an integral part of the APW. This might include both UN organisations and other associations like the International Budget Partnership or Pepfar for HIV data. </p>
+<p>Many of these organisations are currently releasing huge quantities of data and are also cataloguing large datasets available in various regions of the world. As an example of the potential in this area, Aidspan is planning to exploit data collected by the WHO at the country level about activities and usage of Global Funds grants for tuberculosis. This data is already available and could be used today to map not only money but also activities in the field. </p>
+<p><strong>Publish your own data</strong></p>
+<p>While Aidspan is primarily a data consumer, it is currently also starting to explore the possibilities of releasing its own data with immediate plans for making its data management tool partially available to the public. Further steps on this direction may include in particular releasing also all its publications as open data with proper metadata to increase findability, exploration and re-use by others, as well as publishing as much as possible of the various secondary data that Aidspan is producing from the Global Fund. </p>
+<p>In the same way, Aidspan could offer to local watchdog organisations or researchers publishing analysis on Global Fund activities a place to publish its own data, increasing visibility of these local organisations as well as bringing added value to Aidspan customers while creating a more complete knowledge database.</p>
+<p><strong>Expand your activities</strong></p>
+<p>Aidspan has primarily focused on 'following the money' which means, in the case of the Global Fund, reporting on various aspects of grants. The various interviews conducted for this study highlighted the demand for more information in this area as well as in others, with some specific new needs:</p>
+<ul>
+<li><p>One is related to <strong>specific views that are missing</strong>. For example, it seems that grant recipients or grant applicants have difficulties identifying actors working with the Global Fund in a given country or across various countries or regions. In this case, for example, a per-beneficiary (grantee) view is missing. </p></li>
+<li><p>The second specific area is related to the <strong>new funding model</strong>. According to a few interviewees, the new funding model of the Global Fund requires new indicators to properly monitor activities. These indicators should be added to the current set of tools and visualisations. </p></li>
+</ul>
+<p>Apart from the financial aspect, almost all interviewees mentioned the <strong>need to have indicators and information related to programme activities</strong>, not only monetary information.</p>
+<p><strong>Build open data capacities</strong></p>
+<p>To support the recommendations above, along with the development of this approach within Aidspan, it would be essential to develop new capacity on open data tools, principles and recommendations. In particular, developing IT department skills on elements is key, such as data licenses (terms of use, license choose and interpretation, etc.) or other additional tools, techniques and standards that may be helpful (eg metadata standards; data extraction and transformation tools; web scraping tools; visualisation concepts, techniques and frameworks). </p>
+<p>The development of open data capacities should also be an integral part of the support to country-level watchdog organisations. At the local level, the development of capacities may also encompass tools for data collection by means of mobile technologies, or mobile services in general, to help local organisations gather data, citizen reports and human stories similar to the one <a href="https://www.youtube.com/watch?v=95MWrZneu0E" title="published by Aidspan for World AIDS Day">published by Aidspan for World AIDS Day</a>. </p>
+<p><strong>Know your customers</strong></p>
+<p>Aidspan, while releasing lots of tools and publications, has limited knowledge about its audience: who the users of its various assets are, what they look for when visiting Aidspan, their patterns of usage and needs, or what they are currently missing and would like to see developed.</p>
+<p>All these dimensions are critical information for Aidspan to prioritise the various items in its roadmap or to adapt the tools to the various profiles of visitors. From our perspective, there are two main (not mutually exclusive) options to identify the different users and their behaviour in a given community that are presented below:</p>
+<p><strong>Keep track of your users</strong></p>
+<p>One approach could be to apply methods to analyse and detect usage patterns on the Aidspan website by various types of stakeholders. Apart from the usual analytics tools and user tracking techniques, there are other tools that are relatively easy to set up and which require only some web development, providing additional interesting information on Aidspan&#8217;s audience:</p>
+<ul>
+<li><p>Organising various <strong>surveys</strong>, either at random on the Aidspan website, or using registration information &amp; mailing.</p></li>
+<li><p>Enabling people to easily use some of Aidspan&#8217;s data and tools on its websites through an embedded widgets approach (see an example on the <a href="http://www.landportal.info/book/widgets?indicator=INDFAOACI10&amp;countries=AFG&amp;colours=b41739#" title="Land Portal">Land Portal</a>).</p></li>
+</ul>
+<p><strong>Engage with your community</strong></p>
+<p>The second option proposes a different way to approach the audience. Today, Aidspan&#8217;s website is primarily informative and our suggestion is to add a community-driven component. This would involve engaging the various stakeholder groups on different online and face-to-face events to have <strong>direct dialogues</strong>, for example:</p>
+<ul>
+<li>
+<strong>Online debates</strong>: this is more than just opening comments on publications, and consists of moderated time-bound and subject-specific online debates such as the ones at <a href="http://www.e-agriculture.org/forums/forum-archive" title="e-agriculture.org">e-agriculture.org</a> or <a href="http://www.landportal.info/debate/debates" title="Land Portal">Land Portal</a> websites.</li>
+<li>
+<strong>Blog space for the community at large</strong>, allowing people to publish and share their own views on relevant topics.</li>
+<li>
+<strong>Local watchdog organisations dedicated web area</strong> to have a federated structure that meets on the Aidspan website. This means that all watchdog organisations supported by Aidspan could be hosted by Aidspan to form a network and central knowledge base of national Global Fund watchdog organisations.</li>
+<li>
+<strong>Face-to-face events</strong> such as hackathons, boot camps and other peer-learning sessions in various places and events where groups of Aidspan audience might meet.</li>
+</ul>
+<h3 id="recommendationsforotheractors">Recommendations for other actors</h3>
+<p>Many different groups could take advantage of Aidspan&#8217;s experience to increase the impact of their work. These actors include:</p>
+<ul>
+<li>Members of the Global Fund community at large, who could participate in dialogues with Aidspan and help them to identify new requirements and data resources.</li>
+<li>Watchdog organisations in general, which might be inspired by the Aidspan example to go further in their monitoring role.</li>
+<li>Data producers or publishers who could realise the added value of getting into the open with regards to quality and transparency.</li>
+<li>The open data community at large who could look beyond the usual community members and collaborate with other types of organisations.</li>
+</ul>
+<p><strong>Global Fund community</strong></p>
+<p>Concerning the Global Fund community at large, we feel it would be helpful to have greater engagement with Aidspan at least at two complementary levels:</p>
+<ul>
+<li>
+<strong>Participating in dialogues</strong> with Aidspan and the community about the type of information, visualisations or aggregation that are most useful. This is the best way to secure new tools in the future that will best serve the Global Fund&#8217;s needs.</li>
+<li>Helping Aidspan to <strong>identify new sources of data</strong> that could be exploited by Aidspan to do a better job in monitoring activities and impact of the Global Fund.</li>
+</ul>
+<p><strong>Watchdog organisations</strong></p>
+<p>Aidspan should be an inspiring example for other watchdog organisations in general, as it goes beyond the usual work of these organisations. By moving from manual analysis of data to machine processes, Aidspan identified various issues and was able to report this to the data producer. The detection of these errors is critical to provide a fair analysis of the data.</p>
+<p>By providing its own analysis and its tools, data and visualisations that empower other members of the community to do their own analysis, Aidspan is itself transparent in its work, and increases its impact by allowing others to complement their monitoring work.</p>
+<p>Finally, Aidspan shows that <strong>a positive relationship with the entity it monitors can have more impact than a relationship of conflict</strong>. It allows the watchdog to motivate the producer of data to adapt to their needs, and fix the issues identified without compromising their independence or their critical view on the entity they watch.</p>
+<p><strong>Data producers</strong></p>
+<p>The case study shows clearly that releasing data is a very powerful way of being transparent and accountable. However, beyond this it shows that by allowing others to exploit your data in a machine-readable way, you allow them to detect issues and incoherency. This in return allows you to <strong>increase the quality of your data</strong>, and identify issues in various internal processes such as data collection or data curation. </p>
+<p>In this case open data release could be seen as a critical quality assurance process. However, for this to take place, it is essential to work together with potential re-users of data to understand the data, formats and level of disaggregation they need.</p>
+<p><strong>The open data community</strong></p>
+<p>It is essential for its growth and impact that the open data community works towards supporting organisations like Aidspan and the Global Fund. </p>
+<p>The only real way to demonstrate open data impact on society is to engage with existing actors and raise awareness of its potential. Building a library of case studies and promoting them a positive step in that direction. Collaborating to provide tools and resources and build capacities within these organisations seems to be the natural next step.</p>
+<hr>
+<h3 id="aid11conclusiona"><a id="11">Conclusion</a></h3>
+<p>Aidspan is a great example of how a watchdog can exploit existing data to analyse and provide insights on how the organisations it watches are performing. </p>
+<p>While Aidspan is doing a similar job as traditional watchdog organisations, ie collecting data, analysing them or advising their communities (see for example the <a href="http://www.brettonwoodsproject.org/" title="Bretton Woods project">Bretton Woods project</a>), its approach is very innovative. </p>
+<p>It empowers its community by providing tools and data for people to do their own analysis easily and detect trends in specific regions or on specific topics. In that way, it is a shining example of how to make data easily accessible and valuable to all.</p>
+<p>This case study also highlights areas where Aidspan could develop further and increase its impact through a greater use of open data. Further engagement with audience may uncover needs for new tools or new datasets that will further increase the value of Aidspan in its community.</p>
+<hr>
+<h3 id="aid12acknowledgmentsa"><a id="12">Acknowledgments</a></h3>
+<p>We would like to thank the following people whose contribution to the study was invaluable: Dr Kate Macintyre, CEO of Aidspan, Bernard Rivers, founder of Aidspan, Kelvin Kinyua, Aidspan Senior Systems Officer, Angela Kageni, Aidspan senior Outreach Programme Officer, Murad Hirji from the Global Fund, Trevor Mwiu from World Vision UK, and Dr Christian Gunneberg from World Health organisation.</p>
+<p>We would like also to thank William Gerry, Liz Carolan and Emma Truswell from the ODI, who led and organised this study.</p>
+</article>
+<div class="tags">
+<h3>Tagged as:</h3>
+<span class="tag"><a href="../tags/aidspan">Aidspan</a></span>
+<span class="tag"><a href="../tags/open-data">open data</a></span>
+<span class="tag"><a href="../tags/health">health</a></span>
+<span class="tag"><a href="../tags/watchdog">watchdog</a></span>
+</div>
+</div>
+<aside class="article-sidebar listing">
+<div class="tags">
+<h3>Tagged as:</h3>
+<span class="tag"><a href="../tags/aidspan">Aidspan</a></span>
+<span class="tag"><a href="../tags/open-data">open data</a></span>
+<span class="tag"><a href="../tags/health">health</a></span>
+<span class="tag"><a href="../tags/watchdog">watchdog</a></span>
+</div>
+<div>
+<h3>Sign up to discover data's use and impacts around the world</h3>
+
+<style type="text/css">
+	#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; width:100%;}
+	/* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+</style>
+<div id="mc_embed_signup">
+<form action="//theodi.us6.list-manage.com/subscribe/post?u=84bd941af2f1389b9b88c66bb&amp;id=3391a19d97" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate="">
+<div style="text-align:left;" id="mc_embed_signup_scroll">
+<input style="width:auto; height:40px; font-size:18px; margin-bottom:10px;" type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required="">
+
+<div style="position: absolute; left: -5000px;" aria-hidden="true"><input style="height:40px;" type="text" name="b_84bd941af2f1389b9b88c66bb_3391a19d97" tabindex="-1" value=""></div>
+<div class="clear"><input style="background:#178cff; height: 40px; width:auto; font-size:18px;" type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+</div>
+</form>
+</div>
+
+</div>
+<h3>Related items</h3>
+<div class="module module-light module-colour-2">
+<a href="../odp4d">
+<h1 class="module-heading">Partnership for Open Data</h1>
+</a>
+</div>
+</aside>
+</div>
+</div>
+</div>
+<footer class="site-footer">
+<div class="container">
+<div class="row">
+<div class="col-md-8 footer-content">
+<h1 class="footer-logo"><a href="http://oldsite.theodi.org">Open Data Institute</a></h1>
+<p><a href="../contact">Open Data Institute, 65 Clifton Street, London EC2A 4JE</a></p>
+<p><a href="../cdn-cgi/l/email-protection#7a13141c153a0e121f151e135415081d"><span class="__cf_email__" data-cfemail="cfa6a1a9a08fbba7aaa0aba6e1a0bda8">[email&#160;protected]</span></a> Company <a href="http://opencorporates.com/companies/gb/08030289">08030289</a>
+<span>VAT</span><span>143 7796 80</span>
+</p>
+<p class="license">
+<a href="http://creativecommons.org/licenses/by-sa/2.0/uk/deed.en_GB" rel="license">
+<img alt="Creative Commons Licence" height="15" src="../assets/cc-a23fe95f04508432c8d97c00b0a36254.png" width="80">
+</a>
+</p>
+</div>
+<div class="col-md-4 footer-nav">
+<nav><ul class="pull-right list-inline">
+<li><a href="http://www.twitter.com/ODIHQ" class=" ">
+<img alt="Follow us on Twitter" src="../assets/twitter-a658ecc9fe2aab3308a5fb36adfb9a64.png" title="Follow us on Twitter"></a></li>
+<li><a href="https://soundcloud.com/theodi" class=" ">
+<img alt="Listen on Soundcloud" src="../assets/soundcloud-3932b3db23c6fb6c45bce20c8016462c.png" title="Listen on Soundcloud"></a></li>
+<li><a href="http://www.scribd.com/OpenDataInstitute" class=" ">
+<img alt="Read on Scribd" src="../assets/scribd-8afadecb87771fd6f6814e6ea81fb23d.png" title="Read on Scribd"></a></li>
+<li><a href="https://github.com/orgs/theodi" class=" ">
+<img alt="Follow us on Github" src="../assets/github-914931d2a14f54f3c64caec5c6e68017.png" title="Follow us on Github"></a></li>
+<li><a href="http://vimeo.com/theodiuk" class=" ">
+<img alt="Watch on Vimeo" src="../assets/vimeo-a865234771edd239032629b694ddaa32.png" title="Watch on Vimeo"></a></li>
+<li><a href="http://www.youtube.com/user/OpenDataInstituteUK" class=" ">
+<img alt="Watch on Youtube" src="../assets/youtube-cccfa6f837a0acfe0d2fd9492b0d45b3.png" title="Watch on Youtube"></a></li>
+<li><a href="http://www.flickr.com/photos/ukodi/" class=" ">
+<img alt="Follow us on Flickr" src="../assets/flickr-c81d78a530d046663cfff44293f6f775.png" title="Follow us on Flickr"></a></li>
+</ul></nav>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<nav><ul class="pull-right list-inline">
+<li class=" "><a href="../terms-of-use" class=" ">Terms of use</a></li>
+<li class=" "><a href="../privacy-policy" class=" ">Privacy policy</a></li>
+<li class=" "><a href="../cookie-policy" class=" ">Cookie policy</a></li>
+</ul></nav>
+</div>
+</div>
+</div>
+</footer>
+<script data-cfasync="false" src="../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+
+  var _pt = ["E6AF1363-3E19-409A-983C-91FFE62C2CBB"];
+  (function(d,t){
+    var a=d.createElement(t),s=d.getElementsByTagName(t)[0];a.src=location.protocol+'//a1webstrategy.com/track.js';s.parentNode.insertBefore(a,s);
+  }(document,'script'));
+
+  </script>
+<script type="text/javascript">
+      (function (n) {
+          var u = window.location.href;
+          var p = u.split("/")[0];
+          var t = n.createElement("script"), i;
+          t.type = "text/javascript";
+          t.async = !0;
+          t.src = p + "//dashboard.whoisvisiting.com/who.js";
+          i = n.getElementsByTagName("script")[0];
+          i.parentNode.insertBefore(t, i)
+      })(document);
+
+          var whoparam = whoparam || [];
+          whoparam.push(["AcNo", "8d5d04b9adc94a34bc385c6f3370594e"]);
+          whoparam.push(["SendHit", ""]
+      );
+  </script>
+<script src="../assets/application-4829863ea093de33ae55c9a127d6af6b.js" type="text/javascript"></script>
+
+<!--[if gt IE 7]><!-->
+<script src="../assets/bootstrap/bootstrap-collapse-c4cb45620c1346753e2385c125ed4bdd.js" type="text/javascript"></script>
+<!--<![endif]-->
+
+
+<!--[if gt IE 7]><!-->
+<script src="../assets/masonry-c617ee0c7d6c602b548ab5e69d50f4fa.js" type="text/javascript"></script>
+<script src="../assets/infinitescroll-243a7a50c0c843f1deb394ea98f4d0a6.js" type="text/javascript"></script>
+<script src="../assets/background-check-677e6100d9ce594cd30a88f57fc49b48.js" type="text/javascript"></script>
+<!--<![endif]-->
+</body>
+</html>
