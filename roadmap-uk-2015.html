@@ -181,7 +181,19 @@ About the ODI
 
 </div>
 </div>
-</header> 
+</header>
+<div id="oldsite-banner" style="background-color: #ff6700; color: white; text-align: center; padding: 1rem; margin-bottom: 1rem; font-weight: 0.5;">
+	<h2>WEBSITE RETIRED</h2>
+	<p>This website has been retired and is available for reference and historical purposes only.</p>
+	<p><a id="newSiteLink" href="#newSiteLink" style="color: white; text-decoration: underline;">Click here to navigate to the new website.</a></p>
+	<p><i>Note: Some pages have not been migrated and you may end up back on this site as a result.</i></p>
+	<script>
+		(function() {
+		var newURL = window.location.protocol + "//theodi.org" + "/" + window.location.pathname + window.location.search;
+		document.getElementById("newSiteLink").setAttribute("href",newURL);
+		})();
+	</script>
+</div> 
 <div id="wrapper">
 <header class="page-title">
 <div class="container header-wrap">
